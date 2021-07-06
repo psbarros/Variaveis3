@@ -1,0 +1,57 @@
+== TEST (2019-03-12 21:02:47) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:02) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:03) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:04) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:15) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:16) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 21:03:40) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 21:03:46) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- EXECUTION TIME:
+0.179932
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+Universidade Federal do Amazonas
+---- user output:
+Universidade Federal do Amazonas
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

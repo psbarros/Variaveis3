@@ -1,0 +1,288 @@
+== TEST (2019-04-08 17:20:13) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(5//100)
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:20:19) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(5//100)
+else: mensagem = preco
+print(preco)
+
+-- EXECUTION TIME:
+0.13618
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+200.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+200.53
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:20:29) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(5//100)
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:21:29) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(0,05)+preco
+else: mensagem = preco
+print(preco)
+
+-- ERROR:
+File "XXXX", line 3
+    mensagem = preco*(0,05)+preco
+                         ^
+SyntaxError: invalid token
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:21:34) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(0,05) + preco
+else: mensagem = preco
+print(preco)
+
+-- ERROR:
+File "XXXX", line 3
+    mensagem = preco*(0,05) + preco
+                         ^
+SyntaxError: invalid token
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:21:38) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(0.05) + preco
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:22:31) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = preco*(0.05) - preco
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:23:00) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco*(0.05)) - preco
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:23:03) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco*(0.05)) - preco
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:23:42) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05))
+else: mensagem = preco
+print(preco)
+
+-- ERROR:
+File "XXXX", line 4
+    else: mensagem = preco
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:23:50) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(preco)
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:24:49) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:25:06) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:27:26) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:27:26) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:27:29) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:27:32) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- EXECUTION TIME:
+0.190757
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+200.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+200.53
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:27:37) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(preco,  2))
+
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:28:10) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(mensagem,  2))
+
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:28:16) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(mensagem,  2))
+
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:28:18) 
+-- CODE:
+preco=float(input("Valor da roupa:"))
+if   (preco >= 200):
+      mensagem = (preco - (preco*(0.05)))
+else: mensagem = preco
+print(round(mensagem,  2))
+
+-- EXECUTION TIME:
+0.154152
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

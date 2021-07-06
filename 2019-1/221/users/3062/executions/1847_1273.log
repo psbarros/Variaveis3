@@ -1,0 +1,202 @@
+== TEST (2019-06-25 09:47:25) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matriz = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = ([50, -120, 350, 870])
+matriz = matriz.T
+print(round(matriz,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:47:58) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = ([50, -120, 350, 870])
+matriz = matrix.T
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:05) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = ([50, -120, 350, 870])
+matriz = matrix.T
+equacao = dot(inv(abcd), matrix)
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:30) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = ([50, -120, 350, 870])
+matriz = matrix.T
+equacao = dot(inv(abcd), matrix)
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:41) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = ([50, -120, 350, 870])
+matrix = matrix.T
+equacao = dot(inv(abcd), matrix)
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:48) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = array([50, -120, 350, 870])
+matrix = matrix.T
+equacao = dot(inv(abcd), matrix)
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:50:36) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+matrix = array([[1, 1, 0, 1],
+					 [0, 1, 1, 0],
+					 [0, 0, 1, 0],
+					 [1, 0, 0, 1]])
+abcd = array([50, -120, 350, 870])
+abcd = abcd.T
+equacao = dot(inv(matrix), abcd)
+print(round(matrix,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:54:52) 
+-- CODE:
+from numpy import*
+from numpy.linalg import* 
+a = array([[1, -1, 0, 0],
+			  [0, 1, -1, 0],
+			  [0, 0, 1, 0],
+			  [1, 0, 0, 1]])
+b = array([50, -120, 350, 870])
+b= b.T
+equacao = dot(inv(a), b)
+print(round(equacao,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:56:16) 
+-- CODE:
+from numpy import *
+from numpy.linalg import * 
+a = array([[1, -1, 0, 0],
+			  [0, 1, -1, 0],
+			  [0, 0, 1, 0],
+			  [1, 0, 0, 1]])
+b = array([50, -120, 350, 870])
+b= b.T
+equacao = dot(inv(a), b)
+print(round(equacao,1))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:56:56) 
+-- CODE:
+from numpy import *
+from numpy.linalg import * 
+a = array([[1, -1, 0, 0],
+			  [0, 1, -1, 0],
+			  [0, 0, 1, 0],
+			  [1, 0, 0, 1]])
+b = array([50, -120, 350, 870])
+b= b.T
+equacao = dot(inv(a), b)
+print(equacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-25 09:58:29) 
+-- CODE:
+from numpy import *
+from numpy.linalg import * 
+a = array([[1, -1, 0, 0],
+			  [0, 1, -1, 0],
+			  [0, 0, 1, 0],
+			  [1, 0, 0, 1]])
+b = array([50, -120, 350, 870])
+b= b.T
+equacao = dot(inv(a), b)
+print(equacao)
+-- EXECUTION TIME:
+1.1069
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[280. 230. 350. 590.]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

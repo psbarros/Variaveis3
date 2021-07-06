@@ -1,0 +1,756 @@
+== TEST (2019-04-29 23:09:04) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = int(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+-- OUTPUT:
+Entradas:  -56  kWh e tipo  I
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:15:31) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", cons*0.44)
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ", cons*0.65)
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ", cons*0.55)
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", cons*0.60)
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ", cons*0.55)
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", cons*0.60)
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.800000000000004
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:16:28) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", cons*0.44)
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ", cons*0.65)
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ", cons*0.55)
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", cons*0.60)
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ", cons*0.55)
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.800000000000004
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 23:17:45) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- EXECUTION TIME:
+0.306217
+-- TEST CASE 1:
+---- input:
+-56
+I
+---- correct output:
+Entradas: -56.0 kWh e tipo I
+Dados invalidos
+---- user output:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+-- TEST CASE 2:
+---- input:
+955.5
+R
+---- correct output:
+Entradas: 955.5 kWh e tipo R
+Valor total: R$ 621.08
+---- user output:
+Entradas:  955.5  kWh e tipo  R
+Valor total: R$  621.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:18:31) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:20:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:21:32) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if(0 < = cons <= 500 and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- ERROR:
+File "XXXX", line 11
+    if(0 < = cons <= 500 and tip == "R"):
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:22:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 23:22:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- EXECUTION TIME:
+0.21328
+-- TEST CASE 1:
+---- input:
+-56
+I
+---- correct output:
+Entradas: -56.0 kWh e tipo I
+Dados invalidos
+---- user output:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+-- TEST CASE 2:
+---- input:
+955.5
+R
+---- correct output:
+Entradas: 955.5 kWh e tipo R
+Valor total: R$ 621.08
+---- user output:
+Entradas:  955.5  kWh e tipo  R
+Valor total: R$  621.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:24:42) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) or tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:25:01) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 23:25:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- EXECUTION TIME:
+0.145299
+-- TEST CASE 1:
+---- input:
+-56
+I
+---- correct output:
+Entradas: -56.0 kWh e tipo I
+Dados invalidos
+---- user output:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+-- TEST CASE 2:
+---- input:
+955.5
+R
+---- correct output:
+Entradas: 955.5 kWh e tipo R
+Valor total: R$ 621.08
+---- user output:
+Entradas:  955.5  kWh e tipo  R
+Valor total: R$  621.08
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:25:20) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:26:00) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:26:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif(cons <= 1000 and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif(cons <= 5000 and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Valor total: R$  -30.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 23:27:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif((0 <= cons <= 1000) and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif((0 <= cons <= 5000) and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- OUTPUT:
+Entradas:  -56.0  kWh e tipo  I
+Dados invalidos
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 23:27:38) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+
+cons = float(input("Consumo de energia em kWh: "))
+tip = input("Tipo de instalacao (R para residencias, I para industrias, e C para comercio): ")
+
+print("Entradas: ", cons, " kWh e tipo ", tip)
+
+if((0 <= cons <= 500) and tip == "R"):
+	print("Valor total: R$ ", round(cons*0.44, 2))
+	
+elif(cons > 500 and tip == "R"):
+	print("Valor total: R$ ",  round(cons*0.65, 2))
+	
+elif((0 <= cons <= 1000) and tip == "C"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 1000 and tip == "C"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+elif((0 <= cons <= 5000) and tip == "I"):
+	print("Valor total: R$ ",  round(cons*0.55, 2))
+	
+elif(cons > 5000 and tip == "I"):
+	print("Valor total: R$ ", round(cons*0.60, 2))
+	
+else:
+	print("Dados invalidos")
+	
+	
+	
+	
+	
+-- EXECUTION TIME:
+0.155821
+-- TEST CASE 1:
+---- input:
+-56
+I
+---- correct output:
+Entradas: -56.0 kWh e tipo I
+Dados invalidos
+---- user output:
+Entradas:  -56.0  kWh e tipo  I
+Dados invalidos
+-- TEST CASE 2:
+---- input:
+955.5
+R
+---- correct output:
+Entradas: 955.5 kWh e tipo R
+Valor total: R$ 621.08
+---- user output:
+Entradas:  955.5  kWh e tipo  R
+Valor total: R$  621.08
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

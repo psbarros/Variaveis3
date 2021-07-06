@@ -1,0 +1,98 @@
+== TEST (2019-05-30 19:38:37) 
+-- CODE:
+from numpy import*
+s = array(eval(input("Digite uma frse: ")))
+
+print(s.upper())
+s= s.replace(" ","")
+d= s[-1:(-len(s)-1)]
+if
+
+-- ERROR:
+File "XXXX", line 7
+    if
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:39:55) 
+-- CODE:
+from numpy import*
+s = array(eval(input("Digite uma frse: ")))
+i=0
+print(s.upper())
+s= s.replace(" ","")
+d= s[-1:(-len(s)-1)]
+if (s==d):
+	i=1
+else:
+	i=0
+print(i)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:41:17) 
+-- CODE:
+from numpy import*
+s = input("Digite uma frse: ")
+i=0
+print(s.upper())
+s= s.replace(" ","")
+d= s[-1:(-len(s)-1)]
+if (s==d):
+	i=1
+else:
+	i=0
+print(i)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:42:16) 
+-- CODE:
+from numpy import*
+s = input("Digite uma frse: ")
+i=0
+s= s.replace(" ","")
+print(s.upper())
+print(-len(s)-1)
+d= s[-1:(-len(s)-1)]
+if (s==d):
+	i=1
+else:
+	i=0
+print(i)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:42:53) 
+-- CODE:
+from numpy import*
+s = input("Digite uma frse: ")
+i=0
+s= s.replace(" ","")
+print(s.upper())
+print(s[-1:-len(s)-1])
+d= s[-1:(-len(s)-1)]
+if (s==d):
+	i=1
+else:
+	i=0
+print(i)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

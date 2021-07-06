@@ -1,0 +1,328 @@
+== TEST (2019-04-16 20:15:05) 
+-- CODE:
+horas = float (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salorio = 50 * 20 + ((horas - 20) * 70)
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:15:18) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salorio = 50 * 20 + ((horas - 20) * 70)
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:15:41) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salario = 50 * 20 + ((horas - 20) * 70)
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:15:48) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salario = 50 * 20 + ((horas - 20) * 70)
+	print (round (salario, 2))
+	
+
+-- EXECUTION TIME:
+0.19741
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+65
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:16:17) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:16:21) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- EXECUTION TIME:
+0.154283
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+65
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750.0
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:16:25) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = horas + 50
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:16:40) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:16:44) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- EXECUTION TIME:
+0.205341
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+65.0
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750.0
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:17:18) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:17:37) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	salario = float (50 * 20 + ((horas - 20) * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:18:36) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	extra = float (horas - 20)
+	salario = float (50 * 20 + (extra * 70))
+	print (round (salario, 2))
+	
+
+-- OUTPUT:
+65.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:19:21) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas + 50)
+	print (round (salario, 2))
+if (horas > 20):
+	extra = float (horas - 20)
+	salario = float (50 * 20 + (extra * 70))
+	print (round (salario, 2))
+	
+
+-- EXECUTION TIME:
+0.144149
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+65.0
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750.0
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:19:37) 
+-- CODE:
+horas = int (input (""))
+
+if (horas <= 20):
+	salario = float (horas * 50)
+	print (round (salario, 2))
+if (horas > 20):
+	extra = float (horas - 20)
+	salario = float (50 * 20 + (extra * 70))
+	print (round (salario, 2))
+	
+
+-- EXECUTION TIME:
+0.197532
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+750.0
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750.0
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

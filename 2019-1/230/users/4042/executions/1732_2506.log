@@ -1,0 +1,102 @@
+== TEST (2019-05-14 22:49:30) 
+-- CODE:
+qi= int(input("Digite a quantidade inicial de tambaquis: "))
+pc= float(input("Digite o percentual anual de crescimento referente a quantidade de tambaquis: "))
+venda= int(input("Digite a quantidade anual retirada de tambaquis para venda: "))
+
+ano=0
+
+while(qi>0) and (qi<12000):
+	qi += (pc/100)*qi
+	qi -= venda
+	ano=ano+1
+if(qi<=0):
+	print("EXTINCAO")
+	print(ano)
+if(q1>=12000):
+	print("LIMITE")
+	print(ano)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 14, in <module>
+    if(q1>=12000):
+NameError: name 'q1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 22:50:37) 
+-- CODE:
+qi= int(input("Digite a quantidade inicial de tambaquis: "))
+pc= float(input("Digite o percentual anual de crescimento referente a quantidade de tambaquis: "))
+venda= int(input("Digite a quantidade anual retirada de tambaquis para venda: "))
+
+ano=0
+
+while(qi>0) and (qi<12000):
+	qi += (pc/100)*qi
+	qi -= venda
+	ano=ano+1
+if(qi<=0):
+	print("EXTINCAO")
+	print(ano)
+if(qi>=12000):
+	print("LIMITE")
+	print(ano)
+-- OUTPUT:
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 22:51:11) 
+-- CODE:
+qi= int(input("Digite a quantidade inicial de tambaquis: "))
+pc= float(input("Digite o percentual anual de crescimento referente a quantidade de tambaquis: "))
+venda= int(input("Digite a quantidade anual retirada de tambaquis para venda: "))
+
+ano=0
+
+while(qi>0) and (qi<12000):
+	qi += (pc/100)*qi
+	qi -= venda
+	ano=ano+1
+if(qi<=0):
+	print("EXTINCAO")
+	print(ano)
+if(qi>=12000):
+	print("LIMITE")
+	print(ano)
+-- EXECUTION TIME:
+0.184061
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

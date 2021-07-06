@@ -1,0 +1,22 @@
+2019-6-13 17:03:23.332#viewportChange#0
+2019-6-13 17:03:24.392#mousedown#{"isTrusted":true}
+2019-6-13 17:03:24.401#focus#
+2019-6-13 17:03:25.065#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":23.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":23.09375},"text":["from numpy import*","","# Leitura do primeiro vetor","vet = array(eval(input(\"Primeiro vetor: \")))","npar = 0","nimpar = 0","n = 0","if(size(vet) == 1):","\tprint(vet)","else:\t","# Verifica se o programa vai terminar","\twhile (size(vet) > 1):","  \t # Zera contador de elementos pares","    ","  \t # Conta quantidade de elementos pares","  \t for elemento in vet:","   \t   if (elemento % 2 == 0):","    \t      npar = npar + 1","\t\t\t\tn = n + 1","\t\t\telse:","\t\t\t\tnimpar = nimpar + 1","\t\t\t\tn = n + 1","   # No. de elementos pares","print(npar)","","   # No. de elementos impares","print(nimpar)","","   # No. total de elementos","print(n)","","   # Leitura do proximo vetor","   vet = array(eval(input(\"Proximo vetor: \")))",""],"removed":[""],"origin":"paste"}
+2019-6-13 17:03:25.124#viewportChange#0
+2019-6-13 17:03:45.578#mousedown#{"isTrusted":true}
+2019-6-13 17:03:46.865#change#{"from":{"line":4,"ch":0,"sticky":"after","xRel":3.09375},"to":{"line":4,"ch":4,"sticky":"before","xRel":-0.6875},"text":["M"],"removed":["npar"],"origin":"+input"}
+2019-6-13 17:03:46.948#change#{"from":{"line":4,"ch":1,"sticky":null},"to":{"line":4,"ch":1,"sticky":null},"text":["E"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:47.106#change#{"from":{"line":4,"ch":2,"sticky":null},"to":{"line":4,"ch":2,"sticky":null},"text":["D"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:47.174#change#{"from":{"line":4,"ch":3,"sticky":null},"to":{"line":4,"ch":3,"sticky":null},"text":["I"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:47.316#change#{"from":{"line":4,"ch":4,"sticky":null},"to":{"line":4,"ch":4,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:48.729#mousedown#{"isTrusted":true}
+2019-6-13 17:03:49.462#mousedown#{"isTrusted":true}
+2019-6-13 17:03:50.574#change#{"from":{"line":4,"ch":0,"sticky":"after","xRel":-3.90625},"to":{"line":4,"ch":5,"sticky":"before","xRel":0.09375},"text":["m"],"removed":["MEDIA"],"origin":"+input"}
+2019-6-13 17:03:50.706#change#{"from":{"line":4,"ch":1,"sticky":null},"to":{"line":4,"ch":1,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:50.876#change#{"from":{"line":4,"ch":2,"sticky":null},"to":{"line":4,"ch":2,"sticky":null},"text":["d"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:50.975#change#{"from":{"line":4,"ch":3,"sticky":null},"to":{"line":4,"ch":3,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:51.103#change#{"from":{"line":4,"ch":4,"sticky":null},"to":{"line":4,"ch":4,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-6-13 17:03:52.813#mousedown#{"isTrusted":true}
+2019-6-13 17:03:54.286#change#{"from":{"line":5,"ch":0,"sticky":"after","xRel":-4},"to":{"line":6,"ch":5,"sticky":"before","xRel":3.65625},"text":[""],"removed":["nimpar = 0","n = 0"],"origin":"+delete"}
+2019-6-13 17:03:54.286#keyHandled#"Delete"
+2019-6-13 17:03:54.304#viewportChange#0

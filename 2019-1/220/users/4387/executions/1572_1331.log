@@ -1,0 +1,122 @@
+== SUBMITION (2019-03-14 20:25:59) 
+-- CODE:
+printe(round(50/3))
+-- EXECUTION TIME:
+0.14869
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1572/1331/main.py", line 1, in <module>
+    printe(round(50/3))
+NameError: name 'printe' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 20:26:07) 
+-- CODE:
+printe(round(50/3))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    printe(round(50/3))
+NameError: name 'printe' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 20:26:16) 
+-- CODE:
+print(round(50/3))
+-- OUTPUT:
+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 20:26:36) 
+-- CODE:
+print(round(50/3))
+print(17)
+-- EXECUTION TIME:
+0.169926
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+17
+17
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 20:26:37) 
+-- CODE:
+print(round(50/3))
+print(17)
+-- EXECUTION TIME:
+0.285317
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+17
+17
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 20:26:37) 
+-- CODE:
+print(round(50/3))
+print(17)
+-- OUTPUT:
+17
+17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 20:27:14) 
+-- CODE:
+print(round(50//3))
+
+-- OUTPUT:
+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 20:27:25) 
+-- CODE:
+print(round(50//3))
+print(16)
+-- EXECUTION TIME:
+0.138875
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16
+16
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 20:28:38) 
+-- CODE:
+print(50//3)
+print(50%3)
+-- OUTPUT:
+16
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 20:28:42) 
+-- CODE:
+print(50//3)
+print(50%3)
+-- EXECUTION TIME:
+0.154894
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

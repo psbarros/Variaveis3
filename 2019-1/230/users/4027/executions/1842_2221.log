@@ -1,0 +1,57 @@
+== TEST (2019-06-26 11:37:14) 
+-- CODE:
+from m=numpy import*
+m = array(eval(input("Insira a matriz: ")))
+n = shape(m)[0]
+soma = 0
+for i in range(n):
+	soma = soma + min(m[i,:])
+media = soma/n
+media = round(media, 2)
+print(media)
+-- ERROR:
+File "XXXX", line 1
+    from m=numpy import*
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 11:37:24) 
+-- CODE:
+from numpy import*
+m = array(eval(input("Insira a matriz: ")))
+n = shape(m)[0]
+soma = 0
+for i in range(n):
+	soma = soma + min(m[i,:])
+media = soma/n
+media = round(media, 2)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-26 11:37:40) 
+-- CODE:
+from numpy import*
+m = array(eval(input("Insira a matriz: ")))
+n = shape(m)[0]
+soma = 0
+for i in range(n):
+	soma = soma + min(m[i,:])
+media = soma/n
+media = round(media, 2)
+print(media)
+-- EXECUTION TIME:
+1.01904
+-- TEST CASE 1:
+---- input:
+[[8.9,7.3,5.2,7.7],[10.0,5.6,8.8,9.5],[3.2,5.6,7.8,8.7]]
+---- correct output:
+4.67
+---- user output:
+4.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

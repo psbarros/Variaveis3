@@ -1,0 +1,1645 @@
+== TEST (2019-04-12 17:41:33) 
+-- CODE:
+a = input("C / F")
+vt = int(input("T"))
+
+C = (5*(F - 32))/9
+	
+if ( C and 320):
+	mensagem : 608.0
+print(mensagem)
+
+else:
+	
+-- ERROR:
+File "XXXX", line 10
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:41:41) 
+-- CODE:
+a = input("C / F")
+vt = int(input("T"))
+
+C = (5*(F - 32))/9
+	
+if ( C and 320):
+
+-- ERROR:
+File "XXXX", line 7
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:41:50) 
+-- CODE:
+a = input("C / F")
+vt = int(input("T"))
+
+C = (5*(F - 32))/9
+	
+if ( C and 320):
+
+-- ERROR:
+File "XXXX", line 7
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:42:19) 
+-- CODE:
+a = input("C / F")
+vt = int(input("T"))
+
+C = (5*(F - 32))/9
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    C = (5*(F - 32))/9
+NameError: name 'F' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:51:47) 
+-- CODE:
+a = input("c / f")
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == c) :
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c) :
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:52:11) 
+-- CODE:
+a = input("c / f")
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == c):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:52:58) 
+-- CODE:
+a = input("c / f")
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:54:00) 
+-- CODE:
+a = input("c / f")
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:54:45) 
+-- CODE:
+a = input("a")
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == c):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:55:43) 
+-- CODE:
+a = float(input("a"))
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == c):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'C'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:57:14) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a = c):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 9
+    if(a = c):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:58:09) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 9
+    if(a = c):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:58:32) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(var, 2))
+NameError: name 'var' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:58:55) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(var, 2))
+NameError: name 'var' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 17:59:57) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == 320):
+	var = C
+print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(var, 2))
+NameError: name 'var' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:01:20) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == 320):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(var, 2))
+NameError: name 'var' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:01:40) 
+-- CODE:
+a = input("a")
+
+vt = int(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == A):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    if(a == A):
+NameError: name 'A' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:02:19) 
+-- CODE:
+a = input("a")
+
+vt = float(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == A):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    if(a == A):
+NameError: name 'A' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:02:42) 
+-- CODE:
+a = input("a")
+
+vt = float(input("T"))
+
+C = (5*(vt - 32))/9
+
+F = (150 - vt*9)/5
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    if(a == A):
+NameError: name 'A' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:04:04) 
+-- CODE:
+a = input("a")
+
+F = float(input("T"))
+
+C = (5*(F - 32))/9
+
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    if(a == A):
+NameError: name 'A' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 18:04:25) 
+-- CODE:
+a = input("a")
+
+F = float(input("T"))
+
+C = (5*(F - 32))/9
+
+
+if(a == c):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 09:21:07) 
+-- CODE:
+a = input("C / F")
+
+F = float(input("T"))
+
+C = (5*(F - 32))/9
+
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:36:11) 
+-- CODE:
+a = input("C / F")
+
+F = float(input("T"))
+
+C = (5*(F - 32))/9
+
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == c):
+NameError: name 'c' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:47:39) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9.t)/50
+
+if(a = C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 6
+    F = 32 + ((9.t)/50
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:48:01) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9*t)/50
+
+if(a = C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = C):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:48:18) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9*t)/50
+
+if(a == C):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a == C):
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:56:05) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9*t)/50
+
+if(a == "C"):
+	var = C
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a == "C"):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 10:56:29) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9*t)/50
+
+if(a == "C"):
+	var = "C"
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a == "C"):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:06:14) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C = (5*(t - 32))/9
+F = 32 + ((9*t)/50
+
+if(a == "C"):
+	var = "C"
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a == "C"):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:14:11) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/9
+F1 = 32 + ((9*t)/50
+
+if(a.upper() == "C"):
+	var = "C1"
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a.upper() == "C"):
+                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:14:19) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/9
+F1 = 32 + ((9*t)/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a == "C"):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:23:53) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(var, 2))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:24:26) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(C1, 2))
+
+
+
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:25:29) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(C1, 2))
+
+
+
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:26:32) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(C1, 2))
+	
+else:
+	print(round(F1, 2))
+
+
+
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:27:47) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	print(round(C1, 2))
+	
+else:
+	print(round(F1, 2))
+
+
+
+-- EXECUTION TIME:
+0.183925
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+58.24
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+-17.78
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:28:55) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    print(round(var, 2))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:29:06) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    print(round(var, 2))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:29:43) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    print(round(var, 2))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:33:19) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a = "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:33:25) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5/9)*(t - 32)
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.179022
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:37:21) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.219632
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:37:24) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = "C1"
+	
+	
+else:
+	var = "F1"
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:37:59) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.172538
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+58.24
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:38:02) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/50
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:42:40) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:42:52) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.169021
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+582.4
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:43:01) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:43:12) 
+-- CODE:
+a = input("C / F")
+
+t = float(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.137684
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+582.4
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:45:52) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:46:05) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = (32 + (9*t))/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.188683
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+582.4
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:46:46) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+File "XXXX", line 8
+    if(a = "C"):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:46:54) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.118892
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+608.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:47:07) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == C):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.15719
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1640/2445/main.py", line 8, in <module>
+    if(a == C):
+NameError: name 'C' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:47:09) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == C):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.206961
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1640/2445/main.py", line 8, in <module>
+    if(a == C):
+NameError: name 'C' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:47:09) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == C):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 11:53:00) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.171567
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+608.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 11:53:01) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a == "C"):
+	var = C1
+	
+	
+else:
+	var = F1
+	
+	print(round(var, 2))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(a == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 12:06:44) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (5*(t - 32))/ 9
+F1 = 32 + (9*t)/5
+
+if(a.upper() == "C"):
+	var = C1
+	
+if(a.upper() == "F"):
+	var = F1
+	
+print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.140102
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+608.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+-17.78
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 12:09:41) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (9/5)*t + 32
+F1 = (5/9)* (t - 32)
+
+if(a.upper() == "C"):
+	var = C1
+	
+if(a.upper() == "F"):
+	var = F1
+	
+print(round(var, 2))
+
+
+
+-- EXECUTION TIME:
+0.142255
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 12:12:53) 
+-- CODE:
+a = input("C / F")
+
+t = int(input("T"))
+
+C1 = (9/5)*t + 32
+F1 = (5/9)* (t - 32)
+
+if(a.upper() == "C"):
+	var = C1
+	
+if(a.upper() == "F"):
+	var = F1
+	
+print(round(var, 2))
+
+
+
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

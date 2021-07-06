@@ -1,0 +1,33 @@
+== TEST (2019-06-10 17:03:39) 
+-- CODE:
+op = input("Comando: ")
+
+soma = 0
+if (op == "Calcule"):
+	for i in range (0, 50):
+		soma += (2*i + 1)/(i+1)
+	print(round(soma, 2))
+-- OUTPUT:
+95.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 17:03:49) 
+-- CODE:
+op = input("Comando: ")
+
+soma = 0
+if (op == "Calcule"):
+	for i in range (0, 50):
+		soma += (2*i + 1)/(i+1)
+	print(round(soma, 2))
+-- EXECUTION TIME:
+0.875379
+-- TEST CASE 1:
+---- input:
+Calcule
+---- correct output:
+95.50
+---- user output:
+95.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

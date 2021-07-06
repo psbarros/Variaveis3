@@ -1,0 +1,151 @@
+== TEST (2019-03-25 16:35:18) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a= float(input())
+b= float(input())
+c= float(input())
+from math import*
+s = (a+b+c)/2
+
+A = sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(A)
+	
+-- OUTPUT:
+69.41967475975385
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 16:36:16) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a= float(input())
+b= float(input())
+c= float(input())
+from math import*
+s = (a+b+c)/2
+
+A = sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(round(A, 5)
+	
+-- ERROR:
+File "XXXX", line 14
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 16:36:26) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a= float(input())
+b= float(input())
+c= float(input())
+from math import*
+s = (a+b+c)/2
+
+A = sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(round(A, 5))
+	
+-- OUTPUT:
+69.41967
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 16:36:47) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a= float(input())
+b= float(input())
+c= float(input())
+from math import*
+s = (a+b+c)/2
+
+A = sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(round(A, 5))
+	
+-- EXECUTION TIME:
+0.21739
+-- TEST CASE 1:
+---- input:
+11.0
+19.5
+13.2
+---- correct output:
+69.41967
+---- user output:
+69.41967
+-- TEST CASE 2:
+---- input:
+30.0
+40.0
+50.0
+---- correct output:
+600.0
+---- user output:
+600.0
+-- TEST CASE 3:
+---- input:
+33.0
+43.0
+55.0
+---- correct output:
+709.16654
+---- user output:
+709.16654
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 16:36:47) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a= float(input())
+b= float(input())
+c= float(input())
+from math import*
+s = (a+b+c)/2
+
+A = sqrt(s*(s-a)*(s-b)*(s-c))
+
+print(round(A, 5))
+	
+-- EXECUTION TIME:
+0.220355
+-- TEST CASE 1:
+---- input:
+11.0
+19.5
+13.2
+---- correct output:
+69.41967
+---- user output:
+69.41967
+-- TEST CASE 2:
+---- input:
+30.0
+40.0
+50.0
+---- correct output:
+600.0
+---- user output:
+600.0
+-- TEST CASE 3:
+---- input:
+33.0
+43.0
+55.0
+---- correct output:
+709.16654
+---- user output:
+709.16654
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

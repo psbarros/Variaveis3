@@ -1,0 +1,144 @@
+== SUBMITION (2019-03-30 13:16:30) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+valor = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_10 = resto_50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_10 = resto_50 % 10
+
+# Quantidade de notas de R$ 2
+notas_R2 = resto_R10 // 2
+
+print(int(notas_R50))
+print(int(notas_R10))
+print(int(notas_R2))
+
+-- EXECUTION TIME:
+0.175834
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1610/820/main.py", line 20, in <module>
+    notas_R2 = resto_R10 // 2
+NameError: name 'resto_R10' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 13:16:41) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+valor = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_10 = resto_50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_10 = resto_50 % 10
+
+# Quantidade de notas de R$ 2
+notas_R2 = resto_R10 // 2
+
+print(int(notas_R50))
+print(int(notas_R10))
+print(int(notas_R2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    notas_R2 = resto_R10 // 2
+NameError: name 'resto_R10' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 13:17:27) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+valor = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_10 = resto_50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_10 = resto_50 % 10
+
+# Quantidade de notas de R$ 2
+notas_2 = resto_10 // 2
+
+print(int(notas_50))
+print(int(notas_10))
+print(int(notas_2))
+
+-- OUTPUT:
+40
+2
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 13:17:42) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+valor = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_10 = resto_50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_10 = resto_50 % 10
+
+# Quantidade de notas de R$ 2
+notas_2 = resto_10 // 2
+
+print(int(notas_50))
+print(int(notas_10))
+print(int(notas_2))
+
+-- EXECUTION TIME:
+0.179104
+-- TEST CASE 1:
+---- input:
+2028
+---- correct output:
+40
+2
+4
+---- user output:
+40
+2
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

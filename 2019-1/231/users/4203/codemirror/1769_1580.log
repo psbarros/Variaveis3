@@ -1,0 +1,16 @@
+2019-5-30 11:26:39.918#viewportChange#0
+2019-5-30 11:26:41.106#mousedown#{"isTrusted":true}
+2019-5-30 11:26:41.111#focus#
+2019-5-30 11:26:42.123#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","notas=array(eval(input(\"nota dos alunos:\")))","nome=array(eval(input(\"nome dos alunos:\")))","i=0","f=0","a=0","r=0","j=0","soma=sum(notas)+(f*1)","","while(i<size(nome)):","\tif(notas[i]==-1):","\t\tf=f+1","\telif(notas[i]>=6 and notas[i]<=10):","\t\ta=a+1","\telif(notas[i]<6 and notas[i]>=0):","\t\tr=r+1","\telif(notas[i]>=0 and notas[i]<=10):","\t\tquant=quant+1","\ti=i+1","while(notas[j]!=max(notas)):","\tj = j + 1","soma=sum(notas)+(f*1)","somas=size(notas)-f","z=soma/somas","print(f)","print(a)","print(r)","print(round(z,2))","print(nome[j])"],"removed":[""],"origin":"paste"}
+2019-5-30 11:26:42.162#viewportChange#0
+2019-5-30 11:26:42.123#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","notas=array(eval(input(\"nota dos alunos:\")))","nome=array(eval(input(\"nome dos alunos:\")))","i=0","f=0","a=0","r=0","j=0","soma=sum(notas)+(f*1)","","while(i<size(nome)):","\tif(notas[i]==-1):","\t\tf=f+1","\telif(notas[i]>=6 and notas[i]<=10):","\t\ta=a+1","\telif(notas[i]<6 and notas[i]>=0):","\t\tr=r+1","\telif(notas[i]>=0 and notas[i]<=10):","\t\tquant=quant+1","\ti=i+1","while(notas[j]!=max(notas)):","\tj = j + 1","soma=sum(notas)+(f*1)","somas=size(notas)-f","z=soma/somas","print(f)","print(a)","print(r)","print(round(z,2))","print(nome[j])"],"removed":[""],"origin":"paste"}
+2019-5-30 11:26:42.162#viewportChange#0
+2019-5-30 11:26:46.340#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-5-30 11:26:50.139#blur#
+2019-5-30 11:26:50.139#blur#
+2019-5-30 11:27:02.132#saida_testar#$ python3 main.py
+2019-5-30 17:17:39.937#viewportChange#0
+2019-5-30 17:17:41.911#mousedown#{"isTrusted":true}
+2019-5-30 17:17:41.923#focus#
+2019-5-30 17:17:42.777#viewportChange#0
+2019-5-30 17:17:45.011#copy#{"isTrusted":true}

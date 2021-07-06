@@ -1,0 +1,2464 @@
+== TEST (2019-06-13 08:14:24) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+r = 0
+for i in range(vet):
+	if(vet[i] < 5):
+		r = r + 1
+
+sit = zeros(r, dtype=int)
+for i in range(vet):
+	if(Vet[i] < 5):
+		sit[i] = sit[i] + 1
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:15:49) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(Vet[i] < 5):
+		sit[i] = sit[i] + 1
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:16:40) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		sit[i] = sit[i] + 1
+	
+print(r)
+print(sit)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:19:00) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		sit[i] = sit[i] + 1
+	
+print(r)
+print(sit)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:24:44) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+
+print(r)
+print(vit)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:28:35) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, dype=int)
+for i in range(size(vet)):
+	sit[i] = i
+sitacao = vit - sit	
+print(r)
+print(situacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:29:00) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, type=int)
+for i in range(size(vet)):
+	sit[i] = i
+sitacao = vit - sit	
+print(r)
+print(situacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:29:04) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	sit[i] = i
+sitacao = vit - sit	
+print(r)
+print(situacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:29:42) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	sit[i] = i
+sitacao = vit - sit	
+print(r)
+print(situacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:30:38) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	sit[i] = r
+sitacao = vit - sit	
+print(r)
+print(situacao)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 08:35:46) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+sit = zeros(r, dtype=int)
+for i in range(size(vet)):
+	sit[i] = sit[i]
+sitacao = vit[i] - sit[i]
+print(r)
+print(situacao)
+-- EXECUTION TIME:
+1.2345
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 12, in <module>
+    sit[i] = sit[i]
+IndexError: index 4 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:44:41) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+rep = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vit[i] != 0)
+	rep[i] = i
+print(r)
+print(situacao)
+-- ERROR:
+File "XXXX", line 12
+    if(vit[i] != 0)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:44:48) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+rep = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vit[i] != 0):
+	rep[i] = i
+print(r)
+print(situacao)
+-- ERROR:
+File "XXXX", line 13
+    rep[i] = i
+      ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:45:11) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+rep = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vit[i] != 0):
+	rep[i] = r
+print(r)
+print(situacao)
+-- ERROR:
+File "XXXX", line 13
+    rep[i] = r
+      ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:48:12) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+rep = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vit[i] != 0):
+	rep[i] = rep[i] + 1
+print(r)
+print(situacao)
+-- ERROR:
+File "XXXX", line 13
+    rep[i] = rep[i] + 1
+      ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:48:24) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+vit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		vit[i] = i 
+rep = zeros(r, dtype=int)
+for i in range(size(vet)):
+	if(vit[i] != 0):
+	
+print(r)
+print(situacao)
+-- ERROR:
+File "XXXX", line 14
+    print(r)
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:54:58) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] < 5):
+		n = n + 1
+		rep[i] = n
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:55:43) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[i] = 
+print(r)
+print(rep)
+-- ERROR:
+File "XXXX", line 15
+    rep[i] = 
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:55:53) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[i] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:57:59) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 08:58:49) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+print(r)
+print(sit)
+-- EXECUTION TIME:
+1.03992
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  0  2  0  0  0  0  0  8  0 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+6
+[0 1 2 3 0 5 6 0 8]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 0 0 4 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 08:59:31) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+print(r)
+print(sit)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:01:01) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:01:06) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.03368
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+10
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+6
+8
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:01:33) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:01:59) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[i] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:02:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[i] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:02:15) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[i] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.13196
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 15, in <module>
+    rep[i] = i
+IndexError: index 8 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:08:59) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(vet[i] < 5):
+		n = n + 1
+		rep[n] = n
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:09:17) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = n
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:10:11) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:11:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:11:13) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.0563
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 15, in <module>
+    rep[n] = i
+IndexError: index 4 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:11:16) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for n in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:13:35) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for j in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[j] = j
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.07064
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 15, in <module>
+    rep[j] = j
+IndexError: index 4 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:13:37) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for j in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[j] = j
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:14:01) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for j in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[j] = j
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:14:37) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(5, dtype=int)
+n = 0
+for j in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[j] = j
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:15:28) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for j in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[j] = j
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:18:36) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = n 
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:18:45) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		rep[n] = n 
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:19:06) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		rep[n] = n 
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.13494
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+6
+[0 0 0 0 0 0]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:19:18) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = n 
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:19:32) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = n 
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.147
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 1 2 3]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 2]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:19:49) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:20:27) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = n
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:20:57) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = rep[n] - sit[i]
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:22:58) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = n
+
+print(r)
+print(rep)
+-- EXECUTION TIME:
+0.924828
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+7
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+12
+[0 0 0 0 0 0]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+notas: 5
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:23:39) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = n
+
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:24:57) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		r = r
+		rep[n] = n
+
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.28707
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+6
+[0 0 0 0 0 0]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:26:54) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] = 0):
+		n = n + 1
+		rep[n] = n
+
+print(r)
+print(rep)
+-- ERROR:
+File "XXXX", line 13
+    if(sit[i] = 0):
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:27:02) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] == 0):
+		n = n + 1
+		rep[n] = n
+
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:30:27) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = rep[n]
+
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.18094
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:31:44) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:31:52) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.12921
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:32:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:33:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i-1]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.11452
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+notas: 3
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:33:36) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		r = r + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+0.980985
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+7
+[10  0  0  0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+12
+[8 0 0 0 0 0]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+5
+[4 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:33:44) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.11608
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:34:09) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] == 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.05027
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 15, in <module>
+    rep[n] = sit[i]
+IndexError: index 4 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:34:52) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i] - sit[i-0]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+0.973455
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:35:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+		
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.17094
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:37:39) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		sit[i] = i
+		rep[n] = sit[i]
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.0001
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+notas:
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+notas: 3
+[0 1 4]
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:41:34) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = sit[i]
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.01938
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:42:21) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.18958
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:43:01) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		rep[n] = i
+		n = n + 1
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.14169
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+notas: 4
+[ 2  8 10  0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+notas: 6
+[1 2 3 5 6 8]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+notas: 3
+[1 4 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:43:48) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:44:20) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.07249
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:44:28) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] != 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:44:58) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.13121
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:45:08) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] >= 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.04932
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1829/1644/main.py", line 16, in <module>
+    rep[n] = i
+IndexError: index 4 is out of bounds for axis 0 with size 4
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:45:15) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:45:29) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:46:45) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(size(vet), dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:46:51) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(size(vet), dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.30072
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10  0  0  0  0  0  0  0]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+6
+[0 1 2 3 5 6 8 0 0]
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4 0 0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 09:46:59) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 09:47:06) 
+-- CODE:
+from numpy import*
+
+vet = array(eval(input("notas: ")))
+sit = zeros(size(vet), dtype=int)
+r = 0
+for i in range(size(vet)):
+	if(vet[i] < 5):
+		r = r + 1
+		sit[i] = i 
+
+rep = zeros(r, dtype=int)
+n = 0
+for i in range(size(vet)):
+	if(sit[i] > 0):
+		n = n + 1
+		rep[n] = i
+print(r)
+print(rep)
+-- EXECUTION TIME:
+1.03272
+-- TEST CASE 1:
+---- input:
+[4.3,5.2,3.6,10,9.8,7.1,5,9.0,4.2,7.0,4.5]
+---- correct output:
+4
+[ 0  2  8 10]
+---- user output:
+4
+[ 0  2  8 10]
+-- TEST CASE 2:
+---- input:
+[7.5,2.4,3.6,4,7.9,4.5,4.2,7.0,4.5]
+---- correct output:
+6
+[1 2 3 5 6 8]
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+[3.6,2.9,5,7,4.5,7.8,9.0]
+---- correct output:
+3
+[0 1 4]
+---- user output:
+3
+[0 1 4]
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

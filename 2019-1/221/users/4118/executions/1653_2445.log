@@ -1,0 +1,198 @@
+== TEST (2019-04-07 14:44:51) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print((5/9)*(G -32))
+if(E == "C")
+print((9/5)*G + 32)
+-- ERROR:
+File "XXXX", line 5
+    if(E == "C")
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:45:00) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print((5/9)*(G -32))
+if(E == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:45:23) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print((5/9)*(G -32))
+if(E == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:45:46) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print((5/9)*(G -32))
+if(E == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:46:12) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print((5/9)*(G -32))
+if(E.upper == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:46:40) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E.upper == "F"):
+   print((5/9)*(G -32))
+if(E.upper == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:47:21) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E.upper == "F"):
+   print((5/9)*(G -32))
+if(E.upper == "C"):
+   print((9/5)*G + 32)
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:48:58) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E.upper == "F"):
+   print(round((5/9)*(G -32)), 2)
+if(E.upper == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:49:19) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print(round((5/9)*(G -32)), 2)
+if(E == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 14:49:36) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print(round((5/9)*(G -32)), 2)
+if(E == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- EXECUTION TIME:
+0.113665
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160 2
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:49:51) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print(round((5/9)*(G -32)), 2)
+if(E == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 14:50:43) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print(round(((5/9)*(G -32)), 2))
+if(E == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 14:50:44) 
+-- CODE:
+E = input("Escala: ")
+G = float(input("Valor da temperatura: "))
+if(E == "F"):
+   print(round(((5/9)*(G -32)), 2))
+if(E == "C"):
+   print(round(((9/5)*G + 32), 2))
+-- EXECUTION TIME:
+0.150468
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

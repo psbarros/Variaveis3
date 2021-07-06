@@ -1,0 +1,351 @@
+== TEST (2019-03-26 19:50:51) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+p= 1-(factorial(365)/factorial(365-a))*1/factorial(365**a)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    p= 1-(factorial(365)/factorial(365-a))*1/factorial(365**a)
+OverflowError: factorial() argument should not exceed 9223372036854775807
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:51:36) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+p= 1-(factorial(365)/factorial(365-a))*1/factorial(365**a)
+print (p)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    p= 1-(factorial(365)/factorial(365-a))*1/factorial(365**a)
+OverflowError: factorial() argument should not exceed 9223372036854775807
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:54:16) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (1-(factorial(365)/b)*1/365**a)
+-- OUTPUT:
+0.16702478883806438
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:55:48) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)*100),2)
+-- OUTPUT:
+17 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:55:58) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)*100),2)
+-- OUTPUT:
+17 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 19:56:01) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)*100),2)
+-- EXECUTION TIME:
+0.169463
+-- TEST CASE 1:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+17 2
+-- TEST CASE 2:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+54 2
+-- TEST CASE 3:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+100 2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:56:16) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)),2)
+-- OUTPUT:
+0 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:56:31) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)),2)
+-- OUTPUT:
+0 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 17:59:36) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*1/365**a)),2)
+-- OUTPUT:
+0 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:00:11) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a)),2)
+-- ERROR:
+File "XXXX", line 5
+    
+                                                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:00:14) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a)),2)
+-- ERROR:
+File "XXXX", line 5
+    
+                                                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:00:28) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a)),2))
+-- OUTPUT:
+0.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:01:12) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a))*100,2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                           ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:01:25) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a))*100, 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:10:45) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a))*100, 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:11:20) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a))*100, 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:11:26) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a)), 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                        ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:11:29) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(((1-(factorial(365)/b)*(1/365**a)), 2))
+-- EXECUTION TIME:
+0.13633
+-- ERROR:
+  File "/home/codebench/codes/1611/1806/main.py", line 5
+    
+                                                        ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:11:35) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a), 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                      ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:12:00) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a), 2))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                      ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:14:33) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(1-(factorial(365)/b)*(1/365**a)
+-- ERROR:
+File "XXXX", line 5
+    
+                                                ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:14:44) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(1-(factorial(365)/b)*(1/365**a)))
+-- ERROR:
+File "XXXX", line 5
+    
+                                                ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:20:14) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(1-(factorial(365)/b)*(1/365**a),2))
+-- OUTPUT:
+0.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:20:32) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round(1-(factorial(365)/b)*(1/365**a),4))
+-- OUTPUT:
+0.167
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:21:48) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a)),4))
+-- OUTPUT:
+0.167
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:22:02) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a)*100),4))
+-- OUTPUT:
+-82.2975
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:22:37) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a))*100,4))
+-- OUTPUT:
+16.7025
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:22:49) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a))*100,2))
+-- OUTPUT:
+16.7
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:22:55) 
+-- CODE:
+from math import*
+a=int(input("Numero de pessoas:"))
+b=factorial(365-a)
+print (round((1-(factorial(365)/b)*(1/365**a))*100,2))
+-- EXECUTION TIME:
+0.131633
+-- TEST CASE 1:
+---- input:
+12
+---- correct output:
+16.7
+---- user output:
+16.7
+-- TEST CASE 2:
+---- input:
+24
+---- correct output:
+53.83
+---- user output:
+53.83
+-- TEST CASE 3:
+---- input:
+99
+---- correct output:
+100.0
+---- user output:
+100.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

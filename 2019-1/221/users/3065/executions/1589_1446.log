@@ -1,0 +1,132 @@
+== TEST (2019-03-21 08:25:12) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = input("digite valor de a: ")
+sobra = a * (1/3)
+print(sobra)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    sobra = a * (1/3)
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 08:25:36) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = input("digite valor de a: ")
+sobra = (a * (1 / 3))
+print(sobra)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    sobra = (a * (1 / 3))
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 08:26:07) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = input("digite valor de a: ")
+sobra = ((1 / 3) * a)
+print(sobra)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    sobra = ((1 / 3) * a)
+TypeError: can't multiply sequence by non-int of type 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 08:26:50) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = float(input("digite valor de a: "))
+sobra = ((1 / 3) * a)
+print(sobra)
+-- OUTPUT:
+2.333333333333333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 08:26:56) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = float(input("digite valor de a: "))
+sobra = ((1 / 3) * a)
+print(sobra)
+-- EXECUTION TIME:
+0.177624
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+2.333333333333333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+6.666666666666666
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+5.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 08:27:18) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = float(input("digite valor de a: "))
+sobra = ((1 / 3) * a)
+print(round(sobra,3))
+-- OUTPUT:
+2.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 08:27:23) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = float(input("digite valor de a: "))
+sobra = ((1 / 3) * a)
+print(round(sobra,3))
+-- EXECUTION TIME:
+0.140743
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+2.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+6.667
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+5.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

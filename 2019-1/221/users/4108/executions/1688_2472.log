@@ -1,0 +1,367 @@
+== TEST (2019-04-30 21:51:14) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questão 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questão 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print(1)
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:52:33) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questão 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questão 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("1")
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:54:21) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questão 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questão 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("1")
+	
+	
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:54:44) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questão 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("1")
+	
+	
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:55:01) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("1")
+	
+	
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:59:01) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+	
+	
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 22:00:24) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+	
+	
+-- EXECUTION TIME:
+0.14646
+-- TEST CASE 1:
+---- input:
+a
+b
+c
+d
+e
+a
+---- correct output:
+0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+a
+b
+c
+a
+b
+c
+---- correct output:
+3
+---- user output:
+3
+-- TEST CASE 3:
+---- input:
+c
+d
+e
+c
+d
+c
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 22:01:18) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+else:
+	print("0")
+	
+	
+-- OUTPUT:
+Salario liquido = R$ 1135.8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 22:01:23) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+else:
+	print("0")
+	
+	
+-- EXECUTION TIME:
+0.162604
+-- TEST CASE 1:
+---- input:
+a
+b
+c
+d
+e
+a
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 2:
+---- input:
+a
+b
+c
+a
+b
+c
+---- correct output:
+3
+---- user output:
+3
+-- TEST CASE 3:
+---- input:
+c
+d
+e
+c
+d
+c
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 22:02:15) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+else:
+	print("0")
+	
+	
+-- EXECUTION TIME:
+0.133793
+-- TEST CASE 1:
+---- input:
+a
+b
+c
+d
+e
+a
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 2:
+---- input:
+a
+b
+c
+a
+b
+c
+---- correct output:
+3
+---- user output:
+3
+-- TEST CASE 3:
+---- input:
+c
+d
+e
+c
+d
+c
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-01 10:17:43) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+r1 = input("Digite a resposta da questao 1: ")
+r2 = input("Digite a resposta da questao 2: ")
+r3 = input("Digite a resposta da questao 3: ")
+g1 = input("Digite o gabarito da questao 1: ")
+g2 = input("Digite o gabarito da questao 2: ")
+g3 = input("Digite o gabarito da questao 3: ")
+if (r1 == g1 and r2 == g2 and r3 == g3):
+	print("3")
+elif (r1 == g1 and r2 == g2)or (r1 == g1 and r3 == g3) or (r2 == g2 and r3 == g3):
+	print("2")
+elif (r1 == g1 or r2 == g2 or r3 == g3):
+	print("1")
+else:
+	print("0")
+	
+	
+-- EXECUTION TIME:
+0.122904
+-- TEST CASE 1:
+---- input:
+a
+b
+c
+d
+e
+a
+---- correct output:
+0
+---- user output:
+0
+-- TEST CASE 2:
+---- input:
+a
+b
+c
+a
+b
+c
+---- correct output:
+3
+---- user output:
+3
+-- TEST CASE 3:
+---- input:
+c
+d
+e
+c
+d
+c
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

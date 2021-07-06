@@ -1,0 +1,554 @@
+== SUBMITION (2019-04-02 08:23:26) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+
+print(n**(x))
+-- EXECUTION TIME:
+0.196388
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1619/2925/main.py", line 3, in <module>
+    print(n**(x))
+NameError: name 'x' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:25:53) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.173226
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 3
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:25:58) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 3
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:27:16) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.207525
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 4
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:27:18) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 4
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:28:08) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: 
+			 
+   y = int(n**(x))
+	
+print(y)
+-- EXECUTION TIME:
+0.172339
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 3
+    y = input("taxa de crescimento: 
+                                   ^
+SyntaxError: EOL while scanning string literal
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:28:11) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: 
+			 
+   y = int(n**(x))
+	
+print(y)
+-- ERROR:
+File "XXXX", line 3
+    y = input("taxa de crescimento: 
+                                   ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:28:26) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = int(n**(x))
+	
+print(y)
+-- EXECUTION TIME:
+0.128689
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = int(n**(x))
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:28:29) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = int(n**(x))
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = int(n**(x))
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:28:47) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = (n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.136719
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = (n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:28:48) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = (n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = (n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:28:55) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.12297
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:28:56) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("taxa de crescimento: ")
+			 
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:30:06) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("individuos da nova populacao")
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.140894
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:30:09) 
+-- CODE:
+n = input("numero da geracao atual de bacterias: ")
+x = input("numero de geracoes: ")
+y = input("individuos da nova populacao")
+			 
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:31:01) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.162234
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:31:05) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:32:17) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.131318
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:32:23) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.188874
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:32:27) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- EXECUTION TIME:
+0.189763
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:32:30) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:37:20) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(int(y))
+-- EXECUTION TIME:
+0.146302
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:37:23) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n**(x)
+	
+print(int(y))
+-- ERROR:
+File "XXXX", line 5
+    y = n**(x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:38:05) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n ** (x)
+	
+print(int(y))
+-- EXECUTION TIME:
+0.112409
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n ** (x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:38:08) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("numero de geracoes: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n ** (x)
+	
+print(int(y))
+-- ERROR:
+File "XXXX", line 5
+    y = n ** (x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:39:16) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n ** (x)
+	
+print(int(y))
+-- EXECUTION TIME:
+0.138264
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = n ** (x)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:39:17) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = n ** (x)
+	
+print(int(y))
+-- ERROR:
+File "XXXX", line 5
+    y = n ** (x)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:39:41) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = x ** (n)
+	
+print(int(y))
+-- EXECUTION TIME:
+0.207538
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = x ** (n)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:39:42) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   y = x ** (n)
+	
+print(int(y))
+-- ERROR:
+File "XXXX", line 5
+    y = x ** (n)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:40:29) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   x ** n
+	
+print(int(y))
+-- EXECUTION TIME:
+0.152698
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    x ** n
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:40:30) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+   x ** n
+	
+print(int(y))
+-- ERROR:
+File "XXXX", line 5
+    x ** n
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:41:25) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+  y = x**(n)
+	
+print(y)
+-- EXECUTION TIME:
+0.183571
+-- ERROR:
+  File "/home/codebench/codes/1619/2925/main.py", line 5
+    y = x**(n)
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:41:25) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+  y = x**(n)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = x**(n)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 13:03:05) 
+-- CODE:
+n = int(input("numero da geracao atual de bacterias: "))
+x = int(input("crescimento da populacao: "))
+y = int(input("individuos da nova populacao"))
+			 
+  y = x**(n)
+	
+print(y)
+-- ERROR:
+File "XXXX", line 5
+    y = x**(n)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

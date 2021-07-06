@@ -1,0 +1,266 @@
+== TEST (2019-06-11 19:06:49) 
+-- CODE:
+from math import *
+
+ang = radians(float(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(x^exp)/factorial(exp)
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    cosx = cosx + z*(x^exp)/factorial(exp)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:07:32) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(x^exp)/factorial(exp)
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    cosx = cosx + z*(x^exp)/factorial(exp)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:07:51) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang^exp)/factorial(exp)
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    cosx = cosx + z*(ang^exp)/factorial(exp)
+TypeError: unsupported operand type(s) for ^: 'float' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:08:32) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang^exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    cosx = cosx + z*(ang^exp)/factorial(exp)
+TypeError: unsupported operand type(s) for ^: 'float' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:09:23) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.99991432757
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:11:49) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.99991432757
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:11:56) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.99991432757
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:13:51) 
+-- CODE:
+from math import *
+
+ang = radians(eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.99991432757
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:14:24) 
+-- CODE:
+from math import *
+
+ang = eval(input("Angulo em radiano: ")))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- ERROR:
+File "XXXX", line 3
+    ang = eval(input()))
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:14:29) 
+-- CODE:
+from math import *
+
+ang = eval(input("Angulo em radiano: "))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.73168886887
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 19:14:38) 
+-- CODE:
+from math import *
+
+ang = eval(input("Angulo em radiano: "))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- OUTPUT:
+0.73168886887
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-11 19:14:47) 
+-- CODE:
+from math import *
+
+ang = eval(input("Angulo em radiano: "))
+k = int(input("Informe k: "))
+cosx = 0
+exp = 0
+z = 1
+for i in range(k):
+	cosx = cosx + z*(ang**exp)/factorial(exp)
+	exp = exp + 2
+	z = z*(-1)
+	
+print(round(cosx,11))
+
+-- EXECUTION TIME:
+0.636662
+-- TEST CASE 1:
+---- input:
+0.75
+36
+---- correct output:
+0.73168886887
+---- user output:
+0.73168886887
+-- TEST CASE 2:
+---- input:
+0.26
+47
+---- correct output:
+0.96638997813
+---- user output:
+0.96638997813
+-- TEST CASE 3:
+---- input:
+0.47
+58
+---- correct output:
+0.8915682882
+---- user output:
+0.8915682882
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

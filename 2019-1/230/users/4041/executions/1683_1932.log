@@ -1,0 +1,152 @@
+== SUBMITION (2019-04-30 12:15:34) 
+-- CODE:
+im1_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 1: "))
+im1_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 1: "))
+im2_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 2: "))
+im2_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 2: ")) 
+im3_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 3: "))								  
+im3_dos_narque = 	float(input("insira a distancia entre o nariz e o queixo da Imagem 3: ")) 				  
+
+#critério de razão
+p1 = (im1_dis_olhos)/(im1_dis_narque)
+p2 = (im2_dis_olhos)/(im2_dis_narque)
+p3 = (im3_dis_olhos)/(im3_dis_narque)
+
+#diferença das faces
+f12 = abs(p1-p2)
+f13 = abs(p1-p3)
+f23 = abs(p2-p3)
+
+#para face 1 e 2
+if(f12<f13<=f23 or f12<f23<=f13):
+	print("1 e 2")
+
+#para face 1 e 3 
+elif(f13<f12<=f23 or f13<f23<=f12):
+	print("1 e 3")
+
+#para face 2 e 3 
+elif(f23<f12<=f13 or f23<f13<=f12):
+	print("2 e 3")
+
+
+-- EXECUTION TIME:
+0.204564
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1683/1932/main.py", line 11, in <module>
+    p3 = (im3_dis_olhos)/(im3_dis_narque)
+NameError: name 'im3_dis_narque' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 12:15:46) 
+-- CODE:
+im1_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 1: "))
+im1_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 1: "))
+im2_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 2: "))
+im2_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 2: ")) 
+im3_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 3: "))								  
+im3_dos_narque = 	float(input("insira a distancia entre o nariz e o queixo da Imagem 3: ")) 				  
+
+#critério de razão
+p1 = (im1_dis_olhos)/(im1_dis_narque)
+p2 = (im2_dis_olhos)/(im2_dis_narque)
+p3 = (im3_dis_olhos)/(im3_dis_narque)
+
+#diferença das faces
+f12 = abs(p1-p2)
+f13 = abs(p1-p3)
+f23 = abs(p2-p3)
+
+#para face 1 e 2
+if(f12<f13<=f23 or f12<f23<=f13):
+	print("1 e 2")
+
+#para face 1 e 3 
+elif(f13<f12<=f23 or f13<f23<=f12):
+	print("1 e 3")
+
+#para face 2 e 3 
+elif(f23<f12<=f13 or f23<f13<=f12):
+	print("2 e 3")
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    p3 = (im3_dis_olhos)/(im3_dis_narque)
+NameError: name 'im3_dis_narque' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 12:16:44) 
+-- CODE:
+im1_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 1: "))
+im1_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 1: "))
+im2_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 2: "))
+im2_dis_narque = float(input("insira a distancia entre o nariz e o queixo da Imagem 2: ")) 
+im3_dis_olhos = float(input("insira a distancia entre os olhos da Imagem 3: "))								  
+im3_dis_narque = 	float(input("insira a distancia entre o nariz e o queixo da Imagem 3: ")) 				  
+
+#critério de razão
+p1 = (im1_dis_olhos)/(im1_dis_narque)
+p2 = (im2_dis_olhos)/(im2_dis_narque)
+p3 = (im3_dis_olhos)/(im3_dis_narque)
+
+#diferença das faces
+f12 = abs(p1-p2)
+f13 = abs(p1-p3)
+f23 = abs(p2-p3)
+
+#para face 1 e 2
+if(f12<f13<=f23 or f12<f23<=f13):
+	print("1 e 2")
+
+#para face 1 e 3 
+elif(f13<f12<=f23 or f13<f23<=f12):
+	print("1 e 3")
+
+#para face 2 e 3 
+elif(f23<f12<=f13 or f23<f13<=f12):
+	print("2 e 3")
+
+
+-- EXECUTION TIME:
+0.156721
+-- TEST CASE 1:
+---- input:
+6.7
+6.3
+7.0
+4.0
+7.0
+6.6
+---- correct output:
+1 e 3
+---- user output:
+1 e 3
+-- TEST CASE 2:
+---- input:
+1.0
+2.0
+3.0
+6.0
+8.0
+10.0
+---- correct output:
+1 e 2
+---- user output:
+1 e 2
+-- TEST CASE 3:
+---- input:
+20.0
+30.0
+5.0
+10.0
+5.0
+10.0
+---- correct output:
+2 e 3
+---- user output:
+2 e 3
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

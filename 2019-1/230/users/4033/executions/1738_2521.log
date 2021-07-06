@@ -1,0 +1,2659 @@
+== TEST (2019-05-10 00:04:52) 
+-- CODE:
+math from import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i=0):
+		soma=soma+1
+	   print(soma)
+	else:
+		soma=soma+(factorial/3*(2i+1))
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 1
+    math from import*
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:05:08) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i=0):
+		soma=soma+1
+	   print(soma)
+	else:
+		soma=soma+(factorial/3*(2i+1))
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 9
+    if(i=0):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:06:38) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	   print(soma)
+	else:
+		soma=soma+(factorial/3*(2i+1))
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 11
+    print(soma)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:06:54) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial/3*(2i+1))
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial/3*(2i+1))
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:07:53) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(i)/3*(2i+1))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial(i)/3*(2i+1))
+                                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:08:24) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(i))/(3*(2i+1))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial(i))/(3*(2i+1))
+                                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:09:22) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(i))/(factorial(2i+1))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial(i))/(factorial(2i+1))
+                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:12:58) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(i))/(factorial(2i+1))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial(i))/(factorial(2i+1))
+                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:13:52) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i))/(factorial(2i+1)))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+((factorial(i))/(factorial(2i+1)))
+                                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 15:58:50) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i))/(factorial(2i+1)))
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+((factorial(i))/(factorial(2i+1)))
+                                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 15:59:30) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)
+		i=i+1
+	valor_pi=2*soma
+	print(round(valor_pi,10))
+-- OUTPUT:
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+22
+24
+26
+28
+30
+32
+34
+36
+38
+40
+42
+44
+46
+48
+50
+52
+54
+56
+58
+60
+62
+64
+66
+68
+70
+72
+74
+76
+78
+80
+82
+84
+86
+88
+90
+92
+94
+96
+98
+100
+102
+104
+106
+108
+110
+112
+114
+116
+118
+120
+122
+124
+126
+128
+130
+132
+134
+136
+138
+140
+142
+144
+146
+148
+150
+152
+154
+156
+158
+160
+162
+164
+166
+168
+170
+172
+174
+176
+178
+180
+182
+184
+186
+188
+190
+192
+194
+196
+198
+200
+202
+204
+206
+208
+210
+212
+214
+216
+218
+220
+222
+224
+226
+228
+230
+232
+234
+236
+238
+240
+242
+244
+246
+248
+250
+252
+254
+256
+258
+260
+262
+264
+266
+268
+270
+272
+274
+276
+278
+280
+282
+284
+286
+288
+290
+292
+294
+296
+298
+300
+302
+304
+306
+308
+310
+312
+314
+316
+318
+320
+322
+324
+326
+328
+330
+332
+334
+336
+338
+340
+342
+344
+346
+348
+350
+352
+354
+356
+358
+360
+362
+364
+366
+368
+370
+372
+374
+376
+378
+380
+382
+384
+386
+388
+390
+392
+394
+396
+398
+400
+402
+404
+406
+408
+410
+412
+414
+416
+418
+420
+422
+424
+426
+428
+430
+432
+434
+436
+438
+440
+442
+444
+446
+448
+450
+452
+454
+456
+458
+460
+462
+464
+466
+468
+470
+472
+474
+476
+478
+480
+482
+484
+486
+488
+490
+492
+494
+496
+498
+500
+502
+504
+506
+508
+510
+512
+514
+516
+518
+520
+522
+524
+526
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:02:01) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+valor_pi=2*soma
+	print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    print(round(valor_pi,10))
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:02:17) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+valor_pi=2*soma
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    print(round(valor_pi,10))
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:02:40) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+      valor_pi=2*soma
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    valor_pi=2*soma
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:02:54) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+   valor_pi=2*soma
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    valor_pi=2*soma
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:03:06) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+valor_pi=2*soma
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    valor_pi=2*soma
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:03:29) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+factorial(i)/factorial(2*i+1)
+		i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    valor_pi=2*soma
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:04:52) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(2*i+1)/factorial(2*i+1))
+		i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    valor_pi=2*soma
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:07:34) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(2*i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3120.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:11:05) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+2.7768896094
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:12:55) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.5537792188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:13:15) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.5537792188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:15:19) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.5537792188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:17:21) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(i+1))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.2789327682
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 16:17:23) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(i+1))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- EXECUTION TIME:
+1.11306
+-- TEST CASE 1:
+---- input:
+1560
+---- correct output:
+3.1415926536
+---- user output:
+4.2789327682
+-- TEST CASE 2:
+---- input:
+1000
+---- correct output:
+3.1415926536
+---- user output:
+4.2789327682
+-- TEST CASE 3:
+---- input:
+100
+---- correct output:
+3.1415926536
+---- user output:
+4.2789327682
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:17:25) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+1
+	else:
+		soma=soma+((factorial(i+1)*factorial(i+1))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.2789327682
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:17:57) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)*factorial(i+1))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.9455994349
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:18:27) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.2204458855
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 16:19:36) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.2204458855
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:02:37) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2i+2)
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    produto=(2i+2)
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:02:47) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:10) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:21) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+      i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:34) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		i=i+1
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+      
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 16
+    valor_pi=2*soma
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:46) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		i=i+1
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    valor_pi=2*soma
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:55) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		i=i+1
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+   valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    valor_pi=2*soma
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:03:55) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		i=i+1
+		soma=soma+((factorial(i+1)/(2*i+1)*produto)
+   valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    valor_pi=2*soma
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:04:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+4.2204458855
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:05:03) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)*factorial(2))/((2*i+1)*(2*i+2)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+((factorial(i+1)*factorial(2))/((2*i+1)*(2*i+2)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:05:29) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i+1)/((2*i+1)*(2*i+2)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:05:57) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	   i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	   i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	   i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	   i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:13) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	   i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:22) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+					  i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:36) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+((factorial(i)/((2*i+1)*(2*i+2)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:06:50) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i)/((2*i+1)*(2*i+2)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i)/((2*i+1)*(2*i+2)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:07:35) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i)/(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i)/(2*i+1))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:07:36) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i)/(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i)/(2*i+1))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:08:32) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:08:44) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:31:11) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*(i-1)+1)
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:31:32) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*(i-1)+1)
+		soma=soma+(factorial(i+1)/((2*i+1)*produto))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*produto))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:32:30) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*(produto))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 14
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:32:45) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:37:31) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1))
+OverflowError: int too large to convert to float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:38:04) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:38:46) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:39:13) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 21:40:26) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:27:59) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)*/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 12
+    soma=soma+(factorial(i+1)*/factorial(2*i+1))
+                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:28:10) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:28:37) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:28:52) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:28:57) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:08) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:13) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:19) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:30) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*produto))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*produto))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:43) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:31:47) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+2)
+		soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*(produto)))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:32:25) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 13
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:32:31) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i+1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:32:48) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i-1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+9.1185200196
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:32:55) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i-1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+9.1185200196
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:32:59) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i-1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+9.1185200196
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:33:01) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i-1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+9.1185200196
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:33:05) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(factorial(2*i-1)))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+9.1185200196
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:47:31) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:49:11) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+		produto=(2*i+2)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:49:19) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+		produto=(2*i+1)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:49:22) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/(2*i+1)*produto)
+		produto=(2*i+1)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/(2*i+1)*produto)
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:49:30) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/((2*i+1)*produto))
+		produto=(2*i+1)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*produto))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:49:34) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/((2*i+1)*produto))
+		produto=(2*i+1)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    soma=soma+(factorial(i+1)/((2*i+1)*produto))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:51:50) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+1)
+		soma=soma+(factorial(i+1)/((2*i+3)*produto)
+		
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 16
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:51:56) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+1)
+		soma=soma+(factorial(i+1)/((2*i+3)*produto)
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+File "XXXX", line 15
+    i=i+1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:52:04) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+1)
+		soma=soma+(factorial(i+1)/((2*i+3)*produto))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 14, in <module>
+    soma=soma+(factorial(i+1)/((2*i+3)*produto))
+OverflowError: integer division result too large for a float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:52:41) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		produto=(2*i+1)
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:52:56) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:53:05) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:53:09) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 17:53:12) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 18:02:10) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- EXECUTION TIME:
+0.98015
+-- TEST CASE 1:
+---- input:
+1560
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- TEST CASE 2:
+---- input:
+1000
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- TEST CASE 3:
+---- input:
+100
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 18:02:13) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- EXECUTION TIME:
+0.68229
+-- TEST CASE 1:
+---- input:
+1560
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- TEST CASE 2:
+---- input:
+1000
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- TEST CASE 3:
+---- input:
+100
+---- correct output:
+3.1415926536
+---- user output:
+3.4435562761
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:59:07) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:59:15) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:59:22) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:59:28) 
+-- CODE:
+from math import*
+
+k=int(input("Digite a quantidade de termos: "))
+
+i=0
+soma=0
+produto=1
+
+while(i<k):
+	if(i==0):
+		soma=soma+4/3
+	else:
+		soma=soma+(factorial(i+1)/factorial(2*i+1))
+	i=i+1
+valor_pi=2*soma
+
+print(round(valor_pi,10))
+-- OUTPUT:
+3.4435562761
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,358 @@
+== TEST (2019-03-30 19:36:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+t1=radians(float(input()))
+g1=radians(float(input()))
+t2=radians(float(input()))
+g2=radians(float(input()))
+from math import*
+d=r*acos(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    t1=radians(float(input()))
+NameError: name 'radians' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:38:19) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+g1=radians(float(input()))
+t2=radians(float(input()))
+g2=radians(float(input()))
+d=r*acos(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:40:33) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*acos(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:45:15) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*(acos(sin(t1)))*(sin(t2))+(cos(t1))*(cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:47:32) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*acos*(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:48:22) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*acos*(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:48:55) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*acos*(sin(t1))*sin(t2)+cos(t1)*cos(t2)
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:57:08) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=(r*(acos(sin(t1))*sin(t2)))+(cos(t1)*cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 19:58:41) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*(acos(sin(t1))*sin(t2))+(cos(t1)*cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 20:01:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=r*acos(sin(t1))*sin(t2)+(cos(t1)*cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 20:04:39) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=(r*acos(sin(t1))*sin(t2))+(cos(t1)*cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 20:12:42) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+r=float(input())
+from math import*
+t1=radians(float(input()))
+from math import*
+g1=radians(float(input()))
+from math import*
+t2=radians(float(input()))
+from math import*
+g2=radians(float(input()))
+from math import*
+d=(r*acos(sin(t1))*sin(t2))+(cos(t1)*cos(t2))
+print(round(d, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    g2=radians(float(input()))
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 20:38:17) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+lat1=radians(float(input()))
+long1=radians(float(input()))
+lat2=radians(float(input()))
+long2=radians(float(input()))
+r=float(input())
+d=r*acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(long1-long2))
+print(round(d, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    r=float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 20:40:14) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+lat1=radians(float(input()))
+long1=radians(float(input()))
+lat2=radians(float(input()))
+long2=radians(float(input()))
+r=float(input())
+d=r*acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(long1-long2))
+print(round(d, 2))
+
+-- EXECUTION TIME:
+0.199846
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1017/main.py", line 9, in <module>
+    r=float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 20:41:20) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+lat1=radians(float(input()))
+long1=radians(float(input()))
+lat2=radians(float(input()))
+long2=radians(float(input()))
+r=6371.01
+d=r*acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(long1-long2))
+print(round(d, 2))
+
+-- OUTPUT:
+50.44
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 20:42:26) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+lat1=radians(float(input()))
+long1=radians(float(input()))
+lat2=radians(float(input()))
+long2=radians(float(input()))
+r=6371.01
+d=r*acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat2)*cos(long1-long2))
+print(round(d, 2))
+
+-- EXECUTION TIME:
+0.255868
+-- TEST CASE 1:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+50.44
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

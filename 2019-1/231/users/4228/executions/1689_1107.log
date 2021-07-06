@@ -1,0 +1,824 @@
+== TEST (2019-05-02 14:26:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+h = int(input("Dia da Semana: "))
+f = int(input("Dia Futuro: "))
+
+if (h < 0 or h> 6):
+	print ("A entrada ", h, "eh invalida")
+else:
+	if(h == 0):
+		d = "domingo"
+	elif(h == 1):
+		d = "segunda"
+	elif(h == 2):
+		d = "terca"
+	elif(h == 3):
+		d = "quarta"
+	elif(h == 4):
+		d = "quinta"
+	elif(h == 5):
+		d = "sexta"
+	elif(h == 6):
+		d = "sabado"
+		
+futuro = (h + f) % 7
+if(futuro == 0):
+	a = "domingo"
+elif(futuro == 1):
+	a = "segunda"
+elif(futuro == 2):
+	a = "terca"
+elif(futuro == 3):
+	a = "quarta"
+elif(futuro == 4):
+	a = "quinta"
+elif(futuro == 5):
+	a = "sexta"
+elif(futuro == 7):
+	a = "sabado"
+
+print("hoje eh", d,"e o dia futuro eh", a)	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 41, in <module>
+    print("hoje eh", d,"e o dia futuro eh", a)	
+NameError: name 'd' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:27:25) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+h = int(input("Dia da Semana: "))
+f = int(input("Dia Futuro: "))
+
+if (h < 0 or h> 6):
+	print ("A entrada ", h, "eh invalida")
+else:
+	if(h == 0):
+		d = "domingo"
+	elif(h == 1):
+		d = "segunda"
+	elif(h == 2):
+		d = "terca"
+	elif(h == 3):
+		d = "quarta"
+	elif(h == 4):
+		d = "quinta"
+	elif(h == 5):
+		d = "sexta"
+	elif(h == 6):
+		d = "sabado"
+		
+futuro = (h + f) % 7
+if(futuro == 0):
+	a = "domingo"
+elif(futuro == 1):
+	a = "segunda"
+elif(futuro == 2):
+	a = "terca"
+elif(futuro == 3):
+	a = "quarta"
+elif(futuro == 4):
+	a = "quinta"
+elif(futuro == 5):
+	a = "sexta"
+elif(futuro == 7):
+	a = "sabado"
+
+print("hoje eh", d,"e o dia futuro eh", a)	
+	
+-- EXECUTION TIME:
+0.143978
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1689/1107/main.py", line 41, in <module>
+    print("hoje eh", d,"e o dia futuro eh", a)	
+NameError: name 'd' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 14:32:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+futuro = (hoje + diasnofuturo) % 7
+
+if(futuro == 0):
+	y = "domingo"
+elif(futuro == 1):
+	y = "segunda"
+elif(futuro == 2):
+	y = "terca"
+elif(futuro == 3):
+	y = "quarta"
+elif(futuro == 4):
+	y = "quinta"
+elif(futuro == 5):
+	y = "sexta"
+elif(futuro == 7):
+	y = "sabado"
+
+print("hoje eh", x,"e o dia futuro eh", y)	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 42, in <module>
+    print("hoje eh", x,"e o dia futuro eh", y)	
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 14:32:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+futuro = (hoje + diasnofuturo) % 7
+
+if(futuro == 0):
+	y = "domingo"
+elif(futuro == 1):
+	y = "segunda"
+elif(futuro == 2):
+	y = "terca"
+elif(futuro == 3):
+	y = "quarta"
+elif(futuro == 4):
+	y = "quinta"
+elif(futuro == 5):
+	y = "sexta"
+elif(futuro == 7):
+	y = "sabado"
+
+print("hoje eh", x,"e o dia futuro eh", y)	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 42, in <module>
+    print("hoje eh", x,"e o dia futuro eh", y)	
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:32:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+futuro = (hoje + diasnofuturo) % 7
+
+if(futuro == 0):
+	y = "domingo"
+elif(futuro == 1):
+	y = "segunda"
+elif(futuro == 2):
+	y = "terca"
+elif(futuro == 3):
+	y = "quarta"
+elif(futuro == 4):
+	y = "quinta"
+elif(futuro == 5):
+	y = "sexta"
+elif(futuro == 7):
+	y = "sabado"
+
+print("hoje eh", x,"e o dia futuro eh", y)	
+	
+-- EXECUTION TIME:
+0.134031
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1689/1107/main.py", line 42, in <module>
+    print("hoje eh", x,"e o dia futuro eh", y)	
+NameError: name 'x' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 14:35:26) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+
+	print("hoje eh", x,"e o dia futuro eh", y)	
+	
+-- OUTPUT:
+A entrada  9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:35:29) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+
+	print("hoje eh", x,"e o dia futuro eh", y)	
+	
+-- EXECUTION TIME:
+0.154383
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada  9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 14:40:33) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+		
+	print("hoje eh", x,"e o dia futuro eh", y)	
+-- OUTPUT:
+A entrada  9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:40:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input("Dia da semana: "))
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+		
+	print("hoje eh", x,"e o dia futuro eh", y)	
+-- EXECUTION TIME:
+0.117212
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada  9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:40:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input())
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print ("A entrada ", hoje, "eh invalida")
+
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+		
+	print("hoje eh", x,"e o dia futuro eh", y)	
+-- EXECUTION TIME:
+0.154902
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada  9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:41:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input())
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print("A entrada ", hoje, "eh invalida")
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+		
+	print("hoje eh", x,"e o dia futuro eh", y)	
+-- EXECUTION TIME:
+0.191296
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada  9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 14:41:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+hoje = int(input())
+diasnofuturo = int(input())
+
+if (hoje < 0 or hoje > 6):
+	print("A entrada ", hoje, "eh invalida")
+else:
+	if(hoje == 0):
+		x = "domingo"
+	elif(hoje == 1):
+		x = "segunda"
+	elif(hoje == 2):
+		x = "terca"
+	elif(hoje == 3):
+		x = "quarta"
+	elif(hoje == 4):
+		x = "quinta"
+	elif(hoje == 5):
+		x = "sexta"
+	elif(hoje == 6):
+		x = "sabado"
+		
+	futuro = (hoje + diasnofuturo) % 7
+	if(futuro == 0):
+		y = "domingo"
+	elif(futuro == 1):
+		y = "segunda"
+	elif(futuro == 2):
+		y = "terca"
+	elif(futuro == 3):
+		y = "quarta"
+	elif(futuro == 4):
+		y = "quinta"
+	elif(futuro == 5):
+		y = "sexta"
+	elif(futuro == 7):
+		y = "sabado"
+		
+print("hoje eh", x,"e o dia futuro eh", y)	
+-- EXECUTION TIME:
+0.148397
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1689/1107/main.py", line 41, in <module>
+    print("hoje eh", x,"e o dia futuro eh", y)	
+NameError: name 'x' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 16:37:54) 
+-- CODE:
+hoje = int(input())
+diasPraFrente = int(input())
+
+if(hoje < 0 or hoje > 6):
+  print("A entrada",hoje, "eh invalida")
+
+else:
+  if(hoje == 0):
+    diaAtual = "domingo"
+  elif(hoje == 1):
+    diaAtual = "segunda"
+  elif(hoje == 2):
+    diaAtual = "terca"
+  elif(hoje == 3):
+    diaAtual = "quarta"
+  elif(hoje == 4):
+    diaAtual = "quinta"
+  elif(hoje == 5):
+    diaAtual = "sexta"
+  elif(hoje == 6):
+    diaAtual = "sabado"
+  
+  futuro = (hoje+diasPraFrente) % 7
+  if(futuro == 0):
+    diaFuturo = "domingo"
+  elif(futuro == 1):
+    diaFuturo = "segunda"
+  elif(futuro == 2):
+    diaFuturo = "terca"
+  elif(futuro == 3):
+    diaFuturo = "quarta"
+  elif(futuro == 4):
+    diaFuturo = "quinta"
+  elif(futuro == 5):
+    diaFuturo = "sexta"
+  elif(futuro == 6):
+    diaFuturo = "sabado"
+
+  print("Hoje eh",diaAtual,"e o dia futuro eh",diaFuturo)6
+-- ERROR:
+File "XXXX", line 39
+    print("Hoje eh",diaAtual,"e o dia futuro eh",diaFuturo)6
+                                                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 16:37:56) 
+-- CODE:
+hoje = int(input())
+diasPraFrente = int(input())
+
+if(hoje < 0 or hoje > 6):
+  print("A entrada",hoje, "eh invalida")
+
+else:
+  if(hoje == 0):
+    diaAtual = "domingo"
+  elif(hoje == 1):
+    diaAtual = "segunda"
+  elif(hoje == 2):
+    diaAtual = "terca"
+  elif(hoje == 3):
+    diaAtual = "quarta"
+  elif(hoje == 4):
+    diaAtual = "quinta"
+  elif(hoje == 5):
+    diaAtual = "sexta"
+  elif(hoje == 6):
+    diaAtual = "sabado"
+  
+  futuro = (hoje+diasPraFrente) % 7
+  if(futuro == 0):
+    diaFuturo = "domingo"
+  elif(futuro == 1):
+    diaFuturo = "segunda"
+  elif(futuro == 2):
+    diaFuturo = "terca"
+  elif(futuro == 3):
+    diaFuturo = "quarta"
+  elif(futuro == 4):
+    diaFuturo = "quinta"
+  elif(futuro == 5):
+    diaFuturo = "sexta"
+  elif(futuro == 6):
+    diaFuturo = "sabado"
+
+  print("Hoje eh",diaAtual,"e o dia futuro eh",diaFuturo)
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 16:38:07) 
+-- CODE:
+hoje = int(input())
+diasPraFrente = int(input())
+
+if(hoje < 0 or hoje > 6):
+  print("A entrada",hoje, "eh invalida")
+
+else:
+  if(hoje == 0):
+    diaAtual = "domingo"
+  elif(hoje == 1):
+    diaAtual = "segunda"
+  elif(hoje == 2):
+    diaAtual = "terca"
+  elif(hoje == 3):
+    diaAtual = "quarta"
+  elif(hoje == 4):
+    diaAtual = "quinta"
+  elif(hoje == 5):
+    diaAtual = "sexta"
+  elif(hoje == 6):
+    diaAtual = "sabado"
+  
+  futuro = (hoje+diasPraFrente) % 7
+  if(futuro == 0):
+    diaFuturo = "domingo"
+  elif(futuro == 1):
+    diaFuturo = "segunda"
+  elif(futuro == 2):
+    diaFuturo = "terca"
+  elif(futuro == 3):
+    diaFuturo = "quarta"
+  elif(futuro == 4):
+    diaFuturo = "quinta"
+  elif(futuro == 5):
+    diaFuturo = "sexta"
+  elif(futuro == 6):
+    diaFuturo = "sabado"
+
+  print("Hoje eh",diaAtual,"e o dia futuro eh",diaFuturo)
+-- EXECUTION TIME:
+0.191525
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada 9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+Hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,44 @@
+== SUBMITION (2019-03-27 17:14:13) 
+-- CODE:
+ a = '''*****
+(* o o *)
+ *  ^  *
+ * --- *
+  *****'''
+print(a)
+-- EXECUTION TIME:
+0.169685
+-- ERROR:
+  File "/home/codebench/codes/1576/996/main.py", line 1
+    a = '''*****
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 17:15:16) 
+-- CODE:
+print("*****")
+print("(* o o *)")
+print("*  ^  *")
+print("* --- *")
+print("*****")
+-- EXECUTION TIME:
+0.169326
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+---- user output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

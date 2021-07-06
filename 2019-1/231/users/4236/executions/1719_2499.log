@@ -1,0 +1,76 @@
+== SUBMITION (2019-05-13 22:46:14) 
+-- CODE:
+from math import factorial
+k = int(input(""))
+x = 1
+e = 1
+while x < k:
+    e += 1/factorial(x)
+    x = x + 1
+e = round(e, 8)
+print(e)
+-- EXECUTION TIME:
+0.155047
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+2.71805556
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+2.71828183
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+2.71666667
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:44:35) 
+-- CODE:
+from math import*
+
+k = int(input())
+i = 0
+soma = 0
+
+while (i<k):
+	conta = (1**i)/factorial(i)
+	soma = soma + conta
+	i = i + 1
+print(round(soma, 8))
+-- EXECUTION TIME:
+0.186972
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+2.71805556
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+2.71828183
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+2.71666667
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

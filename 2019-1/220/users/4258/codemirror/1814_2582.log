@@ -1,0 +1,51 @@
+2019-6-13 11:07:59.324#viewportChange#0
+2019-6-13 11:08:14.219#mousedown#{"isTrusted":true}
+2019-6-13 11:08:14.222#focus#
+2019-6-13 11:08:14.867#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from math import *","from numpy import *","","x = eval(input(\"Angulo: \"))","k = int(input(\"Numero inteiro: \"))","h = 0","","for i in range(0,k):","\tp = (((-1)**i)*(x**(2*i)))/(factorial(2*i))","\th = h + p","print(round(h, 11))",""],"removed":[""],"origin":"paste"}
+2019-6-13 11:08:14.879#viewportChange#0
+2019-6-13 11:08:16.621#mousedown#{"isTrusted":true}
+2019-6-13 11:08:18.972#change#{"from":{"line":8,"ch":5,"sticky":"before","xRel":-2.359375},"to":{"line":8,"ch":16,"sticky":"after","xRel":2.1875},"text":[""],"removed":["(((-1)**i)*"],"origin":"+delete"}
+2019-6-13 11:08:18.972#keyHandled#"Backspace"
+2019-6-13 11:08:20.015#mousedown#{"isTrusted":true}
+2019-6-13 11:08:20.301#change#{"from":{"line":8,"ch":15,"sticky":"after"},"to":{"line":8,"ch":16,"sticky":"before","xRel":-1.8125},"text":[""],"removed":[")"],"origin":"+delete"}
+2019-6-13 11:08:20.301#keyHandled#"Backspace"
+2019-6-13 11:08:27.482#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-13 11:08:41.309#mousedown#{"isTrusted":true}
+2019-6-13 11:08:44.358#change#{"from":{"line":5,"ch":4,"sticky":"after","xRel":2.890625},"to":{"line":5,"ch":5,"sticky":"before","xRel":21.203125},"text":["1"],"removed":["0"],"origin":"+input"}
+2019-6-13 11:09:00.854#blur#
+2019-6-13 11:09:00.854#blur#
+2019-6-13 11:09:02.811#saida_testar#$ python3 main.py
+2019-6-13 11:09:02.811#saida_testar#$ python3 main.py
+2019-6-13 11:09:16.815#saida_testar#$ python3 main.py
+2019-6-13 11:09:16.815#saida_testar#$ python3 main.py
+2019-6-13 11:09:22.507#saida_testar#$ python3 main.py
+2019-6-13 11:09:27.067#mousedown#{"isTrusted":true}
+2019-6-13 11:09:27.183#focus#
+2019-6-13 11:09:28.124#change#{"from":{"line":5,"ch":4,"sticky":"after","xRel":1.890625},"to":{"line":5,"ch":5,"sticky":"before","xRel":-2.796875},"text":["0"],"removed":["1"],"origin":"+input"}
+2019-6-13 11:09:28.124#change#{"from":{"line":5,"ch":4,"sticky":"after","xRel":1.890625},"to":{"line":5,"ch":5,"sticky":"before","xRel":-2.796875},"text":["0"],"removed":["1"],"origin":"+input"}
+2019-6-13 11:09:29.228#blur#
+2019-6-13 11:09:30.889#saida_testar#$ python3 main.py
+2019-6-13 11:09:30.889#saida_testar#$ python3 main.py
+2019-6-13 11:09:34.533#saida_testar#$ python3 main.py
+2019-6-13 11:09:34.533#saida_testar#$ python3 main.py
+2019-6-13 11:09:38.831#saida_testar#$ python3 main.py
+2019-6-13 11:09:38.831#saida_testar#$ python3 main.py
+2019-6-13 11:09:44.481#saida_testar#$ python3 main.py
+Angulo: 1
+2019-6-13 11:09:52.316#mousedown#{"isTrusted":true}
+2019-6-13 11:09:52.368#focus#
+2019-6-13 11:09:53.387#change#{"from":{"line":10,"ch":16,"sticky":"before","xRel":-3.359375},"to":{"line":10,"ch":17,"sticky":"before","xRel":-3.171875},"text":[""],"removed":["1"],"origin":"+delete"}
+2019-6-13 11:09:53.387#keyHandled#"Backspace"
+2019-6-13 11:09:53.580#change#{"from":{"line":10,"ch":15,"sticky":"after"},"to":{"line":10,"ch":16,"sticky":null},"text":[""],"removed":["1"],"origin":"+delete"}
+2019-6-13 11:09:53.580#keyHandled#"Backspace"
+2019-6-13 11:09:53.753#change#{"from":{"line":10,"ch":15,"sticky":null},"to":{"line":10,"ch":15,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-6-13 11:09:53.387#change#{"from":{"line":10,"ch":16,"sticky":"before","xRel":-3.359375},"to":{"line":10,"ch":17,"sticky":"before","xRel":-3.171875},"text":[""],"removed":["1"],"origin":"+delete"}
+2019-6-13 11:09:53.387#keyHandled#"Backspace"
+2019-6-13 11:09:53.580#change#{"from":{"line":10,"ch":15,"sticky":"after"},"to":{"line":10,"ch":16,"sticky":null},"text":[""],"removed":["1"],"origin":"+delete"}
+2019-6-13 11:09:53.580#keyHandled#"Backspace"
+2019-6-13 11:09:53.753#change#{"from":{"line":10,"ch":15,"sticky":null},"to":{"line":10,"ch":15,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-6-13 11:09:56.523#blur#
+2019-6-13 11:09:56.626#saida_testar#$ python3 main.py
+Angulo: 1
+Numero inteiro: 4
+1.54305555556

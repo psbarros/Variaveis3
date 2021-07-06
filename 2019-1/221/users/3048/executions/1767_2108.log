@@ -1,0 +1,39 @@
+== SUBMITION (2019-05-29 22:25:29) 
+-- CODE:
+s = input("Insira uma string: ").lower()
+i = 0
+new = ""
+while (i < len(s)):
+	if (s[i] != "a") and (s[i] != "e") and (s[i] != "i") and (s[i] != "o") and (s[i] != "u"):
+		new = new + "p"
+		i = i + 1
+	else:
+		new = new + s[i]
+		i = i + 1
+print(new)
+-- EXECUTION TIME:
+0.165059
+-- TEST CASE 1:
+---- input:
+teste
+---- correct output:
+peppe
+---- user output:
+peppe
+-- TEST CASE 2:
+---- input:
+flor
+---- correct output:
+ppop
+---- user output:
+ppop
+-- TEST CASE 3:
+---- input:
+abacaxi
+---- correct output:
+apapapi
+---- user output:
+apapapi
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,168 @@
+== TEST (2019-04-01 23:11:12) 
+-- CODE:
+a= "abra +nome_do_objeto*3"
+print(a)
+
+-- OUTPUT:
+abra +nome_do_objeto*3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:11:33) 
+-- CODE:
+a= abra +nome_do_objeto*3
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a= abra +nome_do_objeto*3
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:13:10) 
+-- CODE:
+a=float(input((abra +"nome_do_objeto")*3))
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a=float(input((abra +"nome_do_objeto")*3))
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:13:43) 
+-- CODE:
+a=float(input(("abra +nome_do_objeto")*3))
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a=float(input(("abra +nome_do_objeto")*3))
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:13:50) 
+-- CODE:
+a=float(input(("abra +nome_do_objeto")))
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a=float(input(("abra +nome_do_objeto")))
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:14:13) 
+-- CODE:
+a=float(("abra +nome_do_objeto"))
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a=float(("abra +nome_do_objeto"))
+ValueError: could not convert string to float: 'abra +nome_do_objeto'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 23:14:26) 
+-- CODE:
+a=float("abra +nome_do_objeto")
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a=float("abra +nome_do_objeto")
+ValueError: could not convert string to float: 'abra +nome_do_objeto'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 16:53:01) 
+-- CODE:
+a=str(input("nome do objeto"))
+b=str(input("n"))
+c= "Abra"+a
+d=c*b
+print(d)
+
+	
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    d=c*b
+TypeError: can't multiply sequence by non-int of type 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 16:55:36) 
+-- CODE:
+a=str(input("nome do objeto"))
+b=int(input("n"))
+c= "Abra" + a
+d= c*b
+print(d)
+
+	
+
+-- OUTPUT:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 16:56:38) 
+-- CODE:
+a=str(input("nome do objeto"))
+b=int(input("n"))
+c= "Abra" + a
+d=c*b
+print(d)
+
+	
+
+-- OUTPUT:
+AbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivroAbralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 16:58:06) 
+-- CODE:
+a=str(input("nome do objeto"))
+b=int(input("n"))
+c= " Abra " + a
+d=c*b
+print(d)
+
+	
+
+-- OUTPUT:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 16:58:35) 
+-- CODE:
+a=str(input("nome do objeto"))
+b=int(input("n"))
+c= " Abra " + a
+d=c*b
+print(d)
+
+	
+
+-- EXECUTION TIME:
+0.23014
+-- TEST CASE 1:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 2:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 3:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

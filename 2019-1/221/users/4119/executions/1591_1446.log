@@ -1,0 +1,424 @@
+== TEST (2019-04-09 08:50:22) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+print(ins)
+
+-- OUTPUT:
+4.667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:50:32) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+print(ins)
+
+-- EXECUTION TIME:
+0.169057
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+4.667
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+10.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:50:56) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+print(ins)
+
+-- OUTPUT:
+4.667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:52:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = (10-ins)
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:52:16) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = (10-ins)
+print (mic)
+-- EXECUTION TIME:
+0.123646
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:52:20) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = (10-ins)
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:52:47) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = round(10-ins,3)
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:52:54) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = round(10-ins,3)
+print (mic)
+-- EXECUTION TIME:
+0.20148
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:52:59) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = round(10-ins,3)
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:54:11) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:54:16) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- EXECUTION TIME:
+0.136092
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:54:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = int(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:57:12) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:57:18) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- EXECUTION TIME:
+0.117771
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+-3.333
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:57:22) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:57:28) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = round((litros*2)/3,3)
+mic = float(round(10-ins,3))
+print (mic)
+-- EXECUTION TIME:
+0.131529
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+-3.333
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:59:03) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = (litros*2)/3
+mic = 10-ins
+print (round(mic,3))
+-- OUTPUT:
+5.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:59:12) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = (litros*2)/3
+mic = 10-ins
+print (round(mic,3))
+-- EXECUTION TIME:
+0.19199
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+5.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+-3.333
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 08:59:35) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = (litros*2)/3
+mic = litros-ins
+print (round(mic,3))
+-- OUTPUT:
+2.333
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 08:59:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+litros = float(input("digite um numero: "))
+ins = (litros*2)/3
+mic = litros-ins
+print (round(mic,3))
+-- EXECUTION TIME:
+0.168514
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.333
+---- user output:
+2.333
+-- TEST CASE 2:
+---- input:
+20.0
+---- correct output:
+6.667
+---- user output:
+6.667
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+5.0
+---- user output:
+5.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

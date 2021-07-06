@@ -1,0 +1,15 @@
+2019-4-6 19:54:25.433#viewportChange#0
+2019-4-6 19:54:27.054#mousedown#{"isTrusted":true}
+2019-4-6 19:54:27.072#focus#
+2019-4-6 19:54:28.629#blur#
+2019-4-6 19:54:47.924#focus#
+2019-4-6 19:54:50.102#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":-4},"to":{"line":3,"ch":0,"sticky":"after","xRel":269.09375},"text":["valor = float(input(\"Valor da Compra: \"))","d = (95 * valor)/100","print (round(d, 2))"],"removed":["# Teste seu código aos poucos.","# Não teste tudo no final, pois fica mais difícil de identificar erros.","# Use as mensagens de erro para corrigir seu código.",""],"origin":"paste"}
+2019-4-6 19:54:50.121#viewportChange#0
+2019-4-6 19:54:51.759#blur#
+2019-4-6 19:54:51.759#blur#
+2019-4-6 19:54:54.533#saida_testar#$ python3 main.py
+2019-4-11 08:44:11.552#viewportChange#0
+2019-4-11 08:44:14.204#mousedown#{"isTrusted":true}
+2019-4-11 08:44:14.209#focus#
+2019-4-11 08:44:18.866#copy#{"isTrusted":true}
+2019-4-11 08:44:21.616#blur#

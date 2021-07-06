@@ -1,0 +1,39 @@
+2019-4-9 09:03:31.495#viewportChange#0
+2019-4-9 09:05:17.667#mousedown#{"isTrusted":true}
+2019-4-9 09:05:17.670#contextmenu#{"isTrusted":true}
+2019-4-9 09:05:17.672#focus#
+2019-4-9 09:05:19.132#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["p = float(input(\"Preço: \"))","pa = float(input(\"Pagamento: \"))","if (p > pa):","\tx = p - pa","\tprint(\"Falta\", round(x , 2))","else:","\ty = pa - p","\tprint(\"Troco de\", round(y , 2))"],"removed":[""],"origin":"paste"}
+2019-4-9 09:05:19.140#viewportChange#0
+2019-4-9 09:05:19.132#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["p = float(input(\"Preço: \"))","pa = float(input(\"Pagamento: \"))","if (p > pa):","\tx = p - pa","\tprint(\"Falta\", round(x , 2))","else:","\ty = pa - p","\tprint(\"Troco de\", round(y , 2))"],"removed":[""],"origin":"paste"}
+2019-4-9 09:05:19.140#viewportChange#0
+2019-4-9 09:05:21.705#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:21.705#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:21.705#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:28.969#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:28.969#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:29.171#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:29.413#submit#Congratulations, your code is correct!
+2019-4-9 09:05:29.171#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 09:05:29.413#submit#Congratulations, your code is correct!
+2019-4-9 09:05:29.908#submit#Congratulations, your code is correct!
+2019-4-15 19:49:05.690#viewportChange#0
+2019-4-15 19:50:36.717#mousedown#{"isTrusted":true}
+2019-4-15 19:50:36.742#focus#
+2019-4-15 19:50:37.119#mousedown#{"isTrusted":true}
+2019-4-15 19:50:37.390#dblclick#{"isTrusted":true}
+2019-4-15 19:50:37.457#mousedown#{"isTrusted":true}
+2019-4-15 19:50:37.839#mousedown#{"isTrusted":true}
+2019-4-15 19:50:40.332#mousedown#{"isTrusted":true}
+2019-4-15 19:50:40.626#mousedown#{"isTrusted":true}
+2019-4-15 19:50:40.781#dblclick#{"isTrusted":true}
+2019-4-15 19:50:40.787#mousedown#{"isTrusted":true}
+2019-4-15 19:50:41.117#mousedown#{"isTrusted":true}
+2019-4-15 19:50:41.439#mousedown#{"isTrusted":true}
+2019-4-15 19:50:44.235#mousedown#{"isTrusted":true}
+2019-4-15 19:50:44.769#mousedown#{"isTrusted":true}
+2019-4-15 19:50:47.682#mousedown#{"isTrusted":true}
+2019-4-15 19:50:47.786#blur#
+2019-4-15 19:50:47.855#contextmenu#{"isTrusted":true}
+2019-4-15 19:50:47.880#focus#
+2019-4-15 19:50:49.654#copy#{"isTrusted":true}
+2019-4-15 19:50:51.022#blur#

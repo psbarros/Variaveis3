@@ -1,0 +1,152 @@
+== TEST (2019-04-06 00:49:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+velocidade = float(input("Digite a velocidade inicial: "))
+angulo = float(input("Digite o angulo do vetor de lançamento: "))
+D = float(input("Digite a distancia entre o passaro e o porco: "))
+
+#if R == v0
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-06 00:49:28) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+v0 = float(input("Digite a velocidade inicial: "))
+angulo = float(input("Digite o angulo do vetor de lançamento: "))
+D = float(input("Digite a distancia entre o passaro e o porco: "))
+
+#if R == v0
+-- EXECUTION TIME:
+0.138297
+-- TEST CASE 1:
+---- input:
+10.5
+45.5
+11.3
+---- correct output:
+sim
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+29.5
+17.1
+51.0
+---- correct output:
+nao
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:49:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+v0 = float(input("Digite a velocidade inicial: "))
+angulo = float(input("Digite o angulo do vetor de lançamento: "))
+D = float(input("Digite a distancia entre o passaro e o porco: "))
+
+#if R == v0
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:55:48) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lançamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+if R == ((v0**2)*sin(2*a))/9.8:
+	
+print(R)
+-- ERROR:
+File "XXXX", line 8
+    print(R)
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:56:30) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lançamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+if R == ((v0**2)*sin(2*a))/9.8:
+	mensagem = R
+print(R)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if R == ((v0**2)*sin(2*a))/9.8:
+NameError: name 'R' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:57:12) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lancamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+if R == ((v0**2)*sin(2*a))/9.8:
+	mensagem = R
+print(R)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    if R == ((v0**2)*sin(2*a))/9.8:
+NameError: name 'R' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:57:53) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lancamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+if R = ((v0**2)*sin(2*a))/9.8:
+	
+print(R)
+-- ERROR:
+File "XXXX", line 6
+    if R = ((v0**2)*sin(2*a))/9.8:
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:59:31) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lancamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+R = ((v0**2)*sin(2*a))/9.8:
+	
+print(R)
+-- ERROR:
+File "XXXX", line 6
+    R = ((v0**2)*sin(2*a))/9.8:
+                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 00:59:41) 
+-- CODE:
+from math import*
+v0 = float(input("Digite a velocidade inicial(em m/s): "))
+a = float(input("Digite o angulo do vetor de lancamento(em graus): "))
+D = float(input("Digite a distancia(em metros) entre o passaro e o porco: "))
+
+R = ((v0**2)*sin(2*a))/9.8
+	
+print(R)
+-- OUTPUT:
+1.1923595072005144
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

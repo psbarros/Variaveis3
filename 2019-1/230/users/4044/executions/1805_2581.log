@@ -1,0 +1,422 @@
+== SUBMITION (2019-06-10 17:27:28) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- EXECUTION TIME:
+2.68488
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1805/2581/main.py", line 8, in <module>
+    while (vec[0] != -1):
+IndexError: too many indices for array
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 17:27:31) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 17:29:14) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (int(vec[0]) != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- EXECUTION TIME:
+2.69752
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1805/2581/main.py", line 8, in <module>
+    while (int(vec[0]) != -1):
+IndexError: too many indices for array
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 17:29:16) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (int(vec[0]) != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 17:30:06) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (True):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))	
+	if (vec == -1):
+		break
+		
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 17:30:22) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (True):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))	
+	if (vec == -1):
+		break
+		
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 17:31:02) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (size(vec) == 5) and (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))		
+		
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 17:31:20) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (size(vec) == 5) and (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))		
+		
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- EXECUTION TIME:
+2.55812
+-- TEST CASE 1:
+---- input:
+[0,10,1,1,4]
+[60,2,2,10,2]
+[120,2,3,22,22]
+[15200,20,2,12,16]
+[15260,15,25,16,19]
+[15320,10,2,2,29]
+[15380,50,2,13,23]
+[86400,10,16,1,2]
+-1
+---- correct output:
+ADM
+Entrada: 119
+Saida: 53
+CHAO
+Entrada: 77
+Saida: 117
+---- user output:
+ADM
+Entrada: 119
+Saida: 53
+CHAO
+Entrada: 77
+Saida: 117
+-- TEST CASE 2:
+---- input:
+-1
+---- correct output:
+ADM
+Entrada: 0
+Saida: 0
+CHAO
+Entrada: 0
+Saida: 0
+---- user output:
+ADM
+Entrada: 0
+Saida: 0
+CHAO
+Entrada: 0
+Saida: 0
+-- TEST CASE 3:
+---- input:
+[0,0,1,1,0]
+-1
+---- correct output:
+ADM
+Entrada: 0
+Saida: 1
+CHAO
+Entrada: 1
+Saida: 0
+---- user output:
+ADM
+Entrada: 0
+Saida: 1
+CHAO
+Entrada: 1
+Saida: 0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 17:34:03) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- EXECUTION TIME:
+422.217
+-- ERROR:
+Killed
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 22:55:05) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("Digite o vetor: ")))
+ent1 = 0
+ent2 = 0
+exit1 = 0
+exit2 = 0
+while (size(vec) == 5) and (vec[0] != -1):
+	ent1 += vec[1]
+	ent2 += vec[3]
+	exit1 += vec[2]
+	exit2 += vec[4]
+	vec = array(eval(input("Digite o vetor: ")))		
+		
+print("ADM")
+print("Entrada:", ent1)
+print("Saida:", exit1)
+print("CHAO")
+print("Entrada:", ent2)
+print("Saida:", exit2)
+	
+	
+-- EXECUTION TIME:
+1.24879
+-- TEST CASE 1:
+---- input:
+[0,10,1,1,4]
+[60,2,2,10,2]
+[120,2,3,22,22]
+[15200,20,2,12,16]
+[15260,15,25,16,19]
+[15320,10,2,2,29]
+[15380,50,2,13,23]
+[86400,10,16,1,2]
+-1
+---- correct output:
+ADM
+Entrada: 119
+Saida: 53
+CHAO
+Entrada: 77
+Saida: 117
+---- user output:
+ADM
+Entrada: 119
+Saida: 53
+CHAO
+Entrada: 77
+Saida: 117
+-- TEST CASE 2:
+---- input:
+-1
+---- correct output:
+ADM
+Entrada: 0
+Saida: 0
+CHAO
+Entrada: 0
+Saida: 0
+---- user output:
+ADM
+Entrada: 0
+Saida: 0
+CHAO
+Entrada: 0
+Saida: 0
+-- TEST CASE 3:
+---- input:
+[0,0,1,1,0]
+-1
+---- correct output:
+ADM
+Entrada: 0
+Saida: 1
+CHAO
+Entrada: 1
+Saida: 0
+---- user output:
+ADM
+Entrada: 0
+Saida: 1
+CHAO
+Entrada: 1
+Saida: 0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

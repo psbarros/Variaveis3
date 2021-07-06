@@ -1,0 +1,222 @@
+== TEST (2019-04-14 12:25:50) 
+-- CODE:
+coverta = float(input())
+c = cel
+f = fahr
+form = (c = ((5/9) * (f - 32)))
+if (c = 320.0):
+	print(608.0)
+if (F = 608.0):
+	print(320.0)
+
+
+-- ERROR:
+File "XXXX", line 4
+    form = (c = ((5/9) * (f - 32)))
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:30:45) 
+-- CODE:
+coverta = float(input())
+c = cel
+f = fahr
+c = ((5/9) * (f - 32))
+f = ((5 * 9) / (c + 32))
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    coverta = float(input())
+ValueError: could not convert string to float: 'C'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:34:47) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = ((5/9) * (f - 32))
+f = ((5 * 9) / (c + 32))
+ if (e == c):
+		print(round(f, 2))
+else:
+	print(round(c, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == c):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:35:19) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = ((5/9) * (f - 32))
+f = ((5 * 9) / (c + 32))
+ if (e == "c"):
+		print(round(f, 2))
+else:
+	print(round(c, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == "c"):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:36:43) 
+-- CODE:
+e = input()
+vt = float(input())
+
+C = ((5/9) * (F - 32))
+F = ((5 * 9) / (C + 32))
+ if (e == "C"):
+		print(round(F, 2))
+else:
+	print(round(C, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == "C"):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:37:19) 
+-- CODE:
+e = input()
+vt = float(input())
+
+C = ((5/9) * (F - 32))
+F = ((5 * 9) / (C + 32))
+ if (e == vt):
+		print(round(F, 2))
+else:
+	print(round(C, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == vt):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:38:12) 
+-- CODE:
+e = input()
+vt = float(input())
+
+C = ((5/9) * (F - 32))
+F = ((5 * 9) / (C + 32))
+ if (e == C):
+		print(round(F, 2))
+else:
+	print(round(C, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == C):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:41:53) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = (5/9) * (vt - 32)
+f = vt * (9/5) + 32
+ if (e == "C"):
+		print(round(f, 2))
+if (e == "F"):
+	print(round(c, 2))
+
+
+-- ERROR:
+File "XXXX", line 6
+    if (e == "C"):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:42:03) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = (5/9) * (vt - 32)
+f = vt * (9/5) + 32
+if (e == "C"):
+		print(round(f, 2))
+if (e == "F"):
+	print(round(c, 2))
+
+
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 12:42:27) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = (5/9) * (vt - 32)
+f = vt * (9/5) + 32
+if (e == "C"):
+		print(round(f, 2))
+if (e == "F"):
+	print(round(c, 2))
+
+
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 12:46:23) 
+-- CODE:
+e = input()
+vt = float(input())
+
+c = (5/9) * (vt - 32)
+f = vt * (9/5) + 32
+if (e == "C"):
+		print(round(f, 2))
+if (e == "F"):
+	print(round(c, 2))
+
+
+-- EXECUTION TIME:
+0.172827
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

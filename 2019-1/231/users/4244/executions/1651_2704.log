@@ -1,0 +1,1018 @@
+== TEST (2019-04-05 10:36:51) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (0;10):
+	m = n + (n*10)//100
+
+else:
+	m = n
+
+print(m)
+-- ERROR:
+File "XXXX", line 3
+    if (0;10):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 10:38:55) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if [0;10]:
+	m = n + (n*10)//100
+
+else:
+	m = n
+
+print(m)
+-- ERROR:
+File "XXXX", line 3
+    if [0;10]:
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 10:42:00) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0 = "s".upper()):
+	m = n + (n*10)//100
+
+else("n".upper()):
+	m = n
+
+print(m)
+-- ERROR:
+File "XXXX", line 3
+    if (n >= 7.0 = "s".upper()):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:17:31) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+x
+if (n >= 7.0):
+	x = n + (n*10)//100 
+
+else:
+	x = n
+
+print(x)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:17:48) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0):
+	x = n + (n*10)//100 
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-05 22:17:55) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0):
+	x = n + (n*10)//100 
+
+else:
+	x = n
+
+print(x)
+-- EXECUTION TIME:
+0.146735
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.0
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:18:20) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0):
+	x = n + (n*10)//100 + "S"
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:18:32) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0):
+	x = n + (n*10)//100, "S"
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-05 22:18:46) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0):
+	x = n + (n*10)//100, "S"
+
+else:
+	x = n
+
+print(x)
+-- EXECUTION TIME:
+0.121459
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+(9.0, 'S')
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:25:09) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+
+if (n >= 7.0 == "S"):
+	x = n + (n*10)//100
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:30:53) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-05 22:31:21) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+
+else:
+	x = n
+
+print(x)
+-- EXECUTION TIME:
+0.1115
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.0
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.0
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:31:34) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	"S"
+
+else:
+	x = n
+
+print(x)
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:37:17) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	s = "S"
+
+else:
+	x = n
+
+print(x,s)
+-- OUTPUT:
+5.0 S
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:37:42) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	s = "S"
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- OUTPUT:
+5.0
+S
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-05 22:37:51) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	s = "S"
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- EXECUTION TIME:
+0.130779
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.0
+S
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.0
+S
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 22:39:22) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	s = "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- OUTPUT:
+5.0
+S
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-05 22:39:31) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = n + (n*10)//100
+	s = "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- EXECUTION TIME:
+0.155226
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.0
+S
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.0
+S
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 23:01:18) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+x = n + (n*10)//100
+if (bonificacao.upper() == "S"):
+	s = x + "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    s = x + "S".upper()
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 23:02:09) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+x = n + (n*10)//100
+if (bonificacao.upper() == "S"):
+	s = x + "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    s = x + "S".upper()
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-05 23:02:52) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+s = n + (n*10)//100
+if (bonificacao.upper() == "S"):
+	x = s + "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = s + "S".upper()
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:37:43) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao.upper() == "S"):
+	x = s + "S".upper()
+
+else:
+	x = n
+
+print(x)
+print(s)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    x = s + "S".upper()
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:38:47) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (n>0):
+	print("S")
+
+else:
+	print("N")
+
+-- OUTPUT:
+S
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:40:00) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (n>0):
+	print("S" + (n*0.1) + n )
+
+else:
+	print("N")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print("S" + (n*0.1) + n )
+TypeError: must be str, not float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:40:55) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (nS):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (nS):
+NameError: name 'nS' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:41:16) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (S):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:41:39) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificacao == S):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (bonificacao == S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:45:19) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if (bonificao = S):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+
+-- ERROR:
+File "XXXX", line 4
+    if (bonificao = S):
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:45:27) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if(bonificao = S):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+
+-- ERROR:
+File "XXXX", line 4
+    if(bonificao = S):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:45:37) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if(bonificacao = S):
+	print(n*0.1) + n 
+
+else:
+	print(n)
+
+
+-- ERROR:
+File "XXXX", line 4
+    if(bonificacao = S):
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:46:21) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if(bonificacao = S):
+	print(float(n*0.1) + n)
+
+else:
+	print(n)
+
+
+-- ERROR:
+File "XXXX", line 4
+    if(bonificacao = S):
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:20:41) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if(S):
+	print(n*0.1) + n
+
+else:
+	print(n)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if(S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:21:41) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if():
+	print(n*0.1) + n
+	print(bonificacao)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:22:01) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+
+if(n>0):
+	print(n*0.1) + n
+	print(bonificacao)
+
+else:
+	print(n)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(n*0.1) + n
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'float'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:22:44) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+	print(bonificacao)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+5.5
+S
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 19:22:51) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+	print(bonificacao)
+
+else:
+	print(n)
+
+
+-- EXECUTION TIME:
+0.121963
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+S
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+S
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.840000000000001
+N
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:23:06) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 19:23:15) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+
+else:
+	print(n)
+
+
+-- EXECUTION TIME:
+0.168424
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.840000000000001
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:24:07) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S?N))
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+
+else:
+	print(n)
+
+
+-- ERROR:
+File "XXXX", line 2
+    bonificacao = input("Bonifcacao? (S?N))
+                                          ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:24:15) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S?N) ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 19:24:25) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S?N) ")
+a = (n*0.1) + n
+if(n>0):
+	print(a)
+
+else:
+	print(n)
+
+
+-- EXECUTION TIME:
+0.203869
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.840000000000001
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:25:44) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S/N) ")
+a = (n*0.1) + n
+if(bonificacao == S):
+	print(a)
+
+else:
+	print(n)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if(bonificacao == S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:26:13) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S//N) ")
+a = (n*0.1) + n
+if(bonificacao == S):
+	print(a)
+
+else:
+	print(n)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if(bonificacao == S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:26:46) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S//N) ")
+a = (n*0.1) + n
+if(bonificacao.upper() == S):
+	print(a)
+
+else:
+	print(n)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if(bonificacao.upper() == S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 21:21:13) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S//N) ")
+a = (n*0.1) - n
+if(bonificacao.upper() == "S"):
+	print (a)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+-4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 21:21:27) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S//N) ")
+a = (n*0.1) + n
+if(bonificacao.upper() == "S"):
+	print (a)
+
+else:
+	print(n)
+
+
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 21:21:34) 
+-- CODE:
+n = float(input("Nota do aluno: "))
+bonificacao = input("Bonifcacao? (S//N) ")
+a = (n*0.1) + n
+if(bonificacao.upper() == "S"):
+	print (a)
+
+else:
+	print(n)
+
+
+-- EXECUTION TIME:
+0.212804
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

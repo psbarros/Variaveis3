@@ -1,0 +1,70 @@
+2019-4-8 16:17:26.342#viewportChange#0
+2019-4-8 16:17:26.342#viewportChange#0
+2019-4-8 16:17:58.285#mousedown#{"isTrusted":true}
+2019-4-8 16:17:58.377#focus#
+2019-4-8 16:17:58.695#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:17:58.285#mousedown#{"isTrusted":true}
+2019-4-8 16:17:58.377#focus#
+2019-4-8 16:17:58.695#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:17:59.356#blur#
+2019-4-8 16:17:59.356#blur#
+2019-4-8 16:18:00.542#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-8 16:18:00.585#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:18:00.542#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-8 16:18:00.585#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:18:02.318#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:18:05.997#mousedown#{"isTrusted":true}
+2019-4-8 16:18:06.082#focus#
+2019-4-8 16:18:07.794#mousedown#{"isTrusted":true}
+2019-4-8 16:18:08.387#mousedown#{"isTrusted":true}
+2019-4-8 16:18:09.632#change#{"from":{"line":4,"ch":3,"sticky":"after"},"to":{"line":4,"ch":4,"sticky":"before","xRel":-0.609375},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-8 16:18:09.632#keyHandled#"Backspace"
+2019-4-8 16:18:11.608#change#{"from":{"line":4,"ch":2,"sticky":"after"},"to":{"line":4,"ch":3,"sticky":null},"text":[""],"removed":["m"],"origin":"+delete"}
+2019-4-8 16:18:11.608#keyHandled#"Backspace"
+2019-4-8 16:18:14.328#change#{"from":{"line":4,"ch":2,"sticky":null},"to":{"line":4,"ch":2,"sticky":null},"text":["m"],"removed":[""],"origin":"+input"}
+2019-4-8 16:18:14.328#change#{"from":{"line":4,"ch":2,"sticky":null},"to":{"line":4,"ch":2,"sticky":null},"text":["m"],"removed":[""],"origin":"+input"}
+2019-4-8 16:18:38.737#blur#
+2019-4-8 16:18:40.375#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:18:43.391#mousedown#{"isTrusted":true}
+2019-4-8 16:18:43.458#focus#
+2019-4-8 16:18:44.362#mousedown#{"isTrusted":true}
+2019-4-8 16:18:48.499#change#{"from":{"line":6,"ch":2,"sticky":"after","xRel":2.09375},"to":{"line":6,"ch":2,"sticky":"after","xRel":2.09375},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-8 16:18:56.036#blur#
+2019-4-8 16:18:56.272#saida_testar#$ python3 main.py
+File "main.py", line 7
+if: (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-8 16:18:59.961#mousedown#{"isTrusted":true}
+2019-4-8 16:19:00.040#focus#
+2019-4-8 16:19:02.130#mousedown#{"isTrusted":true}
+2019-4-8 16:19:03.537#change#{"from":{"line":6,"ch":2,"sticky":"after"},"to":{"line":6,"ch":3,"sticky":"after","xRel":1.09375},"text":[""],"removed":[":"],"origin":"+delete"}
+2019-4-8 16:19:03.537#keyHandled#"Backspace"
+2019-4-8 16:19:09.244#change#{"from":{"line":6,"ch":2,"sticky":null},"to":{"line":6,"ch":2,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-8 16:19:09.245#change#{"from":{"line":7,"ch":0,"sticky":null},"to":{"line":7,"ch":1,"sticky":null},"text":[""],"removed":[" "],"origin":"+input"}
+2019-4-8 16:19:09.245#keyHandled#"Enter"
+2019-4-8 16:19:09.254#viewportChange#0
+2019-4-8 16:19:13.313#change#{"from":{"line":7,"ch":0,"sticky":null},"to":{"line":7,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-4-8 16:19:13.313#keyHandled#"Tab"
+2019-4-8 16:19:18.525#mousedown#{"isTrusted":true}
+2019-4-8 16:19:21.151#mousedown#{"isTrusted":true}
+2019-4-8 16:19:21.531#mousedown#{"isTrusted":true}
+2019-4-8 16:19:21.986#mousedown#{"isTrusted":true}
+2019-4-8 16:19:22.014#dblclick#{"isTrusted":true}

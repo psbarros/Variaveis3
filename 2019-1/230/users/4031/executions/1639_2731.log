@@ -1,0 +1,47 @@
+== SUBMITION (2019-05-04 13:46:25) 
+-- CODE:
+a = float(input("valor de a: "))
+b = float(input("valor de b: "))
+r = float(input("valor de r: "))
+if (a > 0):
+	if (b > 0):
+		print("Superiores")
+	else:
+		print("Inferiores")
+else:
+	if (b > 0):
+		print("Superiores")
+	else:
+		print("Inferiores")
+-- EXECUTION TIME:
+0.125439
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+3
+---- correct output:
+Inferiores
+---- user output:
+Inferiores
+-- TEST CASE 2:
+---- input:
+0.1
+0.1
+3
+---- correct output:
+Superiores
+---- user output:
+Superiores
+-- TEST CASE 3:
+---- input:
+-4.5
+2.2
+1
+---- correct output:
+Superiores
+---- user output:
+Superiores
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

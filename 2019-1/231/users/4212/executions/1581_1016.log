@@ -1,0 +1,213 @@
+== TEST (2019-03-20 11:21:04) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))*0.5 
+
+print(area)
+-- OUTPUT:
+2409.5456218750023
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 11:22:30) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))*0.5 
+
+print(area)
+-- OUTPUT:
+2409.5456218750023
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 11:22:52) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))*0.5 
+
+print(round(area,5))
+-- OUTPUT:
+2409.54562
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 11:23:02) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))*0.5 
+
+print(round(area,5))
+-- OUTPUT:
+2409.54562
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-20 11:23:12) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))*0.5 
+
+print(round(area,5))
+-- EXECUTION TIME:
+0.139592
+-- TEST CASE 1:
+---- input:
+11.0
+19.5
+13.2
+---- correct output:
+69.41967
+---- user output:
+2409.54562
+-- TEST CASE 2:
+---- input:
+30.0
+40.0
+50.0
+---- correct output:
+600.0
+---- user output:
+180000.0
+-- TEST CASE 3:
+---- input:
+33.0
+43.0
+55.0
+---- correct output:
+709.16654
+---- user output:
+251458.59375
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 11:24:34) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))**0.5 
+
+print(round(area,5))
+-- OUTPUT:
+69.41967
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 11:24:39) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))**0.5 
+
+print(round(area,5))
+-- OUTPUT:
+69.41967
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-20 11:24:43) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))**0.5 
+
+print(round(area,5))
+-- EXECUTION TIME:
+0.134451
+-- TEST CASE 1:
+---- input:
+11.0
+19.5
+13.2
+---- correct output:
+69.41967
+---- user output:
+69.41967
+-- TEST CASE 2:
+---- input:
+30.0
+40.0
+50.0
+---- correct output:
+600.0
+---- user output:
+600.0
+-- TEST CASE 3:
+---- input:
+33.0
+43.0
+55.0
+---- correct output:
+709.16654
+---- user output:
+709.16654
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-20 11:41:56) 
+-- CODE:
+a = float(input("Medida do lado a: "))
+b = float(input("Medida do lado b: "))
+c = float(input("Medida do lado c: "))
+
+s = (a+b+c)/2
+
+area = (s*(s-a)*(s-b)*(s-c))**0.5 
+
+print(round(area,5))
+-- EXECUTION TIME:
+0.167404
+-- TEST CASE 1:
+---- input:
+11.0
+19.5
+13.2
+---- correct output:
+69.41967
+---- user output:
+69.41967
+-- TEST CASE 2:
+---- input:
+30.0
+40.0
+50.0
+---- correct output:
+600.0
+---- user output:
+600.0
+-- TEST CASE 3:
+---- input:
+33.0
+43.0
+55.0
+---- correct output:
+709.16654
+---- user output:
+709.16654
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

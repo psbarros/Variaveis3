@@ -1,0 +1,286 @@
+== TEST (2019-04-10 15:41:57) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: (S/N) ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 15:42:13) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: (S/N) ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 15:42:19) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: (S/N) ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 15:42:30) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: (S/N) ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- EXECUTION TIME:
+0.160237
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 15:52:38) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 15:52:48) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- EXECUTION TIME:
+0.161228
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 16:06:42) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 16:08:39) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	nota = nota + (nota*10/100)
+else:
+	nota = nota
+print(nota)
+-- EXECUTION TIME:
+0.142808
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 16:10:52) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	notat = nota + (nota*10/100)
+else:
+	notat = notat
+print(notat)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 16:10:59) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	notat = nota + (nota*10/100)
+else:
+	notat = notat
+print(notat)
+-- EXECUTION TIME:
+0.142948
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 16:11:06) 
+-- CODE:
+nota = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	notat = nota + (nota*10/100)
+else:
+	notat = notat
+print(notat)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 16:11:19) 
+-- CODE:
+notat = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	notat = notat + (notat*10/100)
+else:
+	notat = notat
+print(notat)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 16:11:25) 
+-- CODE:
+notat = float(input("nota do aluno: "))
+mensagem = input("qual a mensagem: ")
+if mensagem == "S":
+	notat = notat + (notat*10/100)
+else:
+	notat = notat
+print(notat)
+-- EXECUTION TIME:
+0.247872
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

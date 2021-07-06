@@ -1,0 +1,169 @@
+== TEST (2019-04-11 18:55:13) 
+-- CODE:
+tg = input()
+vt = float(input())
+if (tg == "C"):
+	gc = 5/9*(vt-32)
+	print(gc)
+else:
+	gf = (vt*9/5)+32
+	print(gf)
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:55:30) 
+-- CODE:
+tg = input()
+vt = float(input())
+if (tg == "C"):
+	gc = 5/9*(vt-32)
+	print(gc)
+else:
+	gf = (vt*9/5)+32
+	print(gf)
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 18:56:11) 
+-- CODE:
+tg = input()
+vt = float(input())
+if (tg == "C"):
+	gc = 5/9*(vt-32)
+	print(round(gc, 2))
+else:
+	gf = (vt*9/5)+32
+	print(round(gf, 2))
+-- EXECUTION TIME:
+0.166001
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+608.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+-17.78
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 19:22:18) 
+-- CODE:
+tg = input()
+vt = float(input())
+gc = 5/9*(vt-32)
+gf = (vt*9/5)+32
+if (tg == "C"):
+	print(round(gc, 2))
+else:
+	print(round(gf, 2))
+-- EXECUTION TIME:
+0.183034
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+160.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+608.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+-17.78
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 19:22:19) 
+-- CODE:
+tg = input()
+vt = float(input())
+gc = 5/9*(vt-32)
+gf = (vt*9/5)+32
+if (tg == "C"):
+	print(round(gc, 2))
+else:
+	print(round(gf, 2))
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 19:22:51) 
+-- CODE:
+tg = input()
+vt = float(input())
+gc = 5/9*(vt-32)
+gf = (vt*9/5)+32
+if (tg == "C"):
+	print(round(gc, 2))
+else:
+	print(round(gf, 2))
+-- OUTPUT:
+160.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 19:23:10) 
+-- CODE:
+tg = input()
+vt = float(input())
+gc = (vt*9/5)+32
+gf = 5/9*(vt-32)
+if (tg == "C"):
+	print(round(gc, 2))
+else:
+	print(round(gf, 2))
+-- EXECUTION TIME:
+0.32735
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

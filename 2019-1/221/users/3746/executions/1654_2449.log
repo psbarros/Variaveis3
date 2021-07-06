@@ -1,0 +1,348 @@
+== TEST (2019-04-07 09:26:55) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / a*e - b*d
+	y = (a*f - c*d) / a*e - b*d
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 09:27:30) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / a*e - b*d
+	y = (a*f - c*d) / a*e - b*d
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 09:27:49) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / a*e - b*d
+	y = (a*f - c*d) / a*e - b*d
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 09:27:51) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / a*e - b*d
+	y = (a*f - c*d) / a*e - b*d
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- EXECUTION TIME:
+0.154034
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+12.0
+10.0
+10.0
+12.0
+---- correct output:
+Nao tem solucao
+---- user output:
+Nao tem solucao
+-- TEST CASE 2:
+---- input:
+1.0
+8.0
+12.0
+16.0
+22.0
+30.0
+---- correct output:
+-0.22641509433962265
+1.528301886792453
+---- user output:
+400.0
+-3692.0
+-- TEST CASE 3:
+---- input:
+24.0
+48.0
+52.0
+112.0
+16.0
+1.0
+---- correct output:
+-0.15705128205128205
+1.1618589743589745
+---- user output:
+-4853.333333333333
+-9242.666666666666
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 09:28:15) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / a*e - b*d
+	y = (a*f - c*d) / a*e - b*d
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 09:28:49) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / (a*e - b*d)
+	y = (a*f - c*d) / (a*e - b*d)
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 09:28:55) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / (a*e - b*d)
+	y = (a*f - c*d) / (a*e - b*d)
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- EXECUTION TIME:
+0.125804
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+12.0
+10.0
+10.0
+12.0
+---- correct output:
+Nao tem solucao
+---- user output:
+Nao tem solucao
+-- TEST CASE 2:
+---- input:
+1.0
+8.0
+12.0
+16.0
+22.0
+30.0
+---- correct output:
+-0.22641509433962265
+1.528301886792453
+---- user output:
+-0.22641509433962265
+1.528301886792453
+-- TEST CASE 3:
+---- input:
+24.0
+48.0
+52.0
+112.0
+16.0
+1.0
+---- correct output:
+-0.15705128205128205
+1.1618589743589745
+---- user output:
+-0.15705128205128205
+1.1618589743589745
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 18:59:21) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / (a*e - b*d)
+	y = (a*f - c*d) / (a*e - b*d)
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- EXECUTION TIME:
+0.151924
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+12.0
+10.0
+10.0
+12.0
+---- correct output:
+Nao tem solucao
+---- user output:
+Nao tem solucao
+-- TEST CASE 2:
+---- input:
+1.0
+8.0
+12.0
+16.0
+22.0
+30.0
+---- correct output:
+-0.22641509433962265
+1.528301886792453
+---- user output:
+-0.22641509433962265
+1.528301886792453
+-- TEST CASE 3:
+---- input:
+24.0
+48.0
+52.0
+112.0
+16.0
+1.0
+---- correct output:
+-0.15705128205128205
+1.1618589743589745
+---- user output:
+-0.15705128205128205
+1.1618589743589745
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-07 18:59:36) 
+-- CODE:
+a = float(input("Coeficiente 1: "))
+b = float(input("Coeficiente 2: "))
+c = float(input("Coeficiente 3: "))
+d = float(input("Coeficiente 4: "))
+e = float(input("Coeficiente 5: "))
+f = float(input("Coeficiente 6: "))
+
+if a*e - b*d != 0:
+	x = (c*e - b*f) / (a*e - b*d)
+	y = (a*f - c*d) / (a*e - b*d)
+	print(x)
+	print(y)
+else:
+	print("Nao tem solucao")
+
+-- EXECUTION TIME:
+0.106375
+-- TEST CASE 1:
+---- input:
+10.0
+10.0
+12.0
+10.0
+10.0
+12.0
+---- correct output:
+Nao tem solucao
+---- user output:
+Nao tem solucao
+-- TEST CASE 2:
+---- input:
+1.0
+8.0
+12.0
+16.0
+22.0
+30.0
+---- correct output:
+-0.22641509433962265
+1.528301886792453
+---- user output:
+-0.22641509433962265
+1.528301886792453
+-- TEST CASE 3:
+---- input:
+24.0
+48.0
+52.0
+112.0
+16.0
+1.0
+---- correct output:
+-0.15705128205128205
+1.1618589743589745
+---- user output:
+-0.15705128205128205
+1.1618589743589745
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,17 @@
+2019-5-29 13:07:26.097#viewportChange#0
+2019-5-29 13:07:41.254#mousedown#{"isTrusted":true}
+2019-5-29 13:07:41.264#focus#
+2019-5-29 13:07:41.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import * ","","vet = array(eval(input(\"\")))","vet1 = array(eval(input(\"\")))","","vet2 = zeros(size(vet), dtype = int)","","","i = 0","","while (i < size(vet)):","\tvet2[i] = vet[i] - vet1[i]","\ti = i + 1","\t","i =0","maior = 0","j = 0","while(i< size(vet)):","\tif(vet2[i] > maior):","\t\tmaior = vet2[i]","\t\tj = i","\ti = i +1","print(j+1)",""],"removed":[""],"origin":"paste"}
+2019-5-29 13:07:41.905#viewportChange#0
+2019-5-29 13:07:41.254#mousedown#{"isTrusted":true}
+2019-5-29 13:07:41.264#focus#
+2019-5-29 13:07:41.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import * ","","vet = array(eval(input(\"\")))","vet1 = array(eval(input(\"\")))","","vet2 = zeros(size(vet), dtype = int)","","","i = 0","","while (i < size(vet)):","\tvet2[i] = vet[i] - vet1[i]","\ti = i + 1","\t","i =0","maior = 0","j = 0","while(i< size(vet)):","\tif(vet2[i] > maior):","\t\tmaior = vet2[i]","\t\tj = i","\ti = i +1","print(j+1)",""],"removed":[""],"origin":"paste"}
+2019-5-29 13:07:41.905#viewportChange#0
+2019-5-29 13:07:44.330#submit#Congratulations, your code is correct!
+2019-5-29 15:43:45.991#viewportChange#0
+2019-5-29 15:43:56.485#touchstart#{"isTrusted":true}
+2019-5-29 15:43:56.507#touchstart#{"isTrusted":true}
+2019-5-29 15:43:58.388#touchstart#{"isTrusted":true}
+2019-5-29 15:43:59.844#touchstart#{"isTrusted":true}
+2019-5-29 15:44:06.096#touchstart#{"isTrusted":true}
+2019-5-29 15:44:07.083#touchstart#{"isTrusted":true}

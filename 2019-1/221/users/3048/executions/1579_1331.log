@@ -1,0 +1,114 @@
+== TEST (2019-03-13 07:06:21) 
+-- CODE:
+x = 50
+y = 3
+total = round(x / y,2)
+print (total)
+-- OUTPUT:
+16.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:07:11) 
+-- CODE:
+x = 50
+y = 3
+total = x // y
+print (total)
+-- OUTPUT:
+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:08:12) 
+-- CODE:
+x = 50
+y = 3
+total = x % y
+print (total)
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:08:29) 
+-- CODE:
+x = 50
+y = 3
+total = x // y
+total = x % y
+print (total)
+print (total)
+-- OUTPUT:
+2
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:08:52) 
+-- CODE:
+x = 50
+y = 3
+guerreiro = x // y
+informante = x % y
+print (total)
+print (total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print (total)
+NameError: name 'total' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:09:02) 
+-- CODE:
+x = 50
+y = 3
+guerreiro = x // y
+informante = x % y
+print (guerreiro)
+print (informante = x % y
+)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print (informante = x % y
+TypeError: 'informante' is an invalid keyword argument for this function
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:09:15) 
+-- CODE:
+x = 50
+y = 3
+guerreiro = x // y
+informante = x % y
+print (guerreiro)
+print (informante)
+-- OUTPUT:
+16
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-13 07:09:19) 
+-- CODE:
+x = 50
+y = 3
+guerreiro = x // y
+informante = x % y
+print (guerreiro)
+print (informante)
+-- EXECUTION TIME:
+0.22733
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-13 07:57:12) 
+-- CODE:
+x = 50
+y = 3
+guerreiro = x // y
+informante = x % y
+print (guerreiro)
+print (informante)
+-- OUTPUT:
+16
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

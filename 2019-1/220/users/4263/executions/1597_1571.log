@@ -1,0 +1,108 @@
+== TEST (2019-03-26 23:01:48) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ string = ("Digite a mensagem: ".upper())
+-- ERROR:
+File "XXXX", line 4
+    string = ("Digite a mensagem: ".upper())
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:04:20) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ mensagem = "Digite a mensagem: "
+print(mensagem.upper())
+-- ERROR:
+File "XXXX", line 4
+    mensagem = "Digite a mensagem: "
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:04:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- ERROR:
+File "XXXX", line 4
+    mensagem = input()
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:05:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:05:33) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:06:08) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+mensagem = input("Digite a mensagem: ")
+
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:07:37) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 23:07:53) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 23:08:35) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+mensagem = input("Digite a mensagem: ")
+print(mensagem.upper())
+-- EXECUTION TIME:
+0.219308
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

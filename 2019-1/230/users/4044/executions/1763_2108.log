@@ -1,0 +1,325 @@
+== TEST (2019-05-23 00:40:53) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i"):
+		if (txt[i] != "o") and (txt[i] != "u"):
+			txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:42:00) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != 'a') and (txt[i] != 'e') and (txt[i] != 'i'):
+		if (txt[i] != 'o') and (txt[i] != 'u'):
+			txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:42:33) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != 'a') and (txt[i] != 'e') and (txt[i] != 'i'):
+		print("micael")
+		if (txt[i] != 'o') and (txt[i] != 'u'):
+			#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- ERROR:
+File "XXXX", line 10
+    i += 1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:42:46) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != 'a') and (txt[i] != 'e') and (txt[i] != 'i'):
+		print("micael")
+		#if (txt[i] != 'o') and (txt[i] != 'u'):
+			#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:43:04) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != 'a') and (txt[i] != 'e') and (txt[i] != 'i'):
+		print("micael")
+		#if (txt[i] != 'o') and (txt[i] != 'u'):
+			#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:43:40) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != 'a') and (txt[i] != 'e') and (txt[i] != 'i'):		
+		if (txt[i] != 'o') and (txt[i] != 'u'):
+			print("micael")
+			#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:45:19) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i"):		
+		if (txt[i] != "o") and (txt[i] != "u"):
+			print("micael")
+			#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:46:17) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		print("micael")
+		#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:46:44) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a"): #and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		print("micael")
+		#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:46:54) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a"): #and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		print("micael")
+		#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:47:05) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a"): #and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		print("micael")
+		#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:47:16) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a"): #and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		print("micael")
+		#txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+micael
+micael
+micael
+micael
+micael
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-23 00:49:12) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- EXECUTION TIME:
+0.28864
+-- TEST CASE 1:
+---- input:
+teste
+---- correct output:
+peppe
+---- user output:
+teste
+-- TEST CASE 2:
+---- input:
+flor
+---- correct output:
+ppop
+---- user output:
+flor
+-- TEST CASE 3:
+---- input:
+abacaxi
+---- correct output:
+apapapi
+---- user output:
+abacaxi
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:49:13) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-23 00:49:39) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		txt = txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- OUTPUT:
+peppe
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-23 00:49:48) 
+-- CODE:
+txt = input("Digite a mensagem: ")
+txt = txt.lower()
+
+i = 0
+while (i < len(txt)):
+	if (txt[i] != "a") and (txt[i] != "e") and (txt[i] != "i") and (txt[i] != "o") and (txt[i] != "u"):			
+		txt = txt.replace(txt[i], "p")
+	i += 1
+print(txt)
+-- EXECUTION TIME:
+0.168639
+-- TEST CASE 1:
+---- input:
+teste
+---- correct output:
+peppe
+---- user output:
+peppe
+-- TEST CASE 2:
+---- input:
+flor
+---- correct output:
+ppop
+---- user output:
+ppop
+-- TEST CASE 3:
+---- input:
+abacaxi
+---- correct output:
+apapapi
+---- user output:
+apapapi
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

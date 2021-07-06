@@ -1,0 +1,81 @@
+== SUBMITION (2019-03-12 09:21:17) 
+-- CODE:
+print(250/6)
+-- EXECUTION TIME:
+0.165726
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 09:22:43) 
+-- CODE:
+print(*round(250, 6)*)
+-- ERROR:
+File "XXXX", line 1
+    print(*round(250, 6)*)
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 09:23:35) 
+-- CODE:
+print(41.6)
+-- EXECUTION TIME:
+0.194648
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.6
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 09:23:46) 
+-- CODE:
+print(41.67)
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 09:23:49) 
+-- CODE:
+print(41.67)
+-- EXECUTION TIME:
+0.211379
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-12 09:39:07) 
+-- CODE:
+print(round(250/6, 2))
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 09:39:10) 
+-- CODE:
+print(round(250/6, 2))
+-- EXECUTION TIME:
+0.123944
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

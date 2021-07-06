@@ -1,0 +1,654 @@
+== TEST (2019-06-19 17:46:20) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 17:46:27) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+
+-- EXECUTION TIME:
+1.14693
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[510. 230. 350. 360.]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:46:33) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:47:00) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = round(dot(inv(coef),valor),1)
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:47:44) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = (dot(inv(coef),valor)
+print(round(saida,1)
+
+-- ERROR:
+File "XXXX", line 9
+    print(round(saida,1)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:48:02) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(round(saida,1)
+
+-- ERROR:
+File "XXXX", line 10
+    
+                        ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:48:10) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(round(saida,1))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:48:28) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:51:30) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+saida = zeros(4, dtype=float)
+for i in range(coef):
+	for i in range(valor):
+		saida = saida + dot(inv(coef),valor)
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:51:48) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+saida = zeros(4, dtype=int)
+for i in range(coef):
+	for i in range(valor):
+		saida = saida + dot(inv(coef),valor)
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:52:39) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+saida = zeros(4, dtype=int)
+i = 0
+for i in range(coef):
+	for i in range(valor):
+		saida[i] = saida[i] + dot(inv(coef),valor)
+		i = i + 1
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:53:25) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+saida = zeros(4, dtype=int)
+i = 0
+a = 0
+for i in range(coef):
+	for i in range(valor):
+		saida[a] = saida[a] + dot(inv(coef),valor)
+		i = i + 1
+		a = a + 1
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:54:06) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array(eval([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]]))
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+i = 0
+a = 0
+for i in range(coef):
+	for i in range(valor):
+		saida[a] = saida[a] + dot(inv(coef),valor)
+		i = i + 1
+		a = a + 1
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:56:55) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+i = 0
+a = 0
+for i in shape(coef):
+	for i in shape(valor):
+		saida[a] = saida[a] + dot(inv(coef),valor)
+		i = i + 1
+		a = a + 1
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:57:36) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+a = 0
+for i in shape(coef):
+	for i in shape(valor):
+		saida[a] = saida[a] + dot(inv(coef),valor)
+		a = a + 1
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:57:51) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+a = 0
+for i in shape(coef):
+	for i in shape(valor):
+		saida = saida + dot(inv(coef),valor)
+		
+
+print(saida)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:59:01) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+a = 0
+for i in shape(coef):
+	for i in shape(valor):
+		saida = saida + dot(inv(coef),valor)
+		
+print(round(saida,1)
+
+-- ERROR:
+File "XXXX", line 15
+    
+                        ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 17:59:08) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = zeros(4, dtype=int)
+a = 0
+for i in shape(coef):
+	for i in shape(valor):
+		saida = saida + dot(inv(coef),valor)
+		
+print(round(saida,1))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:01:24) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 18:01:27) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- EXECUTION TIME:
+1.06765
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[510. 230. 350. 360.]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:01:33) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:01:47) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:02:20) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+print(saida)
+a = int(round(saida[0],1))
+b = int(round(saida[1],1))
+c = int(round(saida[2],1))
+d = int(round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:02:25) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = int(round(saida[0],1))
+b = int(round(saida[1],1))
+c = int(round(saida[2],1))
+d = int(round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 18:02:27) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = int(round(saida[0],1))
+b = int(round(saida[1],1))
+c = int(round(saida[2],1))
+d = int(round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- EXECUTION TIME:
+0.826289
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[510 230 350 360]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:32:00) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-2,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = int(round(saida[0],1))
+b = int(round(saida[1],1))
+c = int(round(saida[2],1))
+d = int(round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:33:14) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-1,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = int(round(saida[0],1))
+b = int(round(saida[1],1))
+c = int(round(saida[2],1))
+d = int(round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 18:34:10) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-1,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 18:34:12) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+coef = array([[1,-1,0,0] , [0,1,-1,0] , [0,0,1,0] , [1,0,0,1]])
+valor = array([50,-120,350,870])
+valor = valor.T
+
+saida = dot(inv(coef),valor)
+
+a = (round(saida[0],1))
+b = (round(saida[1],1))
+c = (round(saida[2],1))
+d = (round(saida[3],1))
+
+print(array([a,b,c,d]))
+-- EXECUTION TIME:
+1.22028
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[280. 230. 350. 590.]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

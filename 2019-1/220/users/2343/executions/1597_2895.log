@@ -1,0 +1,235 @@
+== SUBMITION (2019-03-26 13:58:42) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos_encomendados = input("Digite a quantidade de jogos encomendados ")
+valor_unitario_de_cada_jogo = input(int("Digite o valor unitário do jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos_encomendados * valor_unitario_de_cada_jogo * valor_do_frete)))
+
+-- EXECUTION TIME:
+0.150451
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2895/main.py", line 3, in <module>
+    valor_unitario_de_cada_jogo = input(int("Digite o valor unit\xe1rio do jogo "))
+ValueError: invalid literal for int() with base 10: 'Digite o valor unit\xe1rio do jogo '
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 13:58:46) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos_encomendados = input("Digite a quantidade de jogos encomendados ")
+valor_unitario_de_cada_jogo = input(int("Digite o valor unitário do jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos_encomendados * valor_unitario_de_cada_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_unitario_de_cada_jogo = input(int("Digite o valor unitário do jogo "))
+ValueError: invalid literal for int() with base 10: 'Digite o valor unitário do jogo '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 13:59:41) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos_encomendados = input("Digite a quantidade de jogos encomendados ")
+valor_unitario_de_cada_jogo = input("Digite o valor unitário do jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos_encomendados * valor_unitario_de_cada_jogo * valor_do_frete)))
+
+-- ERROR:
+File "XXXX", line 3
+    valor_unitario_de_cada_jogo = input())
+                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:01:55) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos_encomendados = input(int("Digite a quantidade de jogos encomendados "))
+valor_unitario_de_cada_jogo = input(int("Digite o valor unitário do jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos_encomendados * valor_unitario_de_cada_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade_de_jogos_encomendados = input(int("Digite a quantidade de jogos encomendados "))
+ValueError: invalid literal for int() with base 10: 'Digite a quantidade de jogos encomendados '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:03:32) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = input("Digite a quantidade de jogos ")
+valor_unitario_de_cada_jogo = input("Digite o valor unitário do jogo ")
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_de_cada_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    valor_do_frete = input(float("Digite o valor do frete "))
+ValueError: could not convert string to float: 'Digite o valor do frete '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:05:22) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = input(int("Digite a quantidade de jogos "))
+valor_unitario_do_jogo = input(int("Digite o valor unitário de cada jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade_de_jogos = input(int("Digite a quantidade de jogos "))
+ValueError: invalid literal for int() with base 10: 'Digite a quantidade de jogos '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:06:03) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = input(int("Digite a quantidade de jogos "))
+valor_unitario_do_jogo = input(float("Digite o valor unitário de cada jogo "))
+valor_do_frete = input(float("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    quantidade_de_jogos = input(int("Digite a quantidade de jogos "))
+ValueError: invalid literal for int() with base 10: 'Digite a quantidade de jogos '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:13:01) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos "))
+valor_unitario_do_jogo = float(input("Digite o valor unitário de cada jogo "))
+valor_do_frete = float(input("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo * valor_do_frete)))
+
+-- OUTPUT:
+42120.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 14:14:34) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos "))
+valor_unitario_do_jogo = int(input("Digite o valor unitário de cada jogo "))
+valor_do_frete = float(input("Digite o valor do frete "))
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo * valor_do_frete)))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor_unitario_do_jogo = int(input())
+ValueError: invalid literal for int() with base 10: '45.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 18:40:32) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitário de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+# Valores de Saídas
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo * valor_do_frete)))
+
+-- OUTPUT:
+42120.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 18:41:49) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitário de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+
+-- OUTPUT:
+42120.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 18:41:59) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitário de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+
+-- OUTPUT:
+42120.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 20:15:03) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitário de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+# Valores de Saída
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo + valor_do_frete)))
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 20:15:27) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitario de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+# Valores de Saída
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo + valor_do_frete)))
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 20:15:47) 
+-- CODE:
+# Valores de Entradas
+quantidade_de_jogos = int(input("Digite a quantidade de jogos"))
+valor_unitario_do_jogo = float(input("Digite o valor unitario de cada jogo"))
+valor_do_frete = float(input("Digite o valor do frete"))
+
+# Valores de Saída
+print(float(int(quantidade_de_jogos * valor_unitario_do_jogo + valor_do_frete)))
+-- EXECUTION TIME:
+0.136846
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

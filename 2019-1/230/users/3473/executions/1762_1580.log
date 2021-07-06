@@ -1,0 +1,170 @@
+== TEST (2019-05-22 17:43:57) 
+-- CODE:
+import numpy as np
+
+notas = np.array(eval(input()),dtype = np.int)
+alunos = eval(input())
+
+print(notas)
+print(alunos)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 17:46:07) 
+-- CODE:
+import numpy as np
+
+notas = eval(input())
+alunos = eval(input())
+
+faltas = 0
+aprovados = 0
+reprovados = 0
+maior_nota = 0
+
+count = 0
+
+
+print(notas)
+print(alunos)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    import numpy as np
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 17:51:53) 
+-- CODE:
+
+notas = eval(input())
+alunos = eval(input())
+
+faltas = 0
+aprovados = 0
+reprovados = 0
+soma = 0
+maior_nota = 0
+
+for i in notas:
+	if i < 0:
+		faltas = faltas + 1
+	
+	else:
+		soma = soma + i
+		if i < 6:
+			reprovados = reprovados + 1
+		else:
+			aprovados = aprovados + 1
+		
+		if i > maior_nota:
+			maior_nota = i
+
+media = round(soma/(aprovados+reprovados),2)
+
+print(faltas)
+print(aprovados)
+print(reprovados)
+print(media)
+print(alunos[notas.index(maior_nota)])
+
+
+
+-- OUTPUT:
+3
+4
+5
+5.0
+A
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-22 17:52:11) 
+-- CODE:
+
+notas = eval(input())
+alunos = eval(input())
+
+faltas = 0
+aprovados = 0
+reprovados = 0
+soma = 0
+maior_nota = 0
+
+for i in notas:
+	if i < 0:
+		faltas = faltas + 1
+	
+	else:
+		soma = soma + i
+		if i < 6:
+			reprovados = reprovados + 1
+		else:
+			aprovados = aprovados + 1
+		
+		if i > maior_nota:
+			maior_nota = i
+
+media = round(soma/(aprovados+reprovados),2)
+
+print(faltas)
+print(aprovados)
+print(reprovados)
+print(media)
+print(alunos[notas.index(maior_nota)])
+
+
+
+-- EXECUTION TIME:
+0.142344
+-- TEST CASE 1:
+---- input:
+[9,8,7,6,5,4,3,2,1,-1,-1,-1]
+['A','B','C','D','E','F','G','H','I','J','K','L']
+---- correct output:
+3
+4
+5
+5.0
+A
+---- user output:
+3
+4
+5
+5.0
+A
+-- TEST CASE 2:
+---- input:
+[-1,1.2,-1,2.3,-1,3.4,-1,4.5,-1,5.6,-1]
+['ALICE','BENTO','CLARA','DAVI','ELSON','FLAVIO','GABI','HELOISA','IRIS','JULIA','KARLA']
+---- correct output:
+6
+0
+5
+3.4
+JULIA
+---- user output:
+6
+0
+5
+3.4
+JULIA
+-- TEST CASE 3:
+---- input:
+[1.23,3.45,5.67,6.78,7.89,8.9,9,10,0,9.8,7.6]
+['CLARA','DAVI','ELSON','ALICE','BENTO','FLAVIO','GABI','HELOISA','IRIS','JULIA','KARLA']
+---- correct output:
+0
+7
+4
+6.39
+HELOISA
+---- user output:
+0
+7
+4
+6.39
+HELOISA
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

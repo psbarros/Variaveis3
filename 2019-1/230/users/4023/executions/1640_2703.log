@@ -1,0 +1,228 @@
+== TEST (2019-04-06 22:29:35) 
+-- CODE:
+idade=input(int("Digite a sua idade: "))
+print(idade)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    idade=input(int("Digite a sua idade: "))
+ValueError: invalid literal for int() with base 10: 'Digite a sua idade: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:29:49) 
+-- CODE:
+idade=input("Digite a sua idade: "))
+print(idade)
+-- ERROR:
+File "XXXX", line 1
+    idade=input())
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:29:58) 
+-- CODE:
+idade=input("Digite a sua idade: ")
+print(idade)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:30:18) 
+-- CODE:
+idade=input(int("Digite a sua idade: "))
+print(idade)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    idade=input(int("Digite a sua idade: "))
+ValueError: invalid literal for int() with base 10: 'Digite a sua idade: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:30:38) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+print(idade)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:34:07) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if idade >= 18
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if idade >= 18
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:34:30) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if (idade >= 18)
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if (idade >= 18)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:34:48) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if (idade => 18)
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if (idade => 18)
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:35:01) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if (idade ==> 18)
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if (idade ==> 18)
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:35:28) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if (idade =< 18)
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if (idade =< 18)
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:35:59) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if (idade = 18)
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if (idade = 18)
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:36:07) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if idade = 18
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if idade = 18
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:36:37) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if idade=18
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if idade=18
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:37:54) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+if idade==18
+	mensagem="eleitor"
+else
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 2
+    if idade==18
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 22:41:46) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+
+if (idade>=18):
+	mensagem="eleitor"
+else:
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- OUTPUT:
+nao_eleitor
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-06 22:43:04) 
+-- CODE:
+idade=int(input("Digite a sua idade: "))
+
+if (idade>=18):
+	mensagem="eleitor"
+else:
+	mensagem="nao_eleitor"
+	
+print(mensagem)
+-- EXECUTION TIME:
+0.181314
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+nao_eleitor
+---- user output:
+nao_eleitor
+-- TEST CASE 2:
+---- input:
+21
+---- correct output:
+eleitor
+---- user output:
+eleitor
+-- TEST CASE 3:
+---- input:
+60
+---- correct output:
+eleitor
+---- user output:
+eleitor
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

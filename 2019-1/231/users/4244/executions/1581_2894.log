@@ -1,0 +1,729 @@
+== TEST (2019-03-19 22:16:11) 
+-- CODE:
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+print = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = ?????
+
+# Impressao do valor total:
+print(?????)
+-- ERROR:
+File "XXXX", line 8
+    total = ?????
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:16:54) 
+-- CODE:
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+print = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (100*8)+45
+
+# Impressao do valor total:
+print(?????)
+-- ERROR:
+File "XXXX", line 11
+    print(?????)
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:17:27) 
+-- CODE:
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+print = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (100*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(845)
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:17:48) 
+-- CODE:
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+print = float(input("100.00"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (100*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(845)
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:18:14) 
+-- CODE:
+# Este código é apenas um ESBOÇO da solução.
+# Modifique-o para atender as especificações do enunciado.
+
+# Leitura das entradas e conversao para float:
+print = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (print*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(845)
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:18:59) 
+-- CODE:
+var=input(100)
+# Leitura das entradas e conversao para float:
+print = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (print*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:19:25) 
+-- CODE:
+var=input(100)
+# Leitura das entradas e conversao para float:
+var = float(input("100"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (print*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    var = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:19:36) 
+-- CODE:
+var=input(100)
+# Leitura das entradas e conversao para float:
+print = float(input("var"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (print*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:19:46) 
+-- CODE:
+var=input(100)
+# Leitura das entradas e conversao para float:
+print = float(input("var"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (var*8)+45
+
+# Impressao do valor total:
+print(845)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:19:54) 
+-- CODE:
+var=input(100)
+# Leitura das entradas e conversao para float:
+print = float(input("var"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (var*8)+45
+
+# Impressao do valor total:
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:22:58) 
+-- CODE:
+var=input("100")
+# Leitura das entradas e conversao para float:
+print = float(input("var"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = (var*8)+45
+
+# Impressao do valor total:
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:24:55) 
+-- CODE:
+var=input("100")
+print = float(input("var"))
+total = (var*8)+45
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 22:26:23) 
+-- CODE:
+valor=input("100")
+print = float(input("var"))
+total = (var*8)+45
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print = float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 22:56:09) 
+-- CODE:
+jogo = input(100)
+oito_jogos = input(jogo*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    oito_jogos = input(jogo*8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 22:56:31) 
+-- CODE:
+var = input(100)
+oito_jogos = input(var*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    oito_jogos = input(var*8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 22:56:44) 
+-- CODE:
+var = input(float)(100)
+oito_jogos = input(var*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    var = input(float)(100)
+TypeError: 'str' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:04:58) 
+-- CODE:
+var = input(100)
+oito_jogos = input(var*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    oito_jogos = input(var*8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:05:12) 
+-- CODE:
+var = input("100")
+oito_jogos = input(var*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    oito_jogos = input(var*8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:06:09) 
+-- CODE:
+var = input("valor:100")
+oito_jogos = input(var*8)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    oito_jogos = input(var*8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:06:53) 
+-- CODE:
+var = input("valor:100")
+print(valor:100)
+
+-- ERROR:
+File "XXXX", line 2
+    print(valor:100)
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:07:15) 
+-- CODE:
+var = input(valor:100)
+print(var:100)
+
+-- ERROR:
+File "XXXX", line 1
+    var = input(valor:100)
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:07:23) 
+-- CODE:
+var = input(valor:100)
+print(var)
+
+-- ERROR:
+File "XXXX", line 1
+    var = input(valor:100)
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:07:29) 
+-- CODE:
+var = input(valor:100)
+print(var)
+
+-- ERROR:
+File "XXXX", line 1
+    var = input(valor:100)
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:45:48) 
+-- CODE:
+var = input(Valor unitário do bilhete)
+var
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do bilhete)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:45:57) 
+-- CODE:
+var = input(Valor unitário do bilhete)
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do bilhete)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:46:32) 
+-- CODE:
+var = input("Valor unitário do biblhete:")
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do bilhete)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:46:43) 
+-- CODE:
+var = input("Valor unitário do biblhete")
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do bilhete)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:46:47) 
+-- CODE:
+var = input(Valor unitário do biblhete)
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do biblhete)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:46:52) 
+-- CODE:
+var = input(Valor unitário do biblhete:)
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do biblhete:)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:47:19) 
+-- CODE:
+var = input()
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do biblhete:)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:47:49) 
+-- CODE:
+var=input()
+print=(var)
+-- ERROR:
+File "XXXX", line 1
+    var = input(Valor unitário do biblhete:)
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:48:03) 
+-- CODE:
+var = input(8)
+print = ( var)
+-- OUTPUT:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:48:27) 
+-- CODE:
+var = input("Valor unitário do produto")
+print = (var)
+-- OUTPUT:
+8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:48:38) 
+-- CODE:
+var = input(100)
+print = (var)
+-- OUTPUT:
+100
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:49:23) 
+-- CODE:
+var = input(x)
+var1 = 100
+print = (var1*8)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    var = input(x)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:49:52) 
+-- CODE:
+var = input(100) = 100
+print = (var1*8)
+-- ERROR:
+File "XXXX", line 1
+    var = input(100) = 100
+         ^
+SyntaxError: can't assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:49:55) 
+-- CODE:
+var = input(100) = 100
+print = (var*8)
+-- ERROR:
+File "XXXX", line 1
+    var = input(100) = 100
+         ^
+SyntaxError: can't assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:50:01) 
+-- CODE:
+var = input(100)
+print = (var*8)
+-- OUTPUT:
+100
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:50:12) 
+-- CODE:
+var = input(100)
+print(var*8)
+-- OUTPUT:
+1001.231.231.231.231.231.231.231.23
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:50:44) 
+-- CODE:
+var = (100)
+print(var*8)
+-- OUTPUT:
+800
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:51:05) 
+-- CODE:
+var = (100)
+var1 = (var*8)
+-- OUTPUT:
+800
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:51:08) 
+-- CODE:
+var = (100)
+var1 = (var*8)
+-- OUTPUT:
+800
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:51:21) 
+-- CODE:
+var = (100)
+print(var*8+45)
+-- OUTPUT:
+845
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 18:51:24) 
+-- CODE:
+var = (100)
+print(var*8+45)
+-- EXECUTION TIME:
+0.197245
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+54.84
+---- user output:
+845
+-- TEST CASE 2:
+---- input:
+356
+---- correct output:
+2893.0
+---- user output:
+845
+-- TEST CASE 3:
+---- input:
+123987.0
+---- correct output:
+991941.0
+---- user output:
+845
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:52:11) 
+-- CODE:
+var = input(100)
+print(var*8+45)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(var*8+45)
+TypeError: must be str, not int
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:52:50) 
+-- CODE:
+var = input(100)
+print int(input(var*8+45))
+-- ERROR:
+File "XXXX", line 2
+    print int(input(var*8+45))
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:52:58) 
+-- CODE:
+var = input(100)
+print = int(input(var*8+45))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print = int(input(var*8+45))
+TypeError: must be str, not int
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:53:19) 
+-- CODE:
+var = input(100)
+QJ = 8
+frete = 45
+print = int(input(var*8+45))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print = int(input(var*8+45))
+TypeError: must be str, not int
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:53:46) 
+-- CODE:
+var = (100)
+QJ = 8
+frete = 45
+print = int(input(var*QJ+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print = int(input(var*QJ+frete))
+ValueError: invalid literal for int() with base 10: '1.23'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 18:53:49) 
+-- CODE:
+var = (100)
+QJ = 8
+frete = 45
+print = int(input(var*QJ+frete))
+-- EXECUTION TIME:
+0.130375
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/2894/main.py", line 4, in <module>
+    print = int(input(var*QJ+frete))
+ValueError: invalid literal for int() with base 10: '1.23'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:54:18) 
+-- CODE:
+var = input(100)
+QJ = input(8)
+frete = input(45)
+print = int(input(var*QJ+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    QJ = input(8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:54:23) 
+-- CODE:
+var = input(100)
+QJ = input(8)
+frete = input(45)
+print = int(input(var*QJ+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    QJ = input(8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:54:43) 
+-- CODE:
+valor = input(100)
+QJ = input(8)
+frete = input(45)
+print = int(input(valor*QJ+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    QJ = input(8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:54:52) 
+-- CODE:
+valor = input(100)
+QJ = input(8)
+frete = input(45)
+print = int(input((valor*QJ)+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    QJ = input(8)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:55:11) 
+-- CODE:
+valor = (100)
+QJ = (8)
+frete = (45)
+print = int(input((valor*QJ)+frete))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print = int(input((valor*QJ)+frete))
+ValueError: invalid literal for int() with base 10: '1.23'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 18:55:13) 
+-- CODE:
+valor = (100)
+QJ = (8)
+frete = (45)
+print = int(input((valor*QJ)+frete))
+-- EXECUTION TIME:
+0.201494
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/2894/main.py", line 4, in <module>
+    print = int(input((valor*QJ)+frete))
+ValueError: invalid literal for int() with base 10: '1.23'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:58:31) 
+-- CODE:
+Valorunitario = float(input("Qual o valor unitario")) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print = int(input((valor*QJ)+frete))
+ValueError: invalid literal for int() with base 10: '1.23'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 19:01:11) 
+-- CODE:
+Valorunitario = float(input("Qual o valor unitario")) 
+Valorfinal = (Valorunitario*8) + 45.00
+print(Valorfinal)
+-- OUTPUT:
+54.84
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 19:01:45) 
+-- CODE:
+Valorunitario = float(input("Qual o valor unitario: ")) 
+Valorfinal = (Valorunitario*8) + 45.00
+print(Valorfinal)
+-- OUTPUT:
+54.84
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 19:02:50) 
+-- CODE:
+Valorunitario = float(input("Qual o valor unitario: ")) 
+Valorfinal = (Valorunitario*8) + 45.00
+print(Valorfinal)
+-- EXECUTION TIME:
+0.147178
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+54.84
+---- user output:
+54.84
+-- TEST CASE 2:
+---- input:
+356
+---- correct output:
+2893.0
+---- user output:
+2893.0
+-- TEST CASE 3:
+---- input:
+123987.0
+---- correct output:
+991941.0
+---- user output:
+991941.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

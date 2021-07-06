@@ -1,0 +1,13 @@
+2019-5-30 12:29:16.001#viewportChange#0
+2019-5-30 12:29:39.177#mousedown#{"isTrusted":true}
+2019-5-30 12:29:39.197#focus#
+2019-5-30 12:29:40.740#blur#
+2019-5-30 12:30:16.599#focus#
+2019-5-30 12:30:17.865#mousedown#{"isTrusted":true}
+2019-5-30 12:30:19.074#change#{"from":{"line":0,"ch":0,"sticky":null,"xRel":-1,"outside":true},"to":{"line":3,"ch":0,"sticky":"after","xRel":50.08331298828125},"text":[""],"removed":["from numpy import *","# Vetor contendo o nome dos meses do ano","vet_mes = array(['janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'])",""],"origin":"+delete"}
+2019-5-30 12:30:19.075#keyHandled#"Backspace"
+2019-5-30 12:30:19.100#viewportChange#0
+2019-5-30 12:30:19.854#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","# Vetor contendo o nome dos meses do ano","vet_mes = array(['janeiro', 'fevereiro', 'marco', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro', 'outubro', 'novembro', 'dezembro'])","x=input(\"So numero inteiro crl: \")","","dia= x[:2]","mes= int(x[2:4])","ano= x[4:]","","mes1= vet_mes[mes-1]","","final= dia +\" de \"+mes1+\" de \"+ano","","print(final)"],"removed":[""],"origin":"paste"}
+2019-5-30 12:30:19.917#viewportChange#0
+2019-5-30 12:30:21.411#blur#
+2019-5-30 12:30:21.411#blur#

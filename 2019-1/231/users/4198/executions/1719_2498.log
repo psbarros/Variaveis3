@@ -1,0 +1,103 @@
+== TEST (2019-05-15 21:53:22) 
+-- CODE:
+ha= int(input("Numero de habitantes da cidade A: "))
+hb= int(input("Numero de habitantes da cidade B: "))
+pa= float(input("Percentual de crescimento da cidade A: "))
+pb= float(input("Percentual de crescimento da cidade B: "))
+ano= 0
+while(ca < cb):
+	ca= ca + (pa/100) * ca
+	cb= cb + (pb/100) * cb
+	ano= ano + 1
+	print(ano)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(ca < cb):
+NameError: name 'ca' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 21:54:26) 
+-- CODE:
+ha= int(input("Numero de habitantes da cidade A: "))
+hb= int(input("Numero de habitantes da cidade B: "))
+pa= float(input("Percentual de crescimento da cidade A: "))
+pb= float(input("Percentual de crescimento da cidade B: "))
+ano= 0
+while(ha < hb):
+	ha= ha + (pa/100) * ha
+	hb= hb + (pb/100) * hb
+	ano= ano + 1
+	print(ano)
+-- OUTPUT:
+1
+2
+3
+4
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 21:55:36) 
+-- CODE:
+ha= int(input("Numero de habitantes da cidade A: "))
+hb= int(input("Numero de habitantes da cidade B: "))
+pa= float(input("Percentual de crescimento da cidade A: "))
+pb= float(input("Percentual de crescimento da cidade B: "))
+ano= 0
+while(ha < hb):
+	ha= ha + (pa/100) * ha
+	hb= hb + (pb/100) * hb
+	ano= ano + 1
+	if(ha>=hb):
+		print(ano)
+	
+-- OUTPUT:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 21:55:59) 
+-- CODE:
+ha= int(input("Numero de habitantes da cidade A: "))
+hb= int(input("Numero de habitantes da cidade B: "))
+pa= float(input("Percentual de crescimento da cidade A: "))
+pb= float(input("Percentual de crescimento da cidade B: "))
+ano= 0
+while(ha < hb):
+	ha= ha + (pa/100) * ha
+	hb= hb + (pb/100) * hb
+	ano= ano + 1
+	if(ha>=hb):
+		print(ano)
+	
+-- EXECUTION TIME:
+0.149851
+-- TEST CASE 1:
+---- input:
+250150
+580000
+35.5
+10.5
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 2:
+---- input:
+180250
+1200000
+10.25
+5.7
+---- correct output:
+45
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+1000000
+1650000
+12.75
+3.2
+---- correct output:
+6
+---- user output:
+6
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

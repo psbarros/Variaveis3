@@ -1,0 +1,3608 @@
+== TEST (2019-05-13 11:36:04) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+contano = 0
+somaA = 0
+somaB = 0
+
+while(habB > habA and percA > percB):
+	somaA = habA * percA
+	somaB = habB * percB
+	if(habA < habB):
+		print(contano + 1)
+	else
+		print(contano)
+	print()
+-- ERROR:
+File "XXXX", line 15
+    else
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:36:15) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+contano = 0
+somaA = 0
+somaB = 0
+
+while(habB > habA and percA > percB):
+	somaA = habA * percA
+	somaB = habB * percB
+	if(habA < habB):
+		print(contano + 1)
+	else:
+		print(contano)
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:55:26) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = hanA + (percB/100) * habB
+
+cont = 0
+while(habA < habB and percA > percB):
+	if(totalA < totaB):
+		print(cont + 1)
+	else:
+		print(cont)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    totalB = hanA + (percB/100) * habB
+NameError: name 'hanA' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:55:44) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habA + (percB/100) * habB
+
+cont = 0
+while(habA < habB and percA > percB):
+	if(totalA < totaB):
+		print(cont + 1)
+	else:
+		print(cont)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    if(totalA < totaB):
+NameError: name 'totaB' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:55:58) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habA + (percB/100) * habB
+
+cont = 0
+while(habA < habB and percA > percB):
+	if(totalA < totalB):
+		print(cont + 1)
+	else:
+		print(cont)
+	
+-- OUTPUT:
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:56:56) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+cont = 0
+while(habA < habB and percA > percB):
+	if(totalA < totalB):
+		totalA = habA + (percA/100) * habA
+		totalB = habA + (percB/100) * habB
+		print(cont + 1)
+	else:
+		print(cont)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(totalA < totalB):
+NameError: name 'totalA' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 11:57:48) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habB + (percB/100) * habB
+
+cont = 0
+while(habA < habB and percA > percB):
+	if(totalA < totalB):
+		print(cont + 1)
+	else:
+		print(cont)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 12:16:46) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habB + (percB/100) * habB
+
+print(totalA)
+print(totalB)
+-- OUTPUT:
+338953.25
+640900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 12:16:59) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habB + (percB/100) * habB
+
+print(totalA)
+print(totalB)
+-- OUTPUT:
+338953.25
+640900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 12:17:30) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habB + (percB/100) * habB
+
+print(totalA)
+print(totalB)
+-- OUTPUT:
+338953.25
+640900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 12:27:50) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+totalA = habA + (percA/100) * habA
+totalB = habB + (percB/100) * habB
+
+somaA = 0
+somaB = 0
+cont = 0
+while(totalA < totalB and percA > percB):
+	if(totalA < totalB):
+		totalA = somaA + totalA
+		totalB = somaB + totalB
+		print(cont + 1)
+	else:
+		print(cont)
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 20:54:36) 
+-- CODE:
+a = 80000
+b = 200000
+ano = 0
+
+while a <= b:
+	a += a * 0.03
+	b += b * 0.015
+	ano += 1
+
+print ( "A ultrapassa ou iguala a B em %d anos" %ano )
+-- OUTPUT:
+A ultrapassa ou iguala a B em 63 anos
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 20:56:13) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+cont = 0
+while(totalA < totalB and percA > percB):
+	totalA = habA + (percA/100) * habA
+	totalB = habB + (percB/100) * habB
+	print(cont + 1)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(totalA < totalB and percA > percB):
+NameError: name 'totalA' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 20:56:49) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+cont = 0
+while(hab A < habB):
+	totalA = habA + (percA/100) * habA
+	totalB = habB + (percB/100) * habB
+	print(cont + 1)
+-- ERROR:
+File "XXXX", line 7
+    while(hab A < habB):
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 20:56:55) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+cont = 0
+while(habA < habB):
+	totalA = habA + (percA/100) * habA
+	totalB = habB + (percB/100) * habB
+	print(cont + 1)
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:21:38) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	habA += percA * habA
+	habB += percB * habB
+	soma = soma + 1
+print(soma)
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:22:15) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	if(habA > habB):
+	habA += percA * habA
+	habB += percB * habB
+	soma = soma + 1
+print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:22:32) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	if(habA > habB):
+		habA += percA * habA
+		habB += percB * habB
+		soma = soma + 1
+print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:22:55) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	habA += percA * habA
+	habB += percB * habB
+	soma += soma + 1
+print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:23:08) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	habA += percA * habA
+	habB += percB * habB
+	soma += soma + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:28:19) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	soma = soma + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:28:28) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+soma = 0
+
+while(habA > habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	soma = soma + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:35:49) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA > habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	ano = ano + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:36:00) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA > habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	ano = ano + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:36:09) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA > habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	ano = ano + 1
+	print(soma)
+-- ERROR:
+File "XXXX", line 10
+    habA += percA * habA
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:36:15) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA < habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	ano = ano + 1
+	print(soma)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(soma)
+NameError: name 'soma' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:36:26) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA < habB):
+	habA = habA + percA * habA
+	habB = habB + percB * habB
+	ano = ano + 1
+	print(ano)
+-- OUTPUT:
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:37:46) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA < habB):
+	habA = habA + (percA/100) * habA
+	habB = habB + (percB/100) * habB
+	ano = ano + 1
+	print(ano)
+-- OUTPUT:
+1
+2
+3
+4
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 14:37:57) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA < habB):
+	habA = habA + (percA/100) * habA
+	habB = habB + (percB/100) * habB
+	ano = ano + 1
+print(ano)
+-- OUTPUT:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 14:38:07) 
+-- CODE:
+habA = int(input())
+habB = int(input())
+percA = float(input())
+percB = float(input())
+
+ano = 0
+
+while(habA < habB):
+	habA = habA + (percA/100) * habA
+	habB = habB + (percB/100) * habB
+	ano = ano + 1
+print(ano)
+-- EXECUTION TIME:
+0.20217
+-- TEST CASE 1:
+---- input:
+250150
+580000
+35.5
+10.5
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 2:
+---- input:
+180250
+1200000
+10.25
+5.7
+---- correct output:
+45
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+1000000
+1650000
+12.75
+3.2
+---- correct output:
+6
+---- user output:
+6
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

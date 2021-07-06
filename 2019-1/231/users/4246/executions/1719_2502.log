@@ -1,0 +1,625 @@
+== TEST (2019-05-15 09:25:22) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 09:25:33) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- EXECUTION TIME:
+0.182611
+-- TEST CASE 1:
+---- input:
+11
+---- correct output:
+3.1415933
+---- user output:
+-0.0
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+3.14159266
+---- user output:
+-0.0
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+3.14156872
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:25:37) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:25:46) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:27:35) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 2
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:27:47) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 2
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:27:56) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 2
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:28:08) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 2
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:28:44) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = sqrt(12)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+print(round(pi, 8))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    pi = sqrt(12)
+NameError: name 'sqrt' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:30:52) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	i = i + 1
+	ac = ac + 2
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:31:59) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	i = i + 1
+	ac = ac + 2
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:32:06) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi * ((-1)**i / (ac * 3**(n - 1)))
+	i = i + 1
+	ac = ac + 2
+print(round(pi, 8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:33:29) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi + ((-1)**i / (ac * 3**(n - 1))) * 12**(1/2)
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+4.741e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:33:36) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi + ((-1)**i / (ac * 3**(n - 1))) * 12**(1/2)
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+4.741e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:33:51) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+ac = 1
+
+while(i < n):
+	pi = pi + ((-1)**i / (ac * 3**(n - 1)))
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+1.368e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:35:06) 
+-- CODE:
+n = int(input("numero de termos: "))
+soma = 0
+i = 0
+ac = 1
+pi = 12**(1/2)
+
+while(i < n):
+	soma = soma + ((-1)**i / (ac * 3**(n - 1)))
+	pi = pi * soma
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:35:14) 
+-- CODE:
+n = int(input("numero de termos: "))
+soma = 0
+i = 0
+ac = 1
+pi = 12**(1/2)
+
+while(i < n):
+	soma = soma + ((-1)**i / (ac * 3**(n - 1)))
+	pi = pi * soma
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:35:25) 
+-- CODE:
+n = int(input("numero de termos: "))
+soma = 0
+i = 0
+ac = 1
+pi = 12**(1/2)
+
+while(i < n):
+	soma = soma + ((-1)**i / (ac * 3**(n - 1)))
+	pi = pi * soma
+	ac = ac + 2
+	i = i + 1
+	
+print(round(pi, 8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:44:02) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = 1
+exp = 0
+
+while(i < n):
+	pi = pi * (sinal * 1)/(i * (3**exp))
+	i += 2
+	exp += 1
+print(round(pi, 8))
+-- OUTPUT:
+6e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:44:16) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = 1
+exp = 0
+
+while(i < n):
+	pi = pi * (sinal * 1)/(i * (3**exp))
+	i += 2
+	exp += 1
+print(round(pi, 8))
+-- OUTPUT:
+6e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:44:27) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = 1
+exp = 0
+
+while(i < n):
+	pi = pi * (sinal * 1)/(i * (3**exp))
+	i += 2
+	exp += 1
+print(round(pi, 8))
+-- OUTPUT:
+6e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:45:07) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = 1
+exp = 0
+
+while(i < n):
+	pi = pi * (sinal * 1)/(i * (3**exp))
+	i += 2
+	exp += 1
+	sinal = -sinal
+print(round(pi, 8))
+-- OUTPUT:
+6e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:45:16) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = 1
+exp = 0
+
+while(i < n):
+	pi = pi * (sinal * 1)/(i * (3**exp))
+	i += 2
+	exp += 1
+	sinal = -sinal
+print(round(pi, 8))
+-- OUTPUT:
+6e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 12:49:45) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + ((sinal * 1)/(i * (3**exp)))
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 2
+print(round(pi, 8))
+-- OUTPUT:
+4.37129346
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:00:03) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + ((sinal * 1)/(i * (3**exp)))
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 2
+print(round(pi, 8))
+-- OUTPUT:
+4.37129346
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:00:20) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + ((sinal * 1)/(i * (3**exp)))
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 2
+print(round(pi, 8))
+-- OUTPUT:
+4.37129346
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:00:41) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 12**(1/2)
+i = 1
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + ((sinal * 1)/(i * (3**exp)))
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 2
+print(round(pi, 8))
+-- OUTPUT:
+4.37129346
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:02:46) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 1
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + ((sinal * 1)/(i * (3**exp)))* 12**(1/2)
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 2
+print(round(pi, 8))
+-- OUTPUT:
+3.14260475
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:06:40) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + (((2**(1/2) * (sinal * 1)) / ((2*i + 1) * (3**exp)))
+	sinal = sinal * (-1)
+	exp = exp + 1
+	i = i + 1
+print(round(pi, 8))
+-- ERROR:
+File "XXXX", line 9
+    sinal = sinal * (-1)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:06:57) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + (((2**(1/2) * (sinal * 1)) / ((2*i + 1) * (3**exp)))
+	sinal = -sinal
+	exp = exp + 1
+	i = i + 1
+print(round(pi, 8))
+-- ERROR:
+File "XXXX", line 9
+    sinal = -sinal
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:07:15) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + (((2**(1/2) * (sinal * 1)) / ((2*i + 1) * (3**exp)))
+	sinal = - sinal
+	exp = exp + 1
+	i = i + 1
+print(round(pi, 8))
+-- ERROR:
+File "XXXX", line 9
+    sinal = - sinal
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:08:58) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+exp = 0
+
+while(i < n):
+	pi = pi + (((2**(1/2) * (sinal * 1)) / ((2*i + 1) * (3**exp)))
+	sinal = - sinal
+	exp = exp + 1
+	i = i + 1
+print(round(pi, 8))
+-- ERROR:
+File "XXXX", line 9
+    sinal = - sinal
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:13:13) 
+-- CODE:
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+
+while(i < n):
+	pi = pi + (2**(1/2)) * sinal * 1 / ((2*i + 1) * (3**i))
+	i = i + 1
+	sinal = -sinal
+print(round(pi, 8))
+-- OUTPUT:
+1.2825501
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 13:14:17) 
+-- CODE:
+from math import *
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+
+while(i < n):
+	pi = pi + (sqrt(12)) * sinal * 1 / ((2*i + 1) * (3**i))
+	i = i + 1
+	sinal = -sinal
+print(round(pi,8))
+-- OUTPUT:
+3.1415933
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 13:14:25) 
+-- CODE:
+from math import *
+n = int(input("numero de termos: "))
+pi = 0
+i = 0
+sinal = +1
+
+while(i < n):
+	pi = pi + (sqrt(12)) * sinal * 1 / ((2*i + 1) * (3**i))
+	i = i + 1
+	sinal = -sinal
+print(round(pi,8))
+-- EXECUTION TIME:
+0.189889
+-- TEST CASE 1:
+---- input:
+11
+---- correct output:
+3.1415933
+---- user output:
+3.1415933
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+3.14159266
+---- user output:
+3.14159266
+-- TEST CASE 3:
+---- input:
+8
+---- correct output:
+3.14156872
+---- user output:
+3.14156872
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

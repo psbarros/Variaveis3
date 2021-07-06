@@ -1,0 +1,17 @@
+2019-6-10 23:13:06.650#viewportChange#0
+2019-6-10 23:13:08.041#mousedown#{"isTrusted":true}
+2019-6-10 23:13:08.047#focus#
+2019-6-10 23:13:09.313#mousedown#{"isTrusted":true}
+2019-6-10 23:13:09.414#blur#
+2019-6-10 23:13:09.429#contextmenu#{"isTrusted":true}
+2019-6-10 23:13:09.435#focus#
+2019-6-10 23:13:10.876#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":27.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":27.09375},"text":["from numpy import *","x = array(eval(input(\"Vetor: \"))) ","i=0","media = 0","d=0","while (i < size(x)):","\tmedia = media + x[i]","\ti=i+1","media = media/size(x)","i=0","while(i < size(x)):","\td += ((x[i] - media)**2) / (size(x)- 1)","\ti=i+1 ","print(round(sqrt(d),3))"],"removed":[""],"origin":"paste"}
+2019-6-10 23:13:10.915#viewportChange#0
+2019-6-10 23:13:10.876#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":27.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":27.09375},"text":["from numpy import *","x = array(eval(input(\"Vetor: \"))) ","i=0","media = 0","d=0","while (i < size(x)):","\tmedia = media + x[i]","\ti=i+1","media = media/size(x)","i=0","while(i < size(x)):","\td += ((x[i] - media)**2) / (size(x)- 1)","\ti=i+1 ","print(round(sqrt(d),3))"],"removed":[""],"origin":"paste"}
+2019-6-10 23:13:10.915#viewportChange#0
+2019-6-10 23:13:15.414#blur#
+2019-6-12 22:37:21.171#viewportChange#0
+2019-6-12 22:37:23.372#mousedown#{"isTrusted":true}
+2019-6-12 22:37:23.382#focus#
+2019-6-12 22:37:26.956#mousedown#{"isTrusted":true}
+2019-6-12 22:37:27.064#contextmenu#{"isTrusted":true}

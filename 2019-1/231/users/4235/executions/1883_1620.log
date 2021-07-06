@@ -1,0 +1,255 @@
+== TEST (2019-07-04 18:26:49) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)
+por = sum(pat)
+q = soma/por
+print (q)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:27:23) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)
+por = sum(pat)
+q = soma/por
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:32:42) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)
+por = sum(pat)/100
+q = soma/por*100
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:33:16) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)
+por = sum(pat)/100
+q = soma/(por*100)
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:35:07) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)/size(tbm)
+por = (sum(pat)/size(pat))/100
+q = soma/(por*100)
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:35:33) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)/size(tbm)
+por = (sum(pat)/size(pat))
+q = soma/(por*100)
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 18:35:40) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+soma = sum(tbm)/size(tbm)
+por = (sum(pat)/size(pat))
+q = soma/(por*100)
+print (round(q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:01:30) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+print(b)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:01:40) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+print(b)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:02:24) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+c = sum(b)
+print(c)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:02:29) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+c = sum(b)
+print(c)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:07:37) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+c = b*5
+soma= soma(c)
+print(round,2)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-04 19:08:23) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+c = (b*5)
+soma= sum(c)
+print(round,2)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 19:08:56) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+tbm= array(eval(input()))
+pat = array(eval(input()))
+a = (tbm*pat)
+b = (a/100)
+c = (b*5)
+soma= sum(c)
+print(round(soma,2))
+		
+-- EXECUTION TIME:
+1.14091
+-- TEST CASE 1:
+---- input:
+[5,30,5,10]
+[20,35,15,20]
+---- correct output:
+71.25
+---- user output:
+71.25
+-- TEST CASE 2:
+---- input:
+[5,30,5,7,52]
+[20,35,15,10,60]
+---- correct output:
+220.75
+---- user output:
+220.75
+-- TEST CASE 3:
+---- input:
+[2,60,10,30,20,10]
+[10,70,20,35,21,10]
+---- correct output:
+299.5
+---- user output:
+299.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,8 @@
+2019-5-30 16:16:21.585#viewportChange#0
+2019-5-30 16:16:34.858#mousedown#{"isTrusted":true}
+2019-5-30 16:16:34.865#focus#
+2019-5-30 16:16:35.223#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":344.48333740234375},"to":{"line":0,"ch":0,"sticky":"after","xRel":344.48333740234375},"text":["from numpy import*","p = array(eval(input(\"\")))","f = array(eval(input(\"\")))","k = (p-f)","i = 0 ","a = 1","while (i < size(k) and k[i] != max(k)):","\t\t a = a + 1 ","\t\t i = i + 1","print(a)"],"removed":[""],"origin":"paste"}
+2019-5-30 16:16:35.235#viewportChange#0
+2019-5-30 16:16:35.223#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":344.48333740234375},"to":{"line":0,"ch":0,"sticky":"after","xRel":344.48333740234375},"text":["from numpy import*","p = array(eval(input(\"\")))","f = array(eval(input(\"\")))","k = (p-f)","i = 0 ","a = 1","while (i < size(k) and k[i] != max(k)):","\t\t a = a + 1 ","\t\t i = i + 1","print(a)"],"removed":[""],"origin":"paste"}
+2019-5-30 16:16:35.235#viewportChange#0
+2019-5-30 16:16:37.816#submit#Congratulations, your code is correct!

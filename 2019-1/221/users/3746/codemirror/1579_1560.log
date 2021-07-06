@@ -1,0 +1,64 @@
+2019-3-12 10:29:19.634#viewportChange#0
+2019-3-12 10:29:32.729#mousedown#{"isTrusted":true}
+2019-3-12 10:29:32.735#focus#
+2019-3-12 10:29:33.243#change#{"from":{"line":0,"ch":10,"sticky":"after"},"to":{"line":0,"ch":11,"sticky":"before","xRel":26.46875},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-3-12 10:29:33.243#keyHandled#"Backspace"
+2019-3-12 10:29:33.369#change#{"from":{"line":0,"ch":9,"sticky":"after"},"to":{"line":0,"ch":10,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-3-12 10:29:33.369#keyHandled#"Backspace"
+2019-3-12 10:29:35.803#blur#
+2019-3-12 10:29:38.322#mousedown#{"isTrusted":true}
+2019-3-12 10:29:38.326#focus#
+2019-3-12 10:29:38.958#change#{"from":{"line":0,"ch":9,"sticky":"before","xRel":51.859375},"to":{"line":0,"ch":9,"sticky":"before","xRel":51.859375},"text":["\"Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra.\""],"removed":[""],"origin":"paste"}
+2019-3-12 10:29:40.887#mousedown#{"isTrusted":true}
+2019-3-12 10:29:41.510#change#{"from":{"line":1,"ch":15,"sticky":"after"},"to":{"line":1,"ch":16,"sticky":"before","xRel":-2.90625},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-12 10:29:41.510#keyHandled#"Backspace"
+2019-3-12 10:29:41.637#change#{"from":{"line":1,"ch":14,"sticky":"after"},"to":{"line":1,"ch":15,"sticky":null},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-12 10:29:41.637#keyHandled#"Backspace"
+2019-3-12 10:29:41.938#change#{"from":{"line":1,"ch":13,"sticky":"after"},"to":{"line":1,"ch":14,"sticky":null},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-12 10:29:41.938#keyHandled#"Backspace"
+2019-3-12 10:29:42.423#change#{"from":{"line":1,"ch":13,"sticky":null},"to":{"line":1,"ch":13,"sticky":null},"text":["l"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:42.661#change#{"from":{"line":1,"ch":14,"sticky":null},"to":{"line":1,"ch":14,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:43.694#change#{"from":{"line":1,"ch":16,"sticky":"after"},"to":{"line":1,"ch":17,"sticky":null},"text":[""],"removed":["r"],"origin":"+delete"}
+2019-3-12 10:29:43.694#keyHandled#"Backspace"
+2019-3-12 10:29:43.847#change#{"from":{"line":1,"ch":15,"sticky":"after"},"to":{"line":1,"ch":16,"sticky":null},"text":[""],"removed":["e"],"origin":"+delete"}
+2019-3-12 10:29:43.847#keyHandled#"Backspace"
+2019-3-12 10:29:44.803#change#{"from":{"line":1,"ch":15,"sticky":null},"to":{"line":1,"ch":15,"sticky":null},"text":["w"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:44.999#change#{"from":{"line":1,"ch":16,"sticky":null},"to":{"line":1,"ch":16,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:45.213#change#{"from":{"line":1,"ch":17,"sticky":null},"to":{"line":1,"ch":17,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:48.075#change#{"from":{"line":1,"ch":18,"sticky":null},"to":{"line":1,"ch":18,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:48.075#keyHandled#"'('"
+2019-3-12 10:29:48.075#change#{"from":{"line":1,"ch":18,"sticky":null},"to":{"line":1,"ch":18,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-12 10:29:48.075#keyHandled#"'('"
+2019-3-12 10:29:49.991#submit#Congratulations, your code is correct!
+2019-3-12 10:29:49.991#submit#Congratulations, your code is correct!
+2019-3-12 10:29:49.991#submit#Congratulations, your code is correct!
+2019-3-12 10:29:49.991#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.050#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.050#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.050#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.050#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.531#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.653#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.531#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.653#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.772#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.799#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.813#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.824#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.972#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.531#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.653#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.772#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.799#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.813#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.824#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.531#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.653#submit#Congratulations, your code is correct!
+2019-3-12 10:29:53.772#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.799#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.813#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.824#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-12 10:29:53.972#submit#Congratulations, your code is correct!
+2019-3-12 10:29:54.789#submit#Congratulations, your code is correct!
+2019-3-12 10:29:55.455#submit#Congratulations, your code is correct!
+2019-3-12 10:29:58.587#blur#

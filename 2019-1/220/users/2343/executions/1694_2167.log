@@ -1,0 +1,499 @@
+== SUBMITION (2019-04-30 00:49:37) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta')
+			preco 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta')
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta')
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta')
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta')
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta')
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- EXECUTION TIME:
+0.202378
+-- ERROR:
+  File "/home/codebench/codes/1694/2167/main.py", line 11
+    elif(destino == 'Belem' and percurso == 'ida-e-volta')
+                                                         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 00:49:43) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta')
+			preco 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta')
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta')
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta')
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta')
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta')
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- ERROR:
+File "XXXX", line 11
+    elif(destino == 'Belem' and percurso == 'ida-e-volta')
+                                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 00:50:12) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- EXECUTION TIME:
+0.13323
+-- ERROR:
+  File "/home/codebench/codes/1694/2167/main.py", line 12
+    preco 650
+            ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 00:50:15) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- ERROR:
+File "XXXX", line 12
+    preco 650
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 00:50:32) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- EXECUTION TIME:
+0.15999
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1694/2167/main.py", line 8, in <module>
+    if(destion in destinos and percurso in percursos):
+NameError: name 'destion' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 00:50:34) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destion in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    if(destion in destinos and percurso in percursos):
+NameError: name 'destion' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 00:51:06) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destino in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- EXECUTION TIME:
+0.210084
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+Destino inexistente
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200 1
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190 1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 00:51:08) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destino in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- OUTPUT:
+Destino inexistente
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 00:51:21) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destino in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco),1)
+
+else:
+	print('Destino inexistente')
+
+-- OUTPUT:
+Destino inexistente
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 00:51:46) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+destinos = ['Belem','Borba','Coari','Humaita','Manicore','Maues']
+percursos = ['ida','ida-e-volta']
+destino = input()
+percurso = input()
+
+if(destino in destinos and percurso in percursos):
+	if(destino == 'Belem' and percurso == 'ida'):
+			preco = 350
+	elif(destino == 'Belem' and percurso == 'ida-e-volta'):
+			preco = 650
+	if(destino == 'Borba' and percurso == 'ida'):
+			preco = 80
+	elif(destino == 'Borba' and percurso == 'ida-e-volta'):
+			preco = 152
+	if(destino == 'Coari' and percurso == 'ida'):
+			preco = 106
+	elif(destino == 'Coari' and percurso == 'ida-e-volta'):
+			preco = 199
+	if(destino == 'Humaita' and percurso == 'ida'):
+			preco = 200
+	elif(destino == 'Humaita' and percurso == 'ida-e-volta'):
+			preco = 390
+	if(destino == 'Manicore' and percurso == 'ida'):
+			preco = 150
+	elif(destino == 'Manicore' and percurso == 'ida-e-volta'):
+			preco = 280
+	if(destino == 'Maues' and percurso == 'ida'):
+			preco = 100
+	elif(destino == 'Maues' and percurso == 'ida-e-volta'):
+			preco = 190
+	print(round(preco,1))
+
+else:
+	print('Destino inexistente')
+
+-- EXECUTION TIME:
+0.177742
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+Destino inexistente
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,594 @@
+== TEST (2019-05-16 19:20:08) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra!=X):
+	if(letra s.upper()=="V"):
+		pont=pont+3
+	elif(letra s.upper()=="E"):
+		pont=pont+1
+	elif(letra s.upper()=="D"):
+		pont=pont+0
+	else:
+		
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100))
+-- ERROR:
+File "XXXX", line 7
+    if(letra s.upper()=="V"):
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:21:13) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra!=X):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100))
+-- ERROR:
+File "XXXX", line 15
+    print(pont)
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:31:17) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra!=X):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(letra!=X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:31:29) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra!=X):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(letra!=X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:32:20) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra != X):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(letra != X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:32:31) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?, V, E, D)")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:32:56) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("(V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:33:02) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:33:10) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:33:39) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:34:18) 
+-- CODE:
+V=3
+E=1
+D=0
+letra=input("V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:35:36) 
+-- CODE:
+letra=input("V, E ou D?")
+pont=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:39:12) 
+-- CODE:
+letra=input("V, E ou D: ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	t=t+1
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:39:32) 
+-- CODE:
+letra=input("V, E ou D: ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=0
+	print(pont)
+	t=t+1
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+0
+0
+0
+0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:41:44) 
+-- CODE:
+letra=input("V, E ou D: ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("V, E ou D? V, E ou D")
+print(round(pont/100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+0.08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:44:03) 
+-- CODE:
+letra=input("V, E ou D: ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("V, E ou D? V, E ou D")
+print(round((pont/t)*100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:45:43) 
+-- CODE:
+letra=input("Letra: V, E ou D? ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("V, E ou D? V, E ou D")
+print(round((pont/t)*100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:47:18) 
+-- CODE:
+letra=input("Resultado: V, E ou D? ")
+pont=0
+t=0
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("Resultado: V, E ou D? ")
+print(round((pont/t)*100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+80.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:50:17) 
+-- CODE:
+letra=input("Resultado: V, E ou D? ")
+pont=0
+t=1
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("Resultado: V, E ou D? ")
+print(round((pont/t)*100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+72.73
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:50:30) 
+-- CODE:
+letra=input("Resultado: V, E ou D? ")
+pont=0
+t=1
+while(letra != "X"):
+	if(letra.upper()=="V"):
+		pont=pont+3
+	elif(letra.upper()=="E"):
+		pont=pont+1
+	elif(letra.upper()=="D"):
+		pont=pont+0
+	else:
+		pont=pont+0
+	print(pont)
+	t=t+1
+	letra=input("Resultado: V, E ou D? ")
+print(round((pont/t)*100, 2))
+-- OUTPUT:
+3
+6
+7
+8
+8
+8
+8
+8
+8
+8
+72.73
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

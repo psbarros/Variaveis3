@@ -1,0 +1,308 @@
+== SUBMITION (2019-04-10 23:26:53) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == cervo):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= "nao eh patrono do Harry Potter "
+-- EXECUTION TIME:
+0.139002
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/1053/main.py", line 5, in <module>
+    if (m == cervo):
+NameError: name 'cervo' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:26:59) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == cervo):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= "nao eh patrono do Harry Potter "
+print(m)
+-- EXECUTION TIME:
+0.129179
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/1053/main.py", line 5, in <module>
+    if (m == cervo):
+NameError: name 'cervo' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 23:27:01) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == cervo):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= "nao eh patrono do Harry Potter "
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if (m == cervo):
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:28:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= "nao eh patrono do Harry Potter "
+print(m)
+-- EXECUTION TIME:
+0.123069
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+nao eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 23:28:23) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= "nao eh patrono do Harry Potter "
+print(m)
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:28:40) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + "nao eh patrono do Harry Potter "
+print(m)
+-- EXECUTION TIME:
+0.16719
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bodenao eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 23:28:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + "nao eh patrono do Harry Potter "
+print(m)
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 23:28:46) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + "nao eh patrono do Harry Potter "
+print(m)
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:28:53) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + " nao eh patrono do Harry Potter "
+print(m)
+-- EXECUTION TIME:
+0.167415
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:28:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + " nao eh patrono do Harry Potter "
+print(m)
+-- EXECUTION TIME:
+0.205997
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:29:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + " nao eh patrono do Harry Potter,"
+print(m)
+-- EXECUTION TIME:
+0.161541
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter,
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:29:15) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter."
+else:
+	m= m + " nao eh patrono do Harry Potter."
+print(m)
+-- EXECUTION TIME:
+0.20426
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 23:29:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+m= input("nome do patrono: ")
+if (m == "cervo"):
+   m = "cervo eh patrono do Harry Potter"
+else:
+	m= m + " nao eh patrono do Harry Potter"
+print(m)
+-- EXECUTION TIME:
+0.212589
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

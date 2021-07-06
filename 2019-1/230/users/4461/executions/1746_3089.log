@@ -1,0 +1,2575 @@
+== TEST (2019-05-15 16:39:38) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+		elif(passos<0):
+			print("Esquerda")
+			else:
+				print("Inicial")
+-- ERROR:
+File "XXXX", line 8
+    elif(passos<0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:39:42) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+			else:
+				print("Inicial")
+-- ERROR:
+File "XXXX", line 10
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:39:46) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- OUTPUT:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:46:05) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+print(passos)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else:
+	print("Inicial")
+-- OUTPUT:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:46:24) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+   print(passos)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else:
+	print("Inicial")
+-- ERROR:
+File "XXXX", line 5
+    print(passos)
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:47:07) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	passos = int(input("passos: "))
+print(passos)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else:
+	print("Inicial")
+-- OUTPUT:
+0
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:48:00) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	cod = passos + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else:
+	print("Inicial")
+-- OUTPUT:
+4
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:48:38) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	cod = passos + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+elif(passos == 0:
+	print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    elif(passos == 0:
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:48:44) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	cod = passos + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+elif(passos == 0):
+	print("Inicial")
+-- OUTPUT:
+4
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:49:34) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos += passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+elif(passos == 0):
+	print("Inicial")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(cod)
+NameError: name 'cod' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:49:51) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos += passos
+	passos = int(input("passos: "))
+print(passos)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+elif(passos == 0):
+	print("Inicial")
+-- OUTPUT:
+0
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:51:53) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+elif(passos == 0):
+	print("Inicial")
+-- OUTPUT:
+12
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:52:15) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else(passos == 0):
+	print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    else(passos == 0):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:52:20) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(passos>0):
+	print("Direita")
+elif(passos<0):
+	print("Esquerda")
+else:
+	print("Inicial")
+-- OUTPUT:
+12
+Inicial
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:52:54) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+	else:
+		print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:52:59) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+	else:
+		print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:53:26) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+	elif(cod == 0):
+		print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    elif(cod == 0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:53:45) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+	elif(cod == 0):
+		print("Inicial")
+-- ERROR:
+File "XXXX", line 13
+    elif(cod == 0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 16:53:51) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+elif(cod == 0):
+		print("Inicial")
+-- OUTPUT:
+12
+Direita
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:54:14) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+elif(cod == 0):
+		print("Inicial")
+-- EXECUTION TIME:
+2.40662
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+12
+Direita
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+-28
+Esquerda
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+0
+Inicial
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:25) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+671.346
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: container_linux.go:296: starting container process caused "process_linux.go:86: executing setns process caused \"exit status 21\"": unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:25) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+671.396
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+898.251
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: container_linux.go:296: starting container process caused "process_linux.go:86: executing setns process caused \"exit status 21\"": unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+671.543
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+671.479
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+671.627
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+898.514
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+904.166
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+898.77
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+899.029
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+No such exec instance: c8c1b5a4dd4fcedbb5991eb6d0a4782e8c820ed3535369fd0a6352f841f361de
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 16:55:26) 
+-- CODE:
+passos = int(input("passos: "))
+
+while(passos!=0):
+	passos = passos + passos
+	print(passos)
+	if(passos>0):
+		print("Direita")
+	elif(passos<0):
+			print("Esquerda")
+	else:
+				print("Inicial")
+-- EXECUTION TIME:
+899.035
+-- TEST CASE 1:
+---- input:
+1
+2
+1
+2
+1
+2
+1
+2
+0
+---- correct output:
+12
+Direita
+---- user output:
+2
+Direita
+4
+Direita
+8
+Direita
+16
+Direita
+32
+Direita
+64
+Direita
+128
+Direita
+256
+Direita
+512
+Direita
+1024
+Direita
+2048
+Direita
+4096
+Direita
+8192
+Direita
+16384
+Direita
+32768
+Direita
+65536
+Direita
+131072
+Direita
+262144
+Direita
+524288
+Direita
+1048576
+Direita
+2097152
+Direita
+4194304
+Direita
+8388608
+Direita
+16777216
+Direita
+33554432
+Direita
+67108864
+Direita
+134217728
+Direita
+268435456
+Direita
+536870912
+Direita
+1073741824
+Direita
+2147483648
+Direita
+4294967296
+Direita
+8589934592
+Direita
+17179869184
+Direita
+34359738368
+Direita
+68719476736
+Direita
+137438953472
+Direita
+274877906944
+Direita
+549755813888
+Direita
+1099511627776
+Direita
+2199023255552
+Direita
+4398046511104
+Direita
+8796093022208
+Direita
+17592186044416
+Direita
+35184372088832
+Direita
+70368744177664
+Direita
+140737488355328
+Direita
+281474976710656
+Direita
+562949953421312
+Direita
+1125899906842624
+Direita
+2251799813685248
+Direita
+4503599627370496
+Direita
+9007199254740992
+Direita
+18014398509481984
+Direita
+36028797018963968
+Direita
+7205759403792
+-- TEST CASE 2:
+---- input:
+-1
+-2
+-3
+-4
+-5
+-6
+-7
+0
+---- correct output:
+-28
+Esquerda
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+10
+-5
+5
+-10
+0
+---- correct output:
+0
+Inicial
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-27 17:54:23) 
+-- CODE:
+passos = int(input("passos: "))
+cod = 0
+while(passos!=0):
+	cod = cod + passos
+	passos = int(input("passos: "))
+print(cod)
+
+
+if(cod>0):
+	print("Direita")
+elif(cod<0):
+	print("Esquerda")
+elif(cod == 0):
+		print("Inicial")
+-- OUTPUT:
+12
+Direita
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

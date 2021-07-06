@@ -1,0 +1,309 @@
+== SUBMITION (2019-07-04 09:13:17) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempos dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x*T
+
+a = dot(y* t)
+print(a)
+-- EXECUTION TIME:
+1.05472
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 8, in <module>
+    y = x*T
+NameError: name 'T' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:13:22) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempos dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x*T
+
+a = dot(y* t)
+print(a)
+-- EXECUTION TIME:
+1.10379
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 8, in <module>
+    y = x*T
+NameError: name 'T' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:13:38) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempos dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x*T
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+0.948619
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 8, in <module>
+    y = x*T
+NameError: name 'T' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:14:15) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x*T
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+0.935314
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 8, in <module>
+    y = x*T
+NameError: name 'T' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:14:20) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x*T
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+1.1628
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 8, in <module>
+    y = x*T
+NameError: name 'T' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:14:41) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+0.930307
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 10, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:14:45) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+1.19034
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 10, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:16:19) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+1.03855
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 11, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:16:24) 
+-- CODE:
+from numpy import*
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+1.27866
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 11, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:19:17) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+1.03596
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 11, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:19:22) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+0.98511
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 11, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:19:26) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+t = array(eval(input("Tempo dos banhos: ")))
+p = array(eval(input("Abertura da torneira: ")))
+
+x = (p/100)*5
+y = x.T
+
+
+a = dot(y. t)
+print(a)
+-- EXECUTION TIME:
+0.968783
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1882/1620/main.py", line 11, in <module>
+    a = dot(y. t)
+AttributeError: 'numpy.ndarray' object has no attribute 't'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-04 09:24:41) 
+-- CODE:
+from numpy import*
+a=array(eval(input("Tempo: ")))
+b=array(eval(input("Percentual")))
+i=0
+x=0
+while(i<size(b)):
+	x+=(b[i]*5/100)*a[i]
+	i=i+1
+print(round(x,2))	
+-- EXECUTION TIME:
+1.12419
+-- TEST CASE 1:
+---- input:
+[5,30,5,10]
+[20,35,15,20]
+---- correct output:
+71.25
+---- user output:
+71.25
+-- TEST CASE 2:
+---- input:
+[5,30,5,7,52]
+[20,35,15,10,60]
+---- correct output:
+220.75
+---- user output:
+220.75
+-- TEST CASE 3:
+---- input:
+[2,60,10,30,20,10]
+[10,70,20,35,21,10]
+---- correct output:
+299.5
+---- user output:
+299.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

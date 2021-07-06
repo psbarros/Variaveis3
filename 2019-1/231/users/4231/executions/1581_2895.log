@@ -1,0 +1,250 @@
+== TEST (2019-03-21 18:52:03) 
+-- CODE:
+x = input("quantidade de jogos a serem encomendadas ")
+y = input("valor unitario de cada jogo: ")
+z = input("valor do frete: ")
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:53:51) 
+-- CODE:
+x = int(input("quantidade de jogos a serem encomendadas "))
+y = float(input("valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+total = z + (y * x)
+print(total)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 18:54:06) 
+-- CODE:
+x = int(input("quantidade de jogos a serem encomendadas "))
+y = float(input("valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+total = z + (y * x)
+print(total)
+-- EXECUTION TIME:
+0.156447
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:52:49) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas"))
+y = float(input("o valor unitario de cada jogo: "))
+z = int(input("o valor do frete: "))	
+print((x*y)+z)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z = int(input())	
+ValueError: invalid literal for int() with base 10: '78.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:53:09) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas"))
+y = float(input("o valor unitario de cada jogo: "))
+z = int(input("o valor do frete: "))	
+print((x*y)+z)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    z = int(input())	
+ValueError: invalid literal for int() with base 10: '78.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:53:13) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas"))
+y = float(input("o valor unitario de cada jogo: "))
+z = int(input("o valor do frete: "))	
+print((x*y)+z)
+-- EXECUTION TIME:
+0.207577
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/2895/main.py", line 3, in <module>
+    z = int(input())	
+ValueError: invalid literal for int() with base 10: '78.0'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:53:34) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas"))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("o valor do frete: "))	
+print((x*y)+z)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:53:54) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("o valor do frete: "))	
+print((x*y)+z)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:54:32) 
+-- CODE:
+x= int(input("a quantidade de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("o valor do frete: "))	
+print((x*y)+z)
+-- EXECUTION TIME:
+0.174328
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 19:23:18) 
+-- CODE:
+x = int(input("quantida de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+w = (x*y+z)
+print(w)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-31 19:23:35) 
+-- CODE:
+x = int(input("quantida de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+w = (x*y+z)
+print(w)
+-- EXECUTION TIME:
+0.189479
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 19:23:41) 
+-- CODE:
+x = float(input("quantida de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+w = (x*y+z)
+print(w)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-31 19:23:48) 
+-- CODE:
+x = float(input("quantida de jogos a serem encomendadas: "))
+y = float(input("o valor unitario de cada jogo: "))
+z = float(input("valor do frete: "))
+w = (x*y+z)
+print(w)
+-- EXECUTION TIME:
+0.124803
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

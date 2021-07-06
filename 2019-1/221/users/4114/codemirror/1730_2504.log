@@ -1,0 +1,10 @@
+2019-5-14 08:33:01.837#viewportChange#0
+2019-5-14 08:33:29.998#mousedown#{"isTrusted":true}
+2019-5-14 08:33:30.000#focus#
+2019-5-14 08:33:31.960#mousedown#{"isTrusted":true}
+2019-5-14 08:33:31.972#mousedown#{"isTrusted":true}
+2019-5-14 08:33:31.983#dblclick#{"isTrusted":true}
+2019-5-14 08:33:32.656#mousedown#{"isTrusted":true}
+2019-5-14 08:33:35.324#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["Qic=int(input(\"Quantidade Inicial de Copias: \"))","Qil=int(input(\"Quantidade Inicial de leucocitos: \"))","Pv=float(input(\"Percetual de mutltiplicacao de virus: \"))/100","Pl=float(input(\"Percentual de multiplicacao do leucocitos: \"))/100","#Virus","x= Qic","#Leucocitos","y= Qil","z= 0","while(x*2>y):","\tx=(x*Pv)+x","\ty=(y*Pl)+y","\tz=z+1","print(z)"],"removed":[""],"origin":"paste"}
+2019-5-14 08:33:35.337#viewportChange#0
+2019-5-14 08:33:40.540#blur#

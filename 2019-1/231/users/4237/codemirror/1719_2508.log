@@ -1,0 +1,12 @@
+2019-5-16 10:24:08.893#viewportChange#0
+2019-5-16 10:24:22.990#mousedown#{"isTrusted":true}
+2019-5-16 10:24:23.004#focus#
+2019-5-16 10:24:23.428#mousedown#{"isTrusted":true}
+2019-5-16 10:24:23.538#blur#
+2019-5-16 10:24:23.561#contextmenu#{"isTrusted":true}
+2019-5-16 10:24:23.564#focus#
+2019-5-16 10:24:24.899#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":65.84661865234375},"to":{"line":0,"ch":0,"sticky":"after","xRel":65.84661865234375},"text":["N=int(input(\"quantidade de termos:\"))","i=1","soma=3.0","sinal=+1","while(i<N):","\tsoma=soma+(sinal*4)/((2*i)*(2*i+1)*(2*i+2))","\ti=i+1","\tsinal=-sinal","\t","print(round(soma,8))"],"removed":[""],"origin":"paste"}
+2019-5-16 10:24:24.911#viewportChange#0
+2019-5-16 10:24:26.160#blur#
+2019-5-16 10:24:26.160#blur#
+2019-5-16 10:24:28.331#submit#Congratulations, your code is correct!

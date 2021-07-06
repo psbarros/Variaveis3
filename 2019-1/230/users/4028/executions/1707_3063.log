@@ -1,0 +1,759 @@
+== SUBMITION (2019-04-29 16:41:51) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P")
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.131508
+-- ERROR:
+  File "/home/codebench/codes/1707/3063/main.py", line 11
+    if (nome_armadura == "P")
+                            ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:41:53) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P")
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 11
+    if (nome_armadura == "P")
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:42:41) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.138164
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:42:43) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 11
+    if (nome_armadura == "P")
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:43:03) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.128691
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:46:02) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	elif (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	elif (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.125953
+-- ERROR:
+  File "/home/codebench/codes/1707/3063/main.py", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:46:04) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	elif (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	elif (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:46:19) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:46:27) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:46:30) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.227663
+-- ERROR:
+  File "/home/codebench/codes/1707/3063/main.py", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:46:31) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	elif (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:46:43) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.17727
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 16:46:45) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 16:46:52) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.143295
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 17:13:52) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.182846
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 17:13:53) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- ERROR:
+File "XXXX", line 5
+    elif (PO == 200):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 17:14:39) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.179002
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+PO insuficiente
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+PO insuficiente
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+PO insuficiente
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 17:14:40) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- OUTPUT:
+PO insuficiente
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 17:15:06) 
+-- CODE:
+PO = float(input("Valor da quantidade de pecas de ouro:"))
+nome_armadura = input("(M) para MALHA || (P) para PLACA || (I) para INTEIRA:")
+d = input("fator de destreza entre 1 e 8:")
+if (nome_armadura == "I"):
+	if (PO == 200):
+		r = 30*d-20
+		print("r")
+if (nome_armadura == "M"):
+	if (PO == 50):
+		r = 15*d-1
+if (nome_armadura == "P"):
+	if (PO == 100):
+		r = 20*d-18
+	else:
+		print("PO insuficiente")
+print("PO insuficiente")
+	
+
+	
+	
+
+
+
+-- EXECUTION TIME:
+0.201156
+-- TEST CASE 1:
+---- input:
+-2
+INTEIRA
+2
+---- correct output:
+PO insuficiente
+---- user output:
+PO insuficiente
+-- TEST CASE 2:
+---- input:
+8
+MALHA
+8
+---- correct output:
+PO insuficiente
+---- user output:
+PO insuficiente
+-- TEST CASE 3:
+---- input:
+56
+MALHA
+5
+---- correct output:
+74
+---- user output:
+PO insuficiente
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

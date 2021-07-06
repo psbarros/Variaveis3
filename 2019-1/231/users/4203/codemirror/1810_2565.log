@@ -1,0 +1,9 @@
+2019-6-11 14:44:52.166#viewportChange#0
+2019-6-11 14:45:01.300#mousedown#{"isTrusted":true}
+2019-6-11 14:45:01.304#contextmenu#{"isTrusted":true}
+2019-6-11 14:45:01.308#focus#
+2019-6-11 14:45:02.263#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","","vet1 = array(eval(input(\"media: \")))","vet2 = array(eval(input(\"presenca: \")))","ch = int(input(\"carga horaria: \"))","vet = zeros(3, dtype=int)","for i in range(size(vet1)):","\tif vet1[i] > 5 and vet2[i] >= ch*75/100:","\t\tvet[0] = vet[0] + 1","\telif vet1[i] < 5 and vet2[i] >= ch*75/100:","\t\tvet[1] = vet[1] + 1","\telif vet1[i] < ch*75/100:","\t\tvet[2] = vet[2] + 1","print(vet)","\t\t\t"],"removed":[""],"origin":"paste"}
+2019-6-11 14:45:02.277#viewportChange#0
+2019-6-11 14:45:03.109#blur#
+2019-6-11 14:45:03.109#blur#
+2019-6-11 14:48:06.198#submit#Your code did not produce the correct output. Please, correct your code and try again.

@@ -1,0 +1,18 @@
+== SUBMITION (2019-03-16 22:21:13) 
+-- CODE:
+aresta = 5 ** 2
+area = 3/2*(3)**0.5*5 ** 2
+ 
+print(round(3/2*(3)**0.5*5 ** 2, 4))
+-- EXECUTION TIME:
+0.134292
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+64.9519
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

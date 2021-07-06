@@ -1,0 +1,151 @@
+== TEST (2019-04-17 16:50:20) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = a * 4
+
+print(s)
+-- OUTPUT:
+livrolivrolivrolivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:50:32) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = a * 4
+
+print(s)
+-- OUTPUT:
+livrolivrolivrolivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:51:23) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a) * 4
+
+print(s)
+-- OUTPUT:
+Abra livroAbra livroAbra livroAbra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:51:43) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra" + " " + a) * 4
+
+print(s)
+-- OUTPUT:
+Abra livroAbra livroAbra livroAbra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:52:53) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a) + " " * 4
+
+print(s)
+-- OUTPUT:
+Abra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:53:19) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a + " ") * 4
+
+print(s)
+-- OUTPUT:
+Abra livro Abra livro Abra livro Abra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-17 16:53:28) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a + " ") * 4
+
+print(s)
+-- EXECUTION TIME:
+0.1209
+-- TEST CASE 1:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 2:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro Abra carro Abra carro
+-- TEST CASE 3:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa Abra caixa Abra caixa Abra caixa
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:53:48) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a + " ") * b
+
+print(s)
+-- OUTPUT:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-17 16:53:49) 
+-- CODE:
+a = input()
+b = int(input())
+
+s = ("Abra " + a + " ") * b
+
+print(s)
+-- EXECUTION TIME:
+0.173566
+-- TEST CASE 1:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 2:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 3:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

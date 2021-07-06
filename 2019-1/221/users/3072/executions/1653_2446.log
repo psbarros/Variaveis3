@@ -1,0 +1,277 @@
+== TEST (2019-04-06 17:42:42) 
+-- CODE:
+# Entrada do usuária via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = x // y
+z = x % y
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 19, in <module>
+    y = x // y
+NameError: name 'y' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 17:43:16) 
+-- CODE:
+# Entrada do usuária via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = w // x
+z = w % x
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- OUTPUT:
+acesso liberado
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 17:43:30) 
+-- CODE:
+# Entrada do usuária via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = w // x
+z = w % x
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- OUTPUT:
+acesso liberado
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-06 17:43:47) 
+-- CODE:
+# Entrada do usuária via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = w // x
+z = w % x
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- OUTPUT:
+acesso liberado
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-06 17:43:55) 
+-- CODE:
+# Entrada do usuária via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = w // x
+z = w % x
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.106764
+-- TEST CASE 1:
+---- input:
+087612
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- TEST CASE 2:
+---- input:
+760834
+---- correct output:
+senha invalida
+---- user output:
+senha invalida
+-- TEST CASE 3:
+---- input:
+122967
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-06 18:25:47) 
+-- CODE:
+# Entrada do usuário via teclado 
+s = (float(input("Digite uma senha de 1 a 6 digitos: ")))
+# d1, d2, d3, d4, d5, d6: são dígitos da senha, contados da esquerda para a direita. 
+d1 = s // 100000
+a  = s %  100000
+d2 = a // 10000
+b  = a %  10000
+d3 = b // 1000
+c  = b %  1000
+d4 = c // 100
+d  = c %  100
+d5 = d // 10
+e  = d %  10
+d6 = e // 1
+f  = e %  1
+
+w = (d2 + d4 + d6)
+x = (d1 + d3 + d5)
+y = w // x
+z = w % x 
+
+if (z == 0):
+	mensagem = " acesso liberado "
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.132547
+-- TEST CASE 1:
+---- input:
+087612
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- TEST CASE 2:
+---- input:
+760834
+---- correct output:
+senha invalida
+---- user output:
+senha invalida
+-- TEST CASE 3:
+---- input:
+122967
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

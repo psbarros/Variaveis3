@@ -1,0 +1,134 @@
+== TEST (2019-03-28 08:33:41) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z:int(input("numero inteiro: "))
+var=Z>Y>X
+print(var)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    var=Z>Y>X
+NameError: name 'Z' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:43:16) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z:int(input("numero inteiro: "))
+Y=(X+Z)/2
+print(min(X,Y,Z))
+print(Y)
+print(max(X,Y,Z))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    Y=(X+Z)/2
+NameError: name 'Z' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:43:48) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z=int(input("numero inteiro: "))
+Y=(X+Z)/2
+print(min(X,Y,Z))
+print(Y)
+print(max(X,Y,Z))
+
+-- OUTPUT:
+0
+5.0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:47:05) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z=int(input("numero inteiro: "))
+
+print(min(X,Y,Z))
+print((X+Y+Z)-min(X,Y,Z)- max(X,Y,Z))
+print(max(X,Y,Z))
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:47:36) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z=int(input("numero inteiro: "))
+
+print(min(X,Y,Z))
+print((X+Y+Z)-min(X,Y,Z)- max(X,Y,Z))
+print(max(X,Y,Z))
+
+-- EXECUTION TIME:
+0.165842
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:47:41) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z=int(input("numero inteiro: "))
+
+print(min(X,Y,Z))
+print((X+Y+Z)-min(X,Y,Z)- max(X,Y,Z))
+print(max(X,Y,Z))
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:48:16) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+X=int(input("numero inteiro: "))
+Y=int(input("numero inteiro: "))
+Z=int(input("numero inteiro: "))
+
+print(min(X,Y,Z))
+print((X+Y+Z)-min(X,Y,Z)- max(X,Y,Z))
+print(max(X,Y,Z))
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,9 @@
+2019-4-11 08:45:36.889#viewportChange#0
+2019-4-11 08:46:03.240#mousedown#{"isTrusted":true}
+2019-4-11 08:46:03.246#focus#
+2019-4-11 08:46:05.116#mousedown#{"isTrusted":true}
+2019-4-11 08:46:05.128#mousedown#{"isTrusted":true}
+2019-4-11 08:46:05.139#dblclick#{"isTrusted":true}
+2019-4-11 08:46:06.272#change#{"from":{"line":3,"ch":0,"sticky":null},"to":{"line":3,"ch":0,"sticky":null},"text":["from math import *","a = float(input(\"Velocidade Inicial: \"))","ang = radians(float(input(\"Angulo em Graus: \")))","D = float(input(\"Distancia em Metros: \"))","g = 9.8","R = ((a**2) * sin(2*ang)) / g","l = abs(D - R)","if (l <= 0.1 ):","\tprint(\"sim\")","else:","","\tprint(\"nao\")"],"removed":[""],"origin":"paste"}
+2019-4-11 08:46:06.283#viewportChange#0
+2019-4-11 08:46:11.651#blur#

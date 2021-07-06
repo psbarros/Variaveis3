@@ -1,0 +1,460 @@
+== TEST (2019-04-30 21:13:26) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:13:42) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:13:58) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.144342
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+-6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:14:06) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:14:23) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:14:41) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:15:18) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = int(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(vel <= 4.8):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.162052
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+-6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:15:35) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(vel <= 4.8):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.128484
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+-6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:17:14) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 < temp < 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(not(-50 < temp < 10)):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.225016
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+-6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:19:10) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 <= temp <= 10) or (vel > 4.8)):
+	print(round(a, 4))
+	
+elif(temp < -50 or temp > 10):
+	print("Temperatura invalida")
+	
+elif(not(vel > 4.8)):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.139455
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+Temperatura em celsius: Velocidade do vento em km/h: 20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+Temperatura em celsius: Velocidade do vento em km/h: -6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+Temperatura em celsius: Velocidade do vento em km/h: -14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:19:48) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 <= temp <= 10) or (vel >= 4.8)):
+	print(round(a, 4))
+	
+elif(temp < -50 or temp > 10):
+	print("Temperatura invalida")
+	
+elif(vel < 4.8):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.142379
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+20.6608
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+-6.6558
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-30 21:20:18) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 <= temp <= 10) or (vel >= 4.8)):
+	print(round(a, 4))
+	
+elif(temp < -50 or temp > 10):
+	print("Temperatura invalida")
+	
+elif(vel < 4.8):
+	print("Velocidade invalida")
+-- OUTPUT:
+20.6608
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:20:52) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 <= temp <= 10) and (vel >= 4.8)):
+	print(round(a, 4))
+	
+elif(temp < -50 or temp > 10):
+	print("Temperatura invalida")
+	
+elif(vel < 4.8):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.214976
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+Temperatura invalida
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+Velocidade invalida
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 16:42:32) 
+-- CODE:
+temp = float(input("Temperatura em celsius: "))
+vel = float(input("Velocidade do vento em km/h: "))
+
+a = 13.12 + (0.6215*temp) - (11.37*(vel**(0.16))) + (0.3965*temp*(vel**(0.16)))
+
+if((-50 <= temp <= 10) and (vel >= 4.8)):
+	print(round(a, 4))
+	
+elif(temp < -50 or temp > 10):
+	print("Temperatura invalida")
+	
+elif(vel < 4.8):
+	print("Velocidade invalida")
+-- EXECUTION TIME:
+0.170007
+-- TEST CASE 1:
+---- input:
+20
+9
+---- correct output:
+Temperatura invalida
+---- user output:
+Temperatura invalida
+-- TEST CASE 2:
+---- input:
+-5
+4
+---- correct output:
+Velocidade invalida
+---- user output:
+Velocidade invalida
+-- TEST CASE 3:
+---- input:
+-5
+50
+---- correct output:
+-14.9563
+---- user output:
+-14.9563
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

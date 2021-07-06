@@ -1,0 +1,246 @@
+== TEST (2019-03-11 16:58:27) 
+-- CODE:
+print(250/6)
+-- OUTPUT:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 16:58:28) 
+-- CODE:
+print(250/6)
+-- EXECUTION TIME:
+0.131735
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 16:58:57) 
+-- CODE:
+print(250/6)
+-- OUTPUT:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 16:58:59) 
+-- CODE:
+print(250/6)
+-- EXECUTION TIME:
+0.223962
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 16:59:01) 
+-- CODE:
+print(250/6)
+-- OUTPUT:
+41.666666666666664
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 16:59:04) 
+-- CODE:
+print(250/6)
+-- EXECUTION TIME:
+0.143977
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.666666666666664
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:00:10) 
+-- CODE:
+roud(250/6)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    roud(250/6)
+NameError: name 'roud' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:00:11) 
+-- CODE:
+roud(250/6)
+-- EXECUTION TIME:
+0.199496
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1576/1330/main.py", line 1, in <module>
+    roud(250/6)
+NameError: name 'roud' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:00:33) 
+-- CODE:
+print(roud(250/6))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roud(250/6))
+NameError: name 'roud' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:00:34) 
+-- CODE:
+print(roud(250/6))
+-- EXECUTION TIME:
+0.191554
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1576/1330/main.py", line 1, in <module>
+    print(roud(250/6))
+NameError: name 'roud' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:02:15) 
+-- CODE:
+print(roud(250,6))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(roud(250,6))
+NameError: name 'roud' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:02:16) 
+-- CODE:
+print(roud(250,6))
+-- EXECUTION TIME:
+0.152172
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1576/1330/main.py", line 1, in <module>
+    print(roud(250,6))
+NameError: name 'roud' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:03:44) 
+-- CODE:
+print(round(250/6))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:03:45) 
+-- CODE:
+print(round(250/6))
+-- EXECUTION TIME:
+0.133306
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:04:48) 
+-- CODE:
+print((round(250,6))
+-- ERROR:
+File "XXXX", line 2
+    
+                        ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:04:49) 
+-- CODE:
+print((round(250,6))
+-- EXECUTION TIME:
+0.156534
+-- ERROR:
+  File "/home/codebench/codes/1576/1330/main.py", line 2
+    
+                        ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:05:49) 
+-- CODE:
+print((round(250/6,2))
+-- ERROR:
+File "XXXX", line 2
+    
+                          ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:05:50) 
+-- CODE:
+print((round(250/6,2))
+-- EXECUTION TIME:
+0.174484
+-- ERROR:
+  File "/home/codebench/codes/1576/1330/main.py", line 2
+    
+                          ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:07:47) 
+-- CODE:
+print(round(250/6))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:07:48) 
+-- CODE:
+print(round(250/6))
+-- EXECUTION TIME:
+0.117777
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:07:48) 
+-- CODE:
+print(round(250/6))
+-- EXECUTION TIME:
+0.107802
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:08:35) 
+-- CODE:
+print(round(250/6,2))
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:08:36) 
+-- CODE:
+print(round(250/6,2))
+-- EXECUTION TIME:
+0.132475
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

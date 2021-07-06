@@ -1,0 +1,198 @@
+== TEST (2019-03-15 22:19:58) 
+-- CODE:
+aresta = 5
+area = 1.5 * 3 * 5**2
+ 
+print(round(area, 4))
+-- OUTPUT:
+112.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-15 22:20:13) 
+-- CODE:
+aresta = 5
+area = 1.5 * 3 * 5**2
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.120169
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+112.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-15 23:26:23) 
+-- CODE:
+aresta = 5
+area = 1.5 * 3 * 5**2
+ 
+print(round(area, 4))
+-- OUTPUT:
+112.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-15 23:46:39) 
+-- CODE:
+aresta = 5
+area = 1.5 ** 3 * 5 ** 2
+ 
+print(round(area, 4))
+-- OUTPUT:
+84.375
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-17 01:00:48) 
+-- CODE:
+aresta = 5
+area = 1.5 * 1 / 3 * 5 ** 2
+ 
+print(round(area, 4))
+-- OUTPUT:
+12.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-17 01:01:03) 
+-- CODE:
+aresta = 5
+area = 1.5 * 1 / 3 * 5 ** 2
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.131748
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+12.5
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-17 01:03:54) 
+-- CODE:
+aresta = 5
+area = 1.5 * 0.33 * 5 ** 2
+ 
+print(round(area, 4))
+-- OUTPUT:
+12.375
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-17 01:04:04) 
+-- CODE:
+aresta = 5
+area = 1.5 * 0.33 * 5 ** 2
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.145174
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+12.375
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 19:58:33) 
+-- CODE:
+aresta = 5
+area = 3/2 * 3**1/2 * 5 ** 2
+ 
+print(round(area, 4))
+-- OUTPUT:
+56.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 19:58:39) 
+-- CODE:
+aresta = 5
+area = 3/2 * 3**1/2 * 5 ** 2
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.15672
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+56.25
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 19:59:45) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3**1/2) * (5 ** 2)
+ 
+print(round(area, 4))
+-- OUTPUT:
+56.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 19:59:48) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3**1/2) * (5 ** 2)
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.197926
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+56.25
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 20:00:16) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3**1/2) * (5 ** 2)
+ 
+print(round(area, 4))
+-- OUTPUT:
+56.25
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 20:01:04) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3)**0.5 * (5 ** 2)
+ 
+print(round(area, 4))
+-- OUTPUT:
+64.9519
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 20:01:26) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3)**0.5 * aresta ** 2
+ 
+print(round(area, 4))
+-- OUTPUT:
+64.9519
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 20:01:30) 
+-- CODE:
+aresta = 5
+area = 3/2 * (3)**0.5 * aresta ** 2
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.161162
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+64.9519
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

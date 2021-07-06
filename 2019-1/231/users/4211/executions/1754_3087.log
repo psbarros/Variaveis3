@@ -1,0 +1,2422 @@
+== TEST (2019-05-16 18:23:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+	else:
+		n = n + 1
+		x = x/n
+	print(x)
+-- ERROR:
+File "XXXX", line 8
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:24:28) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+else:
+	n = n + 1
+	x = x/n
+print(x)
+-- OUTPUT:
+-10.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+-5.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:24:52) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+else:
+	n = n + 1
+	x = x/n
+print(x)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:25:18) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+else:
+	n = n + 1
+	x = x/n
+print(x)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:25:21) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+else:
+	n = n + 1
+	x = x/n
+print(x)
+-- EXECUTION TIME:
+0.145803
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+11
+9
+1
+10.0
+1.0
+1.3333333333333333
+0.0
+0.0
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+1
+1
+3
+2.0
+1.0
+0.6666666666666666
+1.0
+0.0
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:25:31) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		x = x/n
+	print(x)
+else:
+	n = n + 1
+	x = x/n
+print(x)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:26:16) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx = x/n
+print(mx)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:26:34) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:26:44) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:26:55) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:26:57) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:27:00) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:27:24) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:27:43) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:27:44) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:27:44) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:48:55) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:50:29) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- ERROR:
+File "XXXX", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:50:31) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- ERROR:
+File "XXXX", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:32) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- EXECUTION TIME:
+0.775692
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:37) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- EXECUTION TIME:
+1.39974
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:37) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- EXECUTION TIME:
+0.916147
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:37) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1)
+
+-- EXECUTION TIME:
+0.8871
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:39) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1
+
+-- EXECUTION TIME:
+0.956715
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:50:39) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x % 2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+	else: 
+		n = n + 1
+		mx1 = x/n
+	print(mx1
+
+-- EXECUTION TIME:
+0.910351
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1754/3087/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:50:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+
+-- ERROR:
+File "XXXX", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:52:24) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+print(n)
+-- OUTPUT:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 18:52:39) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+print(n)
+-- OUTPUT:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 18:53:43) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	
+-- EXECUTION TIME:
+0.457194
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:43) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+0.831921
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:13:43) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- ERROR:
+File "XXXX", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:13:44) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- ERROR:
+File "XXXX", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:47) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+1.2006
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+2.7869
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+2.45496
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+4.18254
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:13:48) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+	if(x%2 == 0):
+		mx = x/n
+	print(mx)
+	else:
+		mx = x/n
+	print(mx)	
+-- EXECUTION TIME:
+4.34396
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:14:10) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+if(x%2 == 0):
+	mx = x/n
+print(mx)
+else:
+	mx = x/n
+print(mx)	
+-- ERROR:
+File "XXXX", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:14:12) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+if(x%2 == 0):
+	mx = x/n
+print(mx)
+else:
+	mx = x/n
+print(mx)	
+-- EXECUTION TIME:
+1.2805
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:14:21) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	n = n + 1
+	x = int(input())
+if(x%2 == 0):
+	mx = x/n
+print(mx)
+else:
+	mx1 = x/n
+print(mx1)	
+-- ERROR:
+File "XXXX", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:15:24) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+if(x%2 == 0):
+	n = n + 1
+	mx = x/n
+print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)	
+-- ERROR:
+File "XXXX", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:15:26) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+if(x%2 == 0):
+	n = n + 1
+	mx = x/n
+print(mx)
+else:
+	n = n + 1
+	mx1 = x/n
+print(mx1)	
+-- EXECUTION TIME:
+1.08518
+-- ERROR:
+  File "/home/codebench/codes/1754/3087/main.py", line 9
+    else:
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:15:47) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:16:10) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:16:10) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:16:10) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- OUTPUT:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:16:15) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	print(mx)
+
+-- EXECUTION TIME:
+1.18283
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+-8.0
+-3.0
+-1.3333333333333333
+-0.5
+0.0
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:18:39) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:19:32) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 1
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:19:33) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 1
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- EXECUTION TIME:
+1.13857
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:19:35) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 1
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- EXECUTION TIME:
+1.15929
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:19:38) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 1
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:21:13) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		n = n + 1
+		media = x/n
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:22:40) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		i = i + 1
+		media = x/i
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:22:42) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		i = i + 1
+		media = x/i
+print(round(mx, 2))
+print(round(media, 2))
+-- EXECUTION TIME:
+1.15019
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 13, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:23:38) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		i = i + 1
+		media = x/i
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:24:13) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+	else:
+		i = i + 1
+		media = x/i
+print(round(mx, 2))
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 13, in <module>
+    print(round(media, 2))
+NameError: name 'media' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:24:53) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = x/n
+print(round(mx, 2))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:25:29) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = (n*x)/n
+print(round(mx, 2))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:25:38) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	if(x%2 == 0):
+		n = n + 1
+		mx = (n*x)/n
+print(round(mx, 2))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:26:29) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+print(round(mx, 2))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:27:28) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = (n*x) / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:27:36) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = (n*x) / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:28:14) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = (n*x) / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+1.08291
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:29:11) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:29:14) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+1.06061
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:29:55) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:29:56) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:29:56) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 19:36:12) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:25) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+2.95284
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:28) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+8.85146
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:30) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.04022
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:31) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+10.2578
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+1.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:32) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+11.613
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:35) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+13.1774
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+1.0
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:49) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+7.18535
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+1.0
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+1.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:50) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.41253
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:53) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.31745
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:54) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.70737
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+1.0
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:54) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.02194
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:52:56) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+6.98651
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+0.33
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+0.0
+1.0
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:53:00) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+4.50505
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+0.0
+1.0
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+0.0
+1.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:53:01) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	x = int(input())
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+5.45475
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1754/3087/main.py", line 12, in <module>
+    print(round(m2, 2))
+NameError: name 'm2' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 19:55:14) 
+-- CODE:
+x = int(input("Digite um numero: "))
+n = 0
+i = 0
+while(x != 0):
+	n = n + 1
+	if(x%2 == 0):
+		mx = (n*x)/n
+	else:
+		m2 = x / n
+print(round(mx, 2))
+print(round(m2, 2))
+-- EXECUTION TIME:
+1119.47
+-- TEST CASE 1:
+---- input:
+-10
+-8
+-6
+-4
+-2
+0
+---- correct output:
+-6.0
+0.0
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+11
+11
+9
+1
+10
+2
+4
+0
+---- correct output:
+5.33
+8.0
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+1
+1
+1
+3
+2
+2
+2
+4
+0
+---- correct output:
+2.5
+1.5
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,312 @@
+== TEST (2019-03-21 20:10:25) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+var1 = input(qty)
+var2 = input(valor)
+var3 = input(frete)
+
+-- OUTPUT:
+5100.040.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:16:29) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+var1 = input(qty)
+var2 = input(valor)
+var3 = input(frete)
+
+jogo = float(input(qty*preco+frete))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = qty*preco+frete
+
+# Impressao do valor total:
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    jogo = float(input(qty*preco+frete))
+NameError: name 'preco' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:16:53) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input(qty*preco+frete))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = qty*preco+frete
+
+# Impressao do valor total:
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    jogo = float(input(qty*preco+frete))
+NameError: name 'preco' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:17:17) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input("qty*preco+frete"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = qty*preco+frete
+
+# Impressao do valor total:
+print(total)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    total = qty*preco+frete
+NameError: name 'preco' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:17:37) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input("qty*preco+frete"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = "qty*preco+frete"
+
+# Impressao do valor total:
+print("total")
+-- OUTPUT:
+total
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:18:33) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input("total"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = qty*preco+frete
+
+# Impressao do valor total:
+print("total")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    total = qty*preco+frete
+NameError: name 'preco' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:19:06) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input("qty*100+40"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = "qty*preco+frete"
+
+# Impressao do valor total:
+print("total")
+-- OUTPUT:
+total
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 20:19:20) 
+-- CODE:
+qty = 5
+valor = 100.0
+frete = 40.0
+
+jogo = float(input("5*100+40"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+total = "qty*preco+frete"
+
+# Impressao do valor total:
+print("total")
+-- OUTPUT:
+total
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:48:02) 
+-- CODE:
+entradas
+#valor unitario (float)
+#valor do frete (float)
+
+saidas
+precototal
+
+var=input("Qual valor unitario?")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    entradas
+NameError: name 'entradas' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:49:26) 
+-- CODE:
+entradas
+#valor unitario (float)
+#valor do frete (float)
+
+saidas
+precototal
+
+var=float(input("Qual valor unitario?")
+-- ERROR:
+File "XXXX", line 9
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:49:50) 
+-- CODE:
+entradas
+#valor unitario (float)
+#valor do frete (float)
+
+saidas
+precototal
+
+var=float(input("Qual valor unitario?"))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    entradas
+NameError: name 'entradas' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:53:23) 
+-- CODE:
+entradas
+#valor unitario (float)
+#quantidade de jogos
+#valor do frete (float)
+
+saidas
+precototal
+
+valoruni = float(input("Qual valor unitario?"))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    entradas
+NameError: name 'entradas' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-22 00:04:09) 
+-- CODE:
+
+# Leitura das entradas e conversao para float:
+unidade = float(input("Qual o valor unitario do jogo? "))
+qtyjogos = float(input("Qual a quantidade de jogos?"))
+frete = float(input("Valor frete?"))
+
+# Calculo do valor a ser pago, incluindo o frete:
+precototal = unidade + qtyjogos + frete
+
+# Impressao do valor total:
+print(precototal)
+-- OUTPUT:
+135.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-22 00:04:45) 
+-- CODE:
+
+# Leitura das entradas e conversao para float:
+unidade = float(input("Qual o valor unitario do jogo? "))
+qtyjogos = float(input("Qual a quantidade de jogo? "))
+frete = float(input("Valor frete? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+precototal = unidade + qtyjogos + frete
+
+# Impressao do valor total:
+print(precototal)
+-- OUTPUT:
+135.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-22 00:05:38) 
+-- CODE:
+
+# Leitura das entradas e conversao para float:
+unidade = float(input("Qual o valor unitario do jogo? "))
+qtyjogos = float(input("Qual a quantidade de jogo? "))
+frete = float(input("Valor frete? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+precototal = unidade * qtyjogos + frete
+
+# Impressao do valor total:
+print(precototal)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-22 18:43:07) 
+-- CODE:
+# Leitura das entradas e conversao para float:
+unidade = float(input("Qual o valor unitario do jogo? "))
+qtyjogos = float(input("Qual a quantidade de jogo? "))
+frete = float(input("Valor frete? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+precototal = unidade * qtyjogos + frete
+
+# Impressao do valor total:
+print(precototal)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-22 18:43:55) 
+-- CODE:
+# Leitura das entradas e conversao para float:
+unidade = float(input("Qual o valor unitario do jogo? "))
+qtyjogos = float(input("Qual a quantidade de jogo? "))
+frete = float(input("Valor frete? "))
+
+# Calculo do valor a ser pago, incluindo o frete:
+precototal = unidade * qtyjogos + frete
+
+# Impressao do valor total:
+print(precototal)
+-- EXECUTION TIME:
+0.197229
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

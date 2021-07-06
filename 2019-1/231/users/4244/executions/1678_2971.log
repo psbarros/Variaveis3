@@ -1,0 +1,1000 @@
+== TEST (2019-04-16 18:06:50) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * (1+j)**t
+
+print(Qf)
+-- OUTPUT:
+14365502.75713173
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:08:50) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * (1+j)**t
+
+if(Qf>50000):
+	print(round(Qf))
+	print("Sim")
+else:
+	print(round(Qf))
+	print("Nao")
+-- OUTPUT:
+14365503
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:09:04) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * (1+j)**t
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- OUTPUT:
+14365502.76
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:09:15) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * (1+j)**t
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- EXECUTION TIME:
+0.217264
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:09:34) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * ((1+j)**t)
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- OUTPUT:
+14365502.76
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:09:46) 
+-- CODE:
+j = float(input())
+v = float(input())
+Qi = float(1500.00)
+t = 36
+
+Qf = Qi * ((1+j)**t)
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- EXECUTION TIME:
+0.213454
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:10:38) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- OUTPUT:
+14365502.76
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:10:46) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- EXECUTION TIME:
+0.196252
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:16:15) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>=50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- OUTPUT:
+14365502.76
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:16:29) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>=50000):
+	print(round(Qf,2 ))
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+-- EXECUTION TIME:
+0.12434
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:16:59) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print("Nao")
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:17:26) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:17:33) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.159022
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:19:20) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q0 = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q0
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:19:28) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q0 = float(1500.00)
+t = 36
+
+Qf = ((1+j)**t)*Q0
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.113565
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:20:04) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:20:11) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Qf>=50000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.186786
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:20:42) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Qf>=5000):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:21:08) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Q>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:21:15) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Q>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.211124
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Nao
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Nao
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:22:15) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:22:22) 
+-- CODE:
+j = float(input())
+v = float(input())
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.135337
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Nao
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:24:14) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:24:30) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:24:49) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Qf>=v):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:25:00) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(Qf>=v):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.152861
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Nao
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+Sim
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:25:50) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:25:59) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print("Sim")
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.149611
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Nao
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:26:28) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print(round(Qf, 2))
+	print("Sim")
+
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- OUTPUT:
+14365502.76
+Nao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:26:52) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print(round(Qf, 2))
+	print("Sim")
+
+else:
+	print(round(Qf, 2))
+	print("Nao")
+
+-- EXECUTION TIME:
+0.126354
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Nao
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Sim
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Nao
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:27:07) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print(round(Qf, 2))
+	print("Nao")
+else:
+	print(round(Qf, 2))
+	print("Sim")
+
+-- OUTPUT:
+14365502.76
+Sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:27:13) 
+-- CODE:
+j = float(input())
+v = float(input())
+
+Q = float(1500.00)
+t = 36
+
+Qf = Q*(1+j)**t
+
+if(v>=Qf):
+	print(round(Qf, 2))
+	print("Nao")
+else:
+	print(round(Qf, 2))
+	print("Sim")
+
+-- EXECUTION TIME:
+0.190209
+-- TEST CASE 1:
+---- input:
+0.29
+125250
+---- correct output:
+14365502.76
+Sim
+---- user output:
+14365502.76
+Sim
+-- TEST CASE 2:
+---- input:
+0.15
+300000
+---- correct output:
+229727.78
+Nao
+---- user output:
+229727.78
+Nao
+-- TEST CASE 3:
+---- input:
+0.2
+150000
+---- correct output:
+1063202.81
+Sim
+---- user output:
+1063202.81
+Sim
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

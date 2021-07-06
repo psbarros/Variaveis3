@@ -1,0 +1,157 @@
+== TEST (2019-03-26 11:45:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="arthur"
+print(texto.lower())
+-- OUTPUT:
+arthur
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 11:45:20) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="arthur"
+print(texto.lower())
+-- EXECUTION TIME:
+0.214273
+-- TEST CASE 1:
+---- input:
+PRIMEIRO_CASO_DE_TESTE
+---- correct output:
+primeiro_caso_de_teste
+---- user output:
+arthur
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 11:45:41) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="ARTHUR"
+print(texto.lower())
+-- EXECUTION TIME:
+0.136045
+-- TEST CASE 1:
+---- input:
+PRIMEIRO_CASO_DE_TESTE
+---- correct output:
+primeiro_caso_de_teste
+---- user output:
+arthur
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 11:45:52) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="ARTHUR"
+print(texto.lower())
+-- EXECUTION TIME:
+0.158944
+-- TEST CASE 1:
+---- input:
+PRIMEIRO_CASO_DE_TESTE
+---- correct output:
+primeiro_caso_de_teste
+---- user output:
+arthur
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 11:45:55) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="ARTHUR"
+print(texto.lower())
+-- OUTPUT:
+arthur
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 11:46:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto ="ARTHUR"
+print(texto.lower("ARTHUR"))
+-- EXECUTION TIME:
+0.144837
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1570/main.py", line 5, in <module>
+    print(texto.lower("ARTHUR"))
+TypeError: lower() takes no arguments (1 given)
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 11:47:24) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+print(.lower("ARTHUR"))
+-- EXECUTION TIME:
+0.167537
+-- ERROR:
+  File "/home/codebench/codes/1581/1570/main.py", line 5
+    print(.lower("ARTHUR"))
+          ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 11:52:22) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+te
+print(.lower("ARTHUR"))
+-- ERROR:
+File "XXXX", line 5
+    print(.lower("ARTHUR"))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 18:20:43) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto= input("ARTHUR")
+print(texto.lower("ARTHUR"))
+-- EXECUTION TIME:
+0.179998
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1570/main.py", line 5, in <module>
+    print(texto.lower("ARTHUR"))
+TypeError: lower() takes no arguments (1 given)
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 18:21:25) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+texto= input("ARTHUR")
+print(texto.lower())
+-- EXECUTION TIME:
+0.181586
+-- TEST CASE 1:
+---- input:
+PRIMEIRO_CASO_DE_TESTE
+---- correct output:
+primeiro_caso_de_teste
+---- user output:
+primeiro_caso_de_teste
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

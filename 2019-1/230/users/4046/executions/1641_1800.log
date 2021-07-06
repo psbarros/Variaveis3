@@ -1,0 +1,1061 @@
+== TEST (2019-04-14 20:14:41) 
+-- CODE:
+a = int(input("Digite a variavel real a: "))
+b = int(input("Digite a variavel real b: "))
+c = int(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round( a + b + c, 2))
+-- OUTPUT:
+75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:14:48) 
+-- CODE:
+a = int(input("Digite a variavel real a: "))
+b = int(input("Digite a variavel real b: "))
+c = int(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round( a + b + c, 2))
+-- EXECUTION TIME:
+0.209667
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+75
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+985
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+212
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:15:03) 
+-- CODE:
+a = int(input("Digite a variavel real a: "))
+b = int(input("Digite a variavel real b: "))
+c = int(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round( a + b + c, 7))
+-- EXECUTION TIME:
+0.123562
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+75
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+985
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+212
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:15:08) 
+-- CODE:
+a = int(input("Digite a variavel real a: "))
+b = int(input("Digite a variavel real b: "))
+c = int(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round( a + b + c, 7))
+-- EXECUTION TIME:
+0.164621
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+75
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+985
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+212
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:15:31) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+print(round( a + b + c, 7))
+-- EXECUTION TIME:
+0.135951
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+985.0
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+212.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:16:18) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (round(a ** 2 + b ** 2 + c ** 2) / (a + b + c), 7)
+
+print(round( a + b + c, 7))
+-- EXECUTION TIME:
+0.215251
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+75.0
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+985.0
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+212.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:22:50) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+
+print(round( a + b + c, 7)
+-- EXECUTION TIME:
+0.162681
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 14
+    
+                              ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:23:52) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+
+print(round(R, 7)
+-- EXECUTION TIME:
+0.172372
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 14
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 20:23:56) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+
+print(round(R, 7)
+-- ERROR:
+File "XXXX", line 14
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:24:09) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(R, 7)
+-- EXECUTION TIME:
+0.256095
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 20:24:12) 
+-- CODE:
+a = float(input("Digite a variavel real a: "))
+b = float(input("Digite a variavel real b: "))
+c = float(input("Digite a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(R, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 20:24:58) 
+-- CODE:
+a = float(input("Leia a variavel real a: "))
+b = float(input("Leia a variavel real b: "))
+c = float(input("Leia a varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(R, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 20:25:36) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Varivel real c: "))
+
+R = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(R, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 20:26:28) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Varivel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 20:26:36) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Varivel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nunca sera igual a zero"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.17298
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 07:05:57) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem =
+else: 
+	mensagem =
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 8
+    mensagem =
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 07:06:37) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 07:06:50) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.128186
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:03:05) 
+-- CODE:
+a = int(input("Variavel real a: "))
+b = int(input("Variavel real b: "))
+c = int(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.236223
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:04:44) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+a = 5.0
+b = 7.0
+c = 10.0
+
+Resultado = (a ** 2 + b ** 2 + c ** 2) / (a + b + c)
+
+if(a + b + c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.205413
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 17
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:05:38) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+a = 5.0
+b = 7.0
+c = 10.0
+
+Resultado = (5.0 ** 2 + 7.0 ** 2 + 10.0 ** 2) / (5.0 + 7.0 + 10.0)
+
+if(a + b + c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.15987
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 17
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:06:01) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+a = 5.0
+b = 7.0
+c = 10.0
+
+Resultado = (5.0 ** 2 + 7.0 ** 2 + 10.0 ** 2) / (5.0 + 7.0 + 10.0)
+
+if(5.0 + 7.0 + 10.0):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.139779
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 17
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:06:05) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+a = 5.0
+b = 7.0
+c = 10.0
+
+Resultado = (5.0 ** 2 + 7.0 ** 2 + 10.0 ** 2) / (5.0 + 7.0 + 10.0)
+
+if(5.0 + 7.0 + 10.0):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 17
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:07:25) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a**2 + b**2 + c**2) / (a + b+ c)
+
+if(5.0 + 7.0 + 10.0):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:08:06) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a**2+b**2+c**2) / (a+b+c)
+
+if(a+b+c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:08:14) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a**2+b**2+c**2) / (a+b+c)
+
+if(a+b+c):
+	mensagem = "nao e igual a zero"
+else: 
+	mensagem = "esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.141784
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:09:20) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c **2 ) / (a + b + c)
+
+if(a + b + c):
+	mensagem = " nao e igual a zero"
+else: 
+	mensagem = " esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:11:34) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c **2 ) / (a + b + c)
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = " nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:11:43) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = (a ** 2 + b ** 2 + c **2 ) / (a + b + c)
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:15:05) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:15:14) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.190802
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:16:11) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:18:41) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c !=))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- ERROR:
+File "XXXX", line 5
+    Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c !=))
+                                                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:19:24) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = float(((a ** 2 + b ** 2 + c **2 ) / (a + b + c)))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7)
+-- EXECUTION TIME:
+0.162456
+-- ERROR:
+  File "/home/codebench/codes/1641/1800/main.py", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:25:47) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- EXECUTION TIME:
+0.203673
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1641/1800/main.py", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:25:53) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- EXECUTION TIME:
+0.139983
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1641/1800/main.py", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:26:02) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:26:12) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- EXECUTION TIME:
+0.161848
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1641/1800/main.py", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:26:24) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+Resultado = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:35:05) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 08:40:34) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(round(a + b + c != 0, 7)):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 08:40:39) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(round(a + b + c != 0, 7)):
+	mensagem = "esta correto"
+else: 
+	mensagem = "nao esta correto"
+
+print(round(mensagem, 7))
+-- EXECUTION TIME:
+0.226385
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1641/1800/main.py", line 12, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-26 12:02:52) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0, 7):
+	mensagem = "esta correto"
+
+print(round(mensagem, 7))
+-- EXECUTION TIME:
+0.189061
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1641/1800/main.py", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 12:02:54) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) / (a + b + c))
+
+if(a + b + c != 0, 7):
+	mensagem = "esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 15:09:32) 
+-- CODE:
+a = float(input("Variavel real a: "))
+b = float(input("Variavel real b: "))
+c = float(input("Variavel real c: "))
+
+F = ((a ** 2 + b ** 2 + c **2 ) // (a + b + c))
+
+if(a + b + c != 0, 7):
+	mensagem = "esta correto"
+
+print(round(mensagem, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,153 @@
+== TEST (2019-04-16 19:14:00) 
+-- CODE:
+so=int(input("pi"))
+v=int(input("v"))
+temp=int(input("temp"))
+cont=so+v*temp
+if v<=100:
+	print(so)
+	print("OK")
+else:
+	print(so)
+	print("ACIMA")
+
+-- OUTPUT:
+2
+OK
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 19:14:09) 
+-- CODE:
+so=int(input("pi"))
+v=int(input("v"))
+temp=int(input("temp"))
+cont=so+v*temp
+if v<=100:
+	print(so)
+	print("OK")
+else:
+	print(so)
+	print("ACIMA")
+
+-- OUTPUT:
+2
+OK
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 19:14:15) 
+-- CODE:
+so=int(input("pi"))
+v=int(input("v"))
+temp=int(input("temp"))
+cont=so+v*temp
+if v<=100:
+	print(so)
+	print("OK")
+else:
+	print(so)
+	print("ACIMA")
+
+-- EXECUTION TIME:
+0.199713
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+2
+OK
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+1
+OK
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+3
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 19:14:18) 
+-- CODE:
+so=int(input("pi"))
+v=int(input("v"))
+temp=int(input("temp"))
+cont=so+v*temp
+if v<=100:
+	print(so)
+	print("OK")
+else:
+	print(so)
+	print("ACIMA")
+
+-- OUTPUT:
+2
+OK
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 19:14:44) 
+-- CODE:
+so=int(input("pi"))
+v=int(input("v"))
+temp=int(input("temp"))
+cont=so+v*temp
+if v<=100:
+	print(cont)
+	print("OK")
+else:
+	print(cont)
+	print("ACIMA")
+
+-- EXECUTION TIME:
+0.165163
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+OK
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+OK
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

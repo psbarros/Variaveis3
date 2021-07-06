@@ -1,0 +1,1391 @@
+== TEST (2019-04-08 15:43:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:32:27) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:38:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if: (num % 2 == 0)
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if: (num % 2 == 0)
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:39:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == "0")
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == "0")
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:40:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if: (num % 2 == "0")
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if: (num % 2 == "0")
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:42:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num*2 % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num*2 % 2 == 0)
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:42:26) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if: (num*2 % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if: (num*2 % 2 == 0)
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:47:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == "0" )
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == "0" )
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:49:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == "0" )
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == "0" )
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:50:05) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if: (num % 2 == "0" )
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if: (num % 2 == "0" )
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:50:27) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if: (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if: (num % 2 == 0)
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:52:28) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 9
+    else
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:53:01) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:53:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.201321
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:53:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:54:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:54:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.25214
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:54:48) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:55:29) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:55:49) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:55:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.137261
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:57:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print("mensagem")
+
+-- OUTPUT:
+mensagem
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:57:33) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:59:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+   print(mensagem)
+
+-- EXECUTION TIME:
+0.189407
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 12
+    print(mensagem)
+                  ^
+IndentationError: unindent does not match any outer indentation level
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:59:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+           print(mensagem)
+
+-- ERROR:
+File "XXXX", line 12
+    print(mensagem)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:00:02) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+   print(mensagem)
+
+-- ERROR:
+File "XXXX", line 12
+    print(mensagem)
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:00:15) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+  print(mensagem)
+
+-- ERROR:
+File "XXXX", line 12
+    print(mensagem)
+                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:00:28) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:02:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if   (num % 2 == 0):
+	  mensagem = "Par"
+else:
+	  mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 21:03:00) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if   (num % 2 == 0):
+	  mensagem = "Par"
+else:
+	  mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.186444
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 21:04:10) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.151291
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:04:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:07:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 2):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 21:08:02) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == "2"):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.230839
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Impar
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:08:07) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == "2"):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:08:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:08:52) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 1):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Par
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:09:04) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 2):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:09:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	 mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:13:53) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(round(mensagem, 2)
+
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:14:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(round(mensagem, 2)
+-- ERROR:
+File "XXXX", line 13
+    
+                            ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:14:35) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:18:31) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem < 0)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem < 0)
+TypeError: '<' not supported between instances of 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:18:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem < 0)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem < 0)
+TypeError: '<' not supported between instances of 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:19:27) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem < 0)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem < 0)
+TypeError: '<' not supported between instances of 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:20:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem1 = "Par"
+else: 
+	 mensagem2 = "Impar"
+
+print(mensagem1 != mensagem2)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem1 != mensagem2)
+NameError: name 'mensagem1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:21:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem1 = "Par"
+else: 
+	 mensagem2 = "Impar"
+
+print(mensagem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem)
+NameError: name 'mensagem' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:21:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    mensagem = "Par"
+else: 
+	 mensagem = "Impar"
+
+print(mensagem)
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:23:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar")
+
+print(mensagem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(mensagem = "Impar")
+TypeError: 'mensagem' is an invalid keyword argument for this function
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:24:45) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(""mensagem" = "Impar"")
+
+print(mensagem)
+-- ERROR:
+File "XXXX", line 10
+    print(""mensagem" = "Impar"")
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:24:55) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print("mensagem" = "Impar)
+
+print(mensagem)
+-- ERROR:
+File "XXXX", line 10
+    print("mensagem" = "Impar)
+                             ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:25:03) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar)
+
+print(mensagem)
+-- ERROR:
+File "XXXX", line 10
+    print(mensagem = "Impar)
+                           ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:25:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar)
+
+print(mensagem)
+-- ERROR:
+File "XXXX", line 10
+    print(mensagem = "Impar)
+                           ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:25:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar)
+
+print(mensagem)
+-- ERROR:
+File "XXXX", line 10
+    print(mensagem = "Impar)
+                           ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:25:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar")
+
+print(mensagem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(mensagem = "Impar")
+TypeError: 'mensagem' is an invalid keyword argument for this function
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:25:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(mensagem = "Par")
+else: 
+	 print(mensagem = "Impar")
+
+print(mensagem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(mensagem = "Impar")
+TypeError: 'mensagem' is an invalid keyword argument for this function
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:35:45) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+
+print(mensagem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(mensagem)
+NameError: name 'mensagem' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:03) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:12) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 21:36:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- EXECUTION TIME:
+0.173944
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:27) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:38) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:36:56) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:37:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:37:23) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print("Par")
+else: 
+	 print("Impar")
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:38:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    printround(("Par", 2)
+else: 
+	 print(round("Impar", 2)
+-- ERROR:
+File "XXXX", line 9
+    else: 
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 21:39:10) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+    print(round("Par", 2))
+else: 
+	 print(round("Impar", 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round("Impar", 2))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

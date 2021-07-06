@@ -1,0 +1,9 @@
+2019-5-7 11:13:56.472#viewportChange#0
+2019-5-7 11:13:57.818#mousedown#{"isTrusted":true}
+2019-5-7 11:13:57.824#focus#
+2019-5-7 11:13:58.570#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"text":["rom math import *","num = int(input(\"digite: \"))","i = 1","a = 0","# termo geral = 1 / i ** 2","while (i <= num):","\ta = a + (1 / (i ** 2))","\ti = i + 1","manip = sqrt(a * 6)","print(round(manip, 6))"],"removed":[""],"origin":"paste"}
+2019-5-7 11:13:58.594#viewportChange#0
+2019-5-7 11:13:59.059#mousedown#{"isTrusted":true}
+2019-5-7 11:14:00.344#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"text":["f"],"removed":[""],"origin":"+input"}
+2019-5-7 11:14:00.344#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":1.09375},"text":["f"],"removed":[""],"origin":"+input"}
+2019-5-7 11:14:03.449#submit#Congratulations, your code is correct!

@@ -1,0 +1,14245 @@
+== TEST (2019-05-09 17:29:36) 
+-- CODE:
+num=int(input(""))
+
+while(num>0):
+	num%(i+1)==0
+	i=i+1
+print(i)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num%(i+1)==0
+NameError: name 'i' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 17:29:43) 
+-- CODE:
+num=int(input(""))
+
+while(num>0):
+	num%(i+1)==0
+	i=i+1
+print(i)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    num%(i+1)==0
+NameError: name 'i' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 17:59:43) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+print("1 divisor")
+   else:
+print(divisor)
+-- ERROR:
+File "XXXX", line 7
+    print("1 divisor")
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 17:59:50) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+print("1 divisor")
+   else:
+print(divisor)
+-- ERROR:
+File "XXXX", line 7
+    print("1 divisor")
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 17:59:51) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+print("1 divisor")
+   else:
+print(divisor)
+-- ERROR:
+File "XXXX", line 7
+    print("1 divisor")
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 17:59:51) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+print("1 divisor")
+   else:
+print(divisor)
+-- ERROR:
+File "XXXX", line 7
+    print("1 divisor")
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:39:28) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+print("1 divisor")
+   else:
+print(divisor)
+-- ERROR:
+File "XXXX", line 7
+    print("1 divisor")
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:40:00) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+		print("1 divisor")
+   else:
+		print(divisor)
+-- ERROR:
+File "XXXX", line 8
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:40:02) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=divisor+1
+	if(resto==0):
+		print("1 divisor")
+   else:
+		print(divisor)
+-- ERROR:
+File "XXXX", line 8
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:40:46) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	resto=num%divisor
+	divisor=resto+1
+	if(resto==0):
+		print("1 divisor")
+   else:
+		
+		print(divisor)
+-- ERROR:
+File "XXXX", line 8
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:41:22) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	if(resto==0):
+		print("1 divisor")
+   else:
+		resto=num%divisor
+		divisor=resto+1
+		print(divisor)
+-- ERROR:
+File "XXXX", line 6
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:41:26) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	if(resto==0):
+		print("1 divisor")
+   else:
+		resto=num%divisor
+		divisor=resto+1
+		print(divisor)
+-- ERROR:
+File "XXXX", line 6
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:41:26) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	if(resto==0):
+		print("1 divisor")
+   else:
+		resto=num%divisor
+		divisor=resto+1
+		print(divisor)
+-- ERROR:
+File "XXXX", line 6
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:41:48) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	if(resto==0):
+		print("1 divisor")
+		else:
+			resto=num%divisor
+		   divisor=resto+1
+		   print(divisor)
+-- ERROR:
+File "XXXX", line 6
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:41:50) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+while(divisor<=num):
+	if(resto==0):
+		print("1 divisor")
+		else:
+			resto=num%divisor
+		   divisor=resto+1
+		   print(divisor)
+-- ERROR:
+File "XXXX", line 6
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:44:27) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=0
+
+
+while(divisores<num):
+	num%divisores
+	divisores=divisores+1
+print(divisores)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    num%divisores
+ZeroDivisionError: integer division or modulo by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:44:52) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	num%divisores=0
+	divisores=divisores+1
+print(divisores)
+	
+-- ERROR:
+File "XXXX", line 6
+    num%divisores=0
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:44:59) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores==1
+
+while(divisores<num):
+	num%divisores==0
+	divisores=divisores+1
+print(divisores)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    divisores==1
+NameError: name 'divisores' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:45:43) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores==1
+
+while(divisores<num):
+	num%divisores==0
+	divisores==divisores+1
+print(divisores)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    divisores==1
+NameError: name 'divisores' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:46:14) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores==1
+
+while(divisores<num):
+	num%divisores==0
+	divisores==divisores+1
+if(divisores>0):
+	print(divisores)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    divisores==1
+NameError: name 'divisores' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:46:41) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	num%divisores=0
+	divisores=divisores+1
+if(divisores>0):
+	print(divisores)
+	
+-- ERROR:
+File "XXXX", line 6
+    num%divisores=0
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:47:14) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	num%divisores=0
+	divisores=divisores+1
+if(divisores>0):
+	print(divisores)
+	
+-- ERROR:
+File "XXXX", line 6
+    num%divisores=0
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:47:21) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	num%divisores==0
+	divisores=divisores+1
+if(divisores>0):
+	print(divisores)
+	
+-- OUTPUT:
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:47:49) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	num%divisores==0
+	divisores=divisores+1
+	print(divisores)
+	
+-- OUTPUT:
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+27
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:48:51) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+	print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:00:57) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:01:05) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:28) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:29) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:33) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:33) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:33) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 20:02:33) 
+-- CODE:
+num=int(input("Digite um numero: "))
+
+divisores=1
+
+while(divisores<num):
+	resto=num%divisores
+	divisores=resto+1
+print(divisores)
+	
+-- OUTPUT:
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:04:10) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%i==0):
+		print(i)
+	i=i+1
+		
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(i<num):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:09:38) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+	i=i+1
+print(i)
+if(num2%b==0):
+	b=b+1
+print(b)
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 10
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:10:00) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		i=i+1
+print(i)
+if(num2%b==0):
+	b=b+1
+print(b)
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 15
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:10:20) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		i=i+1
+print(i)
+if(num2%b==0):
+	b=b+1
+   print(b)
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 14
+    print(b)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:11:40) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		i=i+1
+		b=b+1
+print(i)
+print(b)
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 14
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:12:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		i=i+1
+		b=b+1
+print(i)
+print(b)
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 14
+    else:
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:12:28) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		i=i+1
+		b=b+1
+      print(i)
+      print(b)
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 12
+    print(i)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:12:53) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		i=i+1
+		print(i)
+		b=b+1
+      print(b)
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 13
+    print(b)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:13:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		i=i+1
+   print(i)
+		b=b+1
+   print(b)
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 11
+    print(i)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:13:50) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		print(i)
+		i=i+1
+      print(b)
+		b=b+1
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 12
+    print(b)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:14:05) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0 and num2%b==0):
+		print(i)
+	i=i+1
+      print(b)
+	b=b+1
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 12
+    print(b)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:15:00) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	if(num2%b==0):
+      print(b)
+	b=b+1
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 13
+    print(b)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:15:23) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(num2%b==0):
+      print(b)
+	b=b+1
+   else:
+		if(i=num2 and b=num1):
+			print("AMIGOS")
+		else:
+			print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 14
+    b=b+1
+        ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:15:57) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(num2%b==0):
+	print(b)
+b=b+1
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+	else:
+		print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 15
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:17:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+divisores=0
+
+while(i<num):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(num2%b==0):
+	print(b)
+b=b+1
+else:
+	if(i=num2 and b=num1):
+		print("AMIGOS")
+	else:
+		print("NAO AMIGOS")
+
+	
+-- ERROR:
+File "XXXX", line 15
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:21:22) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+cont=cont+1
+
+while(i<num1):
+	if(num1%i=0):
+		i=i+1
+print(i)
+		
+		
+		
+-- ERROR:
+File "XXXX", line 8
+    if(num1%i=0):
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:21:44) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+cont=cont+1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+print(i)
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    cont=cont+1
+NameError: name 'cont' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:22:08) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+print(i)
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    cont=cont+1
+NameError: name 'cont' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:23:17) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+	i=i+1
+print(i)
+		
+		
+		
+-- ERROR:
+File "XXXX", line 8
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:23:30) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+print(i)
+		
+		
+		
+-- ERROR:
+File "XXXX", line 8
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:27:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+   i=i+1
+if(num2%i==0):
+	print(i)
+i=i+1
+else:
+	if(i=num2):
+		print("PERFEITO")
+	else:
+		if(i=num1):
+			print("NAO PERFEITO")
+		
+		
+		
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:27:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+   i=i+1
+if(num2%i==0):
+	print(i)
+   i=i+1
+else:
+	if(i=num2):
+		print("PERFEITO")
+	else:
+		if(i=num1):
+			print("NAO PERFEITO")
+		
+		
+		
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:29:41) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1 and b<num2):
+	if(num1%i==0 and num2%b==0):
+   i=i+1
+	b=b+1
+
+if(i=num2):
+	print("PERFEITO")
+else:
+	if(b=num1):
+		print("NAO PERFEITO")
+		
+		
+		
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:30:29) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1 and b<num2):
+	if(num1%i==0 and num2%b==0):
+   i=i+1
+	b=b+1
+
+if(i=num2 and b=num1):
+	print("PERFEITO")
+else:
+	print("NAO PERFEITO")
+		
+		
+		
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:32:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+	print(i)
+	
+-- OUTPUT:
+2
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:36:41) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(i=num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- ERROR:
+File "XXXX", line 11
+    if(i=num2):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:36:54) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:37:22) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:37:33) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+	   i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:38:29) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:40:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0 and num2%i==0):
+		print(i)
+	i=i+1
+if(i==num2 and i==num1):
+	print("AMIGOS")
+else:
+	if(i!=num2 and i!=num1):
+		print("NAO AMIGOS")
+	
+-- OUTPUT:
+1
+2
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:40:36) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0 and num2%i==0):
+		print(i)
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+	
+-- OUTPUT:
+1
+2
+4
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:43:45) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b=0):
+		
+	b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 10
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:44:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+	i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b=0):
+		
+	b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:44:12) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b=0):
+		
+	b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 9
+    i=i+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:44:25) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b=0):
+		
+	b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 19
+    if(num2%b=0):
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:44:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b==0):
+		
+	b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 21
+    b=b+1
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:45:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b==0):
+		b=b+1
+	if(b==num1):
+	print("AMIGOS")
+else:
+	if(b!=num2):
+		print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 22
+    print("AMIGOS")
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:45:39) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b==0):
+		b=b+1
+	if(b==num1):
+		print("AMIGOS")
+   else:
+		if(b!=num2):
+			print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 23
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:45:54) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+#b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b==0):
+		b=b+1
+if(b==num1):
+		print("AMIGOS")
+else:
+		if(b!=num2):
+			print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 23
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 23:46:17) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+if(i==num2):
+	print("AMIGOS")
+else:
+	if(i!=num2):
+		print("NAO AMIGOS")
+
+b=1
+
+while(b<num1):
+	if(num2%b==0):
+		b=b+1
+if(b==num1):
+		print("AMIGOS")
+else:
+		if(b!=num2):
+			print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 23
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:23:07) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0)
+	   i=i+1
+if(i=num1):
+	print("Amigos")
+-- ERROR:
+File "XXXX", line 7
+    if(num1%i==0)
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:23:22) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+	   i=i+1
+if(i=num1):
+	print("Amigos")
+-- ERROR:
+File "XXXX", line 9
+    if(i=num1):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:23:35) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+	   i=i+1
+if(i==num1):
+	print("Amigos")
+-- ERROR:
+File "XXXX", line 9
+    if(i=num1):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:24:40) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+	   i=i+1
+if(i==num1):
+	print("Amigos")
+elif(i!=num1):
+	print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 9
+    if(i=num1):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:26:48) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+	   i=i+1
+	if(num2%b==0):
+		b=b+1
+if(i==num2 and b==num1
+	print("Amigos")
+elif(i!=num2 and b!=num1):
+	print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 13
+    print("Amigos")
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:27:04) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+	   i=i+1
+	if(num2%b==0):
+		b=b+1
+if(i==num2 and b==num1):
+	print("Amigos")
+elif(i!=num2 and b!=num1):
+	print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 13
+    print("Amigos")
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:27:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+b=1
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+	   i=i+1
+print(i)
+	if(num2%b==0):
+		b=b+1
+print(b)
+if(i==num2 and b==num1):
+	print("Amigos")
+elif(i!=num2 and b!=num1):
+	print("NAO AMIGOS")
+-- ERROR:
+File "XXXX", line 11
+    if(num2%b==0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:39:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num):
+	if(num1%i=0):
+		i=i+1
+print(i)
+
+
+-- ERROR:
+File "XXXX", line 6
+    if(num1%i=0):
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:40:00) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num):
+	if(num1%i==0):
+		i=i+1
+print(i)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    while(i<num):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:40:15) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		i=i+1
+print(i)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    while(i<num):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:40:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+print(i)
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:41:01) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:42:35) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	soma=soma+i
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+3433509
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:43:05) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	soma=soma+1
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2619
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:43:36) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	soma=soma+1
+print(i)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 00:45:50) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+print(i)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:15:46) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	soma=soma+1
+print(i)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:16:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+	i=i+1
+	soma=soma+i
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+3433509
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:16:54) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:18:31) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%i):
+	print(i)
+	soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2620
+5544
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:18:55) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%i==0):
+	print(i)
+	soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:20:23) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+	elif(num2%i==0):
+		print(i)
+	   soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+-- ERROR:
+File "XXXX", line 13
+    elif(num2%i==0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:20:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+elif(num2%i==0):
+		print(i)
+	   soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+-- ERROR:
+File "XXXX", line 13
+    elif(num2%i==0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:21:15) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:22:47) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+	if(num2%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 13
+    if(num2%i==0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:22:56) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 16
+    i=i+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:23:09) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%i==0):
+		print(i)
+		soma=soma+i
+i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:23:53) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		print(b)
+		soma=soma+b
+b=b+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2925
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:24:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:25:15) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+while(i<num2):
+	if(num2%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:25:53) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+while(i<num2):
+	if(num2%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:26:46) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+while(i<num2):
+	if(num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:27:15) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+while(b<num2):
+	if(num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2
+4
+17
+34
+43
+68
+86
+172
+731
+1462
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:28:35) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0 and num2%b):
+		print(i)
+		print(b)
+		soma=soma+i
+		suma=suma+b
+	i=i+1
+	b=b+1
+print(soma)
+print(suma)
+
+while(b<num2):
+	if(num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- OUTPUT:
+5
+5
+10
+10
+20
+20
+131
+131
+262
+262
+524
+524
+655
+655
+1310
+1310
+2917
+2917
+2917
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:30:19) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+elif(b<num2 and num2%b==0):
+	if(num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- ERROR:
+File "XXXX", line 15
+    elif(b<num2 and num2%b==0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:30:39) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+elif(b<num2 and num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- ERROR:
+File "XXXX", line 16
+    elif(b<num2 and num2%b==0):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:31:17) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(b<num2 and num2%b==0):
+		print(b)
+		suma=suma+b
+	b=b+1
+print(suma)
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    b=b+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:31:28) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(b<num2 and num2%b==0):
+		print(b)
+		suma=suma+b
+b=b+1
+print(suma)
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:32:06) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:38:11) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma)
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 16
+    if(soma)
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:39:00) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma=num2):
+	print("AMIGOS")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 16
+    if(soma=num2):
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:39:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:41:09) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%i==0):
+	print(i)
+	soma=soma+i
+i=i+1
+	print(soma)
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 22
+    print(soma)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:41:20) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%i==0):
+	print(i)
+	soma=soma+i
+i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:42:00) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(num2%i==0):
+	print(i)
+	soma=soma+i
+i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:42:17) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+suma=0
+b=1
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%i==0):
+	print(i)
+	soma=soma+i
+i=i+1
+print(soma)
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:43:20) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%b==0):
+	print(i)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:43:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:44:40) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%b==0 and b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:44:55) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%b==0 and b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:45:39) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:47:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:47:27) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(b)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:48:01) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(b<num2):
+	print(b)
+	suma=suma+b
+b=b+1
+print(b)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:48:41) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(soma==num2):
+	print("AMIGOS")
+elif(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(b)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+AMIGOS
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:49:39) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(b)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:49:52) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(soma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:50:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:50:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+		suma=suma+b
+	i=i+1
+print(soma)
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:51:01) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+		suma=suma+b
+	i=i+1
+	b=b+1
+print(soma)
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2924
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:52:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+	if(num2%b==0):
+		print(b)
+		suma=suma+i
+print(suma)
+
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- ERROR:
+File "XXXX", line 15
+    if(num2%b==0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:52:26) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		print(b)
+		suma=suma+i
+print(suma)
+
+
+if(num2%b==0):
+	print(b)
+	suma=suma+b
+b=b+1
+print(suma)
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2620
+1
+2621
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:53:36) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		print(b)
+		suma=suma+i
+print(suma)
+
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+1
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:54:11) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2620
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:56:01) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+elif(soma==num1 and suma==num2):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    elif(soma==num1 and suma==num2):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:56:16) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+elif(soma=num1 and suma=num2):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    elif(soma=num1 and suma=num2):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:56:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+elif((soma=num1) and (suma=num2)):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    elif((soma=num1) and (suma=num2)):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:57:06) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+elif((soma=num2) and (suma=num1)):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    elif((soma=num2) and (suma=num1)):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:57:19) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma=num2) and (suma=num1)):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 19
+    if((soma=num2) and (suma=num1)):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:57:29) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:57:55) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		print(i)
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+1
+2
+4
+5
+10
+20
+131
+262
+524
+655
+1310
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:58:34) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 09:59:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 09:59:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.19761
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:00:56) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:01:06) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:01:20) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:01:29) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.126699
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:02:28) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:02:44) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.160435
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:04:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and b<num2):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:04:10) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and b<num2):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.179041
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:04:27) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and b<num2):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:05:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and b<num2):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:05:38) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:05:51) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.1276
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:06:42) 
+-- CODE:
+num1=int(input("Digite um numero inteiro positivo: "))
+num2=int(input("Digite um numero inteiro positivo: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+elif((soma!=num2) and (suma!=num1)):
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:08:09) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:08:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:08:43) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.211185
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-10 10:09:16) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-10 10:09:25) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.19104
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:44:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:45:53) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:50:31) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while(i<num1 and b<num2 and num1>0 and num2>0):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:51:56) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 18, in <module>
+    if((soma==num2) and (suma==num1) (num1>0) and (num2>0)):
+TypeError: 'bool' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:53:36) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and (num1>0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:54:16) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and (num1>0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and soma>=0 and suma>=0):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:54:52) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and (num1>0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:55:44) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num>=0) and (soma>=0) ):
+	if(num1%i==0 and (num1>0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    while((i<num1) and (b<num2) and (num>=0) and (soma>=0) ):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:55:51) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+	if(num1%i==0 and (num1>0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:56:38) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+	if(num1%i==0 and (num1>=0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>=0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:56:57) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+	if(num1%i==0 and (num1>=0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>=0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:08:46) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+	if(num1%i==0 and (num1>=0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>=0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    while((i<num1) and (b<num2) and (num>=0) and (soma>=0)):
+NameError: name 'num' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:09:19) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2):
+	if(num1%i==0 and (num1>=0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>=0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 9
+    while((i<num1) and (b<num2):
+                               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:09:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and (num1>=0)):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and (num2>=0)):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (soma>=0) and (suma>=0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:10:04) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:10:11) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:10:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:15:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:16:48) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:17:30) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:18:49) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:19:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:19:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.142095
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:20:07) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:20:37) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.142643
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:23) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.134498
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:23) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.115633
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:23) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.0984471
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.171595
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.168247
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+284
+220
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.281915
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:22:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(soma!=num2 and suma!=num1 and num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.209873
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:23:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 or num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 16:24:12) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:24:14) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.163809
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 16:24:18) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.189924
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:27:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:28:30) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:28:46) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2) and (num1>0) and (num2>0)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:30:09) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+print(suma)
+
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:30:52) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:31:02) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.180834
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:31:17) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print(" AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print(" NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+ AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:31:18) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print(" AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print(" NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.216174
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+ AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+ NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+ AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:31:19) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print(" AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print(" NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.132707
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+ AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+ NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+ AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:32:44) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0 and num1>0 and num2>0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0 and num2>0 and num1>0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print(" AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print(" NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+ AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:33:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:33:41) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.165531
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:34:11) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+b
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+1
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:34:42) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+b
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.195525
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+1
+NAO AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+1
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+1
+NAO AMIGOS
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:34:46) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:35:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		soma=soma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (soma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+0
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:35:51) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:36:24) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+b
+	b=b+1
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 17
+    b=b+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:36:34) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+b
+	   b=b+1
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 17
+    b=b+1
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:36:44) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+b
+b=b+1
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+1
+NAO AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 22:36:58) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 22:37:11) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.142447
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:40:48) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:40:53) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:40:59) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:41:03) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:41:05) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:41:10) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:41:12) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.145582
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:41:28) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:41:30) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+		suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.153925
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+220
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:42:13) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+850.603
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+849.253
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+848.146
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+847.586
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+Digite um numero: Digite um numero:
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+846.077
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+task 1edc968c849b2a404882e99970e9d85786d975ba2d828d4ecff348b2fed41688 not found: not found
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:56:21) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+848.988
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 09:55:39) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+b=1
+suma=0
+
+while((i<num1) and (b<num2)):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+if((num1>0) and (num2>0)):
+	print(soma)
+if(num2%b==0):
+	suma=suma+i
+if((num1>0) and (num2>0)):
+	print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 10:05:29) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+while(b<num2):
+	if(num2%b==0):
+		suma=suma+b
+		b=b+1
+print(soma)
+print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 10:05:37) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+		i=i+1
+while(b<num2):
+	if(num2%b==0):
+		suma=suma+b
+		b=b+1
+print(soma)
+print(suma)
+if((soma==num2) and (suma==num1) and (num1>0) and (num2>0)):
+	print("AMIGOS")
+else:
+	if(num1>0 and num2>0):
+		print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 10:06:34) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+while(b<num2):
+	if(num2%b==0):
+		suma=suma+b
+	b=b+1
+print(soma)
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 10:06:48) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+while(b<num2):
+	if(num2%b==0):
+		suma=suma+b
+	b=b+1
+print(soma)
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- OUTPUT:
+2924
+2620
+AMIGOS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 10:07:32) 
+-- CODE:
+num1=int(input("Digite um numero: "))
+num2=int(input("Digite um numero: "))
+
+i=1
+soma=0
+
+b=1
+suma=0
+
+while(i<num1):
+	if(num1%i==0):
+		soma=soma+i
+	i=i+1
+while(b<num2):
+	if(num2%b==0):
+		suma=suma+b
+	b=b+1
+print(soma)
+print(suma)
+
+if((soma==num2) and (suma==num1)):
+	print("AMIGOS")
+else:
+	print("NAO AMIGOS")
+	
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.132942
+-- TEST CASE 1:
+---- input:
+2620
+2924
+---- correct output:
+2924
+2620
+AMIGOS
+---- user output:
+2924
+2620
+AMIGOS
+-- TEST CASE 2:
+---- input:
+220
+282
+---- correct output:
+284
+294
+NAO AMIGOS
+---- user output:
+284
+294
+NAO AMIGOS
+-- TEST CASE 3:
+---- input:
+66928
+66992
+---- correct output:
+66992
+66928
+AMIGOS
+---- user output:
+66992
+66928
+AMIGOS
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

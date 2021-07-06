@@ -1,0 +1,195 @@
+== TEST (2019-04-16 09:23:28) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t > 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+20190.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 09:23:37) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t > 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- EXECUTION TIME:
+0.143845
+-- TEST CASE 1:
+---- input:
+121
+---- correct output:
+17100.0
+---- user output:
+20190.0
+-- TEST CASE 2:
+---- input:
+450
+---- correct output:
+50500.0
+---- user output:
+50000.0
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5100.0
+---- user output:
+8190.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 09:23:57) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t > 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+20190.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 09:26:23) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t > 200):
+	print(round(custo2, 2))
+else:
+	print(round(custo1, 2))
+-- EXECUTION TIME:
+0.152789
+-- TEST CASE 1:
+---- input:
+121
+---- correct output:
+17100.0
+---- user output:
+17100.0
+-- TEST CASE 2:
+---- input:
+450
+---- correct output:
+50500.0
+---- user output:
+53090.0
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5100.0
+---- user output:
+5100.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 09:26:52) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t < 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- EXECUTION TIME:
+0.151637
+-- TEST CASE 1:
+---- input:
+121
+---- correct output:
+17100.0
+---- user output:
+17100.0
+-- TEST CASE 2:
+---- input:
+450
+---- correct output:
+50500.0
+---- user output:
+53090.0
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+5100.0
+---- user output:
+5100.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 09:26:53) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = (t * 100) + 5000
+custo2 = ((t * 100) + 90) + 8000
+
+if (t < 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+17100.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 09:30:33) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = 5000 + (t * 100) 
+custo2 = 8000 + (t * 100) + (t * 90)
+
+if (t < 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+17100.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 09:36:27) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = 5000 + (t * 100) 
+custo2 = 8000 + (t * 100) + 90
+
+if (t < 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+17100.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 09:37:14) 
+-- CODE:
+#Entrada que o usuario deve colocar
+t = float(input("Informe o tempo de voo:"))
+custo1 = 5000.00 + (t * 100.00) 
+custo2 = 8000.00 + (t * 100.00) + 90.00
+
+if (t < 200):
+	print(round(custo1, 2))
+else:
+	print(round(custo2, 2))
+-- OUTPUT:
+17100.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

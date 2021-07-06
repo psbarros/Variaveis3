@@ -1,0 +1,474 @@
+== SUBMITION (2019-05-08 01:08:38) 
+-- CODE:
+virus = int(input("Quantidade inicial de copias de virus: "))
+leucocitos = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (leucocitos != 2*virus):
+    virus += (pV/100)*virus
+    leucocitos += (pL/100)*leucocitos
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.201174
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+35164
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+17739
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+8078
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:10:27) 
+-- CODE:
+virus = int(input("Quantidade inicial de copias de virus: "))
+leucocitos = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (leucocitos < 2*virus):
+    virus += (pV/100)*virus
+    leucocitos += (pL/100)*leucocitos
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.1521
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:11:12) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (leucocitos < 2*virus):
+    virus += (pV/100)*virus
+    leucocitos += (pL/100)*leucocitos
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.158088
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1732/2504/leucocitos.py", line 9, in <module>
+    while (leucocitos < 2*virus):
+NameError: name 'leucocitos' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:11:31) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.120791
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:12:20) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia
+-- EXECUTION TIME:
+0.253179
+-- ERROR:
+  File "/home/codebench/codes/1732/2504/leucocitos.py", line 15
+    
+             ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:12:25) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.21391
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:12:58) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia
+-- EXECUTION TIME:
+0.151181
+-- ERROR:
+  File "/home/codebench/codes/1732/2504/leucocitos.py", line 15
+    
+             ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:13:03) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.195994
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:13:56) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.205973
+-- ERROR:
+  File "/home/codebench/codes/1732/2504/leucocitos.py", line 7
+    dia = 
+         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 01:14:00) 
+-- CODE:
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.208716
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 11:49:03) 
+-- CODE:
+'''
+--------------------------------------------
+ |------------|
+ | Questão 10 |
+ |------------|
+ 
+ Universidade Federal do Amazonas
+ Instituto de Ciências Exatas
+ Departamento de Física
+
+ Micael Davi Lima de Oliveira - 21851626 - FB01
+ Data: 14/05/2019
+
+ Lab 4 - Repetição por Condição(while) 
+---------------------------------------------
+'''
+
+v = int(input("Quantidade inicial de copias de virus: "))
+l = int(input("Quantidade inicial de copias de leucocitos: "))
+
+pV = float(input("Percentual diario de multiplicacao do virus: "))
+pL = float(input("Percentual diario de multiplicacao dos leucocitos: "))
+
+dia = 0
+
+while (l < 2*v):
+    v += (pV/100)*v
+    l += (pL/100)*l
+
+    dia += 1
+print(dia)
+-- EXECUTION TIME:
+0.142371
+-- TEST CASE 1:
+---- input:
+350625
+5500
+2
+75
+---- correct output:
+9
+---- user output:
+9
+-- TEST CASE 2:
+---- input:
+650090
+90045
+4
+90
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 3:
+---- input:
+419250
+1725
+9
+59
+---- correct output:
+17
+---- user output:
+17
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

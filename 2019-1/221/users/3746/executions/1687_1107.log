@@ -1,0 +1,2872 @@
+== TEST (2019-04-26 11:27:04) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+
+proximo = 200 % 7
+print(proximo)
+
+
+-- OUTPUT:
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:42:22) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+elif dia == 0 and proximo == 0:
+	msg = 'domingo'
+elif dia == 1 and proximo == 1:
+	msg = 'segunda'
+elif dia == 2 or proximo == 2:
+	msg = 'terca'
+elif dia == 3 or proximo == 3:
+	msg = 'quarta'
+elif dia == 4 or proximo == 4:
+	msg = 'quinta'
+elif dia == 5 or proximo == 5:
+	msg = 'sexta'
+elif dia == 6 or proximo == 6:
+	msg = 'sabado'
+else:
+	mensagem = dia
+	
+print('Hoje eh',dia,'e o dia futuro eh',proximo)
+print('A entrada',dia, 'eh invalida')
+-- ERROR:
+File "XXXX", line 5
+    elif dia == 0 and proximo == 0:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:42:31) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+elif dia == 0 and proximo == 0:
+	msg = 'domingo'
+elif dia == 1 and proximo == 1:
+	msg = 'segunda'
+elif dia == 2 or proximo == 2:
+	msg = 'terca'
+elif dia == 3 or proximo == 3:
+	msg = 'quarta'
+elif dia == 4 or proximo == 4:
+	msg = 'quinta'
+elif dia == 5 or proximo == 5:
+	msg = 'sexta'
+elif dia == 6 or proximo == 6:
+	msg = 'sabado'
+else:
+	mensagem = dia
+	
+print('Hoje eh',dia,'e o dia futuro eh',proximo)
+print('A entrada',dia, 'eh invalida')
+-- ERROR:
+File "XXXX", line 5
+    elif dia == 0 and proximo == 0:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:42:40) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 and proximo == 0:
+	msg = 'domingo'
+elif dia == 1 and proximo == 1:
+	msg = 'segunda'
+elif dia == 2 or proximo == 2:
+	msg = 'terca'
+elif dia == 3 or proximo == 3:
+	msg = 'quarta'
+elif dia == 4 or proximo == 4:
+	msg = 'quinta'
+elif dia == 5 or proximo == 5:
+	msg = 'sexta'
+elif dia == 6 or proximo == 6:
+	msg = 'sabado'
+else:
+	mensagem = dia
+	
+print('Hoje eh',dia,'e o dia futuro eh',proximo)
+print('A entrada',dia, 'eh invalida')
+-- OUTPUT:
+Hoje eh 9 e o dia futuro eh 11
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:43:30) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 and proximo == 0:
+	msg = 'domingo'
+elif dia == 1 and proximo == 1:
+	msg = 'segunda'
+elif dia == 2 or proximo == 2:
+	msg = 'terca'
+elif dia == 3 or proximo == 3:
+	msg = 'quarta'
+elif dia == 4 or proximo == 4:
+	msg = 'quinta'
+elif dia == 5 or proximo == 5:
+	msg = 'sexta'
+elif dia == 6 or proximo == 6:
+	msg = 'sabado'
+else:
+	mensagem = dia
+	
+print('Hoje eh',msg,'e o dia futuro eh',msg)
+print('A entrada',dia, 'eh invalida')
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 22, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msg)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:45:29) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+
+
+if dia == 0 and proximo == 0:
+	msg = 'domingo'
+elif dia == 1 and proximo == 1:
+	msg = 'segunda'
+elif dia == 2 or proximo == 2:
+	msg = 'terca'
+elif dia == 3 or proximo == 3:
+	msg = 'quarta'
+elif dia == 4 or proximo == 4:
+	msg = 'quinta'
+elif dia == 5 or proximo == 5:
+	msg = 'sexta'
+elif dia == 6 or proximo == 6:
+	msg = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msg)
+print('A entrada',dia, 'eh invalida')
+-- OUTPUT:
+Hoje eh 9 e o dia futuro eh 9
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:47:42) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msg)
+print('A entrada',dia, 'eh invalida')
+-- OUTPUT:
+A entrada 9 eh invalida
+Hoje eh 9 e o dia futuro eh 9
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:47:54) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msgm' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:48:09) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msgm' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:48:10) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msgm' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:48:40) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+break
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+File "XXXX", line 23
+    break
+    ^
+SyntaxError: 'break' outside loop
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:49:06) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msgm' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:49:50) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = dia + prox % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msgm' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:50:24) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("DIgite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- OUTPUT:
+A entrada 9 eh invalida
+Hoje eh 9 e o dia futuro eh quinta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:51:23) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- OUTPUT:
+A entrada 9 eh invalida
+Hoje eh 9 e o dia futuro eh quinta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:51:27) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia == 0 :
+	msg = 'domingo'
+elif dia == 1 :
+	msg = 'segunda'
+elif dia == 2 :
+	msg = 'terca'
+elif dia == 3 :
+	msg = 'quarta'
+elif dia == 4 :
+	msg = 'quinta'
+elif dia == 5 :
+	msg = 'sexta'
+elif dia == 6 :
+	msg = 'sabado'
+else:
+	msg = dia
+	
+print('A entrada',dia,'eh invalida')
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- OUTPUT:
+A entrada 9 eh invalida
+Hoje eh 9 e o dia futuro eh quinta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:53:04) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-26 11:53:12) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- EXECUTION TIME:
+0.186059
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1687/1107/main.py", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:53:23) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:53:33) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:53:50) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 11:54:03) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg = 'sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+
+if proximo == 0:
+	msgm = 'domingo'
+elif proximo == 1:
+	msgm = 'segunda'
+elif proximo == 2:
+	msgm = 'terca'
+elif proximo == 3:
+	msgm = 'quarta'
+elif proximo == 4:
+	msgm = 'quinta'
+elif proximo == 5:
+	msgm = 'sexta'
+elif proximo == 6:
+	msgm = 'sabado'
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 12:01:23) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == proximo == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == proximo == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == proximo == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == proximo == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == proximo == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == proximo == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == proximo == 6  :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+	
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 23, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 12:02:09) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == proximo == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == proximo == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == proximo == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == proximo == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == proximo == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == proximo == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == proximo == 6  :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+print(msg)
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+	
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 23, in <module>
+    print(msg)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:38:37) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == 6 :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 23, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:38:58) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == 6 :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 23, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:43:04) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == 6 :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia == 0 :
+	msgm = 'domingo'
+elif dia == 1 :
+	msgm = 'segunda'
+elif dia == 2 :
+	msgm = 'terca'
+elif dia == 3 :
+	msgm = 'quarta'
+elif dia == 4 :
+	msgm = 'quinta'
+elif dia == 5 :
+	msgm = 'sexta'
+elif dia == 6 :
+	msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 41, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:43:21) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == 6 :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia == 0 :
+	msgm = 'domingo'
+elif dia == 1 :
+	msgm = 'segunda'
+elif dia == 2 :
+	msgm = 'terca'
+elif dia == 3 :
+	msgm = 'quarta'
+elif dia == 4 :
+	msgm = 'quinta'
+elif dia == 5 :
+	msgm = 'sexta'
+elif dia == 6 :
+	msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 41, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:44:20) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg,msgm = 'domingo','domingo'
+	elif dia == 1 :
+		msg,msgm = 'segunda','segunda'
+	elif dia == 2 :
+		msg,msgm = 'terca','terca'
+	elif dia == 3 :
+		msg,msgm = 'quarta','quarta'
+	elif dia == 4 :
+		msg,msgm = 'quinta','quinta'
+	elif dia == 5 :
+		msg,msgm = 'sexta','sexta'
+	elif dia == 6 :
+		msg,msgm = 'sabado','sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 41, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:47:37) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 41, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:48:11) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:48:24) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-26 22:48:29) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:09:01) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:10:40) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		print('domingo')
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:11:17) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg = 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+	
+if dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 40, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:12:42) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		msg= 'domingo'
+	elif dia == 1 :
+		msg = 'segunda'
+	elif dia == 2 :
+		msg = 'terca'
+	elif dia == 3 :
+		msg = 'quarta'
+	elif dia == 4 :
+		msg = 'quinta'
+	elif dia == 5 :
+		msg ='sexta'
+	elif dia == 6 :
+		msg = 'sabado'
+elif dia >= 0 and dia <=6:
+	if dia == 0 :
+		msgm = 'domingo'
+	elif dia == 1 :
+		msgm = 'segunda'
+	elif dia == 2 :
+		msgm = 'terca'
+	elif dia == 3 :
+		msgm = 'quarta'
+	elif dia == 4 :
+		msgm = 'quinta'
+	elif dia == 5 :
+		msgm = 'sexta'
+	elif dia == 6 :
+		msgm = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:14:30) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2 :
+		x = 'terca'
+	elif dia == 3 :
+		x = 'quarta'
+	elif dia == 4 :
+		x = 'quinta'
+	elif dia == 5 :
+		x ='sexta'
+	elif dia == 6 :
+		x = 'sabado'
+elif dia >= 0 and dia <=6:
+	if dia == 0 :
+		y = 'domingo'
+	elif dia == 1 :
+		y = 'segunda'
+	elif dia == 2 :
+		y = 'terca'
+	elif dia == 3 :
+		y = 'quarta'
+	elif dia == 4 :
+		y = 'quinta'
+	elif dia == 5 :
+		y = 'sexta'
+	elif dia == 6 :
+		y = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+
+	
+print('Hoje eh',msg,'e o dia futuro eh',msgm)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',msg,'e o dia futuro eh',msgm)
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:14:45) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2 :
+		x = 'terca'
+	elif dia == 3 :
+		x = 'quarta'
+	elif dia == 4 :
+		x = 'quinta'
+	elif dia == 5 :
+		x ='sexta'
+	elif dia == 6 :
+		x = 'sabado'
+elif dia >= 0 and dia <=6:
+	if dia == 0 :
+		y = 'domingo'
+	elif dia == 1 :
+		y = 'segunda'
+	elif dia == 2 :
+		y = 'terca'
+	elif dia == 3 :
+		y = 'quarta'
+	elif dia == 4 :
+		y = 'quinta'
+	elif dia == 5 :
+		y = 'sexta'
+	elif dia == 6 :
+		y = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+
+	
+print('Hoje eh',x,'e o dia futuro eh',y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',x,'e o dia futuro eh',y)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:14:45) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <=6: 
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2 :
+		x = 'terca'
+	elif dia == 3 :
+		x = 'quarta'
+	elif dia == 4 :
+		x = 'quinta'
+	elif dia == 5 :
+		x ='sexta'
+	elif dia == 6 :
+		x = 'sabado'
+elif dia >= 0 and dia <=6:
+	if dia == 0 :
+		y = 'domingo'
+	elif dia == 1 :
+		y = 'segunda'
+	elif dia == 2 :
+		y = 'terca'
+	elif dia == 3 :
+		y = 'quarta'
+	elif dia == 4 :
+		y = 'quinta'
+	elif dia == 5 :
+		y = 'sexta'
+	elif dia == 6 :
+		y = 'sabado'
+else:
+	print('A entrada',dia,'eh invalida')
+
+	
+print('Hoje eh',x,'e o dia futuro eh',y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 39, in <module>
+    print('Hoje eh',x,'e o dia futuro eh',y)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:16:50) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+for proximo in range(0,7):
+	print(proximo)
+
+
+-- OUTPUT:
+0
+1
+2
+3
+4
+5
+6
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:17:56) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+for x in range(0,proximo):
+	print(proximo)
+	
+
+
+-- OUTPUT:
+4
+4
+4
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:24:10) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0:
+		x = 'domingo'
+	elif dia == 1:
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	for _ in range(0):
+		print("A entrada",dia,"eh invalida")
+		break
+print(x)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 24, in <module>
+    print(x)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 12:24:37) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0:
+		x = 'domingo'
+	elif dia == 1:
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	for _ in range(0):
+		print("A entrada",dia,"eh invalida")
+		break
+print(x)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 24, in <module>
+    print(x)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:18:09) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 or proximo == 0 :
+		x = 'domingo'
+		y = 'domingo'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 1 and proximo == 1:
+		x = 'segunda'
+		y = 'segunda'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 2 and proximo == 2:
+		x = 'terca'
+		y = 'terca'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 3 and proximo == 3:
+		x = 'quarta'
+		y = 'quarta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 4 and proximo == 4:
+		x = 'quinta'
+		y = 'quinta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 5 and proximo == 5:
+		x = 'sexta'
+		y = 'sexta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 6 and proximo == 6:
+		x = 'sabado'
+		y = 'sabado'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:18:42) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 or proximo == 0 :
+		x = 'domingo'
+		y = 'domingo'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 1 and proximo == 1:
+		x = 'segunda'
+		y = 'segunda'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 2 and proximo == 2:
+		x = 'terca'
+		y = 'terca'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 3 and proximo == 3:
+		x = 'quarta'
+		y = 'quarta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 4 and proximo == 4:
+		x = 'quinta'
+		y = 'quinta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 5 and proximo == 5:
+		x = 'sexta'
+		y = 'sexta'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+	elif dia == 6 and proximo == 6:
+		x = 'sabado'
+		y = 'sabado'
+		print('Hoje eh',x, 'e o dia futuro eh', y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:20:35) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 or proximo == 0 :
+		x = 'domingo'
+		y = 'domingo'
+	elif dia == 1 and proximo == 1:
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	for _ in range(0):
+		print("A entrada",dia,"eh invalida")
+		break
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:20:46) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 or proximo == 0 :
+		x = 'domingo'
+		y = 'domingo'
+	elif dia == 1 or proximo == 1:
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	for _ in range(0):
+		print("A entrada",dia,"eh invalida")
+		break
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:20:54) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 or proximo == 0 :
+		x = 'domingo'
+		y = 'domingo'
+	elif dia == 1 or proximo == 1:
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	for _ in range(0):
+		print("A entrada",dia,"eh invalida")
+		break
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:25:03) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh,',x)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh,',x)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh,',x)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh,',x)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh,',x)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh,',x)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh,',x)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print(,'e o dia futuro eh',y)
+		
+		
+
+-- ERROR:
+File "XXXX", line 32
+    print(,'e o dia futuro eh',y)
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:25:27) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh,',x)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh,',x)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh,',x)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh,',x)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh,',x)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh,',x)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh,',x)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('e o dia futuro eh',y)
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:25:59) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh,',x,)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh,',x,)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh,',x,)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh,',x,)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh,',x,)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh,',x,)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh,',x,)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('e o dia futuro eh',y)
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:26:38) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('e o dia futuro eh',y)
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:27:04) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('e o dia futuro eh',y)
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:29:08) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,)
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('e o dia futuro eh',y)
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+e o dia futuro eh quinta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:31:10) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+
+		
+		
+
+-- ERROR:
+File "XXXX", line 19
+    x = 'sabado
+              ^
+SyntaxError: EOL while scanning string literal
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:31:23) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+
+		
+		
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 37, in <module>
+    print('Hoje eh',x,'e o dia futuro eh',y)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-28 15:31:47) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	print("A entrada",dia,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+
+		
+		
+
+-- EXECUTION TIME:
+0.216049
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1687/1107/main.py", line 37, in <module>
+    print('Hoje eh',x,'e o dia futuro eh',y)
+NameError: name 'x' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:32:47) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+proximo = (dia + prox % 7) % 7
+
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	x = dia
+	print("A entrada",x,"eh invalida")
+		
+if proximo == 0 :
+	y = 'domingo'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+Hoje eh 9 e o dia futuro eh quinta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:34:48) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 1 :
+	y = 'segunda'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 2 :
+	y = 'terca'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 3 :
+	y = 'quarta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 4 :
+	y = 'quinta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 5 :
+	y = 'sexta'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+elif proximo == 6 :
+	y = 'sabado'
+	print('Hoje eh',x,'e o dia futuro eh',y)
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+	elif dia == 1 :
+		x = 'segunda'
+	elif dia == 2:
+		x = 'terca'
+	elif dia == 3:
+		x = 'quarta'
+	elif dia == 4:
+		x = 'quinta'
+	elif dia == 5:
+		x = 'sexta'
+	elif dia == 6:
+		x = 'sabado'
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 20, in <module>
+    print('Hoje eh',x,'e o dia futuro eh',y)
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:36:29) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+elif proximo == 1 :
+	y = 'segunda'
+elif proximo == 2 :
+	y = 'terca'
+elif proximo == 3 :
+	y = 'quarta'
+elif proximo == 4 :
+	y = 'quinta'
+elif proximo == 5 :
+	y = 'sexta'
+elif proximo == 6 :
+	y = 'sabado'
+	
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:36:44) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+elif proximo == 1 :
+	y = 'segunda'
+elif proximo == 2 :
+	y = 'terca'
+elif proximo == 3 :
+	y = 'quarta'
+elif proximo == 4 :
+	y = 'quinta'
+elif proximo == 5 :
+	y = 'sexta'
+elif proximo == 6 :
+	y = 'sabado'
+	
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:37:00) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+elif proximo == 1 :
+	y = 'segunda'
+elif proximo == 2 :
+	y = 'terca'
+elif proximo == 3 :
+	y = 'quarta'
+elif proximo == 4 :
+	y = 'quinta'
+elif proximo == 5 :
+	y = 'sexta'
+elif proximo == 6 :
+	y = 'sabado'
+	
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 15:37:18) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+elif proximo == 1 :
+	y = 'segunda'
+elif proximo == 2 :
+	y = 'terca'
+elif proximo == 3 :
+	y = 'quarta'
+elif proximo == 4 :
+	y = 'quinta'
+elif proximo == 5 :
+	y = 'sexta'
+elif proximo == 6 :
+	y = 'sabado'
+	
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-28 15:37:34) 
+-- CODE:
+dia = int(input("Digite o dia da semana: "))
+prox = int(input("Digite quantos dias depois do dia escolhido: "))
+
+proximo = (dia + prox % 7) % 7
+
+if proximo == 0 :
+	y = 'domingo'
+elif proximo == 1 :
+	y = 'segunda'
+elif proximo == 2 :
+	y = 'terca'
+elif proximo == 3 :
+	y = 'quarta'
+elif proximo == 4 :
+	y = 'quinta'
+elif proximo == 5 :
+	y = 'sexta'
+elif proximo == 6 :
+	y = 'sabado'
+	
+	
+if dia >= 0 and dia <= 6:
+	if dia == 0 :
+		x = 'domingo'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 1 :
+		x = 'segunda'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 2:
+		x = 'terca'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 3:
+		x = 'quarta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 4:
+		x = 'quinta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 5:
+		x = 'sexta'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+	elif dia == 6:
+		x = 'sabado'
+		print('Hoje eh',x,'e o dia futuro eh',y)
+else:
+	print("A entrada",dia,"eh invalida")
+
+		
+		
+
+-- EXECUTION TIME:
+0.146187
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada 9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+Hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

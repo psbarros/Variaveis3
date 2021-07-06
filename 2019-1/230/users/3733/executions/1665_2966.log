@@ -1,0 +1,135 @@
+== TEST (2019-04-15 16:27:53) 
+-- CODE:
+g = float (input("S ou N: "))
+v= int(input("qual o valor do ingresso: "))
+if(g == s):
+	print (v== -20%)
+-- ERROR:
+File "XXXX", line 4
+    print (v== -20%)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:28:13) 
+-- CODE:
+g = float (input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+if(g == s):
+	print (v== -20%)
+-- ERROR:
+File "XXXX", line 4
+    print (v== -20%)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:28:45) 
+-- CODE:
+g = float (input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+if(g == s):
+	print (v== 20%)
+-- ERROR:
+File "XXXX", line 4
+    print (v== 20%)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:30:30) 
+-- CODE:
+g = float(input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+q=float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    g = float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:30:39) 
+-- CODE:
+g = float(input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+q=float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    g = float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:32:25) 
+-- CODE:
+g =float(input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+q=float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    g =float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:33:09) 
+-- CODE:
+g= float(input("S ou N: "))
+v= float(input("qual o valor do ingresso: "))
+q= float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    g= float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:35:47) 
+-- CODE:
+p=float(input("qual o valor do ingresso: "))
+g= float(input("S ou N: "))
+
+q= float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p=float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:37:24) 
+-- CODE:
+p=float(input("qual o valor do ingresso: "))
+
+g= float(input( "qual o genero: "))
+
+q= float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p=float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:38:11) 
+-- CODE:
+p=float(input("qual o valor do ingresso: "))
+g= float(input( "qual o genero: S ou M"))
+q= float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p=float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:38:32) 
+-- CODE:
+p=float(input("qual o valor do ingresso: "))
+g= int(input( "qual o genero: S ou M"))
+q= float(input("qual a quantidade de ingressos: " ))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    p=float(input())
+ValueError: could not convert string to float: 'S'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

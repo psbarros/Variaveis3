@@ -1,0 +1,112 @@
+== TEST (2019-04-08 16:59:47) 
+-- CODE:
+patrono=input("patrono")
+if("cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:00:15) 
+-- CODE:
+patrono=input("patrono")
+if("cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- EXECUTION TIME:
+0.132523
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:00:42) 
+-- CODE:
+patrono=input("patrono")
+if("cervo"):
+  print(patrono,"cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:01:25) 
+-- CODE:
+patrono=input("patrono")
+if("cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:02:11) 
+-- CODE:
+patrono=input("patrono")
+if(patrono=="cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:02:29) 
+-- CODE:
+patrono=input("patrono")
+if(patrono=="cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:02:48) 
+-- CODE:
+patrono=input("patrono: ")
+if(patrono=="cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:02:57) 
+-- CODE:
+patrono=input("patrono: ")
+if(patrono=="cervo"):
+  print("cervo eh patrono do Harry Potter")
+else:
+ print(patrono,"nao eh patrono do Harry Potter")
+-- EXECUTION TIME:
+0.133289
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

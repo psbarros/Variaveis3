@@ -1,0 +1,5 @@
+2019-5-15 10:59:02.759#viewportChange#0
+2019-5-15 10:59:17.467#mousedown#{"isTrusted":true}
+2019-5-15 10:59:17.491#focus#
+2019-5-15 10:59:18.739#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":83.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":83.09375},"text":["n = int(input(\"insira um numero: \"))","","i = 0","soma = 0","m = 1","","while(i<n):","\timp = 2*i + 1","\tsoma = soma + (12**(1/2))*m/(imp*3**i)","\tm = m *(-1)","\ti = i + 1","","print(round(soma,8))"],"removed":[""],"origin":"paste"}
+2019-5-15 10:59:18.841#viewportChange#0

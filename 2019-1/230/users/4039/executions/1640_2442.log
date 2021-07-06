@@ -1,0 +1,452 @@
+== SUBMITION (2019-04-04 20:42:16) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print("mensagem")
+
+-- EXECUTION TIME:
+0.221254
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+mensagem
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+mensagem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 20:42:18) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print("mensagem")
+
+-- OUTPUT:
+mensagem
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:42:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.138718
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 20:42:53) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 20:43:06) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:18) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.204949
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:35) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.135579
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:35) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.111144
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Impar
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.193899
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = float(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.173805
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:40) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = (input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.230794
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1640/2442/main.py", line 7, in <module>
+    if (num % 2 == 0):
+TypeError: not all arguments converted during string formatting
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.164493
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Impar
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:43:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.111452
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 20:44:04) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "par"
+else:
+	mensagem = "impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.131371
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+par
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 19:07:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "par"
+else:
+	mensagem = "impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.19986
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+par
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

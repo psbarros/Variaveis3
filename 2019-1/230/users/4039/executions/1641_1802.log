@@ -1,0 +1,51 @@
+== TEST (2019-04-09 20:27:12) 
+-- CODE:
+from math import int
+from math import pi
+from math import sqrt
+
+pi=float(input()) 
+d1=int(input())
+d2=int(input())
+dano = sqrt(5*d1)+pi*(d2/3)
+print(int(dano))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from math import int
+ImportError: cannot import name 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 20:27:34) 
+-- CODE:
+from math import int(f)
+from math import pi
+from math import sqrt
+
+pi=float(input()) 
+d1=int(input())
+d2=int(input())
+dano = sqrt(5*d1)+pi*(d2/3)
+print(int(dano))
+-- ERROR:
+File "XXXX", line 1
+    from math import int(f)
+                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 20:28:03) 
+-- CODE:
+from math import math
+from math import pi
+from math import sqrt
+
+pi=float(input()) 
+d1=int(input())
+d2=int(input())
+dano = sqrt(5*d1)+pi*(d2/3)
+print(int(dano))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from math import math
+ImportError: cannot import name 'math'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

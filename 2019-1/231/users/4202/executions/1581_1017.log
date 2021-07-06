@@ -1,0 +1,324 @@
+== SUBMITION (2019-03-28 18:44:08) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos)(g1-g2))
+print(round(d,2))
+-- EXECUTION TIME:
+0.139862
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:46:30) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2))
+print(round(d,2))
+-- EXECUTION TIME:
+0.201955
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:47:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.161497
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:47:58) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- ERROR:
+File "XXXX", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.149059
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.201528
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.225194
+-- ERROR:
+  File "/home/codebench/codes/1581/1017/main.py", line 4
+    from math imort*
+                  ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math imort*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.21705
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1581/1017/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:12) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.201048
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1017/main.py", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:17) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.18301
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1017/main.py", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:17) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.104824
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1017/main.py", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:48:18) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:19) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.129363
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1581/1017/main.py", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:48:20) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+r=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+NameError: name 'R' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:48:42) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+from math import*
+t1 = radians(float(input("Latitude de P1: ")))
+g1=radians(float(input("Latitude de P1: ")))
+t2=radians(float(input("Latitude de P2: ")))
+g2=radians(float(input("Latitude de P2: ")))
+R=6371.01
+d=(R*acos(sin(t1)*sin(t2)+cos(t1)*cos(t2)*cos(g1-g2)))
+print(round(d,2))
+-- EXECUTION TIME:
+0.126705
+-- TEST CASE 1:
+---- input:
+-3.036131
+-60.04585
+-3.088496
+-59.59464
+---- correct output:
+50.44
+---- user output:
+50.44
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

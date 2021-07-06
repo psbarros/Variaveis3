@@ -1,0 +1,22 @@
+2019-3-20 16:43:45.901#viewportChange#0
+2019-3-20 16:43:56.724#mousedown#{"isTrusted":true}
+2019-3-20 16:43:56.728#focus#
+2019-3-20 16:43:58.353#change#{"from":{"line":3,"ch":0,"sticky":null,"xRel":1,"outside":true},"to":{"line":3,"ch":0,"sticky":null,"xRel":1,"outside":true},"text":["mens = input(\"Mensagem: \")","","print(mens.upper())"],"removed":[""],"origin":"paste"}
+2019-3-20 16:43:58.356#viewportChange#0
+2019-3-20 16:43:59.652#mousedown#{"isTrusted":true}
+2019-3-20 16:44:01.487#change#{"from":{"line":5,"ch":11,"sticky":"after","xRel":3.921875},"to":{"line":5,"ch":16,"sticky":"before","xRel":-1.90625},"text":["l"],"removed":["upper"],"origin":"+input"}
+2019-3-20 16:44:01.695#change#{"from":{"line":5,"ch":12,"sticky":null},"to":{"line":5,"ch":12,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-3-20 16:44:02.120#change#{"from":{"line":5,"ch":13,"sticky":null},"to":{"line":5,"ch":13,"sticky":null},"text":["w"],"removed":[""],"origin":"+input"}
+2019-3-20 16:44:02.519#change#{"from":{"line":5,"ch":14,"sticky":null},"to":{"line":5,"ch":14,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-20 16:44:03.734#change#{"from":{"line":5,"ch":14,"sticky":"after"},"to":{"line":5,"ch":15,"sticky":null},"text":[""],"removed":["r"],"origin":"+delete"}
+2019-3-20 16:44:03.734#keyHandled#"Backspace"
+2019-3-20 16:44:03.823#change#{"from":{"line":5,"ch":14,"sticky":null},"to":{"line":5,"ch":14,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-20 16:44:04.039#change#{"from":{"line":5,"ch":15,"sticky":null},"to":{"line":5,"ch":15,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-20 16:44:09.294#blur#
+2019-3-20 16:44:09.668#saida_testar#$ python3 main.py
+2019-3-20 16:44:15.348#mousedown#{"isTrusted":true}
+2019-3-20 16:44:15.383#focus#
+2019-3-20 16:44:15.348#mousedown#{"isTrusted":true}
+2019-3-20 16:44:15.383#focus#
+2019-3-20 16:44:15.844#submit#Congratulations, your code is correct!
+2019-3-20 16:44:23.889#blur#

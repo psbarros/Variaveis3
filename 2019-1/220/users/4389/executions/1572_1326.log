@@ -1,0 +1,144 @@
+== TEST (2019-03-16 20:27:03) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print(total)
+
+-- OUTPUT:
+75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:28:27) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("valor total da conta é o seguinte:\n\n" total)
+
+-- ERROR:
+File "XXXX", line 4
+    print("valor total da conta é o seguinte:\n\n" total)
+                                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:28:41) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("valor total da conta:\n\n" total)
+
+-- ERROR:
+File "XXXX", line 4
+    print("valor total da conta:\n\n" total)
+                                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:28:51) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("valor total da conta:" total)
+
+-- ERROR:
+File "XXXX", line 4
+    print("valor total da conta:" total)
+                                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:29:39) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("valor total da conta" total)
+
+-- ERROR:
+File "XXXX", line 4
+    print("valor total da conta" total)
+                                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:30:46) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print(total)
+
+-- OUTPUT:
+75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:31:07) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("resultado da conta",total)
+
+-- OUTPUT:
+resultado da conta 75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:31:21) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("resultado da conta \n\n", total)
+
+-- OUTPUT:
+resultado da conta 
+
+ 75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-16 20:32:07) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("Valor total da conta \n", total)
+
+-- OUTPUT:
+Valor total da conta 
+ 75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-16 21:52:49) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print("Valor total da conta \n", total)
+
+-- EXECUTION TIME:
+0.150043
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+75
+---- user output:
+Valor total da conta 
+ 75
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-16 21:52:58) 
+-- CODE:
+s = 40
+j = 35
+total = j + s
+print(total)
+
+-- EXECUTION TIME:
+0.154493
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+75
+---- user output:
+75
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

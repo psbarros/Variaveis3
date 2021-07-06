@@ -1,0 +1,105 @@
+2019-3-14 21:03:53.586#viewportChange#0
+2019-3-14 21:05:04.234#mousedown#{"isTrusted":true}
+2019-3-14 21:05:04.253#focus#
+2019-3-14 21:05:05.970#change#{"from":{"line":2,"ch":21,"sticky":"before","xRel":-1.91668701171875},"to":{"line":2,"ch":24,"sticky":"before","xRel":-3.91668701171875},"text":[""],"removed":["..."],"origin":"+delete"}
+2019-3-14 21:05:05.971#keyHandled#"Backspace"
+2019-3-14 21:05:09.812#change#{"from":{"line":2,"ch":21,"sticky":null},"to":{"line":2,"ch":21,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:10.000#change#{"from":{"line":2,"ch":22,"sticky":null},"to":{"line":2,"ch":22,"sticky":null},"text":["6"],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:14.755#change#{"from":{"line":2,"ch":23,"sticky":null},"to":{"line":2,"ch":23,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:16.125#change#{"from":{"line":2,"ch":24,"sticky":null},"to":{"line":2,"ch":24,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:17.688#blur#
+2019-3-14 21:05:17.688#blur#
+2019-3-14 21:05:25.642#mousedown#{"isTrusted":true}
+2019-3-14 21:05:25.656#focus#
+2019-3-14 21:05:26.724#change#{"from":{"line":2,"ch":23,"sticky":"after","xRel":1.08331298828125},"to":{"line":2,"ch":23,"sticky":"after","xRel":1.08331298828125},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:29.751#mousedown#{"isTrusted":true}
+2019-3-14 21:05:30.174#change#{"from":{"line":2,"ch":25,"sticky":"after","xRel":1.08331298828125},"to":{"line":2,"ch":25,"sticky":"after","xRel":1.08331298828125},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:05:33.190#change#{"from":{"line":2,"ch":25,"sticky":"after"},"to":{"line":2,"ch":26,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-3-14 21:05:33.190#keyHandled#"Backspace"
+2019-3-14 21:05:34.564#blur#
+2019-3-14 21:05:37.964#mousedown#{"isTrusted":true}
+2019-3-14 21:05:37.977#focus#
+2019-3-14 21:05:39.452#change#{"from":{"line":2,"ch":21,"sticky":"after","xRel":3.08331298828125},"to":{"line":2,"ch":26,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["16 -8"],"origin":"+delete"}
+2019-3-14 21:05:39.452#keyHandled#"Backspace"
+2019-3-14 21:05:40.443#blur#
+2019-3-14 21:05:40.443#blur#
+2019-3-14 21:06:15.334#mousedown#{"isTrusted":true}
+2019-3-14 21:06:15.484#focus#
+2019-3-14 21:06:16.474#mousedown#{"isTrusted":true}
+2019-3-14 21:06:19.466#change#{"from":{"line":2,"ch":20,"sticky":"after","xRel":1.08331298828125},"to":{"line":2,"ch":20,"sticky":"after","xRel":1.08331298828125},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:19.670#change#{"from":{"line":2,"ch":21,"sticky":null},"to":{"line":2,"ch":21,"sticky":null},"text":["6"],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:20.574#change#{"from":{"line":2,"ch":22,"sticky":null},"to":{"line":2,"ch":22,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:20.820#change#{"from":{"line":2,"ch":23,"sticky":null},"to":{"line":2,"ch":23,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:22.166#change#{"from":{"line":2,"ch":24,"sticky":null},"to":{"line":2,"ch":24,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:22.645#change#{"from":{"line":2,"ch":25,"sticky":null},"to":{"line":2,"ch":25,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:24.206#blur#
+2019-3-14 21:06:24.206#blur#
+2019-3-14 21:06:30.578#change#{"from":{"line":4,"ch":28,"sticky":"before","xRel":-1.91668701171875},"to":{"line":4,"ch":28,"sticky":"before","xRel":-1.91668701171875},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":[""],"origin":"paste"}
+2019-3-14 21:06:32.275#focus#
+2019-3-14 21:06:32.378#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"+input"}
+2019-3-14 21:06:32.529#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"undo"}
+2019-3-14 21:06:32.529#keyHandled#"Ctrl-Z"
+2019-3-14 21:06:32.595#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"+input"}
+2019-3-14 21:06:34.275#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"undo"}
+2019-3-14 21:06:34.275#keyHandled#"Ctrl-Z"
+2019-3-14 21:06:34.384#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"+input"}
+2019-3-14 21:06:35.640#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"undo"}
+2019-3-14 21:06:35.640#keyHandled#"Ctrl-Z"
+2019-3-14 21:06:35.693#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":99,"sticky":null},"text":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#"],"origin":"+input"}
+2019-3-14 21:06:38.352#mousedown#{"isTrusted":true}
+2019-3-14 21:06:38.592#mousedown#{"isTrusted":true}
+2019-3-14 21:06:40.111#mousedown#{"isTrusted":true}
+2019-3-14 21:06:43.012#change#{"from":{"line":4,"ch":28,"sticky":"before","xRel":-0.91668701171875},"to":{"line":5,"ch":0,"sticky":"after","xRel":434.08331298828125},"text":[""],"removed":["http://codebench.icomp.ufam.edu.br/index.php?r=trabalho%2Fview&id=1572#)",""],"origin":"+delete"}
+2019-3-14 21:06:43.012#keyHandled#"Backspace"
+2019-3-14 21:06:43.032#viewportChange#0
+2019-3-14 21:06:45.676#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":28,"sticky":null},"text":[")"],"removed":[""],"origin":"+input"}
+2019-3-14 21:06:47.423#mousedown#{"isTrusted":true}
+2019-3-14 21:06:48.246#change#{"from":{"line":4,"ch":27,"sticky":"after"},"to":{"line":4,"ch":28,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["."],"origin":"+delete"}
+2019-3-14 21:06:48.246#keyHandled#"Backspace"
+2019-3-14 21:06:48.589#change#{"from":{"line":4,"ch":26,"sticky":"after"},"to":{"line":4,"ch":27,"sticky":null},"text":[""],"removed":["."],"origin":"+delete"}
+2019-3-14 21:06:48.589#keyHandled#"Backspace"
+2019-3-14 21:06:48.822#change#{"from":{"line":4,"ch":25,"sticky":"after"},"to":{"line":4,"ch":26,"sticky":null},"text":[""],"removed":["."],"origin":"+delete"}
+2019-3-14 21:06:48.822#keyHandled#"Backspace"
+2019-3-14 21:06:57.694#mousedown#{"isTrusted":true}
+2019-3-14 21:06:58.349#mousedown#{"isTrusted":true}
+2019-3-14 21:07:00.158#mousedown#{"isTrusted":true}
+2019-3-14 21:07:01.190#change#{"from":{"line":4,"ch":24,"sticky":"after","xRel":3.08331298828125},"to":{"line":4,"ch":24,"sticky":"after","xRel":3.08331298828125},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:03.001#change#{"from":{"line":4,"ch":25,"sticky":null},"to":{"line":4,"ch":25,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:09.825#change#{"from":{"line":4,"ch":27,"sticky":null},"to":{"line":4,"ch":27,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:10.491#change#{"from":{"line":4,"ch":28,"sticky":null},"to":{"line":4,"ch":28,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:12.125#blur#
+2019-3-14 21:07:12.125#blur#
+2019-3-14 21:07:18.363#mousedown#{"isTrusted":true}
+2019-3-14 21:07:18.511#focus#
+2019-3-14 21:07:19.901#change#{"from":{"line":5,"ch":19,"sticky":"after","xRel":3.08331298828125},"to":{"line":5,"ch":22,"sticky":"before","xRel":-1.91668701171875},"text":[""],"removed":["..."],"origin":"+delete"}
+2019-3-14 21:07:19.901#keyHandled#"Backspace"
+2019-3-14 21:07:31.636#change#{"from":{"line":5,"ch":19,"sticky":null},"to":{"line":5,"ch":19,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:33.163#change#{"from":{"line":5,"ch":20,"sticky":null},"to":{"line":5,"ch":20,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:33.436#change#{"from":{"line":5,"ch":21,"sticky":null},"to":{"line":5,"ch":21,"sticky":null},"text":["/"],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:34.250#change#{"from":{"line":5,"ch":22,"sticky":null},"to":{"line":5,"ch":22,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:34.587#change#{"from":{"line":5,"ch":23,"sticky":null},"to":{"line":5,"ch":23,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:07:36.406#blur#
+2019-3-14 21:07:36.406#blur#
+2019-3-14 21:07:56.965#mousedown#{"isTrusted":true}
+2019-3-14 21:07:56.985#focus#
+2019-3-14 21:07:59.525#change#{"from":{"line":7,"ch":17,"sticky":"before","xRel":-3.91668701171875},"to":{"line":7,"ch":20,"sticky":"before","xRel":-2.91668701171875},"text":[""],"removed":["..."],"origin":"+delete"}
+2019-3-14 21:07:59.525#keyHandled#"Backspace"
+2019-3-14 21:08:22.422#change#{"from":{"line":7,"ch":17,"sticky":null},"to":{"line":7,"ch":17,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:22.880#change#{"from":{"line":7,"ch":18,"sticky":null},"to":{"line":7,"ch":18,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:26.370#change#{"from":{"line":7,"ch":19,"sticky":null},"to":{"line":7,"ch":19,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:26.590#change#{"from":{"line":7,"ch":20,"sticky":null},"to":{"line":7,"ch":20,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:26.957#change#{"from":{"line":7,"ch":21,"sticky":null},"to":{"line":7,"ch":21,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:27.269#change#{"from":{"line":7,"ch":22,"sticky":null},"to":{"line":7,"ch":22,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:27.490#change#{"from":{"line":7,"ch":23,"sticky":null},"to":{"line":7,"ch":23,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-3-14 21:08:30.385#blur#
+2019-3-14 21:08:30.385#blur#
+2019-3-14 21:08:40.385#mousedown#{"isTrusted":true}
+2019-3-14 21:08:40.530#focus#
+2019-3-14 21:08:41.843#change#{"from":{"line":9,"ch":23,"sticky":"after","xRel":2.08331298828125},"to":{"line":9,"ch":26,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["..."],"origin":"+delete"}
+2019-3-14 21:08:41.843#keyHandled#"Backspace"
+2019-3-14 21:09:48.153#change#{"from":{"line":9,"ch":23,"sticky":null},"to":{"line":9,"ch":23,"sticky":null},"text":["8"],"removed":[""],"origin":"+input"}
+2019-3-14 21:09:49.304#change#{"from":{"line":9,"ch":24,"sticky":null},"to":{"line":9,"ch":24,"sticky":null},"text":["*"],"removed":[""],"origin":"+input"}
+2019-3-14 21:09:49.491#change#{"from":{"line":9,"ch":25,"sticky":null},"to":{"line":9,"ch":25,"sticky":null},"text":["*"],"removed":[""],"origin":"+input"}
+2019-3-14 21:09:50.625#change#{"from":{"line":9,"ch":26,"sticky":null},"to":{"line":9,"ch":26,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-3-14 21:09:52.168#blur#
+2019-3-14 21:09:52.168#blur#

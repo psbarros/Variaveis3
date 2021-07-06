@@ -1,0 +1,147 @@
+== TEST (2019-03-21 18:27:26) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+varLUCRO = float(input("Total de Vendas (em reais): ")
+					  
+print(varLUCRO*0.3)
+-- ERROR:
+File "XXXX", line 7
+    print(varLUCRO*0.3)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:27:58) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+varLUCRO = float(input("Total de Vendas (em reais): ")
+					  
+print(varLUCRO * 0.3)
+-- ERROR:
+File "XXXX", line 7
+    print(varLUCRO * 0.3)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:28:34) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+varLUCRO = float(input("Total de Vendas (em reais): ")
+x = varLUCRO * 0.3				  
+print(x)
+-- ERROR:
+File "XXXX", line 6
+    x = varLUCRO * 0.3				  
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:28:58) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): ")
+x = var * 0.3				  
+print(x)
+-- ERROR:
+File "XXXX", line 6
+    x = var * 0.3				  
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:29:45) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais) ")
+x = var * 0.3				  
+print(x)
+-- ERROR:
+File "XXXX", line 6
+    x = var * 0.3				  
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:30:25) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): ")
+				  
+print(var * 0.3)
+-- ERROR:
+File "XXXX", line 7
+    print(var * 0.3)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:31:07) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): "))
+				  
+print(var * 0.3)
+-- OUTPUT:
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:32:05) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): "))
+x = var * 0.3
+print(round(x, 2))
+-- OUTPUT:
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 18:32:17) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): "))
+x = var * 0.3
+print(round(x, 2))
+-- OUTPUT:
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 18:32:29) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+var = float(input("Total de Vendas (em reais): "))
+x = var * 0.3
+print(round(x, 2))
+-- EXECUTION TIME:
+0.147989
+-- TEST CASE 1:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

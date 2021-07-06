@@ -1,0 +1,143 @@
+2019-6-11 21:00:04.029#viewportChange#0
+2019-6-11 21:00:36.096#mousedown#{"isTrusted":true}
+2019-6-11 21:00:36.099#focus#
+2019-6-11 21:00:36.886#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":224.28125},"to":{"line":0,"ch":0,"sticky":"after","xRel":224.28125},"text":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:00:36.900#viewportChange#0
+2019-6-11 21:00:36.096#mousedown#{"isTrusted":true}
+2019-6-11 21:00:36.099#focus#
+2019-6-11 21:00:36.886#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":224.28125},"to":{"line":0,"ch":0,"sticky":"after","xRel":224.28125},"text":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:00:36.900#viewportChange#0
+2019-6-11 21:00:41.225#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:00:44.657#blur#
+2019-6-11 21:00:55.928#focus#
+2019-6-11 21:00:57.346#mousedown#{"isTrusted":true}
+2019-6-11 21:00:59.670#change#{"from":{"line":0,"ch":0,"sticky":null,"xRel":-1,"outside":true},"to":{"line":13,"ch":13,"sticky":"before","xRel":61.734375},"text":[""],"removed":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"origin":"+delete"}
+2019-6-11 21:00:59.670#keyHandled#"Backspace"
+2019-6-11 21:00:59.677#viewportChange#0
+2019-6-11 21:01:00.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:00.890#viewportChange#0
+2019-6-11 21:01:00.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:00.890#viewportChange#0
+2019-6-11 21:01:00.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:00.890#viewportChange#0
+2019-6-11 21:01:00.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:00.890#viewportChange#0
+2019-6-11 21:01:00.868#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:00.890#viewportChange#0
+2019-6-11 21:01:05.001#blur#
+2019-6-11 21:01:05.001#blur#
+2019-6-11 21:01:05.001#blur#
+2019-6-11 21:01:05.001#blur#
+2019-6-11 21:01:14.354#submit#You're almost there! Your code is 33% correct, but if you try harder you'll be able to hit 100% of the question.
+2019-6-11 21:01:14.767#saida_testar#$ python3 main.py
+2019-6-11 21:01:19.325#submit#You're almost there! Your code is 67% correct, but if you try harder you'll be able to hit 100% of the question.
+2019-6-11 21:01:20.526#submit#Congratulations, your code is correct!
+2019-6-11 21:01:20.545#submit#You're almost there! Your code is 67% correct, but if you try harder you'll be able to hit 100% of the question.
+2019-6-11 21:01:21.214#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:01:21.235#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:01:24.377#mousedown#{"isTrusted":true}
+2019-6-11 21:01:24.414#focus#
+2019-6-11 21:01:26.429#change#{"from":{"line":2,"ch":0,"sticky":"after","xRel":0.28125},"to":{"line":28,"ch":12,"sticky":"before","xRel":37.15625},"text":[""],"removed":["altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"origin":"+delete"}
+2019-6-11 21:01:26.429#keyHandled#"Backspace"
+2019-6-11 21:01:26.438#viewportChange#0
+2019-6-11 21:01:26.646#change#{"from":{"line":1,"ch":47,"sticky":"before"},"to":{"line":2,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-6-11 21:01:26.646#keyHandled#"Backspace"
+2019-6-11 21:01:26.653#viewportChange#0
+2019-6-11 21:01:27.147#change#{"from":{"line":1,"ch":46,"sticky":"after"},"to":{"line":1,"ch":47,"sticky":null},"text":[""],"removed":[")"],"origin":"+delete"}
+2019-6-11 21:01:27.147#keyHandled#"Backspace"
+2019-6-11 21:01:27.182#change#{"from":{"line":1,"ch":45,"sticky":"after"},"to":{"line":1,"ch":46,"sticky":null},"text":[""],"removed":[")"],"origin":"+delete"}
+2019-6-11 21:01:27.182#keyHandled#"Backspace"
+2019-6-11 21:01:27.215#change#{"from":{"line":1,"ch":44,"sticky":"after"},"to":{"line":1,"ch":45,"sticky":null},"text":[""],"removed":[")"],"origin":"+delete"}
+2019-6-11 21:01:27.216#keyHandled#"Backspace"
+2019-6-11 21:01:27.249#change#{"from":{"line":1,"ch":43,"sticky":"after"},"to":{"line":1,"ch":44,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-6-11 21:01:27.249#keyHandled#"Backspace"
+2019-6-11 21:01:27.282#change#{"from":{"line":1,"ch":42,"sticky":"after"},"to":{"line":1,"ch":43,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-11 21:01:27.282#keyHandled#"Backspace"
+2019-6-11 21:01:27.316#change#{"from":{"line":1,"ch":41,"sticky":"after"},"to":{"line":1,"ch":42,"sticky":null},"text":[""],"removed":[":"],"origin":"+delete"}
+2019-6-11 21:01:27.316#keyHandled#"Backspace"
+2019-6-11 21:01:27.349#change#{"from":{"line":1,"ch":40,"sticky":"after"},"to":{"line":1,"ch":41,"sticky":null},"text":[""],"removed":["s"],"origin":"+delete"}
+2019-6-11 21:01:27.349#keyHandled#"Backspace"
+2019-6-11 21:01:27.384#change#{"from":{"line":1,"ch":39,"sticky":"after"},"to":{"line":1,"ch":40,"sticky":null},"text":[""],"removed":["o"],"origin":"+delete"}
+2019-6-11 21:01:27.384#keyHandled#"Backspace"
+2019-6-11 21:01:27.416#change#{"from":{"line":1,"ch":38,"sticky":"after"},"to":{"line":1,"ch":39,"sticky":null},"text":[""],"removed":["s"],"origin":"+delete"}
+2019-6-11 21:01:27.416#keyHandled#"Backspace"
+2019-6-11 21:01:27.450#change#{"from":{"line":1,"ch":37,"sticky":"after"},"to":{"line":1,"ch":38,"sticky":null},"text":[""],"removed":["e"],"origin":"+delete"}
+2019-6-11 21:01:27.450#keyHandled#"Backspace"
+2019-6-11 21:01:27.483#change#{"from":{"line":1,"ch":36,"sticky":"after"},"to":{"line":1,"ch":37,"sticky":null},"text":[""],"removed":["p"],"origin":"+delete"}
+2019-6-11 21:01:27.483#keyHandled#"Backspace"
+2019-6-11 21:01:27.516#change#{"from":{"line":1,"ch":35,"sticky":"after"},"to":{"line":1,"ch":36,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-11 21:01:27.516#keyHandled#"Backspace"
+2019-6-11 21:01:27.548#change#{"from":{"line":1,"ch":34,"sticky":"after"},"to":{"line":1,"ch":35,"sticky":null},"text":[""],"removed":["s"],"origin":"+delete"}
+2019-6-11 21:01:27.548#keyHandled#"Backspace"
+2019-6-11 21:01:27.583#change#{"from":{"line":1,"ch":33,"sticky":"after"},"to":{"line":1,"ch":34,"sticky":null},"text":[""],"removed":["o"],"origin":"+delete"}
+2019-6-11 21:01:27.583#keyHandled#"Backspace"
+2019-6-11 21:01:27.616#change#{"from":{"line":1,"ch":32,"sticky":"after"},"to":{"line":1,"ch":33,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-11 21:01:27.616#keyHandled#"Backspace"
+2019-6-11 21:01:27.650#change#{"from":{"line":1,"ch":31,"sticky":"after"},"to":{"line":1,"ch":32,"sticky":null},"text":[""],"removed":["e"],"origin":"+delete"}
+2019-6-11 21:01:27.650#keyHandled#"Backspace"
+2019-6-11 21:01:27.683#change#{"from":{"line":1,"ch":30,"sticky":"after"},"to":{"line":1,"ch":31,"sticky":null},"text":[""],"removed":["m"],"origin":"+delete"}
+2019-6-11 21:01:27.683#keyHandled#"Backspace"
+2019-6-11 21:01:27.716#change#{"from":{"line":1,"ch":29,"sticky":"after"},"to":{"line":1,"ch":30,"sticky":null},"text":[""],"removed":["r"],"origin":"+delete"}
+2019-6-11 21:01:27.716#keyHandled#"Backspace"
+2019-6-11 21:01:27.750#change#{"from":{"line":1,"ch":28,"sticky":"after"},"to":{"line":1,"ch":29,"sticky":null},"text":[""],"removed":["o"],"origin":"+delete"}
+2019-6-11 21:01:27.750#keyHandled#"Backspace"
+2019-6-11 21:01:27.780#change#{"from":{"line":1,"ch":27,"sticky":"after"},"to":{"line":1,"ch":28,"sticky":null},"text":[""],"removed":["f"],"origin":"+delete"}
+2019-6-11 21:01:27.780#keyHandled#"Backspace"
+2019-6-11 21:01:27.813#change#{"from":{"line":1,"ch":26,"sticky":"after"},"to":{"line":1,"ch":27,"sticky":null},"text":[""],"removed":["n"],"origin":"+delete"}
+2019-6-11 21:01:27.813#keyHandled#"Backspace"
+2019-6-11 21:01:27.846#change#{"from":{"line":1,"ch":25,"sticky":"after"},"to":{"line":1,"ch":26,"sticky":null},"text":[""],"removed":["I"],"origin":"+delete"}
+2019-6-11 21:01:27.846#keyHandled#"Backspace"
+2019-6-11 21:01:27.880#change#{"from":{"line":1,"ch":24,"sticky":"after"},"to":{"line":1,"ch":25,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-6-11 21:01:27.880#keyHandled#"Backspace"
+2019-6-11 21:01:27.913#change#{"from":{"line":1,"ch":23,"sticky":"after"},"to":{"line":1,"ch":24,"sticky":null},"text":[""],"removed":["("],"origin":"+delete"}
+2019-6-11 21:01:27.913#keyHandled#"Backspace"
+2019-6-11 21:01:27.947#change#{"from":{"line":1,"ch":22,"sticky":"after"},"to":{"line":1,"ch":23,"sticky":null},"text":[""],"removed":["t"],"origin":"+delete"}
+2019-6-11 21:01:27.947#keyHandled#"Backspace"
+2019-6-11 21:01:27.981#change#{"from":{"line":1,"ch":21,"sticky":"after"},"to":{"line":1,"ch":22,"sticky":null},"text":[""],"removed":["u"],"origin":"+delete"}
+2019-6-11 21:01:27.981#keyHandled#"Backspace"
+2019-6-11 21:01:28.014#change#{"from":{"line":1,"ch":20,"sticky":"after"},"to":{"line":1,"ch":21,"sticky":null},"text":[""],"removed":["p"],"origin":"+delete"}
+2019-6-11 21:01:28.014#keyHandled#"Backspace"
+2019-6-11 21:01:28.047#change#{"from":{"line":1,"ch":19,"sticky":"after"},"to":{"line":1,"ch":20,"sticky":null},"text":[""],"removed":["n"],"origin":"+delete"}
+2019-6-11 21:01:28.047#keyHandled#"Backspace"
+2019-6-11 21:01:28.081#change#{"from":{"line":1,"ch":18,"sticky":"after"},"to":{"line":1,"ch":19,"sticky":null},"text":[""],"removed":["i"],"origin":"+delete"}
+2019-6-11 21:01:28.081#keyHandled#"Backspace"
+2019-6-11 21:01:28.113#change#{"from":{"line":1,"ch":17,"sticky":"after"},"to":{"line":1,"ch":18,"sticky":null},"text":[""],"removed":["("],"origin":"+delete"}
+2019-6-11 21:01:28.113#keyHandled#"Backspace"
+2019-6-11 21:01:28.146#change#{"from":{"line":1,"ch":16,"sticky":"after"},"to":{"line":1,"ch":17,"sticky":null},"text":[""],"removed":["l"],"origin":"+delete"}
+2019-6-11 21:01:28.146#keyHandled#"Backspace"
+2019-6-11 21:01:28.179#change#{"from":{"line":1,"ch":15,"sticky":"after"},"to":{"line":1,"ch":16,"sticky":null},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-6-11 21:01:28.179#keyHandled#"Backspace"
+2019-6-11 21:01:28.213#change#{"from":{"line":1,"ch":14,"sticky":"after"},"to":{"line":1,"ch":15,"sticky":null},"text":[""],"removed":["v"],"origin":"+delete"}
+2019-6-11 21:01:28.213#keyHandled#"Backspace"
+2019-6-11 21:01:28.245#change#{"from":{"line":1,"ch":13,"sticky":"after"},"to":{"line":1,"ch":14,"sticky":null},"text":[""],"removed":["e"],"origin":"+delete"}
+2019-6-11 21:01:28.245#keyHandled#"Backspace"
+2019-6-11 21:01:28.279#change#{"from":{"line":1,"ch":12,"sticky":"after"},"to":{"line":1,"ch":13,"sticky":null},"text":[""],"removed":["("],"origin":"+delete"}
+2019-6-11 21:01:28.279#keyHandled#"Backspace"
+2019-6-11 21:01:38.316#keyHandled#"Backspace"
+2019-6-11 21:01:38.350#keyHandled#"Backspace"
+2019-6-11 21:01:38.787#change#{"from":{"line":0,"ch":0,"sticky":null,"hitSide":true},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:38.798#viewportChange#0
+2019-6-11 21:01:38.316#keyHandled#"Backspace"
+2019-6-11 21:01:38.350#keyHandled#"Backspace"
+2019-6-11 21:01:38.787#change#{"from":{"line":0,"ch":0,"sticky":null,"hitSide":true},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:01:38.798#viewportChange#0
+2019-6-11 21:01:43.639#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:01:43.639#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:01:44.030#blur#
+2019-6-11 21:01:44.888#saida_testar#$ python3 main.py
+2019-6-11 21:01:44.030#blur#
+2019-6-11 21:01:44.888#saida_testar#$ python3 main.py
+2019-6-11 21:01:48.635#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-11 21:01:49.552#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":13,"ch":13,"sticky":null},"text":[""],"removed":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"origin":"undo"}
+2019-6-11 21:01:49.560#viewportChange#0
+2019-6-11 21:02:14.300#mousedown#{"isTrusted":true}
+2019-6-11 21:02:14.303#focus#
+2019-6-11 21:02:15.162#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":134.28125},"to":{"line":0,"ch":0,"sticky":"after","xRel":134.28125},"text":["from numpy import*","vetor = array(eval(input(\"matriculas do aluno: \")))","impares = 0","for i in range(size(vetor)):","\tif(vetor[i]%2!=0):","\t\timpares=impares+1","grupo2=zeros(impares,int)","n=0","for d in range(size(vetor)):","\tif(vetor[d]%2!=0):","\t\tgrupo2[n]=vetor[d]","\t\tn=n+1","","print(grupo2)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:02:15.175#viewportChange#0
+2019-6-11 21:02:31.622#focus#
+2019-6-11 21:02:33.251#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:02:33.272#viewportChange#0
+2019-6-11 21:02:33.251#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","peso = array(eval(input(\"Informe os pesos: \")))","altura = array(eval(input(\"Informe as alturas: \")))","imc = zeros(size(peso), dtype = float)","","for i in range(size(peso)):","\timc[i] = round(peso[i]/(altura[i]**2),2)","","maior = max(imc)","\t","for d in range(size(peso)):","\tif(maior<17):","\t\tsitua = \"MUITO ABAIXO DO PESO\"","\telif(maior>=17 and maior <=18.49):","\t\tsitua = \"ABAIXO DO PESO\"","\telif(maior>=18.5 and maior <=24.99):","\t\tsitua = \"PESO NORMAL\"","\telif(maior>=25 and maior <=29.99):","\t\tsitua = \"ACIMA DO PESO\"","\telif(maior>=30 and maior <=34.99):","\t\tsitua = \"OBESIDADE\"","\telif(maior>=35 and maior <=39.99):","\t\tsitua = \"OBESIDADE SEVERA\"","\telse: ","\t\tsitua = \"OBESIDADE MORBIDA\"","","print(imc)","print(\"O MAIOR IMC DA TURMA EH:\",maior)","print(situa)"],"removed":[""],"origin":"paste"}
+2019-6-11 21:02:33.272#viewportChange#0
+2019-6-11 21:02:37.743#submit#Congratulations, your code is correct!
+2019-6-11 21:02:41.121#blur#

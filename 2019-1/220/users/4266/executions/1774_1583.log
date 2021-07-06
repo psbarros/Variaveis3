@@ -1,0 +1,200 @@
+== TEST (2019-05-30 19:21:50) 
+-- CODE:
+
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+while(i<len(v)):
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:23:07) 
+-- CODE:
+
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+e=len(v)
+while(i<e:
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+File "XXXX", line 8
+    while(i<e:
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:23:14) 
+-- CODE:
+
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+e=len(v)
+while(i<e):
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:24:19) 
+-- CODE:
+
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+e = len(v)
+while(i<e):
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:29:52) 
+-- CODE:
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+e == len(v)
+while(i<e):
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 19:58:58) 
+-- CODE:
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+while(i<e-len(v)):
+	in=inv+v[i]
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- EXECUTION TIME:
+0.154347
+-- ERROR:
+  File "/home/codebench/codes/1774/1583/main.py", line 7
+    in=inv+v[i]
+     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:58:59) 
+-- CODE:
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+while(i<e-len(v)):
+	in=inv+v[i]
+	c = c + (v[i:d],".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+File "XXXX", line 7
+    in=inv+v[i]
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:59:22) 
+-- CODE:
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+inv=0
+while(i<e-len(v)):
+	inv=inv+v[i]
+	c = c + (inv,".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 19:59:25) 
+-- CODE:
+from numpy import*
+
+v = array(eval(input("Digite o vetor: ")))
+i=0
+d=4
+inv=0
+while(i<e-len(v)):
+	inv=inv+v[i]
+	c = c + (inv,".")
+	i=i+4
+	d=d+4
+print(c)
+
+
+-- EXECUTION TIME:
+0.505768
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1774/1583/main.py", line 7, in <module>
+    while(i<e-len(v)):
+TypeError: len() of unsized object
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

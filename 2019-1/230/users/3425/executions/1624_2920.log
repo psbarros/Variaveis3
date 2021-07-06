@@ -1,0 +1,79 @@
+== TEST (2019-04-01 17:05:41) 
+-- CODE:
+a = float(input())
+b = int(input())
+c = int(input())
+
+vt = (26.90 * a) + (3.5 * b) + (3 * c)
+
+print(vt)
+-- OUTPUT:
+24105.628
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 17:07:01) 
+-- CODE:
+a = float(input())
+b = int(input())
+c = int(input())
+
+vt = (26.90 * a) + (3.5 * b) + (3 * c)
+
+print(round(vt, 2))
+-- OUTPUT:
+24105.63
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 17:10:05) 
+-- CODE:
+a = float(input())
+b = int(input())
+c = int(input())
+d = a * 10 ** -3
+
+vt = (26.90 * d) + (3.5 * b) + (3 * c)
+
+print(round(vt, 2))
+-- OUTPUT:
+24.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-01 17:10:13) 
+-- CODE:
+a = float(input())
+b = int(input())
+c = int(input())
+d = a * 10 ** -3
+
+vt = (26.90 * d) + (3.5 * b) + (3 * c)
+
+print(round(vt, 2))
+-- EXECUTION TIME:
+0.183913
+-- TEST CASE 1:
+---- input:
+896.12
+0
+0
+---- correct output:
+24.11
+---- user output:
+24.11
+-- TEST CASE 2:
+---- input:
+389.03
+1
+0
+---- correct output:
+13.96
+---- user output:
+13.96
+-- TEST CASE 3:
+---- input:
+225.89
+0
+1
+---- correct output:
+9.08
+---- user output:
+9.08
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

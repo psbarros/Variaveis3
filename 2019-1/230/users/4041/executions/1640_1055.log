@@ -1,0 +1,514 @@
+== TEST (2019-04-14 22:55:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+import math from
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 4
+    import math from
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:56:08) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 4
+    from math import
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:56:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (9.9<=distancia>=10.1):
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:57:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if 9.9<=distancia>=10.1:
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if 9.9<=distancia>=10.1:
+                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:57:25) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if 9.9<=distancia>=10.1 :
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if 9.9<=distancia>=10.1 :
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:58:05) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (9.9<=distancia>=10.1):
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:58:42) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if(9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if(9.9<=distancia>=10.1):
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:58:47) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if 9.9<=distancia>=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if 9.9<=distancia>=10.1):
+                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:17:31) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (9.9>=distancia<=10.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (9.9>=distancia<=10.1):
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:19:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (distancia-0.1<=distancia>=distancia+0.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<=distancia>=distancia+0.1):
+                                                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:19:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+distancia = ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (distancia-0.1<=distancia>=distancia+0.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<=distancia>=distancia+0.1):
+                                                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 00:57:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+R= ((velocidade**2)*sin(radians(2*angulo))/gravity
+ 
+if (distancia-0.1<R>=distancia+0.1):
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<R>=distancia+0.1):
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 00:57:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+R= ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (distancia-0.1<R>=distancia+0.1) :
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<R>=distancia+0.1) :
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 00:58:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+R= ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (distancia-0.1<R>=distancia+0.1)          :
+				 mensagem = "sim"
+else:
+				 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<R>=distancia+0.1)          :
+                                                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 00:59:49) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import sin, radians
+
+velocidade = float(input("insira a velocidade inicial: "))
+angulo = float(input("insira o angulo: "))
+distancia = float(input("insira a distancia: "))
+gravity = 9.8
+
+R= ((velocidade**2)*sin(radians(2*angulo))/gravity
+
+if (distancia-0.1<R>=distancia+0.1):
+	 mensagem = "sim"
+else:
+	 mensagem = "nao"
+print(mensagem)
+-- ERROR:
+File "XXXX", line 13
+    if (distancia-0.1<R>=distancia+0.1):
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 09:27:07) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import*
+v0 = float(input("Inicial velocity: "))
+a = float(input("Inicial angle: "))
+D = float(input("Inicial distance: "))
+
+thetar0 - radians(2*a)
+g = 9,8
+R = (g**-1)*((v0)**2)*sin(thetar0)
+Impactfactor = abs(D-R)
+
+if (Impactfactor < 0.1):
+	print("sim")
+else:
+	print("não")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    thetar0 - radians(2*a)
+NameError: name 'thetar0' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 09:28:29) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import*
+v0 = float(input("Inicial velocity: "))
+a = float(input("Inicial angle: "))
+D = float(input("Inicial distance: "))
+
+thetar0 = radians(2*a)
+g = 9,8
+R = (g**-1)*((v0)**2)*sin(thetar0)
+Impactfactor = abs(D-R)
+
+if (Impactfactor < 0.1):
+	print("sim")
+else:
+	print("não")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    R = (g**-1)*((v0)**2)*sin(thetar0)
+TypeError: unsupported operand type(s) for ** or pow(): 'tuple' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 09:30:08) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import*
+v0 = float(input("Inicial velocity: "))
+a = float(input("Inicial angle: "))
+D = float(input("Inicial distance: "))
+
+thetar0 = radians(2*a)
+g = 9.8
+R = (g**-1)*((v0)**2)*sin(thetar0)
+Impactfactor = abs(D-R)
+
+if (Impactfactor < 0.1):
+	print("sim")
+else:
+	print("não")
+
+-- OUTPUT:
+sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 09:30:35) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import*
+v0 = float(input("Inicial velocity: "))
+a = float(input("Inicial angle: "))
+D = float(input("Inicial distance: "))
+
+thetar0 = radians(2*a)
+g = 9.8
+R = (g**-1)*((v0)**2)*sin(thetar0)
+Impactfactor = abs(D-R)
+
+if (Impactfactor < 0.1):
+	print("sim")
+else:
+	print("nao")
+
+-- OUTPUT:
+sim
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 09:30:46) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+from math import*
+v0 = float(input("Inicial velocity: "))
+a = float(input("Inicial angle: "))
+D = float(input("Inicial distance: "))
+
+thetar0 = radians(2*a)
+g = 9.8
+R = (g**-1)*((v0)**2)*sin(thetar0)
+Impactfactor = abs(D-R)
+
+if (Impactfactor < 0.1):
+	print("sim")
+else:
+	print("nao")
+
+-- EXECUTION TIME:
+0.16332
+-- TEST CASE 1:
+---- input:
+10.5
+45.5
+11.3
+---- correct output:
+sim
+---- user output:
+sim
+-- TEST CASE 2:
+---- input:
+29.5
+17.1
+51.0
+---- correct output:
+nao
+---- user output:
+nao
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

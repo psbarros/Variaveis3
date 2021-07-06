@@ -1,0 +1,58 @@
+== SUBMITION (2019-05-03 13:17:28) 
+-- CODE:
+x0= float(input("Digite o valor de x0: "))
+y0= float(input("Digite o valor de y0: "))
+x1= float(input("Digite o valor de x1: "))
+y1= float(input("Digite o valor de y1: "))
+x2= float(input("Digite o valor de x2: "))
+y2= float(input("Digite o valor de y2: "))
+
+c=((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c  < 0):
+	print("A direita da reta")
+elif (c > 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- EXECUTION TIME:
+0.167649
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+A esquerda da reta
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

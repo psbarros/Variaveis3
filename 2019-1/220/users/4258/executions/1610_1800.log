@@ -1,0 +1,241 @@
+== TEST (2019-03-26 21:25:52) 
+-- CODE:
+a = input("Primeira variavel")
+-- OUTPUT:
+9
+1
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:31:22) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+form != 0
+
+print(round(form1, 7))
+print(round(form2, 7))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    form != 0
+NameError: name 'form' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:31:50) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+form2 != 0
+
+print(round(form1, 7))
+print(round(form2, 7))
+-- OUTPUT:
+1925
+75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:32:12) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+form2 != 0
+
+print(round(form1, 7))
+print(round(form2, 7))
+-- OUTPUT:
+1925
+75
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:33:31) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+form2 != 0
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- OUTPUT:
+25.6666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:33:51) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+form2 != 0
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- OUTPUT:
+25.6666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:34:29) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- OUTPUT:
+25.6666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 21:34:51) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- EXECUTION TIME:
+0.142755
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 00:04:39) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- EXECUTION TIME:
+0.1356
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 11:37:21) 
+-- CODE:
+a = int(input("Variavel a: "))
+b = int(input("Variavel b: "))
+c = int(input("Variavel c: "))
+
+form1 = a**2 + b**2 + c**2
+form2 = a + b + c
+
+form3 = form1/form2
+
+print(round(form3, 7))
+
+-- EXECUTION TIME:
+0.157583
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

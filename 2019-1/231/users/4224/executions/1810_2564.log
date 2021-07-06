@@ -1,0 +1,752 @@
+== TEST (2019-06-09 17:00:43) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+	for posicao in range(size(gol_time)):
+		if(gol_time[i] > adv_gol[j]):
+			cont[0]=cont[0]+1
+		elif(gol_time(i)==adv_gol(j)):
+			cont[1]=cont[1]+1
+		elif(gol_time(i)<adv_gol(j):
+			cont[2]=cont[2]+1
+print(cont)
+-- ERROR:
+File "XXXX", line 10
+    for posicao in range(size(gol_time)):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:01:07) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[0]=cont[0]+1
+	elif(gol_time(i)==adv_gol(j)):
+		cont[1]=cont[1]+1
+	elif(gol_time(i)<adv_gol(j):
+		cont[2]=cont[2]+1
+print(cont)
+-- ERROR:
+File "XXXX", line 15
+    elif(gol_time(i)<adv_gol(j):
+                               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:02:20) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[0]=cont[0]+1
+	elif(gol_time[i]==adv_gol(j)):
+		cont[1]=cont[1]+1
+	elif(gol_time[i] < adv_gol[j]:
+		cont[2]=cont[2]+1
+print(cont)
+-- ERROR:
+File "XXXX", line 15
+    elif(gol_time[i] < adv_gol[j]:
+                                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:02:43) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[0]=cont[0]+1
+	elif(gol_time[i]==adv_gol(j)):
+		cont[1]=cont[1]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[2]=cont[2]+1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:04:41) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:05:16) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:05:19) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:06:09) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+	#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:11:01) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:11:13) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:11:57) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:14:55) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for posicao in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:16:00) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:16:12) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:16:24) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:16:39) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i]==adv_gol(j)):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:17:27) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		print(cont[i])
+	elif(gol_time[i] ==adv_gol[j]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:18:36) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+i=0
+j=0
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[j]):
+		cont[i]=cont[i]+1
+		#print(cont[i])
+	elif(gol_time[i] ==adv_gol[j]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] < adv_gol[j]):
+		cont[i]=cont[i]+1
+	j=j+1
+	i=i+1
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:35:50) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+		#print(cont[i])
+		cont[i]=0
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:37:30) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)-1):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+		#print(cont[i])
+		cont[i]=0
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:39:39) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:40:53) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:40:57) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:41:00) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[i]=cont[i]+1
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+	elif(gol_time[i] < adv_gol[i]):
+		cont[i]=cont[i]+1
+		cont[i]=0
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:43:40) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[0]=cont[0]+1
+		
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[0]=cont[0]+1
+		
+	elif(gol_time[i] < adv_gol[i]):
+		cont[0]=cont[0]+1
+		
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 17:45:39) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[0]=cont[0]+1
+		
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[1]=cont[1]+1
+		
+	elif(gol_time[i] < adv_gol[i]):
+		cont[2]=cont[2]+1
+		
+print(cont)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-09 17:46:05) 
+-- CODE:
+from numpy import*
+#cria um vetor de 3 categorias
+cont=zeros(3,dtype=int)
+#leitura dos 2 vetores
+gol_time = array(eval(input("gol")))
+adv_gol = array(eval(input("gol2")))
+#conta a quantid de partidas(vitorias, empates e derrotas)
+for i in range(size(gol_time)):
+	if(gol_time[i] > adv_gol[i]):
+		cont[0]=cont[0]+1
+		
+	elif(gol_time[i] ==adv_gol[i]):
+		cont[1]=cont[1]+1
+		
+	elif(gol_time[i] < adv_gol[i]):
+		cont[2]=cont[2]+1
+		
+print(cont)
+
+-- EXECUTION TIME:
+0.974722
+-- TEST CASE 1:
+---- input:
+[2,3,2,4,3,5,3,4,2,3,1,0]
+[3,3,1,0,2,3,3,0,1,2,1,1]
+---- correct output:
+[7 3 2]
+---- user output:
+[7 3 2]
+-- TEST CASE 2:
+---- input:
+[1,2,1,2,1,2,1,2,0]
+[3,5,3,3,3,3,3,3,3]
+---- correct output:
+[0 0 9]
+---- user output:
+[0 0 9]
+-- TEST CASE 3:
+---- input:
+[1,2,2,2,2,1,1,2,2,1,1,2,2]
+[0,1,1,1,0,0,0,0,0,0,1,1,1]
+---- correct output:
+[12 1 0]
+---- user output:
+[12  1  0]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

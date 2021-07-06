@@ -1,0 +1,26 @@
+2019-5-14 20:09:11.294#viewportChange#0
+2019-5-14 20:09:12.944#mousedown#{"isTrusted":true}
+2019-5-14 20:09:12.954#focus#
+2019-5-14 20:09:14.116#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":72.08331298828125},"to":{"line":0,"ch":0,"sticky":"after","xRel":72.08331298828125},"text":["# Acumuladora","soma=0","# Raiz para o termo geral","raiz=12**0.5","while(cont<n):","\tsoma= (soma*-1) + (1/((1+h)*(3**cont)))","\tcont+=1","\th+=2","if(soma<0):","\tprint(round(abs(raiz*soma),8))","else:","\tprint(round(abs(raiz*soma),8))"],"removed":[""],"origin":"paste"}
+2019-5-14 20:09:14.161#viewportChange#0
+2019-5-14 20:09:16.016#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-5-14 20:09:20.865#blur#
+2019-5-14 20:09:20.865#blur#
+2019-5-14 20:10:17.879#saida_testar#$ python3 main.py
+Traceback (most recent call last):
+File "main.py", line 5, in <module>
+while(cont<n):
+NameError: name 'cont' is not defined
+2019-5-14 20:10:26.345#mousedown#{"isTrusted":true}
+2019-5-14 20:10:26.367#focus#
+2019-5-14 20:10:31.798#blur#
+2019-5-14 20:10:44.025#focus#
+2019-5-14 20:10:47.036#mousedown#{"isTrusted":true}
+2019-5-14 20:10:50.049#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":0.08331298828125},"to":{"line":11,"ch":31,"sticky":null,"xRel":1,"outside":true},"text":[""],"removed":["# Acumuladora","soma=0","# Raiz para o termo geral","raiz=12**0.5","while(cont<n):","\tsoma= (soma*-1) + (1/((1+h)*(3**cont)))","\tcont+=1","\th+=2","if(soma<0):","\tprint(round(abs(raiz*soma),8))","else:","\tprint(round(abs(raiz*soma),8))"],"origin":"+delete"}
+2019-5-14 20:10:50.049#keyHandled#"Backspace"
+2019-5-14 20:10:50.089#viewportChange#0
+2019-5-14 20:10:51.289#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["#Aproximação de \"pi\" (Fórmula de madhava)","n=int(input(\"Valor de um numero n: \"))","# Contadora","h=0","cont=0","# Acumuladora","soma=0","# Raiz para o termo geral","raiz=12**0.5","while(cont<n):","\tsoma= (soma*-1) + (1/((1+h)*(3**cont)))","\tcont+=1","\th+=2","if(soma<0):","\tprint(round(abs(raiz*soma),8))","else:","\tprint(round(abs(raiz*soma),8))"],"removed":[""],"origin":"paste"}
+2019-5-14 20:10:51.342#viewportChange#0
+2019-5-14 20:10:51.289#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["#Aproximação de \"pi\" (Fórmula de madhava)","n=int(input(\"Valor de um numero n: \"))","# Contadora","h=0","cont=0","# Acumuladora","soma=0","# Raiz para o termo geral","raiz=12**0.5","while(cont<n):","\tsoma= (soma*-1) + (1/((1+h)*(3**cont)))","\tcont+=1","\th+=2","if(soma<0):","\tprint(round(abs(raiz*soma),8))","else:","\tprint(round(abs(raiz*soma),8))"],"removed":[""],"origin":"paste"}
+2019-5-14 20:10:51.342#viewportChange#0
+2019-5-14 20:10:53.403#submit#Congratulations, your code is correct!

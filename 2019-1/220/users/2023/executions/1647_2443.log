@@ -1,0 +1,302 @@
+== TEST (2019-04-11 20:36:49) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:37:16) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:37:36) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:38:14) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:38:33) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- EXECUTION TIME:
+0.145218
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1647/2443/main.py", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:40:03) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:40:18) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:43:51) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:44:27) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+r = int(input("digite o raio:"))
+x = int(input("digite a altura:"))
+n = int(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+if (n==1):
+	v = (4*pi*r**3)/3
+	
+else:
+	v = ((pi*x**2)*(3*r-x))/3
+	
+print(round(v,4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    r = int(input())
+ValueError: invalid literal for int() with base 10: '3.50'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:53:33) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+raio = float(input("digite o raio:"))
+altura = float(input("digite a altura:"))
+opcao = float(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+calota_esferica = ((pi*(altura**2)*(3*raio-altura))/3
+volume_esfera = 4*pi*(raio**3)/3
+if (opcao==1):
+	v = calota_esferica	
+else:
+	v = volume_esfera - calota_esferica
+	
+print(round(v,4))
+-- EXECUTION TIME:
+0.216288
+-- ERROR:
+  File "/home/codebench/codes/1647/2443/main.py", line 10
+    volume_esfera = 4*pi*(raio**3)/3
+                ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 20:53:41) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+raio = float(input("digite o raio:"))
+altura = float(input("digite a altura:"))
+opcao = float(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+calota_esferica = ((pi*(altura**2)*(3*raio-altura))/3
+volume_esfera = 4*pi*(raio**3)/3
+if (opcao==1):
+	v = calota_esferica	
+else:
+	v = volume_esfera - calota_esferica
+	
+print(round(v,4))
+-- ERROR:
+File "XXXX", line 10
+    volume_esfera = 4*pi*(raio**3)/3
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-11 20:54:13) 
+-- CODE:
+# Tanque de combustivel.
+
+from math import*
+
+raio = float(input("digite o raio:"))
+altura = float(input("digite a altura:"))
+opcao = float(input("digite 1 para volume do ar ou 2 para do combustivel:"))
+
+calota_esferica = ((pi*(altura**2)*(3*raio-altura)))/3
+volume_esfera = 4*pi*(raio**3)/3
+if (opcao==1):
+	v = calota_esferica	
+else:
+	v = volume_esfera - calota_esferica
+	
+print(round(v,4))
+-- EXECUTION TIME:
+0.128837
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+9.0257
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

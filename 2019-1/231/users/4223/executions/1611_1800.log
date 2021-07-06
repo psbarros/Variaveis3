@@ -1,0 +1,144 @@
+== TEST (2019-04-04 18:47:35) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+print (a**2+b**2+c**2/a+b+c)
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:49:51) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+f=(a**2+b**2+c**2/a+b+c)
+print(round(f, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:50:24) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+f=(a**2+b**2+c**2/a+b+c)
+print (round(f, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:51:24) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+x=(a**2+b**2+c**2/a+b+c)
+print (round(x, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:54:53) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+x=(a**2+b**2+c**2/a + b + c)
+
+print (round(x, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:56:24) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor: "))
+
+x=(a**2 + b**2 + c**2/a + b + c) 
+
+print(round(x, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:56:43) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor de c: "))
+
+x=(a**2 + b**2 + c**2/a + b + c) 
+
+print(round(x, 7))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:57:33) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor de c: "))
+
+x=(a**2+b**2+c**2/a+b+c) 
+
+print(round(x, 6))
+-- OUTPUT:
+1125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:09:37) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor de c: "))
+
+x=((a**2+b**2+c**2)/(a+b+c)) 
+
+print(round(x, 7))
+-- OUTPUT:
+25.6666667
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 19:09:47) 
+-- CODE:
+a= float(input("Digite o valor de a: "))
+b= float(input("Digite o valor de b: "))
+c= float(input("Digite o valor de c: "))
+
+x=((a**2+b**2+c**2)/(a+b+c)) 
+
+print(round(x, 7))
+-- EXECUTION TIME:
+0.171032
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

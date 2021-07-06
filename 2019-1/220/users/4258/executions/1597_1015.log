@@ -1,0 +1,352 @@
+== TEST (2019-03-21 22:50:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print = (min(num1, num2, num3))
+print = (num1 + num2 + num3 - min(num1, num2, num3) - min(num1, num2, num3))
+print = (max(num1, num2, num3))
+-- OUTPUT:
+50.44
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:51:31) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1, num2, num3))
+print(num1 + num2 + num3 - min(num1, num2, num3) - min(num1, num2, num3))
+print(max(num1, num2, num3))
+-- OUTPUT:
+-2
+12
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:51:53) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1, num2, num3))
+print(num1 + num2 + num3 - min(num1, num2, num3) - min(num1, num2, num3))
+print(max(num1, num2, num3))
+-- OUTPUT:
+-2
+12
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:54:17) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1,num2,num3))
+print(num1+num2+num3-min(num1,num2,num3)-min(num1,num2,num3))
+print(max(num1,num2,num3))
+-- OUTPUT:
+-2
+12
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:54:54) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1,num2,num3))
+
+-- OUTPUT:
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:55:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1,num2,num3))
+
+-- OUTPUT:
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:55:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+print(min(num1,num2,num3))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:58:19) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - min(num1,num2,num3) - min(num1,num2,num3))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+12
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 22:59:18) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + min(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+12
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:00:01) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:00:25) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 23:00:52) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- EXECUTION TIME:
+0.219517
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 23:04:50) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- EXECUTION TIME:
+0.139478
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 23:04:56) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 23:05:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- EXECUTION TIME:
+0.166686
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-22 08:50:44) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+num1 = int(input("NUMERO 1:"))
+num2 = int(input("NUMERO 2:"))
+num3 = int(input("NUMERO 3:"))
+
+somanum = num1 + num2 + num3
+
+print(min(num1,num2,num3))
+print(somanum - (min(num1,num2,num3) + max(num1,num2,num3)))
+print(max(num1,num2,num3))
+
+
+-- EXECUTION TIME:
+0.172712
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

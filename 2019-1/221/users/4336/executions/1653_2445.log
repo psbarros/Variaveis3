@@ -1,0 +1,224 @@
+== TEST (2019-04-12 00:57:44) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ")
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	T = C
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	T = F
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 00:58:30) 
+-- CODE:
+opcao = input.upper("Qual a escala da temperatura? C/F ")
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	C = T
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	F = T
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    opcao = input.upper("Qual a escala da temperatura? C/F ")
+AttributeError: 'builtin_function_or_method' object has no attribute 'upper'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:00:50) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ".upper())
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	C = T
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	F = T
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:01:12) 
+-- CODE:
+opcao = input.upper()("Qual a escala da temperatura? C/F ")
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	C = T
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	F = T
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    opcao = input.upper()("Qual a escala da temperatura? C/F ")
+AttributeError: 'builtin_function_or_method' object has no attribute 'upper'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:01:25) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ")
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	C = T
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	F = T
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:01:33) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ")
+T = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	C = T
+	C == (5/9) * (F - 32)
+	print(F)
+else: 
+	F = T
+	C == (5/9) * (F - 32)
+	print(C)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:11:42) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ")
+t = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	T = (9/5) * t + 32
+	
+else: 
+	T = (5/9) * (t - 32)
+	
+print(round(T,2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 01:13:34) 
+-- CODE:
+opcao = input("Qual a escala da temperatura? C/F ")
+t = float(input("Qual o valor da temperatura da escala informada? "))
+
+if (opcao == C):
+	T = (9/5) * t + 32
+	
+else: 
+	T = (5/9) * (t - 32)
+	
+print(round(T,2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (opcao == C):
+NameError: name 'C' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:02:41) 
+-- CODE:
+print(10 * "Amo Você ")
+-- OUTPUT:
+Amo Você Amo Você Amo Você Amo Você Amo Você Amo Você Amo Você Amo Você Amo Você Amo Você
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:02:43) 
+-- CODE:
+print(10 * "Amo Você")
+-- OUTPUT:
+Amo VocêAmo VocêAmo VocêAmo VocêAmo VocêAmo VocêAmo VocêAmo VocêAmo VocêAmo Você
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:02:48) 
+-- CODE:
+print(10 * "Amo Voce")
+-- OUTPUT:
+Amo VoceAmo VoceAmo VoceAmo VoceAmo VoceAmo VoceAmo VoceAmo VoceAmo VoceAmo Voce
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:02:55) 
+-- CODE:
+print(10 * "Amo Voce ")
+-- OUTPUT:
+Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce Amo Voce
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:02:59) 
+-- CODE:
+print(10 * "Amo Voce   ")
+-- OUTPUT:
+Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce   Amo Voce
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:03:25) 
+-- CODE:
+print("falta" 10 - 2)
+-- ERROR:
+File "XXXX", line 1
+    print("falta" 10 - 2)
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:03:55) 
+-- CODE:
+print("falta" (10 - 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print("falta" (10 - 2))
+TypeError: 'str' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:04:27) 
+-- CODE:
+print("falta") print(10-2)
+-- ERROR:
+File "XXXX", line 1
+    print("falta") print(10-2)
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 03:04:35) 
+-- CODE:
+print("falta")print(10-2)
+-- ERROR:
+File "XXXX", line 1
+    print("falta")print(10-2)
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

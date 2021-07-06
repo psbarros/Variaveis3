@@ -1,0 +1,643 @@
+== TEST (2019-05-14 09:43:31) 
+-- CODE:
+k = int(input())
+from math import*
+a = 1/(factorial(k))
+s = 0
+while(s != k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    somatorio = somatorio + a
+NameError: name 'somatorio' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:44:00) 
+-- CODE:
+k = int(input("Digite um numero: ")
+from math import*
+a = 1/(factorial(k))
+s = 0
+while(s != k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- ERROR:
+File "XXXX", line 2
+    from math import*
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:44:09) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+while(s != k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    somatorio = somatorio + a
+NameError: name 'somatorio' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:44:41) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s != k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0013888888888888887
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:45:09) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- OUTPUT:
+0.001587301587301587
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:45:15) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(somatorio)
+	
+	
+	
+	
+
+-- OUTPUT:
+0.001587301587301587
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:45:32) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8)
+	
+	
+	
+	
+
+-- ERROR:
+File "XXXX", line 14
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 09:45:32) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8)
+	
+	
+	
+	
+
+-- EXECUTION TIME:
+0.14172
+-- ERROR:
+  File "/home/codebench/codes/1730/2499/main.py", line 14
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:45:38) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8)
+	
+	
+	
+	
+
+-- ERROR:
+File "XXXX", line 14
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:45:51) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8)
+	
+	
+	
+	
+
+-- ERROR:
+File "XXXX", line 14
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:46:09) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:46:35) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s >= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:46:45) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s != k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00138889
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:47:53) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s > k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00138889
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:49:28) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 09:50:12) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+s = 0
+somatorio = 0
+while(s <= k):
+	somatorio = somatorio + a
+	s = s + 1
+	print(round(somatorio,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00019841
+0.00039683
+0.00059524
+0.00079365
+0.00099206
+0.00119048
+0.00138889
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:32:28) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(s <= k):
+	s = s + a
+	t = t + 1
+print(round(somatorio,8))
+	
+	
+	
+	
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(round(somatorio,8))
+NameError: name 'somatorio' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:32:41) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(s <= k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+7.00019841
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:33:44) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t <= k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:34:04) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t != k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00138889
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:34:11) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t >= k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00138889
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:36:12) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t <= k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:36:28) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t <= k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:36:42) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t <= k):
+	s = s + a
+	t = t + 1
+   print(round(s,8))
+	
+	
+	
+	
+
+-- ERROR:
+File "XXXX", line 9
+    print(round(s,8))
+                    ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:36:50) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t <= k):
+	s = s + a
+	t = t + 1
+	print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00019841
+0.00039683
+0.00059524
+0.00079365
+0.00099206
+0.00119048
+0.00138889
+0.0015873
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:37:09) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+s = 0
+while(t < k):
+	s = s + a
+	t = t + 1
+	print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00019841
+0.00039683
+0.00059524
+0.00079365
+0.00099206
+0.00119048
+0.00138889
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:38:18) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+
+while(t < k):
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    s = s + a
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:38:50) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+a = 1/(factorial(k))
+t = 0
+while(t < k):
+	s = a
+	s = s+a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+0.00039683
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 12:40:11) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+t = 0
+s = 0
+while(t < k):
+	a = 1/(factorial(t))
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- OUTPUT:
+2.71805556
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 12:40:19) 
+-- CODE:
+k = int(input("Digite um numero: "))
+from math import*
+t = 0
+s = 0
+while(t < k):
+	a = 1/(factorial(t))
+	s = s + a
+	t = t + 1
+print(round(s,8))
+	
+	
+	
+	
+
+-- EXECUTION TIME:
+0.145201
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+2.71805556
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+2.71828183
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+2.71666667
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

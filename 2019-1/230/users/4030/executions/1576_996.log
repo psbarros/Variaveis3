@@ -1,0 +1,81 @@
+== SUBMITION (2019-03-11 17:21:24) 
+-- CODE:
+print("*****")
+print("* o o *")
+print("*  ^  *")
+print("* --- * ")
+print("*****")
+-- EXECUTION TIME:
+0.144242
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+---- user output:
+*****
+* o o *
+*  ^  *
+* --- * 
+*****
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:21:33) 
+-- CODE:
+print("*****")
+print("* o o *")
+print("*  ^  *")
+print("* --- *")
+print("*****")
+-- EXECUTION TIME:
+0.181176
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+---- user output:
+*****
+* o o *
+*  ^  *
+* --- *
+*****
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:21:59) 
+-- CODE:
+print("*****")
+print("(* o o *)")
+print("*  ^  *")
+print("* --- *")
+print("*****")
+-- EXECUTION TIME:
+0.243649
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+---- user output:
+*****
+(* o o *)
+*  ^  *
+* --- *
+*****
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

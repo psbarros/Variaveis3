@@ -1,0 +1,154 @@
+== TEST (2019-04-07 13:30:24) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-(5/100)
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+200.04
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 13:30:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-(5/100)
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+200.04
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-07 13:31:23) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-(5/100)
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+200.04
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:02:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor
+else:
+	 mensagem=valor-(5/100)
+print(round(mensagem,2))
+-- OUTPUT:
+200.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:03:56) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor*(valor-(5/100))
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+40026.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:04:23) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-(valor-(5/100))
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+0.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:27:02) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-((valor*5)/100))
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- ERROR:
+File "XXXX", line 7
+    mensagem=valor-((valor*5)/100))
+                                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 19:27:20) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-((valor*5)/100)
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 19:27:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+valor=float(input("Digite um valor: "))
+
+if valor>=200:
+    mensagem=valor-((valor*5)/100)
+else:
+	 mensagem=valor
+print(round(mensagem,2))
+-- EXECUTION TIME:
+0.201526
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

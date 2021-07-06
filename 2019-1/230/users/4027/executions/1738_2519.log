@@ -1,0 +1,227 @@
+== TEST (2019-05-09 13:42:45) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe até o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e - a
+	t = t + 1
+print(t
+-- ERROR:
+File "XXXX", line 10
+    
+           ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:42:51) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe até o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e - a
+	t = t + 1
+print(t)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:43:16) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e - a
+	t = t + 1
+print(t)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 13:43:50) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e - a
+	t = t + 1
+print(t)
+-- EXECUTION TIME:
+0.224739
+-- TEST CASE 1:
+---- input:
+15
+2
+1
+---- correct output:
+14
+---- user output:
+15
+-- TEST CASE 2:
+---- input:
+15
+3
+1
+---- correct output:
+7
+---- user output:
+8
+-- TEST CASE 3:
+---- input:
+66
+56
+23
+
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:44:46) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H >= 0):
+	H= H-e + a
+	t = t + 1
+print(t)
+-- OUTPUT:
+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:45:53) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e - a
+	t = t + 1
+print(t)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:46:56) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e
+	if(H > h):
+		h = h - e
+		t = t + 1
+print(t)
+-- OUTPUT:
+15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:47:16) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e
+	if(H > h):
+		h = h - a
+		t = t + 1
+print(t)
+-- OUTPUT:
+13
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:47:41) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e
+	if(H > h):
+		h = h - a
+	t = t + 1
+print(t)
+-- OUTPUT:
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:47:49) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e
+	if(H > h):
+		h = h - a
+	t = t + 1
+print(t)
+-- OUTPUT:
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 13:47:51) 
+-- CODE:
+H = float(input("Altura total da Torre da Lua: "))
+e = float(input("A quantidade de metros que Equecrates sobe ate o alto da Torre da Lua a cada minuto: "))
+a = float(input("A quantidade de metros que Equecrates desce a cada minuto: "))
+h = 0
+t = 0
+while(H > h):
+	h = h + e
+	if(H > h):
+		h = h - a
+	t = t + 1
+print(t)
+-- EXECUTION TIME:
+0.103792
+-- TEST CASE 1:
+---- input:
+15
+2
+1
+---- correct output:
+14
+---- user output:
+14
+-- TEST CASE 2:
+---- input:
+15
+3
+1
+---- correct output:
+7
+---- user output:
+7
+-- TEST CASE 3:
+---- input:
+66
+56
+23
+
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

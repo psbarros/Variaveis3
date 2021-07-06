@@ -1,0 +1,508 @@
+== TEST (2019-05-30 20:08:59) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+
+while (cont < size(notas)):
+	media = notas[cont * cont] + media
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:09:23) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+while (cont < size(notas)):
+	media = notas[cont * cont] + media
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:09:45) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+while (cont < size(notas)):
+	media = (notas[cont] * cont) + media
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:09:59) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+while (cont < size(notas)):
+	media = float (notas[cont] * cont) + media
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:10:09) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * cont) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:10:38) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * cont) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:11:01) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 1
+media = 0
+while (cont <= size(notas)):
+	media = float ((notas[cont] * cont) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:11:26) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+File "XXXX", line 8
+    cont = cont + 1
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:11:51) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1)) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:12:14) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * cont) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:12:38) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1)) + media)
+	cont = cont + 1
+	
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:13:09) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1)) + media)
+	cont = cont + 1
+
+print (media)
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:13:42) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1)) + media)
+	cont = cont + 1
+
+print (sezi(notas))
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:13:47) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media = float ((notas[cont] * (cont + 1)) + media)
+	cont = cont + 1
+
+print (size(notas))
+print (round ((media/size(notas)),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:16:02) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media =  (notas[cont] * (cont + 1)) + media
+	cont = cont + 1
+
+
+print (round ((media/10 ),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 20:16:10) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+while (cont < size(notas)):
+	media =  (notas[cont] * (cont + 1)) + media
+	cont = cont + 1
+
+
+print (round ((media/10 ),2)) 
+-- EXECUTION TIME:
+0.597165
+-- TEST CASE 1:
+---- input:
+ [3.5,5.6,7.76,2]
+---- correct output:
+4.6
+---- user output:
+4.6
+-- TEST CASE 2:
+---- input:
+[2.0,2.0,1.5,0]
+---- correct output:
+1.05
+---- user output:
+1.05
+-- TEST CASE 3:
+---- input:
+[2.0,2.8]
+---- correct output:
+2.53
+---- user output:
+0.76
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:25:06) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	cont = cont + 1
+
+aux = 1
+cont = 1
+while (cont < (peso + 1)):
+	aux = cont + aux
+
+print (round ((media/aux),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:26:01) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 1
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+
+print (round ((media/aux),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:26:29) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 1
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+print (aux)
+print (round ((media/aux),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:26:40) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 0
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+print (aux)
+print (round ((media/aux),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 20:26:45) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 0
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+print (aux)
+print (round ((media/aux),2)) 
+-- EXECUTION TIME:
+0.510415
+-- TEST CASE 1:
+---- input:
+ [3.5,5.6,7.76,2]
+---- correct output:
+4.6
+---- user output:
+10
+4.6
+-- TEST CASE 2:
+---- input:
+[2.0,2.0,1.5,0]
+---- correct output:
+1.05
+---- user output:
+10
+1.05
+-- TEST CASE 3:
+---- input:
+[2.0,2.8]
+---- correct output:
+2.53
+---- user output:
+3
+2.53
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:26:58) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 0
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+print (aux)
+print (round ((media/aux),2)) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 20:27:08) 
+-- CODE:
+from numpy import*
+
+notas = array (eval (input ()))
+cont = 0
+media = 0
+aux = 0
+
+while (cont < size(notas)):
+	peso = cont + 1
+	media =  (notas[cont] * peso) + media
+	aux = peso + aux
+	cont = cont + 1
+
+print (round ((media/aux),2)) 
+-- EXECUTION TIME:
+0.507953
+-- TEST CASE 1:
+---- input:
+ [3.5,5.6,7.76,2]
+---- correct output:
+4.6
+---- user output:
+4.6
+-- TEST CASE 2:
+---- input:
+[2.0,2.0,1.5,0]
+---- correct output:
+1.05
+---- user output:
+1.05
+-- TEST CASE 3:
+---- input:
+[2.0,2.8]
+---- correct output:
+2.53
+---- user output:
+2.53
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

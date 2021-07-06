@@ -1,0 +1,126 @@
+== TEST (2019-04-12 10:32:30) 
+-- CODE:
+b = input()
+t = float(input())
+
+f = (9*t/5) + 32 
+c = (5/9)*(t - 32)
+
+if (b == "c"):
+	msg = (f)
+if (b == "f"):
+	msg = (c)
+	
+print(round(msg, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(msg, 2))
+NameError: name 'msg' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 10:32:37) 
+-- CODE:
+b = input()
+t = float(input())
+
+f = (9*t/5) + 32 
+c = (5/9)*(t - 32)
+
+if (b == "c"):
+	msg = (f)
+if (b == "f"):
+	msg = (c)
+	
+print(round(msg, 2))
+-- EXECUTION TIME:
+0.206718
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2445/main.py", line 12, in <module>
+    print(round(msg, 2))
+NameError: name 'msg' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 10:33:07) 
+-- CODE:
+b = input()
+t = float(input())
+
+F = (9*t/5) + 32 
+C = (5/9)*(t - 32)
+
+if (b == "C"):
+	msg = (f)
+if (b == "F"):
+	msg = (c)
+	
+print(round(msg, 2))
+-- EXECUTION TIME:
+0.180457
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2445/main.py", line 8, in <module>
+    msg = (f)
+NameError: name 'f' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 10:33:18) 
+-- CODE:
+b = input()
+t = float(input())
+
+F = (9*t/5) + 32 
+C = (5/9)*(t - 32)
+
+if (b == "C"):
+	msg = (F)
+if (b == "F"):
+	msg = (C)
+	
+print(round(msg, 2))
+-- OUTPUT:
+608.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 10:33:19) 
+-- CODE:
+b = input()
+t = float(input())
+
+F = (9*t/5) + 32 
+C = (5/9)*(t - 32)
+
+if (b == "C"):
+	msg = (F)
+if (b == "F"):
+	msg = (C)
+	
+print(round(msg, 2))
+-- EXECUTION TIME:
+0.209726
+-- TEST CASE 1:
+---- input:
+C
+320
+---- correct output:
+608.0
+---- user output:
+608.0
+-- TEST CASE 2:
+---- input:
+F
+320
+---- correct output:
+160.0
+---- user output:
+160.0
+-- TEST CASE 3:
+---- input:
+C
+0
+---- correct output:
+32.0
+---- user output:
+32.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

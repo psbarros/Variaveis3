@@ -1,0 +1,8 @@
+2019-5-30 16:46:09.478#viewportChange#0
+2019-5-30 16:46:32.984#mousedown#{"isTrusted":true}
+2019-5-30 16:46:32.994#focus#
+2019-5-30 16:46:34.572#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":149.79998779296875},"to":{"line":0,"ch":0,"sticky":"after","xRel":149.79998779296875},"text":["n = str(input(\"insira algo: \"))","p = n[0]","u = n[-1]","q = len(n)","mi = n.lower()","ma = n.upper()","i = n*500","print(p)","print(u)","print(q)","print(mi)","print(ma)","print(i)"],"removed":[""],"origin":"paste"}
+2019-5-30 16:46:34.604#viewportChange#0
+2019-5-30 16:46:34.572#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":149.79998779296875},"to":{"line":0,"ch":0,"sticky":"after","xRel":149.79998779296875},"text":["n = str(input(\"insira algo: \"))","p = n[0]","u = n[-1]","q = len(n)","mi = n.lower()","ma = n.upper()","i = n*500","print(p)","print(u)","print(q)","print(mi)","print(ma)","print(i)"],"removed":[""],"origin":"paste"}
+2019-5-30 16:46:34.604#viewportChange#0
+2019-5-30 16:46:37.128#submit#Congratulations, your code is correct!

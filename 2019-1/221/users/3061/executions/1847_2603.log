@@ -1,0 +1,1074 @@
+== TEST (2019-07-01 07:57:06) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		l = list(reversed(sorted(m[i,j])))
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 07:57:16) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		l = list(reversed(sorted(m[i,j])))
+print(l)
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 07:59:44) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		l = [ x for m[i,j] in m]
+print(l)
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 08:00:30) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		l = [ m[i,j] for m[i,j] in m]
+print(l)
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 08:01:52) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		vetor_aux = array([m[i,j] for m[i,j] in m])
+print(vetor_aux)
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 08:06:16) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+for j in range(colunas):
+	for i in range(linhas):
+		h = list(m[i,j])
+print(h)
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 08:29:37) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+def fcoluna(j):
+	coluna(j) = [m[:,j] for j in range(colunas)]
+print(fcoluna(j))
+		
+		
+-- ERROR:
+File "XXXX", line 6
+    coluna(j) = [m[:,j] for j in range(colunas)]
+    ^
+SyntaxError: can't assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 08:30:07) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+colunas = shape(m)[1]
+linhas = shape(m)[0]
+def fcoluna():
+	coluna = [m[:,j] for j in range(colunas)]
+print(fcoluna())
+
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:11:31) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+mt = m.T
+print(mt)
+
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:11:39) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+mt = m.T
+print(mt)
+
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:13:36) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+
+print(m.T)
+
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:35:40) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for j in range(linhas):
+		print(m[i,j])
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:35:53) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		print(m[i,j])
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:37:15) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		l=[x for x in m[i,j]]
+print(l)
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:38:40) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		v = array([x for x if x == m[i,j]])
+
+		
+		
+		
+-- ERROR:
+File "XXXX", line 7
+    v = array([x for x if x == m[i,j]])
+                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:38:57) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		v = array(x for x if x == m[i,j])
+
+		
+		
+		
+-- ERROR:
+File "XXXX", line 7
+    v = array(x for x if x == m[i,j])
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:39:17) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		l = [x for x if x==m[i,j]]
+
+		
+		
+		
+-- ERROR:
+File "XXXX", line 7
+    l = [x for x if x==m[i,j]]
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:39:49) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		l = [x for x in m if x == m[i,j]]
+print(l)
+
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:40:27) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		l = [m[i,j]]
+print(l)
+		
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:43:09) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		print(m[:,j])
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:43:40) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+	for i in range(linhas):
+		print(m[i,:])
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:44:46) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas)
+		print(m[:,j])
+		
+		
+-- ERROR:
+File "XXXX", line 5
+    for j in range(colunas)
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:44:51) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		print(m[:,j])
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:47:50) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			reversed(sorted(m[:,j]))
+		
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:48:09) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			reversed(sorted(m[:,j]))
+print(m)
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:50:25) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			mat = reversed(sorted(m[:,j]))
+print(mat)
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:51:02) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			mat = reversed(sorted(m[:,j]))
+print(mat)
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:51:27) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			mat = list(reversed(sorted(m[:,j])))
+print(mat)
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 09:54:16) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+for j in range(colunas):
+		for i in range(linhas):
+			vetor = sorted(m[:,j],reverse=True)
+print(vetor)
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 10:01:18) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l = []
+for j in range(colunas):
+		for i in range(linhas):
+			for m[i,j] in m:
+				l.append(m[i,j])
+print(l)
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:08:30) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 = [m[0,:] for m[0,:] in m ]
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:10:08) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 = [ m[0,:] ]
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:10:30) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 =  [m[0,:]]
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:10:39) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 =  [m[0,:]]
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:11:29) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 =  [m[:,0]]
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:12:31) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+v0 = list(reversed(sorted(m[:,0])))
+print(v0)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:15:26) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1]))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+print(l1)
+print(l2)
+print(l3)
+print(l4)
+			
+			
+
+	
+		
+-- ERROR:
+File "XXXX", line 7
+    l2 = list(reversed(sorted(m[:,2])))
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:15:36) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+print(l1)
+print(l2)
+print(l3)
+print(l4)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:15:50) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+print(l1)
+print(l2)
+print(l3)
+print(l4)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:16:14) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+print(l0)
+print(l1)
+print(l2)
+print(l3)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:19:14) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+mat = array[v0,v1,v2,v3]
+M = mat.T
+print(M)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:19:44) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+print(v1,v2,v3,v4)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:20:04) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+print(v0,v1,v2,v3)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:21:19) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+M = array([v1,v2,v3,v4])
+print(M)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:21:37) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+M = array([v0,v1,v2,v3])
+print(M)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:21:54) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+linhas = shape(m)[0]
+colunas = shape(m)[1]
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+M = array([v0,v1,v2,v3])
+print(M.T)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 12:22:40) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+M = array([v0,v1,v2,v3])
+print(M.T)
+			
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 12:22:52) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+l0 = list(reversed(sorted(m[:,0])))
+l1 = list(reversed(sorted(m[:,1])))
+l2 = list(reversed(sorted(m[:,2])))
+l3 = list(reversed(sorted(m[:,3])))
+v0 = array(l0)
+v1 = array(l1)
+v2 = array(l2)
+v3 = array(l3)
+M = array([v0,v1,v2,v3])
+print(M.T)
+			
+			
+
+	
+		
+-- EXECUTION TIME:
+1.03813
+-- TEST CASE 1:
+---- input:
+[[1,1,1,1],[2,2,2,2],[3,3,3,3],[4,4,4,4]]
+---- correct output:
+[[4 4 4 4]
+[3 3 3 3]
+[2 2 2 2]
+[1 1 1 1]]
+---- user output:
+[[4 4 4 4]
+ [3 3 3 3]
+ [2 2 2 2]
+ [1 1 1 1]]
+-- TEST CASE 2:
+---- input:
+[[4,1,1,3],[3,2,2,3],[2,3,3,3],[1,4,4,3]]
+---- correct output:
+[[4 4 4 3]
+[3 3 3 3]
+[2 2 2 3]
+[1 1 1 3]]
+---- user output:
+[[4 4 4 3]
+ [3 3 3 3]
+ [2 2 2 3]
+ [1 1 1 3]]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 07:21:53) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+m0 = zeros(size(m),dtype==int)
+
+for j in range(len(m)):
+	for i in range(len(m)):
+		m[j] = m0[j][i]
+	m0 = sorted(m0,reverse=true)
+	for j in range(len(m):)
+		m0[j][i] = m[j]
+print(m)
+			
+
+	
+		
+-- ERROR:
+File "XXXX", line 9
+    for j in range(len(m):)
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 07:22:02) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+m0 = zeros(size(m),dtype==int)
+
+for j in range(len(m)):
+	for i in range(len(m)):
+		m[j] = m0[j][i]
+	m0 = sorted(m0,reverse=true)
+	for j in range(len(m)):
+		m0[j][i] = m[j]
+print(m)
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 07:22:51) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+m0 = zeros(size(m),dtype=int)
+
+for j in range(len(m)):
+	for i in range(len(m)):
+		m[j] = m0[j][i]
+	m0 = sorted(m0,reverse=true)
+	for j in range(len(m)):
+		m0[j][i] = m[j]
+print(m)
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 07:25:26) 
+-- CODE:
+from numpy import*
+m = array(eval(input('Coloque a matriz desejada: ')))
+m0 = zeros(size(m),dtype=int)
+
+for j in range(len(m)):
+	for i in range(len(m)):
+		m[j] = m0[j][i]
+	m0 = sorted(m0,reverse=true)
+	for j in range(len(m)):
+		m0[j][i] = m[j]
+print(m)
+			
+
+	
+		
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

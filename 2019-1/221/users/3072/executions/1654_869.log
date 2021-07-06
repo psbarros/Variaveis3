@@ -1,0 +1,209 @@
+== TEST (2019-04-09 12:59:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(psc,2))
+else:
+	print(round(a,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(round(psc,2))
+NameError: name 'psc' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:59:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- OUTPUT:
+190.09
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 12:59:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- EXECUTION TIME:
+0.216142
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 14:29:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- EXECUTION TIME:
+0.123348
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 14:31:09) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- EXECUTION TIME:
+0.141377
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 12:43:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- EXECUTION TIME:
+0.157757
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-17 16:17:25) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+p = float(input("preco: "))
+d = 5/100
+
+pasd = (p * d)
+pcd = p - pasd
+a = p
+if (p >= 200):
+	print(round(pcd,2))
+else:
+	print(round(a,2))
+-- EXECUTION TIME:
+0.144126
+-- TEST CASE 1:
+---- input:
+200.09
+---- correct output:
+190.09
+---- user output:
+190.09
+-- TEST CASE 2:
+---- input:
+200.53
+---- correct output:
+190.5
+---- user output:
+190.5
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

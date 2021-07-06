@@ -1,0 +1,211 @@
+== TEST (2019-07-03 16:14:40) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+m = (vet[i] ** 2 / n) ** 1/2
+
+n = zeros(size(vet), dtype=float)
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:16:37) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = (vet[i] ** 2 + vet[i] ** 2/ n) ** 1/2
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:17:29) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = (vet[i] ** 2 + v[n - 1] ** 2) ** 1/2
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:17:41) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = (vet[i] ** 2 + vet[n - 1] ** 2) ** 1/2
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:28:08) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = size(vet)
+
+m = (vet[i] ** 2 + vet[n - 1] ** 2) ** 1/2
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:30:14) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+print(m)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:31:54) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+print(round(m, 2)
+-- ERROR:
+File "XXXX", line 10
+    
+                     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:32:00) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+print(round(m, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 16:39:15) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+cont = 0
+
+for i in range(size(vet)):
+	if (vet[i] > 0):
+		 cont = cont + 1
+
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+
+
+print(round(m, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 17:02:09) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+
+cont = 0
+
+for i in range(size(vet)):
+	if (vet[i] > 0):
+		cont = cont + 1
+	elif (vet[0] > 0):
+		vet[0] = vet[0] + 1
+	
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+print(round(m, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 17:02:49) 
+-- CODE:
+from numpy import *
+
+vet = array(eval(input("Digite um numero: ")))
+
+n = zeros(size(vet), dtype=float)
+n = 0
+cont = 0
+
+for i in range(size(vet)):
+	if (vet[i] > 0):
+		cont = cont + 1
+	elif (vet[0] > 0):
+		vet[0] = vet[0] + 1
+	
+m = ((vet[i] ** 2 + vet[n - 1] ** 2) / n) ** 1/2
+
+print(round(m, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

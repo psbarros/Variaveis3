@@ -1,0 +1,26 @@
+2019-5-21 21:31:55.125#viewportChange#0
+2019-5-21 22:04:04.652#mousedown#{"isTrusted":true}
+2019-5-21 22:04:04.661#focus#
+2019-5-21 22:05:52.205#blur#
+2019-5-21 22:06:17.594#focus#
+2019-5-21 22:06:17.599#blur#
+2019-5-21 22:07:08.487#mousedown#{"isTrusted":true}
+2019-5-21 22:07:08.489#focus#
+2019-5-21 22:07:11.156#keyHandled#"Ctrl-A"
+2019-5-21 22:07:11.549#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":42,"sticky":null},"text":["# Não se esqueça de incluir o módulo numpy","from numpy import*","n=array(eval(input(\"Valor de vezes de N:\")))","v=ones(n,dtype=int)","print(v)"],"removed":["# Não se esqueça de incluir o módulo numpy"],"origin":"paste"}
+2019-5-21 22:07:11.560#viewportChange#0
+2019-5-21 22:07:11.156#keyHandled#"Ctrl-A"
+2019-5-21 22:07:11.549#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":42,"sticky":null},"text":["# Não se esqueça de incluir o módulo numpy","from numpy import*","n=array(eval(input(\"Valor de vezes de N:\")))","v=ones(n,dtype=int)","print(v)"],"removed":["# Não se esqueça de incluir o módulo numpy"],"origin":"paste"}
+2019-5-21 22:07:11.560#viewportChange#0
+2019-5-21 22:07:14.402#submit#Congratulations, your code is correct!
+2019-5-25 22:03:21.168#mousedown#{}
+2019-5-25 22:03:21.200#focus#
+2019-5-25 22:03:21.851#keyHandled#"Ctrl-A"
+2019-5-25 22:03:22.803#copy#{}
+2019-5-25 22:03:23.784#blur#
+2019-7-19 15:53:29.278#viewportChange#0
+2019-7-19 15:53:30.261#mousedown#{"isTrusted":true}
+2019-7-19 15:53:30.275#focus#
+2019-7-19 15:53:31.245#keyHandled#"Ctrl-A"
+2019-7-19 15:53:31.834#copy#{"isTrusted":true}
+2019-7-19 15:53:32.465#blur#

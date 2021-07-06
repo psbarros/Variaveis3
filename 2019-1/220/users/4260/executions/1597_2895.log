@@ -1,0 +1,233 @@
+== SUBMITION (2019-03-30 19:03:11) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados")
+			  var2 = float(input("O valor unitario de cada jogo")
+			  var3 = float(input("O valor do frete"))
+								#Calculo do preço total a ser pago:
+								total = (var1*var2*var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.14387
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input()
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:04:07) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:")
+			  var2 = float(input("O valor unitario de cada jogo:")
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1*var2*var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.161088
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input()
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:17:57) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:")
+			  var2 = float(input("O valor unitario de cada jogo:")
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1*var2*var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.192036
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input()
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:17:57) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:")
+			  var2 = float(input("O valor unitario de cada jogo:")
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1*var2*var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.177971
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input()
+       ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:18:58) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:"))
+			  var2 = float(input("O valor unitario de cada jogo:"))
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1*var2+var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.1525
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input())
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:19:25) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:"))
+			  var2 = float(input("O valor unitario de cada jogo:"))
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1 * var2 + var3)
+								#declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.142162
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input())
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:19:34) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:"))
+			  var2 = float(input("O valor unitario de cada jogo:"))
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1 * var2 + var3)
+								#Declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.118813
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input())
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 19:20:28) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:"))
+			  var2 = float(input("O valor unitario de cada jogo:"))
+			  var3 = float(input("O valor do frete?"))
+								#Calculo do preço total a ser pago:
+								total = (var1 * var2 + var3)
+								#Declaração do preço total:
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.128543
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input())
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 21:28:54) 
+-- CODE:
+var1 = int(input("A quantidade de jogos encomendados:"))
+			  var2 = float(input("O valor unitario de cada jogo:"))
+			  var3 = float(input("O valor do frete?"))
+							
+								total = (var1 * var2 + var3)
+						
+								print(total)
+								
+			  
+-- EXECUTION TIME:
+0.130757
+-- ERROR:
+  File "/home/codebench/codes/1597/2895/main.py", line 2
+    var2 = float(input())
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 21:20:14) 
+-- CODE:
+quantidade = float(input("Quanto sera a quantidade comprada:"))
+unidade = float(input("Qual o valor unitario do jogo?"))
+frete = float(input("Quanto custa o frete:"))
+total = (unidade*quantidade)+frete
+print(total)
+								
+			  
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-31 21:20:37) 
+-- CODE:
+quantidade = float(input("Quanto sera a quantidade comprada:"))
+unidade = float(input("Qual o valor unitario do jogo?"))
+frete = float(input("Quanto custa o frete:"))
+total = (unidade*quantidade)+frete
+print(total)
+								
+			  
+-- EXECUTION TIME:
+0.161855
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

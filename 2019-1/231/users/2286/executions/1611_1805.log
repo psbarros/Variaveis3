@@ -1,0 +1,112 @@
+== TEST (2019-03-26 19:36:55) 
+-- CODE:
+xa = int(input("xa:"))
+ya = int(input("ya:"))
+xb = int(input("xb:"))
+ya = int(input("xb:"))
+
+xm = (xb + xa) / 2
+ym = (yb + ya) / 2
+print(xm,ym)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ym = (yb + ya) / 2
+NameError: name 'yb' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:37:23) 
+-- CODE:
+xa = float(input("xa:"))
+ya = float(input("ya:"))
+xb = float(input("xb:"))
+ya = float(input("xb:"))
+
+xm = (xb + xa) / 2
+ym = (yb + ya) / 2
+print(xm,ym)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    ym = (yb + ya) / 2
+NameError: name 'yb' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:37:45) 
+-- CODE:
+xa = float(input("xa:"))
+ya = float(input("ya:"))
+xb = float(input("xb:"))
+yb = float(input("xb:"))
+
+xm = (xb + xa) / 2
+ym = (yb + ya) / 2
+print(xm,ym)
+-- OUTPUT:
+40.0 36.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 19:39:40) 
+-- CODE:
+xa = float(input("xa:"))
+ya = float(input("ya:"))
+xb = float(input("xb:"))
+yb = float(input("xb:"))
+
+xm = (xb + xa) / 2
+ym = (yb + ya) / 2
+print(round(xm,1))
+print(round(ym,1))
+-- OUTPUT:
+40.0
+36.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 19:40:01) 
+-- CODE:
+xa = float(input("xa:"))
+ya = float(input("ya:"))
+xb = float(input("xb:"))
+yb = float(input("xb:"))
+
+xm = (xb + xa) / 2
+ym = (yb + ya) / 2
+print(round(xm,1))
+print(round(ym,1))
+-- EXECUTION TIME:
+0.18385
+-- TEST CASE 1:
+---- input:
+50
+25
+30
+48
+---- correct output:
+40.0
+36.5
+---- user output:
+40.0
+36.5
+-- TEST CASE 2:
+---- input:
+2.5
+3.0
+5.0
+1.8
+---- correct output:
+3.8
+2.4
+---- user output:
+3.8
+2.4
+-- TEST CASE 3:
+---- input:
+1.22
+2.33
+3.44
+4.55
+---- correct output:
+2.3
+3.4
+---- user output:
+2.3
+3.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

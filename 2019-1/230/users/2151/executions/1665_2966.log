@@ -1,0 +1,2147 @@
+== TEST (2019-04-15 16:12:58) 
+-- CODE:
+g = print(":")
+p = float(print(":"))
+q = float(print(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round( , 2))
+-- ERROR:
+File "XXXX", line 12
+    print(round( , 2))
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:13:04) 
+-- CODE:
+g = print(":")
+p = float(print(":"))
+q = float(print(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    p = float(print(":"))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:13:15) 
+-- CODE:
+g = print(":")
+p = int(print(":"))
+q = float(print(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    p = int(print(":"))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:13:34) 
+-- CODE:
+g = print(":")
+p = float(print(":"))
+q = float(print(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    p = float(print(":"))
+TypeError: float() argument must be a string or a number, not 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:14:11) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- OUTPUT:
+112.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:14:39) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.123263
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+112.5
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+80.85
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:14:50) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " S "):
+	m = (p - d) * 3
+else:
+	m = p * 3 
+
+print(round(m , 2))
+-- OUTPUT:
+112.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:15:55) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p - d)* q
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+225.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:16:48) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+225.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:16:55) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.145961
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+215.6
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:17:47) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.153804
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:17:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.138507
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:18:01) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.127937
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+215.6
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:18:25) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.182328
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+225.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:18:26) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.141791
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:18:26) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.237703
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+127.35
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+225.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:18:26) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.190242
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+215.6
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:51) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.163808
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:55) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.201667
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:55) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.283938
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:55) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.257704
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '42.45'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:55) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.314594
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:24:56) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.30213
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '26.95'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:01) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.129214
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:02) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.152238
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:02) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.184293
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:03) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.188059
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '26.95'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:03) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.370044
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '42.45'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:05) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.135994
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:06) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.160048
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:06) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.225323
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.163953
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+215.6
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.209131
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+215.6
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.201901
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+215.6
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.510608
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+127.35
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.572942
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.448051
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:27) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.165352
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:28) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.208025
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:28) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.334502
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:28) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.223406
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '42.45'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:28) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.343808
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:33) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.290041
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:33) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.145827
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:34) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.337061
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '26.95'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:34) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.440245
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '26.95'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.148266
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.311815
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.229711
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '42.45'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.324637
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:25:54) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = float(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.406994
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '26.95'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:26:09) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.144907
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input())
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:26:09) 
+-- CODE:
+g = input(":")
+p = int(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.140283
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1665/2966/main.py", line 2, in <module>
+    p = int(input(":"))
+ValueError: invalid literal for int() with base 10: '37.50'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:00) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.148338
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+215.6
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:00) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.154794
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+225.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:00) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.148196
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:00) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.195945
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+225.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+225.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:01) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.411255
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+127.35
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+225.0
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:01) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.187381
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1665/2966/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:27:01) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.308751
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+127.35
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:27:02) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g == " s "):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+225.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:27:39) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+37.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:28:15) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p -d )* q
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.144032
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+-900.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+-862.4
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:28:15) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p -d )* q
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+-900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:29:05) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+37.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:29:18) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p//20)*100
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+125.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:30:20) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/100)*20
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+217.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:30:37) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+37.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:36:55) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p*20)/100
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+217.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:37:32) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q ) - d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+37.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:37:45) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q )-d
+else:
+	m = p * q 
+
+print(round(m , 2))
+-- OUTPUT:
+37.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:40:37) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p*20)/100
+
+if(g.upper() == "S"):
+	m = (p * q )- d
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+217.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:41:49) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p - d )* q
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+-900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:42:36) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q )-(d * q)
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+-900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:43:37) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = ((p/20)*100) * q
+
+if(g.upper() == "S"):
+	m = (p * q )- d 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+-900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:44:49) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*10
+
+if(g.upper() == "S"):
+	m = (p * q )- d 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.127221
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+206.25
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+202.12
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:44:54) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/20)*100
+
+if(g.upper() == "S"):
+	m = (p * q )- d 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.129103
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+37.5
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+80.85
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:46:00) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/100)*20
+
+if(g.upper() == "S"):
+	m = (p * q )- d 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+217.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 16:46:26) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/100)*20
+
+if(g.upper() == "S"):
+	m = (p * q )- d*q 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- OUTPUT:
+180.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 16:46:32) 
+-- CODE:
+g = input(":")
+p = float(input(":"))
+q = int(input(":"))
+
+d = (p/100)*20
+
+if(g.upper() == "S"):
+	m = (p * q )- d*q 
+else:
+	m = (p * q) 
+
+print(round(m , 2))
+-- EXECUTION TIME:
+0.106827
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+172.48
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

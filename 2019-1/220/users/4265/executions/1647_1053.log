@@ -1,0 +1,169 @@
+== TEST (2019-04-16 00:16:57) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+texto = "cervo eh patrono do Harry Potter"
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 00:17:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+texto = "cervo eh patrono do Harry Potter"
+print(texto)
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 00:17:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+texto = "cervo eh patrono do Harry Potter"
+print(texto)
+-- EXECUTION TIME:
+0.221772
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:03:33) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input("Digite o nome do patrono")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:03:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:04:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+-- ERROR:
+File "XXXX", line 6
+    
+                          ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:04:59) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+-- ERROR:
+File "XXXX", line 6
+    
+                          ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:05:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 11:05:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+-- EXECUTION TIME:
+0.224604
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 11:06:40) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(patrono, "nao eh patrono do Harry Potter")
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 11:07:11) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+patrono = input(" Digite o nome do patrono: ")
+if (patrono=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(patrono, "nao eh patrono do Harry Potter")
+-- EXECUTION TIME:
+0.146732
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

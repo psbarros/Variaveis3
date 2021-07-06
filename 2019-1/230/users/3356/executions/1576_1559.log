@@ -1,0 +1,79 @@
+== TEST (2019-03-18 16:57:37) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase.upper()
+-- ERROR:
+File "XXXX", line 3
+    
+                       ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-18 16:59:17) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase .upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 16:59:20) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase .upper())
+-- EXECUTION TIME:
+0.189112
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-18 16:59:23) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase .upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-18 16:59:37) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase .upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 16:59:53) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print(frase .upper())
+-- EXECUTION TIME:
+0.136615
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 17:00:00) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(frase .upper())
+-- EXECUTION TIME:
+0.225036
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

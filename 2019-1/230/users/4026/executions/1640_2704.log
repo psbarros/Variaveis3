@@ -1,0 +1,174 @@
+== TEST (2019-04-08 17:33:29) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N)")
+if   (opcao.upper == "S")
+      nota= nota + (nota*0.01)
+print(nota)
+-- ERROR:
+File "XXXX", line 3
+    if   (opcao.upper == "S")
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:33:49) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N)")
+if   (opcao.upper() == "S")
+      nota= nota + (nota*0.01)
+print(nota)
+-- ERROR:
+File "XXXX", line 3
+    if   (opcao.upper() == "S")
+                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:34:04) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N)")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.01)
+print(nota)
+-- OUTPUT:
+5.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:34:17) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.01)
+print(nota)
+-- EXECUTION TIME:
+0.214156
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.05
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.09
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:34:20) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.01)
+print(nota)
+-- OUTPUT:
+5.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:34:28) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.01)
+print(nota)
+-- EXECUTION TIME:
+0.142499
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.05
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.09
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:34:32) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.01)
+print(nota)
+-- OUTPUT:
+5.05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 17:34:43) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.1)
+print(nota)
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 17:34:44) 
+-- CODE:
+nota=float(input("Nota do Aluno:"))
+opcao= input("Aluno vai receber a bonificacao? (S/N):")
+if   (opcao.upper() == "S"):
+      nota= nota + (nota*0.1)
+print(nota)
+-- EXECUTION TIME:
+0.126604
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

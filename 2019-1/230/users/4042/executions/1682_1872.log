@@ -1,0 +1,309 @@
+== TEST (2019-04-29 13:29:46) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (x>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=o) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 14, in <module>
+    if (x!=o) and (y==0):
+NameError: name 'o' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 13:30:38) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (x>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- OUTPUT:
+Q4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 13:31:12) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (x>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- EXECUTION TIME:
+0.186767
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Q4
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo x
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+Origem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 13:40:27) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (y>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- EXECUTION TIME:
+0.148983
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Q4
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo x
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+Origem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-29 13:41:26) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (y>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- OUTPUT:
+Q4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 13:41:52) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (y>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- EXECUTION TIME:
+0.136913
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Q4
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo x
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+Origem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 13:56:34) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (y>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo x")
+if (x==0) and (y==0):
+	print("Origem")
+-- EXECUTION TIME:
+0.167409
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Q4
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo x
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+Origem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-29 13:57:42) 
+-- CODE:
+x= float(input("Digite o valor da coordenada x: "))
+y= float(input("Digite o valor da coordenada y: "))
+
+if (x>0) and (y>0):
+	print("Q1")
+if (x<0) and (y>0):
+	print("Q2")
+if (x<0) and (y<0):
+	print("Q3")
+if (x>0) and (y<0):
+	print("Q4")
+if (x==0) and (y!=0):
+	print("Eixo Y")
+if (x!=0) and (y==0):
+	print("Eixo X")
+if (x==0) and (y==0):
+	print("Origem")
+-- EXECUTION TIME:
+0.209404
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Q4
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo X
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+Origem
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

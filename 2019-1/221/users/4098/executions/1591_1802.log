@@ -1,0 +1,387 @@
+== TEST (2019-03-28 08:55:13) 
+-- CODE:
+from math import *
+pv = input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+
+print(dano)
+
+-- OUTPUT:
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:55:15) 
+-- CODE:
+from math import *
+pv = input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+
+print(dano)
+
+-- EXECUTION TIME:
+0.185917
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+3
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+6
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:55:59) 
+-- CODE:
+from math import *
+pv = input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv-dano
+print()
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    a = pv-dano
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:02) 
+-- CODE:
+from math import *
+pv = input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv-dano
+print(a)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    a = pv-dano
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:56:03) 
+-- CODE:
+from math import *
+pv = input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv-dano
+print(a)
+
+-- EXECUTION TIME:
+0.106742
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1591/1802/main.py", line 7, in <module>
+    a = pv-dano
+TypeError: unsupported operand type(s) for -: 'str' and 'int'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:19) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- ERROR:
+File "XXXX", line 3
+    d1 = int(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:26) 
+-- CODE:
+from math import *
+pv = float(input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- ERROR:
+File "XXXX", line 3
+    d1 = int(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:56:27) 
+-- CODE:
+from math import *
+pv = float(input("digite a quantidade de pontos de vida")
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- EXECUTION TIME:
+0.124729
+-- ERROR:
+  File "/home/codebench/codes/1591/1802/main.py", line 3
+    d1 = int(input())
+     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:32) 
+-- CODE:
+from math import *
+pv = float(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- OUTPUT:
+197.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:56:32) 
+-- CODE:
+from math import *
+pv = float(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- EXECUTION TIME:
+0.136897
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+197.0
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+294.0
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+498.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:43) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- OUTPUT:
+197
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:56:44) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- EXECUTION TIME:
+0.211855
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+197
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+294
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+498
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:56:45) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3)))
+a = pv - dano
+print(a)
+
+-- OUTPUT:
+197
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:57:05) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3))
+a = pv - dano
+print(a)
+
+-- ERROR:
+File "XXXX", line 7
+    a = pv - dano
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:57:07) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt((5 * d1) + pi ** (d2/3))
+a = pv - dano
+print(a)
+
+-- EXECUTION TIME:
+0.172334
+-- ERROR:
+  File "/home/codebench/codes/1591/1802/main.py", line 7
+    a = pv - dano
+    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:57:56) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt(5 * d1) + pi ** (d2/3))
+a = pv - dano
+print(a)
+
+-- OUTPUT:
+188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 08:57:58) 
+-- CODE:
+from math import *
+pv = int(input("digite a quantidade de pontos de vida"))
+d1 = int(input("valor sorteado do dado d1"))
+d2 = int(input("valor sorteado do dado d2"))
+
+dano = int(sqrt(5 * d1) + pi ** (d2/3))
+a = pv - dano
+print(a)
+
+-- EXECUTION TIME:
+0.197713
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+188
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+285
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+497
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

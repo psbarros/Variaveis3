@@ -1,0 +1,826 @@
+== TEST (2019-05-09 09:37:05) 
+-- CODE:
+termos = int(input("Quants termos serao calculados? "))
+
+from math import*
+-- OUTPUT:
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 09:44:17) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+4.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 09:44:38) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+4.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 09:44:56) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+4.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 09:45:33) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+print(factorial(3))
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(factorial(3))
+NameError: name 'factorial' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 09:48:05) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+4.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:52:27) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+4.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:53:28) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 0
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+5.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 01:53:43) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 0
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- EXECUTION TIME:
+0.226823
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+5.43633738
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+5.43656366
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+5.4349485
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:53:46) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 0
+e = 1
+
+from math import*
+while (cont < termos):
+	e = e + (1/factorial(cont))
+	cont = cont + 1
+	
+print(round(e , 8))
+-- OUTPUT:
+5.43633738
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:59:18) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 8))
+	
+else
+	while cont < termos
+	e = 1 + 1/factorial(cont)
+	
+print(round(e , 8))
+-- ERROR:
+File "XXXX", line 10
+    else
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:59:23) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 8))
+	
+else:
+	while cont < termos
+	e = 1 + 1/factorial(cont)
+	
+print(round(e , 8))
+-- ERROR:
+File "XXXX", line 11
+    while cont < termos
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:59:29) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 8))
+	
+else:
+	while cont < termos:
+	e = 1 + 1/factorial(cont)
+	
+print(round(e , 8))
+-- ERROR:
+File "XXXX", line 12
+    e = 1 + 1/factorial(cont)
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 01:59:47) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 8))
+	
+else:
+	while cont < termos:
+	
+	
+print(round(e , 8))
+-- ERROR:
+File "XXXX", line 14
+    print(round(e , 8))
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:00:00) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 8))
+	
+else:
+	while cont < termos:
+	
+-- ERROR:
+File "XXXX", line 13
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:00:07) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(round(e , 2))
+	
+else:
+	while cont < termos:
+	
+-- ERROR:
+File "XXXX", line 13
+    
+     ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:00:16) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+
+from math import*
+if cont == 1:
+	e = 1
+	print(e
+	
+else:
+	while cont < termos:
+	
+-- ERROR:
+File "XXXX", line 10
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:00:27) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+
+-- ERROR:
+File "XXXX", line 10
+    else:
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:01:30) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+
+if termos == 1
+	print(1)
+-- ERROR:
+File "XXXX", line 4
+    if termos == 1
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:01:36) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+
+if termos == 1:
+	print(1)
+-- ERROR:
+File "XXXX", line 4
+    if termos == 1
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:01:54) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+
+if termos == 1:
+	e = 1
+	print(e)
+-- ERROR:
+File "XXXX", line 4
+    if termos == 1
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:04:24) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+-- ERROR:
+File "XXXX", line 4
+    if termos == 1
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:05:22) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:05:34) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:05:39) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:06:10) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:10:43) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:10:50) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:11:31) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:11:50) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:12:05) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:12:22) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + 1/factorial(cont)
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:13:11) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	print(e)
+	
+else:
+	while cont < termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		print(e)
+-- OUTPUT:
+3.718281828459045
+4.218281828459045
+4.384948495125712
+4.426615161792379
+4.434948495125712
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:14:36) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont < termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:14:40) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont < termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:23:49) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont <= termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436535796713014
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:24:18) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont < termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:24:23) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont < termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436337384014601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:24:32) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont <= termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436535796713014
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 02:24:35) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont <= termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- OUTPUT:
+4.436535796713014
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 02:49:24) 
+-- CODE:
+termos = int(input("Quantos termos serao calculados? "))
+cont = 1
+e = 1
+from math import*
+
+if termos == 1:
+	e = 1
+	
+	
+else:
+	while cont <= termos:
+		e = e + (1/factorial(cont))
+		cont = cont + 1
+		
+print(e)
+-- EXECUTION TIME:
+0.184961
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+4.436535796713014
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+4.4365636569180396
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+4.436337384014601
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

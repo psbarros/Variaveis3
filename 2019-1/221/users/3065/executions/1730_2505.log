@@ -1,0 +1,232 @@
+== TEST (2019-05-14 13:22:16) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k + 2):
+	a = (sinal)*(x ** (i)/factorial(i))
+	sinal = sinal * -1
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:22:53) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k + 2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * -1
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:23:17) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k + 2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:23:23) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k + 2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:24:21) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k+2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:24:22) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k+2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+2.47373e-05
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 13:24:31) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 0
+s = 0
+sinal = 1
+while(n < k+2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- EXECUTION TIME:
+0.187065
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+2.47373e-05
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-0.000894523
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.5017962015
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:24:39) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 1
+s = 0
+sinal = 1
+while(n < k+2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 13:24:50) 
+-- CODE:
+from math import*
+x = eval(input("angulo: "))
+k = int(input("numero de termos: "))
+
+n =2
+i = 1
+s = 0
+sinal = 1
+while(n < k+2):
+	a = (sinal) * (x ** (i))/factorial(i)
+	sinal = sinal * (-1)
+	s = s + a
+	i = i + 2
+	n = n + 1
+print(round(s,10))	
+-- EXECUTION TIME:
+0.19449
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

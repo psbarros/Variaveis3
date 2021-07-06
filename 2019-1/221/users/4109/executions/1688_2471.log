@@ -1,0 +1,297 @@
+== TEST (2019-05-01 18:07:51) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas: ",x,"anos e IMC", y)
+
+
+-- OUTPUT:
+Entradas:  0 anos e IMC 0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 18:08:03) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+
+-- OUTPUT:
+Entradas: 0 anos e IMC 0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-01 18:15:44) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x<=45):
+	if(y<=22):
+		print("Risco: Baixo")
+	elif(>=22):
+		print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+		elif(y=>22):
+			print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- EXECUTION TIME:
+0.146056
+-- ERROR:
+  File "/home/codebench/codes/1688/2471/main.py", line 8
+    elif(>=22):
+          ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 18:15:45) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x<=45):
+	if(y<=22):
+		print("Risco: Baixo")
+	elif(>=22):
+		print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+		elif(y=>22):
+			print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 8
+    elif(>=22):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 18:16:04) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x<=45):
+	if(y<=22):
+		print("Risco: Baixo")
+	elif(>=22):
+		print("Risco: Medio")
+	elif(x=>45):
+	elif(y<=22):
+		print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 8
+    elif(>=22):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 18:16:15) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x<=45):
+	if(y<=22):
+		print("Risco: Baixo")
+	elif(>=22):
+		print("Risco: Medio")
+elif(x=>45):
+	elif(y<=22):
+		print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 8
+    elif(>=22):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-01 18:18:03) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x=>0 and y=>0):
+	if(x<=45):
+		elif(y<=22):
+			print("Risco: Baixo")
+	   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- EXECUTION TIME:
+0.187448
+-- ERROR:
+  File "/home/codebench/codes/1688/2471/main.py", line 5
+    if(x=>0 and y=>0):
+        ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 18:18:04) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x=>0 and y=>0):
+	if(x<=45):
+		elif(y<=22):
+			print("Risco: Baixo")
+	   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 5
+    if(x=>0 and y=>0):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 19:41:56) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x=>0 and y=>0):
+	if(x<=45):
+		elif(y<=22):
+			print("Risco: Baixo")
+	   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 5
+    if(x=>0 and y=>0):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 19:42:18) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x=>0 and y=>0):
+	if(x<=45):
+	elif(y<=22):
+			print("Risco: Baixo")
+   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 5
+    if(x=>0 and y=>0):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 19:42:41) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x>=0 and y>=0):
+	if(x<=45):
+	elif(y<=22):
+			print("Risco: Baixo")
+   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 7
+    elif(y<=22):
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 19:42:51) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x>=0 and y>=0):
+	if(x=<45):
+	elif(y<=22):
+			print("Risco: Baixo")
+   elif(>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 6
+    if(x=<45):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-03 19:43:13) 
+-- CODE:
+x =  int(input("Idade: "))
+y = float(input("Idice de massa corporal: "))
+print("Entradas:",x,"anos e IMC", y)
+
+if(x>=0 and y>=0):
+	if(x<=45):
+	elif(y<=22):
+			print("Risco: Baixo")
+   elif(y>=22):
+		   print("Risco: Medio")
+	elif(x=>45):
+		elif(y<=22):
+			print("Risco: Medio")
+	elif(y=>22):
+		print("Risco: Alto")
+else:
+	print(Dados invalidos)
+-- ERROR:
+File "XXXX", line 7
+    elif(y<=22):
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

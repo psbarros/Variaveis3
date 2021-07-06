@@ -1,0 +1,6 @@
+2019-5-30 08:13:33.906#viewportChange#0
+2019-5-30 08:13:49.834#mousedown#{"isTrusted":true}
+2019-5-30 08:13:49.846#focus#
+2019-5-30 08:13:50.915#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":12.08331298828125},"to":{"line":0,"ch":0,"sticky":"after","xRel":12.08331298828125},"text":["from numpy import*","v = array(eval(input()))","i = 0","n = 0","while(i < size(v)):","\tif(v[i] >= 0):","\t\tn = n + 1","\ti = i + 1","i = 0","j = 0","v2 = zeros(n, dtype = int)","while(i < size(v)):","\tif(v[i] >= 0):","\t\tv2[j] = v[i]","\t\tj = j + 1","\t","\ti = i + 1","","print(v2)"],"removed":[""],"origin":"paste"}
+2019-5-30 08:13:50.961#viewportChange#0
+2019-5-30 08:13:57.616#blur#

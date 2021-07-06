@@ -1,0 +1,14 @@
+2019-7-2 00:49:00.405#viewportChange#0
+2019-7-2 00:49:01.731#mousedown#{"isTrusted":true}
+2019-7-2 00:49:01.735#focus#
+2019-7-2 00:49:02.555#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":203.8359375},"to":{"line":0,"ch":0,"sticky":"after","xRel":203.8359375},"text":["from numpy import*","from numpy.linalg import*","","matriz = array(eval(input('Matriz: ')))","","for i in range(len(matriz)):","\tprint(max(matriz[i, :]))"],"removed":[""],"origin":"paste"}
+2019-7-2 00:49:02.569#viewportChange#0
+2019-7-2 00:49:03.282#change#{"from":{"line":6,"ch":25,"sticky":null},"to":{"line":6,"ch":25,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-7-2 00:49:03.282#change#{"from":{"line":7,"ch":0,"sticky":null},"to":{"line":7,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-7-2 00:49:03.282#keyHandled#"Enter"
+2019-7-2 00:49:03.288#viewportChange#0
+2019-7-2 00:49:04.336#change#{"from":{"line":7,"ch":0,"sticky":"after"},"to":{"line":7,"ch":1,"sticky":null},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-7-2 00:49:04.336#keyHandled#"Backspace"
+2019-7-2 00:49:04.336#change#{"from":{"line":7,"ch":0,"sticky":"after"},"to":{"line":7,"ch":1,"sticky":null},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-7-2 00:49:04.336#keyHandled#"Backspace"
+2019-7-2 00:49:06.363#submit#Congratulations, your code is correct!

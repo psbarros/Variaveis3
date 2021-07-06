@@ -1,0 +1,107 @@
+== TEST (2019-03-14 11:17:43) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- ERROR:
+File "XXXX", line 2
+    print(.upper("Ada Lovelace foi a primeira programadora da historia."))
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:18:25) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(("Ada Lovelace.upper foi a primeira programadora da historia."))
+-- OUTPUT:
+Ada Lovelace.upper foi a primeira programadora da historia.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:18:50) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print(("Ada Lovelace foi a primeira programadora da historia.").upper)
+-- OUTPUT:
+<built-in method upper of str object at 0x7fa4fff379f0>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:20:20) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print (.upper(Ada Lovelace foi a primeira programadora da historia.))
+-- ERROR:
+File "XXXX", line 2
+    print (.upper(Ada Lovelace foi a primeira programadora da historia.))
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:21:14) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print ((.upper "Ada Lovelace foi a primeira programadora da historia."))
+-- ERROR:
+File "XXXX", line 2
+    print ((.upper "Ada Lovelace foi a primeira programadora da historia."))
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:22:37) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print (.upper (Ada Lovelace foi a primeira programadora da historia.))
+-- ERROR:
+File "XXXX", line 2
+    print (.upper (Ada Lovelace foi a primeira programadora da historia.))
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:23:04) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print (.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- ERROR:
+File "XXXX", line 2
+    print (.upper("Ada Lovelace foi a primeira programadora da historia."))
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:25:08) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print.upper("Ada Lovelace foi a primeira programadora da historia.")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print.upper("Ada Lovelace foi a primeira programadora da historia.")
+AttributeError: 'builtin_function_or_method' object has no attribute 'upper'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:26:56) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print (.upper("Ada Lovelace foi a primeira programadora da historia."))
+-- ERROR:
+File "XXXX", line 2
+    print (.upper("Ada Lovelace foi a primeira programadora da historia."))
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 11:30:08) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print ("Ada Lovelace foi a primeira programadora da historia.".upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 11:30:13) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print ("Ada Lovelace foi a primeira programadora da historia.".upper())
+-- EXECUTION TIME:
+0.153257
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

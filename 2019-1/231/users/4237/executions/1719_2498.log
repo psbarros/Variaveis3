@@ -1,0 +1,450 @@
+== SUBMITION (2019-05-15 18:34:57) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	CrescA*HA 
+	CrescB*HB 
+	if ()
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- EXECUTION TIME:
+0.242829
+-- ERROR:
+  File "/home/codebench/codes/1719/2498/main.py", line 13
+    if ()
+        ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 18:43:00) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	CrescA*HA = A
+	CrescB*HB = B
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- EXECUTION TIME:
+0.170143
+-- ERROR:
+  File "/home/codebench/codes/1719/2498/main.py", line 11
+    CrescA*HA = A
+    ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 18:43:20) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	CrescA*HA = A
+	CrescB*HB = B
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- ERROR:
+File "XXXX", line 11
+    CrescA*HA = A
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 18:43:52) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	A = CrescA*HA 
+	B = CrescB*HB
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- OUTPUT:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de an
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 18:44:39) 
+-- CODE:
+HA = int(input("Habitantes da cidade A   "))
+HB = int(input("Habitantes da cidade B   ")) 
+PA = float(input("Perc. de cresc. de A   "))
+PB = float(input("Perc. de cresc. de B   "))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	A = CrescA*HA 
+	B = CrescB*HB
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:", i)
+	
+-- OUTPUT:
+Numero de anos eh: 1
+Numero de anos eh: 2
+Numero de anos eh: 3
+Numero de anos eh: 4
+Numero de anos eh: 5
+Numero de anos eh: 6
+Numero de anos eh: 7
+Numero de anos eh: 8
+Numero de anos eh: 9
+Numero de anos eh: 10
+Numero de anos eh: 11
+Numero de anos eh: 12
+Numero de anos eh: 13
+Numero de anos eh: 14
+Numero de anos eh: 15
+Numero de anos eh: 16
+Numero de anos eh: 17
+Numero de anos eh: 18
+Numero de anos eh: 19
+Numero de anos eh: 20
+Numero de anos eh: 21
+Numero de anos eh: 22
+Numero de anos eh: 23
+Numero de anos eh: 24
+Numero de anos eh: 25
+Numero de anos eh: 26
+Numero de anos eh: 27
+Numero de anos eh: 28
+Numero de anos eh: 29
+Numero de anos eh: 30
+Numero de anos eh: 31
+Numero de anos eh: 32
+Numero de anos eh: 33
+Numero de anos eh: 34
+Numero de anos eh: 35
+Numero de anos eh: 36
+Numero de anos eh: 37
+Numero de anos eh: 38
+Numero de anos eh: 39
+Numero de anos eh: 40
+Numero de anos eh: 41
+Numero de anos eh: 42
+Numero de anos eh: 43
+Numero de anos eh: 44
+Numero de anos eh: 45
+Numero de anos eh:
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 19:06:06) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	A = CrescA*HA 
+	B = CrescB*HB
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- EXECUTION TIME:
+654.276
+-- TEST CASE 1:
+---- input:
+250150
+580000
+35.5
+10.5
+---- correct output:
+5
+---- user output:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de anos eh:
+Numero de an
+-- TEST CASE 2:
+---- input:
+180250
+1200000
+10.25
+5.7
+---- correct output:
+45
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+1000000
+1650000
+12.75
+3.2
+---- correct output:
+6
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 19:06:11) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+i = 0 
+
+CrescA = HA*(PA/100)
+CrescB = HB*(PB/100)
+
+while (HA < HB):
+	A = CrescA*HA 
+	B = CrescB*HB
+	A = HA + A
+	B = HB + B
+	i = i+1 
+	print("Numero de anos eh:")
+	
+-- EXECUTION TIME:
+974.522
+-- ERROR:
+Killed
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 10:22:38) 
+-- CODE:
+HA = int(input("Habitantes da cidade A"))
+HB = int(input("Habitantes da cidade B"))
+PA = float(input("Perc. de cresc. de A"))
+PB = float(input("Perc. de cresc. de B"))
+
+anos = 0
+CrescA = HA
+CrescB = HB 
+while (crescA<crescB):
+	CrescA = HA*(PA/100)*CrescA
+	CrescB = HB*(PB/100)*CrescB
+	anos = anos + 1
+	if (CrescA=CrescB):
+	print(anos)
+	
+-- EXECUTION TIME:
+0.20903
+-- ERROR:
+  File "/home/codebench/codes/1719/2498/main.py", line 13
+    if (CrescA=CrescB):
+              ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 10:23:07) 
+-- CODE:
+numa= int(input("habitantes A: "))
+numb= int(input("habitantes B: "))
+pa = float(input("populacao A: "))
+pb = float(input("populacao B: "))
+cida = numa
+cidb = numb
+anos = 0
+while(cida<cidb):
+	cida = cida+(pa/100)*cida
+	cidb = cidb+(pb/100)*cidb
+	anos = anos+1
+	
+	if(cida>=cidb):
+	   print(anos)
+	
+-- OUTPUT:
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 10:23:16) 
+-- CODE:
+numa= int(input("habitantes A: "))
+numb= int(input("habitantes B: "))
+pa = float(input("populacao A: "))
+pb = float(input("populacao B: "))
+cida = numa
+cidb = numb
+anos = 0
+while(cida<cidb):
+	cida = cida+(pa/100)*cida
+	cidb = cidb+(pb/100)*cidb
+	anos = anos+1
+	
+	if(cida>=cidb):
+	   print(anos)
+	
+-- EXECUTION TIME:
+0.230943
+-- TEST CASE 1:
+---- input:
+250150
+580000
+35.5
+10.5
+---- correct output:
+5
+---- user output:
+5
+-- TEST CASE 2:
+---- input:
+180250
+1200000
+10.25
+5.7
+---- correct output:
+45
+---- user output:
+45
+-- TEST CASE 3:
+---- input:
+1000000
+1650000
+12.75
+3.2
+---- correct output:
+6
+---- user output:
+6
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,108 @@
+== SUBMITION (2019-04-02 18:36:05) 
+-- CODE:
+a = float (input (""))
+b = float (input (""))
+c = float (input (""))
+
+conta = ((a ** 2) + (b ** 2) + (c ** 2)) / (a + b + c)
+
+print ( round(conta, 7))
+-- EXECUTION TIME:
+0.213871
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:26:29) 
+-- CODE:
+#a = float (input (""))
+#b = float (input (""))
+#c = float (input (""))
+
+#conta = ((a ** 2) + (b ** 2) + (c ** 2)) / (a + b + c)
+
+#print ( round(conta, 7))
+print (round (7.205, 2))
+-- OUTPUT:
+7.21
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:38:15) 
+-- CODE:
+#a = float (input (""))
+#b = float (input (""))
+#c = float (input (""))
+
+#conta = ((a ** 2) + (b ** 2) + (c ** 2)) / (a + b + c)
+
+#print ( round(conta, 7))
+print (round (7.1727272727, 2))
+-- OUTPUT:
+7.17
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 13:03:20) 
+-- CODE:
+a = float (input (""))
+b = float (input (""))
+c = float (input (""))
+
+conta = ((a ** 2) + (b ** 2) + (c ** 2)) / (a + b + c)
+
+print ( round(conta, 7))
+-- EXECUTION TIME:
+0.213384
+-- TEST CASE 1:
+---- input:
+20
+25
+30
+---- correct output:
+25.6666667
+---- user output:
+25.6666667
+-- TEST CASE 2:
+---- input:
+235
+400
+350
+---- correct output:
+342.8680203
+---- user output:
+342.8680203
+-- TEST CASE 3:
+---- input:
+90
+120
+2
+---- correct output:
+106.1509434
+---- user output:
+106.1509434
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

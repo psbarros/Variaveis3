@@ -1,0 +1,242 @@
+== TEST (2019-04-14 23:43:46) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+dividendo=x
+divsor=y
+quociente=x//y
+resto=x%y
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:44:22) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+dividendo=x
+divsor=y
+quociente=x//y
+resto=x%y
+-- EXECUTION TIME:
+0.16389
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:46:59) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+print=x
+print=y
+print=x//y
+print=x%y
+-- EXECUTION TIME:
+0.16679
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:47:16) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+print=x
+print=y
+print=x//y
+print=x%y
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:48:07) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+print=x
+print=y
+print=x//y
+print=x%y
+-- EXECUTION TIME:
+0.155688
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:48:52) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+print=(x)
+print=(y)
+print=(x//y)
+print=(x%y)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(round(mensagem, 7))
+TypeError: type str doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:49:23) 
+-- CODE:
+x=int(input("digite o valor do dividendo: "))
+y=int(input("digite o valor do divisor: "))
+
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- EXECUTION TIME:
+0.194008
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+8
+5
+1
+3
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+14
+2
+7
+0
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+347
+2
+173
+1
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

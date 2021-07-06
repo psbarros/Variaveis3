@@ -1,0 +1,65 @@
+== TEST (2019-06-22 23:12:26) 
+-- CODE:
+nome = input("Digite o nome do aluno: ")
+
+if (nome[0].upper() == 'A') or (nome[0].upper() == 'B') or (nome[0].upper() == 'C'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'D') or (nome[0].upper() == 'E') or (nome[0].upper() == 'F'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'G'): 
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'H') or (nome[0].upper() == 'I') or (nome[0].upper() == 'J'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'K'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'L') or (nome[0].upper() == 'M') or (nome[0].upper() == 'N'):
+	print(nome, "vai para a sala 102")
+else:
+	print(nome, "vai para a sala 103")
+-- OUTPUT:
+Maria vai para a sala 102
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-22 23:12:39) 
+-- CODE:
+nome = input("Digite o nome do aluno: ")
+
+if (nome[0].upper() == 'A') or (nome[0].upper() == 'B') or (nome[0].upper() == 'C'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'D') or (nome[0].upper() == 'E') or (nome[0].upper() == 'F'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'G'): 
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'H') or (nome[0].upper() == 'I') or (nome[0].upper() == 'J'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'K'):
+	print(nome, "vai para a sala 101")
+elif (nome[0].upper() == 'L') or (nome[0].upper() == 'M') or (nome[0].upper() == 'N'):
+	print(nome, "vai para a sala 102")
+else:
+	print(nome, "vai para a sala 103")
+-- EXECUTION TIME:
+0.847089
+-- TEST CASE 1:
+---- input:
+Maria
+---- correct output:
+Maria vai para a sala 102
+---- user output:
+Maria vai para a sala 102
+-- TEST CASE 2:
+---- input:
+Jose
+---- correct output:
+Jose vai para a sala 101
+---- user output:
+Jose vai para a sala 101
+-- TEST CASE 3:
+---- input:
+Zenilda
+---- correct output:
+Zenilda vai para a sala 103
+---- user output:
+Zenilda vai para a sala 103
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

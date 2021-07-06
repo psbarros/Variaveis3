@@ -1,0 +1,164 @@
+== TEST (2019-03-14 02:09:03) 
+-- CODE:
+expressao = (30 - (3**2) + 8)//(3**(2*10))
+print(expressao)
+-- OUTPUT:
+64.9519
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 02:11:24) 
+-- CODE:
+expressao = (30 - (3**2) + 8)//(3**(2*10))
+print(expressao)
+-- EXECUTION TIME:
+0.21742
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 02:12:16) 
+-- CODE:
+expressao = (30 - (3**2) + 8)//((3**2)*10))
+print(expressao)
+-- ERROR:
+File "XXXX", line 1
+    expressao = (30 - (3**2) + 8)//((3**2)*10))
+                                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 02:12:27) 
+-- CODE:
+expressao = (30 - (3**2) + 8)//((3**2)*10)
+print(expressao)
+-- ERROR:
+File "XXXX", line 1
+    expressao = (30 - (3**2) + 8)//((3**2)*10))
+                                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 02:12:40) 
+-- CODE:
+expressao = (30 - (3**2) + 8)//((3**2)*10)
+print(expressao)
+-- EXECUTION TIME:
+0.14475
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 02:13:39) 
+-- CODE:
+expressao = (30 - (3**2) +(8//((3**2)*10))
+print(expressao)
+-- ERROR:
+File "XXXX", line 2
+    print(expressao)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 02:13:55) 
+-- CODE:
+expressao = (30 - (3**2)) +(8//((3**2)*10))
+print(expressao)
+-- OUTPUT:
+21
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 02:13:59) 
+-- CODE:
+expressao = (30 - (3**2)) +(8//((3**2)*10))
+print(expressao)
+-- EXECUTION TIME:
+0.195896
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 19:44:00) 
+-- CODE:
+expressao = (30 - (3**2)) +(8//((3**2)*10))
+print(expressao)
+-- EXECUTION TIME:
+0.13055
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 19:52:16) 
+-- CODE:
+expressao = (30 - (3**2)) +(8//((3**2)*10))
+print(expressao)
+-- EXECUTION TIME:
+0.200538
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-31 20:49:44) 
+-- CODE:
+expressao = 30-(3**2)+(8//(3**2))*10
+print(expressao)
+-- EXECUTION TIME:
+0.219819
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 20:49:47) 
+-- CODE:
+expressao = 30-(3**2)+(8//(3**2))*10
+print(expressao)
+-- OUTPUT:
+21
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 20:49:53) 
+-- CODE:
+expressao = 30-(3**2)+(8//(3**2))*10
+print(expressao)s
+-- ERROR:
+File "XXXX", line 2
+    print(expressao)s
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-31 20:49:57) 
+-- CODE:
+expressao = 30-(3**2)+(8//(3**2))*10
+print(expressao)
+-- OUTPUT:
+21
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

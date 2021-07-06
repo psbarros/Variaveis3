@@ -1,0 +1,440 @@
+== TEST (2019-05-26 16:09:20) 
+-- CODE:
+p0x = float(input("Coordenada x: "))
+p0y = float(input("Coordenada y: "))
+p1x = float(input("Coordenada x: "))
+p1y = float(input("Coordenada x: "))
+p2x = float(input("Coordenada x: "))
+p2y = float(input("Coordenada x: "))
+-- OUTPUT:
+Temperatura invalida
+Velocidade invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:15:00) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:15:30) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y1 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-26 16:15:41) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y1 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- EXECUTION TIME:
+0.143017
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:15:59) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y1 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-26 16:17:43) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y1 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- EXECUTION TIME:
+0.12108
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:17:46) 
+-- CODE:
+x0 = float(input("Coordenada x: "))
+y0 = float(input("Coordenada y: "))
+x1 = float(input("Coordenada x: "))
+y1 = float(input("Coordenada y: "))
+x2 = float(input("Coordenada x: "))
+y2 = float(input("Coordenada y: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:18:07) 
+-- CODE:
+x0 = float(input("Coordenada x0: "))
+y0 = float(input("Coordenada y0: "))
+x1 = float(input("Coordenada x1: "))
+y1 = float(input("Coordenada y1: "))
+x2 = float(input("Coordenada x2: "))
+y2 = float(input("Coordenada y2: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-26 16:18:20) 
+-- CODE:
+x0 = float(input("Coordenada x0: "))
+y0 = float(input("Coordenada y0: "))
+x1 = float(input("Coordenada x1: "))
+y1 = float(input("Coordenada y1: "))
+x2 = float(input("Coordenada x2: "))
+y2 = float(input("Coordenada y2: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+NameError: name 'y1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-26 16:18:37) 
+-- CODE:
+x0 = float(input("Coordenada x0: "))
+y0 = float(input("Coordenada y0: "))
+x1 = float(input("Coordenada x1: "))
+y1 = float(input("Coordenada y1: "))
+x2 = float(input("Coordenada x2: "))
+y2 = float(input("Coordenada y2: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c < 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- EXECUTION TIME:
+0.197939
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-26 16:18:46) 
+-- CODE:
+x0 = float(input("Coordenada x0: "))
+y0 = float(input("Coordenada y0: "))
+x1 = float(input("Coordenada x1: "))
+y1 = float(input("Coordenada y1: "))
+x2 = float(input("Coordenada x2: "))
+y2 = float(input("Coordenada y2: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print(" A direita da reta")
+elif(c < 0):
+	print(" A esquerda da reta")
+elif(c == 0):
+	print(" Sobre a reta")
+-- EXECUTION TIME:
+0.145707
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-26 16:19:55) 
+-- CODE:
+x0 = float(input("Coordenada x0: "))
+y0 = float(input("Coordenada y0: "))
+x1 = float(input("Coordenada x1: "))
+y1 = float(input("Coordenada y1: "))
+x2 = float(input("Coordenada x2: "))
+y2 = float(input("Coordenada y2: "))
+
+c = ((x1 - x0) * (y2 - y0)) - ((x2 - x0) * (y1 - y0))
+
+if(c < 0):
+	print("A direita da reta")
+elif(c > 0):
+	print("A esquerda da reta")
+elif(c == 0):
+	print("Sobre a reta")
+-- EXECUTION TIME:
+0.25879
+-- TEST CASE 1:
+---- input:
+1
+4
+3
+5
+9
+9
+---- correct output:
+A esquerda da reta
+---- user output:
+A esquerda da reta
+-- TEST CASE 2:
+---- input:
+9
+8
+6
+5
+2
+1
+---- correct output:
+Sobre a reta
+---- user output:
+Sobre a reta
+-- TEST CASE 3:
+---- input:
+0
+0
+0
+1
+1
+1
+---- correct output:
+A direita da reta
+---- user output:
+A direita da reta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

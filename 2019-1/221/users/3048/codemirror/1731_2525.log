@@ -1,0 +1,9 @@
+2019-5-7 11:11:38.368#viewportChange#0
+2019-5-7 11:11:40.213#mousedown#{"isTrusted":true}
+2019-5-7 11:11:40.229#focus#
+2019-5-7 11:11:41.069#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":0.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":0.09375},"text":["num = int(input(\"digite: \"))","i = 1","a = 0","while (i <= num):","\tif (num % i == 0):","\t\tprint(i)","\t\ti = i + 1","\t\ta = a + 1","\telse:","\t\ti = i + 1","\t\ta = a","if (a == 1):","\tprint(\"1 divisor\")","else:","\tprint(a, \"divisores\")"],"removed":[""],"origin":"paste"}
+2019-5-7 11:11:41.118#viewportChange#0
+2019-5-7 11:11:41.069#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":0.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":0.09375},"text":["num = int(input(\"digite: \"))","i = 1","a = 0","while (i <= num):","\tif (num % i == 0):","\t\tprint(i)","\t\ti = i + 1","\t\ta = a + 1","\telse:","\t\ti = i + 1","\t\ta = a","if (a == 1):","\tprint(\"1 divisor\")","else:","\tprint(a, \"divisores\")"],"removed":[""],"origin":"paste"}
+2019-5-7 11:11:41.118#viewportChange#0
+2019-5-7 11:11:44.272#submit#Congratulations, your code is correct!
+2019-5-7 11:11:45.822#blur#

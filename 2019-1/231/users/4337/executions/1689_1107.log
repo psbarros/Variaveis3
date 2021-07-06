@@ -1,0 +1,1184 @@
+== TEST (2019-05-01 14:38:09) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print("futuro")
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+futuro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:38:25) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:38:55) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:39:16) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:39:25) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:39:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = num % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:39:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:39:52) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+print(futuro)
+#if(num >= 0 and num <= 6 and futuro == 1):
+	#print("H")
+#else:
+	#print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:41:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 and num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futura eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:41:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 and num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futura eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:42:18) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 or num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futura eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+Hoje eh terca e o dia futura eh quarta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:42:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 or num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futuro eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+Hoje eh terca e o dia futuro eh quarta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:42:42) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 or num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futuro eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+Hoje eh terca e o dia futuro eh quarta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:42:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 or num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futuro eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+Hoje eh terca e o dia futuro eh quarta
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 14:43:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 and num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futuro eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 19:51:03) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+num = int(input("Digite um numero: "))
+fut = int(input("Digite outro numero: "))
+futuro = fut % 7
+if(num >= 0 and num <= 6 and futuro == 3):
+	print("Hoje eh terca e o dia futuro eh quarta")
+else:
+	print("A entrada",num,"eh invalida")
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 19:54:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+if(x >= 0 and x <= 6):
+	print("Verdade")
+else:
+	print("Mentira")
+-- OUTPUT:
+Mentira
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 19:54:50) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+if(x >= 0 and x <= 6):
+	print("Verdade")
+else:
+	print("Mentira")
+-- OUTPUT:
+Mentira
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 19:54:53) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+if(x >= 0 and x <= 6):
+	print("Verdade")
+else:
+	print("Mentira")
+-- OUTPUT:
+Mentira
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 19:54:58) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+if(x >= 0 and x <= 6):
+	print("Verdade")
+else:
+	print("Mentira")
+-- OUTPUT:
+Mentira
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:02:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+
+if(x >= 0 and x <= 6):
+	if(x == 4 and y )
+else:
+	print("A entrada",x,"eh invalida")
+-- ERROR:
+File "XXXX", line 8
+    if(x == 4 and y )
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:02:38) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+
+if(x >= 0 and x <= 6):
+	print("x")
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:02:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+
+if(x >= 0 and x <= 6):
+	print("x")
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:03:00) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+
+if(x >= 0 and x <= 6):
+	print("x")
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:09:09) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:09:20) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:10:43) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:11:09) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:11:24) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:12:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+if(x == 1 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",b,"e o dia futuro eh",b)
+if(x == 1 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",b,"e o dia futuro eh",c)
+if(x == 1 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",b,"e o dia futuro eh",d)
+if(x == 1 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",b,"e o dia futuro eh",e)
+if(x == 1 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",b,"e o dia futuro eh",f)
+if(x == 1 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",b,"e o dia futuro eh",g)
+if(x == 1 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",b,"e o dia futuro eh",a)
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:13:05) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+if(x == 1 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",b,"e o dia futuro eh",b)
+if(x == 1 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",b,"e o dia futuro eh",c)
+if(x == 1 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",b,"e o dia futuro eh",d)
+if(x == 1 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",b,"e o dia futuro eh",e)
+if(x == 1 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",b,"e o dia futuro eh",f)
+if(x == 1 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",b,"e o dia futuro eh",g)
+if(x == 1 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",b,"e o dia futuro eh",a)
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:19:56) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+if(x == 1 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",b,"e o dia futuro eh",b)
+if(x == 1 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",b,"e o dia futuro eh",c)
+if(x == 1 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",b,"e o dia futuro eh",d)
+if(x == 1 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",b,"e o dia futuro eh",e)
+if(x == 1 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",b,"e o dia futuro eh",f)
+if(x == 1 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",b,"e o dia futuro eh",g)
+if(x == 1 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",b,"e o dia futuro eh",a)
+
+if(x == 2 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",c,"e o dia futuro eh",c)
+if(x == 2 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",c,"e o dia futuro eh",d)
+if(x == 2 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",c,"e o dia futuro eh",e)
+if(x == 2 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",c,"e o dia futuro eh",f)
+if(x == 2 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",c,"e o dia futuro eh",g)
+if(x == 2 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",c,"e o dia futuro eh",a)
+if(x == 2 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",c,"e o dia futuro eh",b)
+	
+if(x == 3 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",d,"e o dia futuro eh",d)
+if(x == 3 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",d,"e o dia futuro eh",e)
+if(x == 3 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",d,"e o dia futuro eh",f)
+if(x == 3 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",d,"e o dia futuro eh",g)
+if(x == 3 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",d,"e o dia futuro eh",a)
+if(x == 3 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",d,"e o dia futuro eh",b)
+if(x == 3 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",d,"e o dia futuro eh",c)
+
+if(x == 4 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",e,"e o dia futuro eh",e)
+if(x == 4 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",e,"e o dia futuro eh",f)
+if(x == 4 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",e,"e o dia futuro eh",g)
+if(x == 4 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",e,"e o dia futuro eh",a)
+if(x == 4 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",e,"e o dia futuro eh",b)
+if(x == 4 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",e,"e o dia futuro eh",c)
+if(x == 4 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",e,"e o dia futuro eh",d)
+
+if(x == 5 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",f,"e o dia futuro eh",f)
+if(x == 5 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",f,"e o dia futuro eh",g)
+if(x == 5 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",f,"e o dia futuro eh",a)
+if(x == 5 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",f,"e o dia futuro eh",b)
+if(x == 5 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",f,"e o dia futuro eh",c)
+if(x == 5 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",f,"e o dia futuro eh",d)
+if(x == 5 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",f,"e o dia futuro eh",e)
+
+if(x == 6 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",g,"e o dia futuro eh",g)
+if(x == 6 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",g,"e o dia futuro eh",a)
+if(x == 6 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",g,"e o dia futuro eh",b)
+if(x == 6 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",g,"e o dia futuro eh",c)
+if(x == 6 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",g,"e o dia futuro eh",d)
+if(x == 6 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",g,"e o dia futuro eh",e)
+if(x == 6 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",g,"e o dia futuro eh",f)
+
+-- ERROR:
+File "XXXX", line 18
+    if(x == 0 and (y == 2 or y % 7 == 2):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-01 20:20:08) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x == 0 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",a,"e o dia futuro eh",a)
+if(x == 0 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",a,"e o dia futuro eh",b)
+if(x == 0 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",a,"e o dia futuro eh",c)
+if(x == 0 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",a,"e o dia futuro eh",d)
+if(x == 0 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",a,"e o dia futuro eh",e)
+if(x == 0 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",a,"e o dia futuro eh",f)
+if(x == 0 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",a,"e o dia futuro eh",g)
+
+if(x == 1 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",b,"e o dia futuro eh",b)
+if(x == 1 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",b,"e o dia futuro eh",c)
+if(x == 1 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",b,"e o dia futuro eh",d)
+if(x == 1 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",b,"e o dia futuro eh",e)
+if(x == 1 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",b,"e o dia futuro eh",f)
+if(x == 1 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",b,"e o dia futuro eh",g)
+if(x == 1 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",b,"e o dia futuro eh",a)
+
+if(x == 2 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",c,"e o dia futuro eh",c)
+if(x == 2 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",c,"e o dia futuro eh",d)
+if(x == 2 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",c,"e o dia futuro eh",e)
+if(x == 2 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",c,"e o dia futuro eh",f)
+if(x == 2 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",c,"e o dia futuro eh",g)
+if(x == 2 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",c,"e o dia futuro eh",a)
+if(x == 2 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",c,"e o dia futuro eh",b)
+	
+if(x == 3 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",d,"e o dia futuro eh",d)
+if(x == 3 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",d,"e o dia futuro eh",e)
+if(x == 3 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",d,"e o dia futuro eh",f)
+if(x == 3 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",d,"e o dia futuro eh",g)
+if(x == 3 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",d,"e o dia futuro eh",a)
+if(x == 3 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",d,"e o dia futuro eh",b)
+if(x == 3 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",d,"e o dia futuro eh",c)
+
+if(x == 4 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",e,"e o dia futuro eh",e)
+if(x == 4 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",e,"e o dia futuro eh",f)
+if(x == 4 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",e,"e o dia futuro eh",g)
+if(x == 4 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",e,"e o dia futuro eh",a)
+if(x == 4 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",e,"e o dia futuro eh",b)
+if(x == 4 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",e,"e o dia futuro eh",c)
+if(x == 4 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",e,"e o dia futuro eh",d)
+
+if(x == 5 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",f,"e o dia futuro eh",f)
+if(x == 5 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",f,"e o dia futuro eh",g)
+if(x == 5 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",f,"e o dia futuro eh",a)
+if(x == 5 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",f,"e o dia futuro eh",b)
+if(x == 5 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",f,"e o dia futuro eh",c)
+if(x == 5 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",f,"e o dia futuro eh",d)
+if(x == 5 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",f,"e o dia futuro eh",e)
+
+if(x == 6 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",g,"e o dia futuro eh",g)
+if(x == 6 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",g,"e o dia futuro eh",a)
+if(x == 6 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",g,"e o dia futuro eh",b)
+if(x == 6 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",g,"e o dia futuro eh",c)
+if(x == 6 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",g,"e o dia futuro eh",d)
+if(x == 6 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",g,"e o dia futuro eh",e)
+if(x == 6 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",g,"e o dia futuro eh",f)
+
+-- EXECUTION TIME:
+0.186362
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+Hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:25:27) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x >= 0 and x <= 6):
+	if(x == 6 and (y == 0 or y % 7 == 0)):
+	print("Hoje eh",g,"e o dia futuro eh",g)
+	if(x == 6 and (y == 1 or y % 7 == 1)):
+	print("Hoje eh",g,"e o dia futuro eh",a)
+	if(x == 6 and (y == 2 or y % 7 == 2)):
+	print("Hoje eh",g,"e o dia futuro eh",b)
+	if(x == 6 and (y == 3 or y % 7 == 3)):
+	print("Hoje eh",g,"e o dia futuro eh",c)
+	if(x == 6 and (y == 4 or y % 7 == 4)):
+	print("Hoje eh",g,"e o dia futuro eh",d)
+	if(x == 6 and (y == 5 or y % 7 == 5)):
+	print("Hoje eh",g,"e o dia futuro eh",e)
+	if(x == 6 and (y == 6 or y % 7 == 6)):
+	print("Hoje eh",g,"e o dia futuro eh",f)
+else:
+	print("A entrada",x,"eh invalida")
+-- ERROR:
+File "XXXX", line 16
+    print("Hoje eh",g,"e o dia futuro eh",g)
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:25:40) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x >= 0 and x <= 6):
+	if(x == 6 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",g,"e o dia futuro eh",g)
+	if(x == 6 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",g,"e o dia futuro eh",a)
+	if(x == 6 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",g,"e o dia futuro eh",b)
+	if(x == 6 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",g,"e o dia futuro eh",c)
+	if(x == 6 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",g,"e o dia futuro eh",d)
+	if(x == 6 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",g,"e o dia futuro eh",e)
+	if(x == 6 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",g,"e o dia futuro eh",f)
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:25:48) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x >= 0 and x <= 6):
+	if(x == 6 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",g,"e o dia futuro eh",g)
+	if(x == 6 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",g,"e o dia futuro eh",a)
+	if(x == 6 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",g,"e o dia futuro eh",b)
+	if(x == 6 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",g,"e o dia futuro eh",c)
+	if(x == 6 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",g,"e o dia futuro eh",d)
+	if(x == 6 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",g,"e o dia futuro eh",e)
+	if(x == 6 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",g,"e o dia futuro eh",f)
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-01 20:26:08) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x >= 0 and x <= 6):
+	if(x == 6 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",g,"e o dia futuro eh",g)
+	if(x == 6 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",g,"e o dia futuro eh",a)
+	if(x == 6 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",g,"e o dia futuro eh",b)
+	if(x == 6 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",g,"e o dia futuro eh",c)
+	if(x == 6 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",g,"e o dia futuro eh",d)
+	if(x == 6 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",g,"e o dia futuro eh",e)
+	if(x == 6 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",g,"e o dia futuro eh",f)
+else:
+	print("A entrada",x,"eh invalida")
+-- OUTPUT:
+A entrada 9 eh invalida
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-01 20:33:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x = int(input())
+y = int(input())
+a = "domingo"
+b = "segunda"
+c = "terca"
+d = "quarta"
+e = "quinta"
+f = "sexta"
+g = "sabado"
+
+if(x >= 0 and x <= 6):
+	if(x == 0 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",a,"e o dia futuro eh",a)
+	if(x == 0 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",a,"e o dia futuro eh",b)
+	if(x == 0 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",a,"e o dia futuro eh",c)
+	if(x == 0 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",a,"e o dia futuro eh",d)
+	if(x == 0 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",a,"e o dia futuro eh",e)
+	if(x == 0 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",a,"e o dia futuro eh",f)
+	if(x == 0 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",a,"e o dia futuro eh",g)
+		
+	if(x == 1 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",a,"e o dia futuro eh",b)
+	if(x == 1 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",a,"e o dia futuro eh",c)
+	if(x == 1 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",a,"e o dia futuro eh",d)
+	if(x == 1 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",a,"e o dia futuro eh",e)
+	if(x == 1 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",a,"e o dia futuro eh",f)
+	if(x == 1 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",a,"e o dia futuro eh",g)
+	if(x == 1 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",a,"e o dia futuro eh",a)
+
+	if(x == 2 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",c,"e o dia futuro eh",c)
+	if(x == 2 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",c,"e o dia futuro eh",d)
+	if(x == 2 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",c,"e o dia futuro eh",e)
+	if(x == 2 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",c,"e o dia futuro eh",f)
+	if(x == 2 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",c,"e o dia futuro eh",g)
+	if(x == 2 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",c,"e o dia futuro eh",a)
+	if(x == 2 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",c,"e o dia futuro eh",b)
+		
+	if(x == 3 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",d,"e o dia futuro eh",d)
+	if(x == 3 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",d,"e o dia futuro eh",e)
+	if(x == 3 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",d,"e o dia futuro eh",f)
+	if(x == 3 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",d,"e o dia futuro eh",g)
+	if(x == 3 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",d,"e o dia futuro eh",a)
+	if(x == 3 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",d,"e o dia futuro eh",b)
+	if(x == 3 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",d,"e o dia futuro eh",c)
+
+	if(x == 4 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",e,"e o dia futuro eh",e)
+	if(x == 4 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",e,"e o dia futuro eh",f)
+	if(x == 4 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",e,"e o dia futuro eh",g)
+	if(x == 4 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",e,"e o dia futuro eh",a)
+	if(x == 4 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",e,"e o dia futuro eh",b)
+	if(x == 4 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",e,"e o dia futuro eh",c)
+	if(x == 4 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",e,"e o dia futuro eh",d)
+
+	if(x == 5 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",f,"e o dia futuro eh",f)
+	if(x == 5 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",f,"e o dia futuro eh",g)
+	if(x == 5 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",f,"e o dia futuro eh",a)
+	if(x == 5 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",f,"e o dia futuro eh",b)
+	if(x == 5 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",f,"e o dia futuro eh",c)
+	if(x == 5 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",f,"e o dia futuro eh",d)
+	if(x == 5 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",f,"e o dia futuro eh",e)
+
+	if(x == 6 and (y == 0 or y % 7 == 0)):
+		print("Hoje eh",g,"e o dia futuro eh",g)
+	if(x == 6 and (y == 1 or y % 7 == 1)):
+		print("Hoje eh",g,"e o dia futuro eh",a)
+	if(x == 6 and (y == 2 or y % 7 == 2)):
+		print("Hoje eh",g,"e o dia futuro eh",b)
+	if(x == 6 and (y == 3 or y % 7 == 3)):
+		print("Hoje eh",g,"e o dia futuro eh",c)
+	if(x == 6 and (y == 4 or y % 7 == 4)):
+		print("Hoje eh",g,"e o dia futuro eh",d)
+	if(x == 6 and (y == 5 or y % 7 == 5)):
+		print("Hoje eh",g,"e o dia futuro eh",e)
+	if(x == 6 and (y == 6 or y % 7 == 6)):
+		print("Hoje eh",g,"e o dia futuro eh",f)
+else:
+	print("A entrada",x,"eh invalida")
+-- EXECUTION TIME:
+0.130112
+-- TEST CASE 1:
+---- input:
+9
+9
+
+---- correct output:
+A entrada 9 eh invalida
+---- user output:
+A entrada 9 eh invalida
+-- TEST CASE 2:
+---- input:
+6
+1024
+---- correct output:
+Hoje eh sabado e o dia futuro eh segunda
+---- user output:
+Hoje eh sabado e o dia futuro eh segunda
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

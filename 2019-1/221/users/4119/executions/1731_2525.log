@@ -1,0 +1,454 @@
+== TEST (2019-05-14 13:04:43) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k % x == 0):
+	x = x + 1
+	cont = cont + 1
+	print (x)
+print(cont)
+-- OUTPUT:
+2
+3
+4
+5
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:11:25) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 0
+while (k / x):
+	if (k % x == 0)
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont)
+-- ERROR:
+File "XXXX", line 5
+    if (k % x == 0)
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:11:48) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 0
+while (k / x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    while (k / x):
+ZeroDivisionError: division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:12:09) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    while (k / x):
+ZeroDivisionError: division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:13:18) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+	print(cont , "divisores")
+-- OUTPUT:
+1
+1 divisores
+2
+2 divisores
+3
+3 divisores
+4
+4 divisores
+5 divisores
+6
+6 divisores
+7 divisores
+8 divisores
+9 divisores
+10 divisores
+11 divisores
+12
+12 divisores
+13 divisores
+14 divisores
+15 divisores
+16 divisores
+17 divisores
+18 divisores
+19 divisores
+20 divisores
+21 divisores
+22 divisores
+23 divisores
+24 divisores
+25 divisores
+26 divisores
+27 divisores
+28 divisores
+29 divisores
+30 divisores
+31 divisores
+32 divisores
+33 divisores
+34 divisores
+35 divisores
+36 divisores
+37 divisores
+38 divisores
+39 divisores
+40 divisores
+41 divisores
+42 divisores
+43 divisores
+44 divisores
+45 divisores
+46 divisores
+47 divisores
+48 divisores
+49 divisores
+50 divisores
+51 divisores
+52 divisores
+53 divisores
+54 divisores
+55 divisores
+56 divisores
+57 divisores
+58 divisores
+59 divisores
+60 divisores
+61 divisores
+62 divisores
+63 divisores
+64 divisores
+65 divisores
+66 divisores
+67 divisores
+68 divisores
+69 divisores
+70 divisores
+71 divisores
+72 divisores
+73 divisores
+74 divisores
+75 divisores
+76 divisores
+77 divis
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:16:43) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- OUTPUT:
+1
+1 divisores
+2
+2 divisores
+3
+3 divisores
+4
+4 divisores
+5 divisores
+6
+6 divisores
+7 divisores
+8 divisores
+9 divisores
+10 divisores
+11 divisores
+12
+12 divisores
+13 divisores
+14 divisores
+15 divisores
+16 divisores
+17 divisores
+18 divisores
+19 divisores
+20 divisores
+21 divisores
+22 divisores
+23 divisores
+24 divisores
+25 divisores
+26 divisores
+27 divisores
+28 divisores
+29 divisores
+30 divisores
+31 divisores
+32 divisores
+33 divisores
+34 divisores
+35 divisores
+36 divisores
+37 divisores
+38 divisores
+39 divisores
+40 divisores
+41 divisores
+42 divisores
+43 divisores
+44 divisores
+45 divisores
+46 divisores
+47 divisores
+48 divisores
+49 divisores
+50 divisores
+51 divisores
+52 divisores
+53 divisores
+54 divisores
+55 divisores
+56 divisores
+57 divisores
+58 divisores
+59 divisores
+60 divisores
+61 divisores
+62 divisores
+63 divisores
+64 divisores
+65 divisores
+66 divisores
+67 divisores
+68 divisores
+69 divisores
+70 divisores
+71 divisores
+72 divisores
+73 divisores
+74 divisores
+75 divisores
+76 divisores
+77 divis
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:23:12) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k // x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- OUTPUT:
+1
+2
+3
+4
+6
+12
+12 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 13:23:28) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k // x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- EXECUTION TIME:
+0.22706
+-- TEST CASE 1:
+---- input:
+12
+---- correct output:
+1
+2
+3
+4
+6
+12
+6 divisores
+---- user output:
+1
+2
+3
+4
+6
+12
+12 divisores
+-- TEST CASE 2:
+---- input:
+49
+---- correct output:
+1
+7
+49
+3 divisores
+---- user output:
+1
+7
+49
+49 divisores
+-- TEST CASE 3:
+---- input:
+30
+---- correct output:
+1
+2
+3
+5
+6
+10
+15
+30
+8 divisores
+---- user output:
+1
+2
+3
+5
+6
+10
+15
+30
+30 divisores
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 13:27:01) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- EXECUTION TIME:
+590.243
+-- ERROR:
+Killed
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:29:33) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k // x == 0):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:30:58) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x == 0 ):
+	if (k % x == 0):
+		print (x)
+	x = x + 1
+	cont = cont + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:33:39) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x == 0 ):
+	if (k % x == 0):
+		print (x)
+		if (k % x == 0):
+			cont = cont + 1
+	x = x + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:34:38) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x == 0 ):
+	if (k % x == 0):
+		print (x)
+	cont = cont + 1
+	x = x + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:34:56) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x ):
+	if (k % x == 0):
+		print (x)
+	cont = cont + 1
+	x = x + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 13:35:38) 
+-- CODE:
+k = int(input("digite um numero: "))
+cont = 0
+x = 1
+while (k / x ):
+	if (k % x == 0):
+		print (x)
+		if (k % x == 0):
+			cont = cont + 1
+	x = x + 1
+print(cont , "divisores")
+-- OUTPUT:
+0 divisores
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

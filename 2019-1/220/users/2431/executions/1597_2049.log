@@ -1,0 +1,341 @@
+== TEST (2019-03-24 12:47:01) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = x 
+s = y
+quo = x // y
+res = x % y 
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- OUTPUT:
+8.0
+5.0
+1.0
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 12:47:24) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = x 
+s = y
+quo = x // y
+res = x % y 
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.172495
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+8.0
+5.0
+1.0
+3.0
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+14.0
+2.0
+7.0
+0.0
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+347.0
+2.0
+173.0
+1.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-24 12:47:55) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = x 
+s = y
+quo = x // y
+res = x % y 
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- OUTPUT:
+8.0
+5.0
+1.0
+3.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-24 12:49:47) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 12:50:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.207575
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2049/main.py", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-24 12:52:07) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 12:52:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.157181
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2049/main.py", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 12:54:56) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.12956
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2049/main.py", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 13:21:21) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.244657
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2049/main.py", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 13:29:50) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x = float(input("div: "))
+y = float(input("sor: "))
+
+divi = input(x)
+s = input(y)
+quo = input(x // y)
+res = input(x % y) 
+
+print(divi)
+print(s)
+print(quo)
+print(res)
+-- EXECUTION TIME:
+0.270457
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1597/2049/main.py", line 7, in <module>
+    divi = input(x)
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-24 13:30:05) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+x= int(input("dividendo: "))
+y= int(input("divisor: "))
+quociente = x//y
+resto = x%y
+print(x)
+print(y)
+print(quociente)
+print(resto)
+-- EXECUTION TIME:
+0.151076
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+8
+5
+1
+3
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+14
+2
+7
+0
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+347
+2
+173
+1
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,6 @@
+2019-5-30 10:28:05.315#viewportChange#0
+2019-5-30 10:28:15.705#mousedown#{"isTrusted":true}
+2019-5-30 10:28:15.714#focus#
+2019-5-30 10:28:21.254#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":130.5242919921875},"to":{"line":0,"ch":0,"sticky":"after","xRel":130.5242919921875},"text":["s = input(\"insira a string: \")","","print(s[0])","print(s[-1])","print(len(s))","print(s.lower())","print(s.upper())","print(500*s)"],"removed":[""],"origin":"paste"}
+2019-5-30 10:28:21.271#viewportChange#0
+2019-5-30 10:28:29.166#blur#

@@ -1,0 +1,87 @@
+== TEST (2019-04-16 20:16:02) 
+-- CODE:
+mulher = input("mulher: ")
+preco = float(input("preco: "))
+qtd = int(input("qtd: "))
+
+if(mulher == "S"):
+	valor = (qtd * preco) * 0.2
+else:
+	valor = qtd * preco
+-- OUTPUT:
+130.69
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:16:34) 
+-- CODE:
+mulher = input("mulher: ")
+preco = float(input("preco: "))
+qtd = int(input("qtd: "))
+
+if(mulher == "S"):
+	valor = (qtd * preco) * 0.2
+else:
+	valor = qtd * preco
+	
+print(round(valor, 2))
+-- OUTPUT:
+45.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:17:23) 
+-- CODE:
+mulher = input("mulher: ")
+preco = float(input("preco: "))
+qtd = int(input("qtd: "))
+
+if(mulher == "S"):
+	valor = (qtd * preco) - ((qtd * preco) * 0.2)
+else:
+	valor = qtd * preco
+	
+print(round(valor, 2))
+-- OUTPUT:
+180.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:17:33) 
+-- CODE:
+mulher = input("mulher: ")
+preco = float(input("preco: "))
+qtd = int(input("qtd: "))
+
+if(mulher == "S"):
+	valor = (qtd * preco) - ((qtd * preco) * 0.2)
+else:
+	valor = qtd * preco
+	
+print(round(valor, 2))
+-- EXECUTION TIME:
+0.133329
+-- TEST CASE 1:
+---- input:
+S
+37.50
+6
+---- correct output:
+180
+---- user output:
+180.0
+-- TEST CASE 2:
+---- input:
+S
+26.95
+8
+---- correct output:
+172.48
+---- user output:
+172.48
+-- TEST CASE 3:
+---- input:
+N
+42.45
+3
+---- correct output:
+127.35
+---- user output:
+127.35
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

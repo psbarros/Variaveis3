@@ -1,0 +1,311 @@
+== TEST (2019-05-31 13:24:36) 
+-- CODE:
+v = input("string: ")
+print(replace(v.lower))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(replace(v.lower))
+NameError: name 'replace' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:25:03) 
+-- CODE:
+v = input("string: ")
+print(v.lower.replace)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(v.lower.replace)
+AttributeError: 'builtin_function_or_method' object has no attribute 'replace'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:25:18) 
+-- CODE:
+v = input("string: ")
+print((v.lower).replace)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print((v.lower).replace)
+AttributeError: 'builtin_function_or_method' object has no attribute 'replace'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:25:53) 
+-- CODE:
+v = input("string: ")
+print(replace(v.lower))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(replace(v.lower))
+NameError: name 'replace' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:33:17) 
+-- CODE:
+v = input("string: ")
+print(((v.lower).replace(" ","")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(((v.lower).replace(" ","")))
+AttributeError: 'builtin_function_or_method' object has no attribute 'replace'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:33:42) 
+-- CODE:
+v = input("string: ")
+print((v.replace(" ","")))
+-- OUTPUT:
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:34:00) 
+-- CODE:
+v = input("string: ")
+print((v.replace(" ","").lower))
+-- OUTPUT:
+<built-in method lower of str object at 0x7f879839d780>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:34:14) 
+-- CODE:
+v = input("string: ")
+print((v.replace(" ","").lower()))
+-- OUTPUT:
+acararajadadajararaca
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:34:25) 
+-- CODE:
+v = input("string: ")
+print((v.replace(" ","").lower()))
+-- OUTPUT:
+acararajadadajararaca
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:34:55) 
+-- CODE:
+v = input("string: ")
+print(((v.replace(" ","")).lower()))
+-- OUTPUT:
+acararajadadajararaca
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:35:20) 
+-- CODE:
+v = input("string: ")
+print(((v.replace(" ","")).upper()))
+-- OUTPUT:
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:40:49) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+if (t == s):
+	print(1)
+else:
+	print(0)
+print(s)
+	
+-- OUTPUT:
+1
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-31 13:41:21) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (t == s):
+	print(1)
+else:
+	print(0)
+
+	
+-- EXECUTION TIME:
+0.847734
+-- TEST CASE 1:
+---- input:
+ACARARAJADADAJARARACA
+---- correct output:
+ACARARAJADADAJARARACA
+1
+---- user output:
+ACARARAJADADAJARARACA
+1
+-- TEST CASE 2:
+---- input:
+CACHORRO
+---- correct output:
+CACHORRO
+0
+---- user output:
+CACHORRO
+0
+-- TEST CASE 3:
+---- input:
+amalanadanalama
+---- correct output:
+AMALANADANALAMA
+1
+---- user output:
+AMALANADANALAMA
+0
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:41:35) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (t == s):
+	print(1)
+else:
+	print(0)
+	
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:42:49) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = (v[::-1])
+print(s)
+if (t == s):
+	print(1)
+else:
+	print(0)
+	
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:44:26) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = (v[::-1])
+print(s)
+#if (t == s):
+#	print(1)
+#else:
+#	print(0)
+	
+-- OUTPUT:
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:46:31) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (t == s):
+	print(1)
+else:
+	print(0)
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:47:22) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (v[::-1] == s):
+	print(1)
+else:
+	print(0)
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-31 13:48:01) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (v[::-1] == s):
+	print(1)
+else:
+	print(0)
+-- EXECUTION TIME:
+0.841595
+-- TEST CASE 1:
+---- input:
+ACARARAJADADAJARARACA
+---- correct output:
+ACARARAJADADAJARARACA
+1
+---- user output:
+ACARARAJADADAJARARACA
+1
+-- TEST CASE 2:
+---- input:
+CACHORRO
+---- correct output:
+CACHORRO
+0
+---- user output:
+CACHORRO
+0
+-- TEST CASE 3:
+---- input:
+amalanadanalama
+---- correct output:
+AMALANADANALAMA
+1
+---- user output:
+AMALANADANALAMA
+0
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:51:23) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (ATORREDADERROTA == s):
+	print(1)
+else:
+	print(0)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    if (ATORREDADERROTA == s):
+NameError: name 'ATORREDADERROTA' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:51:55) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = ATORREDADERROTA
+print(s)
+if (ATORREDADERROTA == s):
+	print(1)
+else:
+	print(0)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    t = ATORREDADERROTA
+NameError: name 'ATORREDADERROTA' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-31 13:53:03) 
+-- CODE:
+v = input("string: ")
+s = (v.replace(" ","")).upper()
+t = v[::-1]
+print(s)
+if (t == s):
+	print(1)
+else:
+	print(0)
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,108 @@
+== TEST (2019-05-30 20:36:29) 
+-- CODE:
+from numpy import *
+
+jogador1 = array(eval(input("digite ")))
+jogador2 = array(eval(input("digite ")))
+
+anel1 = 40
+anel2 = 20
+anel3 = 10
+anel4 = 0
+
+cont1 = 0
+cont2 = 0
+cont3 = 0
+cont4 = 0
+
+sizejogador1 = size[vetor1]
+sizejogador2 = size[vetor1]
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:36:55) 
+-- CODE:
+from numpy import *
+
+jogador1 = array(eval(input("digite ")))
+jogador2 = array(eval(input("digite ")))
+
+anel1 = 40
+anel2 = 20
+anel3 = 10
+anel4 = 0
+
+cont1 = 0
+cont2 = 0
+cont3 = 0
+cont4 = 0
+
+sizejogador1 = size[vetor1]
+sizejogador2 = size[vetor1]
+
+print(sizejogador1)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:37:41) 
+-- CODE:
+from numpy import *
+
+jogador1 = array(eval(input("digite ")))
+jogador2 = array(eval(input("digite ")))
+
+anel1 = 40
+anel2 = 20
+anel3 = 10
+anel4 = 0
+
+cont1 = 0
+cont2 = 0
+cont3 = 0
+cont4 = 0
+
+sizejogador1 = size[vetor 1]
+sizejogador2 = size[vetor 1]
+
+print(sizejogador1)
+-- ERROR:
+File "XXXX", line 16
+    sizejogador1 = size[vetor 1]
+                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 20:37:45) 
+-- CODE:
+from numpy import *
+
+jogador1 = array(eval(input("digite ")))
+jogador2 = array(eval(input("digite ")))
+
+anel1 = 40
+anel2 = 20
+anel3 = 10
+anel4 = 0
+
+cont1 = 0
+cont2 = 0
+cont3 = 0
+cont4 = 0
+
+sizejogador1 = size[vetor 1]
+sizejogador2 = size[vetor 1]
+
+print(sizejogador1)
+-- ERROR:
+File "XXXX", line 16
+    sizejogador1 = size[vetor 1]
+                              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

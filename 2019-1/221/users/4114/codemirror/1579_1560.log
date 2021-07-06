@@ -1,0 +1,13 @@
+2019-3-26 08:54:35.964#viewportChange#0
+2019-3-26 08:54:36.810#mousedown#{"isTrusted":true}
+2019-3-26 08:54:36.831#focus#
+2019-3-26 08:54:38.477#change#{"from":{"line":0,"ch":0,"sticky":null,"xRel":-1,"outside":true},"to":{"line":1,"ch":17,"sticky":null,"xRel":1,"outside":true},"text":[""],"removed":["string = \"\"","print(string.???)"],"origin":"+delete"}
+2019-3-26 08:54:38.477#keyHandled#"Backspace"
+2019-3-26 08:54:38.497#viewportChange#0
+2019-3-26 08:54:39.146#copy#{"isTrusted":true}
+2019-3-26 08:54:40.015#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["v"],"removed":[""],"origin":"+input"}
+2019-3-26 08:54:41.145#change#{"from":{"line":0,"ch":0,"sticky":"after"},"to":{"line":0,"ch":1,"sticky":null},"text":[""],"removed":["v"],"origin":"+delete"}
+2019-3-26 08:54:41.145#keyHandled#"Backspace"
+2019-3-26 08:54:41.751#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["string = \"Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra.\"","print(string.lower())"],"removed":[""],"origin":"paste"}
+2019-3-26 08:54:41.766#viewportChange#0
+2019-3-26 08:54:44.280#blur#

@@ -1,0 +1,169 @@
+== TEST (2019-05-22 16:23:34) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from nimpy import *
+n = int("Digite um numero inteiro: ")
+vetor = array([n])
+print(vetor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from nimpy import *
+ModuleNotFoundError: No module named 'nimpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:23:43) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int("Digite um numero inteiro: ")
+vetor = array([n])
+print(vetor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:23:59) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array([n])
+print(vetor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:24:15) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array(ones([n]))
+print(vetor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:24:47) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array(int(ones([n])))
+print(vetor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:25:11) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array((ones(int([n])))
+print(vetor)
+-- ERROR:
+File "XXXX", line 5
+    print(vetor)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:25:32) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array((ones([n]))
+print(vetor)
+-- ERROR:
+File "XXXX", line 5
+    print(vetor)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:27:45) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+vetor = array(eval(ones([n]))
+print(vetor)
+-- ERROR:
+File "XXXX", line 5
+    print(vetor)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:28:00) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+v = array(eval(ones([n]))
+print(v)
+-- ERROR:
+File "XXXX", line 5
+    print(v)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:28:17) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+v = array(eval(ones([n]))
+print(v)
+-- ERROR:
+File "XXXX", line 5
+    print(v)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-22 16:32:06) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+v = ones(n, dtype=int)
+print(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-22 16:32:15) 
+-- CODE:
+# Não se esqueça de incluir o módulo numpy
+from numpy import *
+n = int(input("Digite um numero inteiro: "))
+v = ones(n, dtype=int)
+print(v)
+-- EXECUTION TIME:
+0.571951
+-- TEST CASE 1:
+---- input:
+34
+---- correct output:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+---- user output:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1]
+-- TEST CASE 2:
+---- input:
+10
+---- correct output:
+[1 1 1 1 1 1 1 1 1 1]
+---- user output:
+[1 1 1 1 1 1 1 1 1 1]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

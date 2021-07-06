@@ -1,0 +1,722 @@
+== TEST (2019-05-16 08:22:38) 
+-- CODE:
+resultado = input("Digite o resultado: ") = 0
+W = 0
+D = 0
+S = 0
+
+ while(resultado.upper() !=  X)
+	if(resultado.upper() == W):
+		W  = W + 3
+	elif(resultado.upper() == D):
+		D = D + 1
+	elif(resultado.upper() == S):
+		E = E + 2
+	else:
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+File "XXXX", line 6
+    while(resultado.upper() !=  X)
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:22:45) 
+-- CODE:
+resultado = input("Digite o resultado: ") = 0
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  X)
+	if(resultado.upper() == W):
+		W  = W + 3
+	elif(resultado.upper() == D):
+		D = D + 1
+	elif(resultado.upper() == S):
+		E = E + 2
+	else:
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+File "XXXX", line 6
+    while(resultado.upper() !=  X)
+                                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:22:49) 
+-- CODE:
+resultado = input("Digite o resultado: ") = 0
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  X):
+	if(resultado.upper() == W):
+		W  = W + 3
+	elif(resultado.upper() == D):
+		D = D + 1
+	elif(resultado.upper() == S):
+		E = E + 2
+	else:
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+File "XXXX", line 15
+    print(W)
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:23:07) 
+-- CODE:
+resultado = input("Digite o resultado: ") = 0
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  X):
+	if(resultado.upper() == W):
+		W  = W + 3
+	elif(resultado.upper() == D):
+		D = D + 1
+	elif(resultado.upper() == S):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+File "XXXX", line 1
+    resultado = input() = 0
+               ^
+SyntaxError: can't assign to function call
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:23:19) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  X):
+	if(resultado.upper() == W):
+		W  = W + 3
+	elif(resultado.upper() == D):
+		D = D + 1
+	elif(resultado.upper() == S):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(resultado.upper() !=  X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:23:46) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "W"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "S"):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(resultado.upper() !=  X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:23:50) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "W"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "S"):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(resultado.upper() !=  X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:24:16) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(resultado.upper() !=  X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:24:30) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    while(resultado.upper() !=  X):
+NameError: name 'X' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:25:41) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- ERROR:
+File "XXXX", line 15
+    resultado = input()
+            ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:25:54) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- OUTPUT:
+6
+0
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:26:17) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- OUTPUT:
+6
+0
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 08:26:49) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- EXECUTION TIME:
+0.214703
+-- TEST CASE 1:
+---- input:
+v
+V
+E
+D
+D
+a
+b
+c
+d
+X
+---- correct output:
+6
+2
+3
+---- user output:
+6
+0
+3
+-- TEST CASE 2:
+---- input:
+V
+E
+C
+B
+A
+X
+---- correct output:
+3
+2
+0
+---- user output:
+3
+0
+0
+-- TEST CASE 3:
+---- input:
+A
+A
+v
+v
+V
+V
+X
+---- correct output:
+12
+0
+0
+---- user output:
+12
+0
+0
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:26:56) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- OUTPUT:
+6
+0
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:27:23) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+E = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "E"):
+		E = E + 2
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- OUTPUT:
+6
+0
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 08:29:35) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "E"):
+		S = S + 2
+	elif(resultado.upper() == "D"):
+		D = D + 1 
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- OUTPUT:
+6
+2
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 08:29:56) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "E"):
+		S = S + 2
+	elif(resultado.upper() == "D"):
+		D = D + 1 
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- EXECUTION TIME:
+0.354978
+-- TEST CASE 1:
+---- input:
+v
+V
+E
+D
+D
+a
+b
+c
+d
+X
+---- correct output:
+6
+2
+3
+---- user output:
+6
+2
+3
+-- TEST CASE 2:
+---- input:
+V
+E
+C
+B
+A
+X
+---- correct output:
+3
+2
+0
+---- user output:
+3
+2
+0
+-- TEST CASE 3:
+---- input:
+A
+A
+v
+v
+V
+V
+X
+---- correct output:
+12
+0
+0
+---- user output:
+12
+0
+0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 08:30:34) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "W"):
+		W  = W + 3
+	elif(resultado.upper() == "D"):
+		D = D + 1
+	elif(resultado.upper() == "S"):
+		E = E + 2
+	else:
+		x = 2
+		
+print(W)
+print(S)
+print(D)
+	
+-- EXECUTION TIME:
+407.446
+-- TEST CASE 1:
+---- input:
+v
+V
+E
+D
+D
+a
+b
+c
+d
+X
+---- correct output:
+6
+2
+3
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+V
+E
+C
+B
+A
+X
+---- correct output:
+3
+2
+0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+A
+A
+v
+v
+V
+V
+X
+---- correct output:
+12
+0
+0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 08:45:50) 
+-- CODE:
+resultado = input("Digite o resultado: ") 
+W = 0
+D = 0
+S = 0
+
+while(resultado.upper() !=  "X"):
+	if(resultado.upper() == "V"):
+		W  = W + 3
+	elif(resultado.upper() == "E"):
+		S = S + 2
+	elif(resultado.upper() == "D"):
+		D = D + 1 
+	else:
+		x=2
+	resultado = input("Digite o resultado: ")
+		
+print(W)
+print(S)
+print(D)
+	
+-- EXECUTION TIME:
+0.158586
+-- TEST CASE 1:
+---- input:
+v
+V
+E
+D
+D
+a
+b
+c
+d
+X
+---- correct output:
+6
+2
+3
+---- user output:
+6
+2
+3
+-- TEST CASE 2:
+---- input:
+V
+E
+C
+B
+A
+X
+---- correct output:
+3
+2
+0
+---- user output:
+3
+2
+0
+-- TEST CASE 3:
+---- input:
+A
+A
+v
+v
+V
+V
+X
+---- correct output:
+12
+0
+0
+---- user output:
+12
+0
+0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

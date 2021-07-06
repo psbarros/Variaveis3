@@ -1,0 +1,173 @@
+== TEST (2019-05-28 09:31:41) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo.n = ""
+while(i < len(n)):
+	novo.n = novo.n[i,i+3]+"."
+	i = i+3
+print(novo.n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    novo.n = ""
+NameError: name 'novo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:33:36) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo.n = 0
+while(i < len(n)):
+	novo.n = novo.n[i,i+3]+"."
+	i = i+3
+print(novo.n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    novo.n = 0
+NameError: name 'novo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:34:08) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo.n = novo.n[i,i+3]+"."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo.n = novo.n[i,i+3]+"."
+NameError: name 'novo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:34:22) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo.n[i,i+3]+"."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo_n = novo.n[i,i+3]+"."
+NameError: name 'novo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:34:29) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo_n[i,i+3]+"."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo_n = novo_n[i,i+3]+"."
+TypeError: 'int' object is not subscriptable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:35:15) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo_n + n[i,i+3]+"."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo_n = novo_n + n[i,i+3]+"."
+TypeError: string indices must be integers
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:35:40) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo_n + n[i:i+3]+"."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo_n = novo_n + n[i:i+3]+"."
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-28 09:36:48) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo_n + n[i:i+3] + "."
+	i = i+3
+print(novo_n[:-1])
+-- EXECUTION TIME:
+0.122198
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1766/1583/main.py", line 5, in <module>
+    novo_n = novo_n + n[i:i+3] + "."
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-28 09:36:51) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = 0
+while(i < len(n)):
+	novo_n = novo_n + n[i:i+3] + "."
+	i = i+3
+print(novo_n[:-1])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    novo_n = novo_n + n[i:i+3] + "."
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-28 09:37:37) 
+-- CODE:
+n = input("numero: ")
+i = 0
+novo_n = ""
+while(i < len(n)):
+	novo_n = novo_n + n[i:i+3] + "."
+	i = i+3
+print(novo_n[:-1])
+-- EXECUTION TIME:
+0.165872
+-- TEST CASE 1:
+---- input:
+123
+---- correct output:
+123
+---- user output:
+123
+-- TEST CASE 2:
+---- input:
+123456789000987654321
+---- correct output:
+123.456.789.000.987.654.321
+---- user output:
+123.456.789.000.987.654.321
+-- TEST CASE 3:
+---- input:
+987654321
+---- correct output:
+987.654.321
+---- user output:
+987.654.321
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

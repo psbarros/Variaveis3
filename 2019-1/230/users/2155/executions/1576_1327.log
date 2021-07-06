@@ -1,0 +1,36 @@
+== SUBMITION (2019-04-01 21:03:51) 
+-- CODE:
+t =90
+h =55
+h = t-h
+print(t)
+-- EXECUTION TIME:
+0.167049
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+35
+---- user output:
+90
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-01 21:04:47) 
+-- CODE:
+t =90
+h =55
+l = t-h
+print(l)
+-- EXECUTION TIME:
+0.144877
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+35
+---- user output:
+35
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

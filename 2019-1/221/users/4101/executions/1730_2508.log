@@ -1,0 +1,198 @@
+== TEST (2019-05-11 18:56:50) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p + (4/((i-1)*(i)*(i+2)))
+	else:
+		p = p - (4/((i-1)*(i)*(i+2)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+2.88970659
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 18:57:19) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+2)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+2)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+3.11029341
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 18:57:25) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+2)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+2)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- EXECUTION TIME:
+0.185531
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+3.13968254
+---- user output:
+3.11029341
+-- TEST CASE 2:
+---- input:
+22
+---- correct output:
+3.14161607
+---- user output:
+3.11207169
+-- TEST CASE 3:
+---- input:
+19
+---- correct output:
+3.14155633
+---- user output:
+3.11201336
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 18:57:32) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+2)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+2)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+3.11029341
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 18:59:53) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 0
+
+while(a<n):
+	if(a%2==0):
+		p = p + (4/((i-1)*(i)*(i+2)))
+	else:
+		p = p - (4/((i-1)*(i)*(i+2)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+3.11309061
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 19:01:24) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+1)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+1)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+3.13968254
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 19:01:27) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+1)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+1)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- OUTPUT:
+3.13968254
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 19:01:28) 
+-- CODE:
+n = int(input())
+
+p = 3
+i = 3
+a = 1
+
+while(a<n):
+	if(a%2==0):
+		p = p - (4/((i-1)*(i)*(i+1)))
+	else:
+		p = p + (4/((i-1)*(i)*(i+1)))
+	i = i + 2
+	a = a + 1
+print(round(p, 8))
+-- EXECUTION TIME:
+0.111508
+-- TEST CASE 1:
+---- input:
+5
+---- correct output:
+3.13968254
+---- user output:
+3.13968254
+-- TEST CASE 2:
+---- input:
+22
+---- correct output:
+3.14161607
+---- user output:
+3.14161607
+-- TEST CASE 3:
+---- input:
+19
+---- correct output:
+3.14155633
+---- user output:
+3.14155633
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

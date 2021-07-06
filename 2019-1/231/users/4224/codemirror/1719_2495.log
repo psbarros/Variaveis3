@@ -1,0 +1,119 @@
+2019-5-9 18:08:46.953#viewportChange#0
+2019-5-9 18:11:07.587#mousedown#{"isTrusted":true}
+2019-5-9 18:11:07.608#focus#
+2019-5-9 18:11:09.092#mousedown#{"isTrusted":true}
+2019-5-9 18:11:11.332#mousedown#{"isTrusted":true}
+2019-5-9 18:11:12.932#mousedown#{"isTrusted":true}
+2019-5-9 18:11:13.836#mousedown#{"isTrusted":true}
+2019-5-9 18:11:14.616#mousedown#{"isTrusted":true}
+2019-5-9 18:11:15.316#mousedown#{"isTrusted":true}
+2019-5-9 18:11:32.853#mousedown#{"isTrusted":true}
+2019-5-9 18:11:38.733#mousedown#{"isTrusted":true}
+2019-5-9 18:11:39.277#mousedown#{"isTrusted":true}
+2019-5-9 18:11:44.069#mousedown#{"isTrusted":true}
+2019-5-9 18:11:50.925#mousedown#{"isTrusted":true}
+2019-5-9 18:11:51.701#mousedown#{"isTrusted":true}
+2019-5-9 18:11:52.349#mousedown#{"isTrusted":true}
+2019-5-9 18:11:53.979#mousedown#{"isTrusted":true}
+2019-5-9 18:11:54.893#mousedown#{"isTrusted":true}
+2019-5-9 18:11:55.693#mousedown#{"isTrusted":true}
+2019-5-9 18:11:56.256#mousedown#{"isTrusted":true}
+2019-5-9 18:12:06.013#mousedown#{"isTrusted":true}
+2019-5-9 18:12:07.454#mousedown#{"isTrusted":true}
+2019-5-9 18:12:08.294#mousedown#{"isTrusted":true}
+2019-5-9 18:12:08.757#mousedown#{"isTrusted":true}
+2019-5-9 18:12:16.198#mousedown#{"isTrusted":true}
+2019-5-9 18:12:50.713#blur#
+2019-5-9 18:12:50.713#blur#
+2019-5-9 18:12:53.195#saida_testar#$ python3 main.py
+File "main.py", line 9
+while (CONDI\xc7\xc3O DO LA\xc7O):
+SyntaxError: invalid syntax
+2019-5-9 18:13:42.480#mousedown#{"isTrusted":true}
+2019-5-9 18:13:42.506#focus#
+2019-5-9 18:13:55.496#mousedown#{"isTrusted":true}
+2019-5-9 18:13:59.283#change#{"from":{"line":8,"ch":7,"sticky":"after","xRel":3.4000244140625},"to":{"line":8,"ch":23,"sticky":"before","xRel":-3.5999755859375},"text":[""],"removed":["CONDIÇÃO DO LAÇO"],"origin":"+delete"}
+2019-5-9 18:13:59.283#keyHandled#"Backspace"
+2019-5-9 18:13:59.777#change#{"from":{"line":8,"ch":7,"sticky":null},"to":{"line":8,"ch":7,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:00.190#change#{"from":{"line":8,"ch":8,"sticky":null},"to":{"line":8,"ch":8,"sticky":null},"text":["u"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:00.471#change#{"from":{"line":8,"ch":9,"sticky":null},"to":{"line":8,"ch":9,"sticky":null},"text":["m"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:11.582#change#{"from":{"line":8,"ch":10,"sticky":null},"to":{"line":8,"ch":10,"sticky":null},"text":["!"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:12.902#change#{"from":{"line":8,"ch":11,"sticky":null},"to":{"line":8,"ch":11,"sticky":null},"text":["+"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:14.537#change#{"from":{"line":8,"ch":11,"sticky":"after"},"to":{"line":8,"ch":12,"sticky":null},"text":[""],"removed":["+"],"origin":"+delete"}
+2019-5-9 18:14:14.537#keyHandled#"Backspace"
+2019-5-9 18:14:16.136#change#{"from":{"line":8,"ch":11,"sticky":null},"to":{"line":8,"ch":11,"sticky":null},"text":["="],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:17.537#change#{"from":{"line":8,"ch":12,"sticky":null},"to":{"line":8,"ch":12,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:17.752#change#{"from":{"line":8,"ch":13,"sticky":null},"to":{"line":8,"ch":13,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-5-9 18:14:37.057#mousedown#{"isTrusted":true}
+2019-5-9 18:15:00.296#change#{"from":{"line":10,"ch":5,"sticky":"after","xRel":2.4000244140625},"to":{"line":10,"ch":25,"sticky":"before","xRel":-0.5999755859375},"text":["n"],"removed":["CONDIÇÃO DE PARIDADE"],"origin":"+input"}
+2019-5-9 18:15:00.718#change#{"from":{"line":10,"ch":6,"sticky":null},"to":{"line":10,"ch":6,"sticky":null},"text":["u"],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:01.129#change#{"from":{"line":10,"ch":7,"sticky":null},"to":{"line":10,"ch":7,"sticky":null},"text":["m"],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:04.783#change#{"from":{"line":10,"ch":8,"sticky":null},"to":{"line":10,"ch":8,"sticky":null},"text":["%"],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:08.032#change#{"from":{"line":10,"ch":9,"sticky":null},"to":{"line":10,"ch":9,"sticky":null},"text":["="],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:09.135#change#{"from":{"line":10,"ch":10,"sticky":null},"to":{"line":10,"ch":10,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:11.113#mousedown#{"isTrusted":true}
+2019-5-9 18:15:12.448#change#{"from":{"line":10,"ch":9,"sticky":"before","xRel":-0.5999755859375},"to":{"line":10,"ch":9,"sticky":"before","xRel":-0.5999755859375},"text":["2"],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:39.424#blur#
+2019-5-9 18:15:39.424#blur#
+2019-5-9 18:15:41.513#saida_testar#$ python3 main.py
+File "main.py", line 11
+if (num%2=0):
+SyntaxError: invalid syntax
+2019-5-9 18:15:47.858#mousedown#{"isTrusted":true}
+2019-5-9 18:15:47.872#focus#
+2019-5-9 18:15:49.043#change#{"from":{"line":10,"ch":11,"sticky":"after","xRel":2.4000244140625},"to":{"line":10,"ch":11,"sticky":"after","xRel":2.4000244140625},"text":["="],"removed":[""],"origin":"+input"}
+2019-5-9 18:15:50.584#blur#
+2019-5-9 18:15:50.584#blur#
+2019-5-9 18:15:53.372#saida_testar#$ python3 main.py
+2019-5-9 18:15:53.372#saida_testar#$ python3 main.py
+2019-5-9 18:16:34.752#submit#Congratulations, your code is correct!
+2019-5-9 18:17:42.653#mousedown#{"isTrusted":true}
+2019-5-9 18:17:42.674#focus#
+2019-5-9 18:17:46.757#mousedown#{"isTrusted":true}
+2019-5-9 18:17:46.763#contextmenu#{"isTrusted":true}
+2019-5-9 18:17:48.215#copy#{"isTrusted":true}
+2019-5-9 18:17:49.575#blur#
+2019-5-14 17:18:06.391#viewportChange#0
+2019-5-16 08:48:15.572#viewportChange#0
+2019-5-16 08:51:38.499#mousedown#{"isTrusted":true}
+2019-5-16 08:51:38.516#focus#
+2019-5-16 08:51:42.745#mousedown#{"isTrusted":true}
+2019-5-16 08:51:42.746#contextmenu#{"isTrusted":true}
+2019-5-16 08:51:47.967#mousedown#{"isTrusted":true}
+2019-5-16 08:51:48.859#change#{"from":{"line":8,"ch":16,"sticky":"before","xRel":17.149978637695312},"to":{"line":8,"ch":16,"sticky":"before","xRel":17.149978637695312},"text":["",""],"removed":[""],"origin":"+input"}
+2019-5-16 08:51:48.860#change#{"from":{"line":9,"ch":0,"sticky":null},"to":{"line":9,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-5-16 08:51:48.860#keyHandled#"Enter"
+2019-5-16 08:51:48.865#viewportChange#0
+2019-5-16 08:51:51.817#mousedown#{"isTrusted":true}
+2019-5-16 08:51:51.817#contextmenu#{"isTrusted":true}
+2019-5-16 08:51:53.993#change#{"from":{"line":9,"ch":1,"sticky":null},"to":{"line":9,"ch":1,"sticky":null},"text":["num = int(input(\"Digite um numero: \"))"],"removed":[""],"origin":"paste"}
+2019-5-16 08:51:56.057#blur#
+2019-5-16 08:51:56.057#blur#
+2019-5-16 08:52:00.507#saida_testar#$ python3 main.py
+Traceback (most recent call last):
+File "main.py", line 9, in <module>
+while (num!=-1):
+NameError: name 'num' is not defined
+2019-5-16 08:52:38.045#mousedown#{"isTrusted":true}
+2019-5-16 08:52:38.052#focus#
+2019-5-16 08:52:44.260#blur#
+2019-5-16 08:52:56.760#mousedown#{"isTrusted":true}
+2019-5-16 08:52:56.767#focus#
+2019-5-16 08:52:56.770#blur#
+2019-5-16 08:52:56.788#focus#
+2019-5-16 08:52:59.560#mousedown#{"isTrusted":true}
+2019-5-16 08:53:18.092#mousedown#{"isTrusted":true}
+2019-5-16 08:53:18.092#contextmenu#{"isTrusted":true}
+2019-5-16 08:53:25.303#change#{"from":{"line":9,"ch":0,"sticky":"after","xRel":13.08331298828125},"to":{"line":9,"ch":39,"sticky":"before","xRel":7.8166656494140625},"text":[""],"removed":["\tnum = int(input(\"Digite um numero: \"))"],"origin":"cut"}
+2019-5-16 08:53:29.138#mousedown#{"isTrusted":true}
+2019-5-16 08:53:29.790#mousedown#{"isTrusted":true}
+2019-5-16 08:53:29.791#contextmenu#{"isTrusted":true}
+2019-5-16 08:53:33.010#change#{"from":{"line":5,"ch":0,"sticky":"after","xRel":27.08331298828125},"to":{"line":5,"ch":0,"sticky":"after","xRel":27.08331298828125},"text":["\tnum = int(input(\"Digite um numero: \"))"],"removed":[""],"origin":"paste"}
+2019-5-16 08:53:35.230#blur#
+2019-5-16 08:53:35.230#blur#
+2019-5-16 08:53:37.552#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-5-16 08:53:42.512#mousedown#{"isTrusted":true}
+2019-5-16 08:53:42.519#focus#
+2019-5-16 08:53:43.334#change#{"from":{"line":5,"ch":0,"sticky":"after"},"to":{"line":5,"ch":1,"sticky":"before","xRel":-6.7166748046875},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-5-16 08:53:43.334#keyHandled#"Backspace"
+2019-5-16 08:53:45.589#blur#

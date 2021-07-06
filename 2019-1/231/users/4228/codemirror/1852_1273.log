@@ -1,0 +1,10 @@
+2019-7-2 16:46:19.849#viewportChange#0
+2019-7-2 16:46:47.839#mousedown#{"isTrusted":true}
+2019-7-2 16:46:47.844#focus#
+2019-7-2 16:46:49.269#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import *","from numpy.linalg import *","","m = array([[1, -1, 0, 0], [0, 1, -1, 0], [0, 0, 1, 0], [1, 0, 0, 1]])","v = array([50, -120, 350, 870])","","x = dot(inv(m), v.T)","","print(x)"],"removed":[""],"origin":"paste"}
+2019-7-2 16:46:49.294#viewportChange#0
+2019-7-2 16:46:50.539#change#{"from":{"line":8,"ch":8,"sticky":null},"to":{"line":8,"ch":8,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-7-2 16:46:50.539#keyHandled#"Enter"
+2019-7-2 16:46:50.559#viewportChange#0
+2019-7-2 16:47:04.639#blur#
+2019-7-2 16:47:05.145#saida_testar#$ python3 main.py

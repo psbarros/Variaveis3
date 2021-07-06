@@ -1,0 +1,239 @@
+== TEST (2019-03-21 09:11:35) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:38) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:40) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:41) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:11:49) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - (max(a,b,c) - min(a,b,c)) 
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+-4
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:12:37) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - max(a,b,c) - min(a,b,c)
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+0
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 09:12:45) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - max(a,b,c) - min(a,b,c)
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- EXECUTION TIME:
+0.177279
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+10
+0
+-2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:12:55) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - max(a,b,c) - min(a,b,c)
+print(max(a,b,a))
+print(intermediario)
+print(min(a,b,c))
+-- OUTPUT:
+10
+0
+-2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:13:23) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - max(a,b,c) - min(a,b,c)
+print(min(a,b,a))
+print(intermediario)
+print(max(a,b,c))
+-- OUTPUT:
+-2
+0
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 09:13:30) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = int(input("digite valor de a: "))
+b = int(input("digite valor de b: "))
+c = int(input("digite valor de c: "))
+intermediario = (a + b + c) - max(a,b,c) - min(a,b,c)
+print(min(a,b,a))
+print(intermediario)
+print(max(a,b,c))
+-- EXECUTION TIME:
+0.228355
+-- TEST CASE 1:
+---- input:
+10 -2 0
+---- correct output:
+-2 0 10
+---- user output:
+-2
+0
+10
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,13 @@
+nuha=float(input(":"))
+nuhb=float(input(":"))
+peca=float(input(":"))
+pecb=float(input(":"))
+anos=0
+qh=nuha
+qhb=nuhb
+while(qh<qhb):
+	qh=qh*(peca/100)+qh
+	qhb=qhb*(pecb/100)+qhb
+	anos=anos+1
+	if(qh>=qhb):
+		print(anos)

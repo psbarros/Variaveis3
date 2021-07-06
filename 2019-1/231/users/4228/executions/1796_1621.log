@@ -1,0 +1,728 @@
+== TEST (2019-05-30 18:13:47) 
+-- CODE:
+n = array(eval(str("")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = array(eval(str("")))
+NameError: name 'array' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:13:54) 
+-- CODE:
+n = str("")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = array(eval(str("")))
+NameError: name 'array' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:14:04) 
+-- CODE:
+n = str(input(""))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = array(eval(str("")))
+NameError: name 'array' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:14:17) 
+-- CODE:
+n = input(str(""))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = array(eval(str("")))
+NameError: name 'array' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:14:28) 
+-- CODE:
+n = input(str(""))
+
+print(n)
+-- OUTPUT:
+["BIS","MIOJO","FEIJAO","ARROZ"]
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:14:34) 
+-- CODE:
+n = input(str(""))
+
+print(n)
+-- OUTPUT:
+["BIS","MIOJO","FEIJAO","ARROZ"]
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:22:56) 
+-- CODE:
+n = float(input("notas: "))
+x = int(input("qtd: "))
+media = (n/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = float(input())
+ValueError: could not convert string to float: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:24:51) 
+-- CODE:
+n = float(input("notas: "))
+x = int(input("qtd: "))
+media = (4.2 + 1.7 + 8.9 + 2 + 8.7)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = float(input())
+ValueError: could not convert string to float: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:25:08) 
+-- CODE:
+n = float(input("notas: "))
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 2 + 8.7)/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    n = float(input())
+ValueError: could not convert string to float: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:25:18) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 2 + 8.7)/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:25:32) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 2 + 8.7)/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:25:53) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:25:56) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(media)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:26:19) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2)
+-- ERROR:
+File "XXXX", line 5
+    
+                         ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:26:23) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:26:26) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 18:26:27) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- EXECUTION TIME:
+0.13699
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1796/1621/main.py", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:26:31) 
+-- CODE:
+
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:30:25) 
+-- CODE:
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:30:29) 
+-- CODE:
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:30:31) 
+-- CODE:
+x = int(input("qtd: "))
+media = ((4.2 + 1.7 + 8.9 + 8.7)/x)
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x = int(input())
+ValueError: invalid literal for int() with base 10: '["BIS","MIOJO","FEIJAO","ARROZ"]'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 18:33:56) 
+-- CODE:
+from numpy import*
+
+val = array(eval(input("Produto: "))).upper()
+qnt = array(eval(input("Quantidade do Produto: ")))
+val = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+
+a = 1.25
+b = 2.60
+c 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:13:05) 
+-- CODE:
+from numpy import*
+
+val = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(input("Quantidade: "))
+total = (val*q)
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:13:20) 
+-- CODE:
+from numpy import*
+
+val = array(str("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(input("Quantidade: "))
+total = (val*q)
+
+print(round())
+-- ERROR:
+File "XXXX", line 4
+    q = array(input())
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:13:27) 
+-- CODE:
+from numpy import*
+
+val = array(str("ARROZ","FEIJAO","BIS","MIOJO","FANTA"))
+q = array(input("Quantidade: "))
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:14:50) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: "))
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+
+q = array(input("Quantidade: "))
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:17:58) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ")).upper
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:18:18) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ")).upper()
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:18:49) 
+-- CODE:
+from numpy import*
+
+vet = (array(input("Nome do Produto: ")).upper())
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:19:09) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:19:43) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:19:59) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array("ARROZ","FEIJAO","BIS","MIOJO","FANTA")
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:20:45) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array(["ARROZ"],["FEIJAO"],["BIS"],["MIOJO"],["FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 19:20:46) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array(["ARROZ"],["FEIJAO"],["BIS"],["MIOJO"],["FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (val*q)
+
+print(round())
+-- EXECUTION TIME:
+0.458907
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1796/1621/main.py", line 4, in <module>
+    vet = array(["ARROZ"],["FEIJAO"],["BIS"],["MIOJO"],["FANTA"])
+ValueError: only 2 non-keyword arguments accepted
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:20:46) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array(["ARROZ"],["FEIJAO"],["BIS"],["MIOJO"],["FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:21:10) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (val*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:22:05) 
+-- CODE:
+from numpy import*
+
+vet = array(input("Nome do Produto: ").upper())
+vet = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+vet[0] = 1.25
+vet[1] = 2.60
+vet[2] = 1.80
+vet[3] = 0.85
+vet[4] = 3.20
+
+total = (vet*q)
+
+print(round())
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:23:12) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (v*q)
+
+print(round(total, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:23:13) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (v*q)
+
+print(round(total, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 19:23:14) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (v*q)
+
+print(round(total, 2))
+-- EXECUTION TIME:
+0.359526
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1796/1621/main.py", line 12, in <module>
+    total = (v*q)
+TypeError: ufunc 'multiply' did not contain a loop with signature matching types dtype('<U21') dtype('<U21') dtype('<U21')
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:27:39) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+q = array([0,1,2,3,4])
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (v
+
+print(round(total, 2))
+-- ERROR:
+File "XXXX", line 15
+    print(round(total, 2))
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:27:55) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+q = array([0,1,2,3,4])
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+total = (v * q)
+
+print(round(total, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:37:52) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+i = 0 
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+if (q[0] == v[0]):
+	total = q * v
+
+print(round(total, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 19:38:10) 
+-- CODE:
+from numpy import*
+
+v = array(input("Nome do Produto: ").upper())
+v = array(["ARROZ","FEIJAO","BIS","MIOJO","FANTA"])
+q = array(eval(input("Quantidade: ")))
+i = 0 
+v[0] = 1.25
+v[1] = 2.60
+v[2] = 1.80
+v[3] = 0.85
+v[4] = 3.20
+
+if (q[0] == v[0]):
+	total = q * v
+
+print(round(total, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

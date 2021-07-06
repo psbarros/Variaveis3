@@ -1,0 +1,618 @@
+== TEST (2019-05-02 18:52:37) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		print (sin (x))
+	elif (90<=x<180) :
+		print (cos (x))
+-- OUTPUT:
+0.7071067811865475
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:54:02) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- EXECUTION TIME:
+0.152121
+-- TEST CASE 1:
+---- input:
+45.0
+---- correct output:
+0.7071
+---- user output:
+0.7071
+-- TEST CASE 2:
+---- input:
+275.0
+---- correct output:
+0.0872
+---- user output:
+-0.9962
+-- TEST CASE 3:
+---- input:
+358.0
+---- correct output:
+0.9994
+---- user output:
+-0.0349
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:54:04) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:54:35) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:55:00) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:57:30) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:58:35) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x) or (x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:00:18) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x) or (x>180) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:04:03) 
+-- CODE:
+from math import *
+x = radians(float(input("insira: ")))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:05:43) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x<90) :
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.8509
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:07:42) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270):
+		b = sin((radians(x))
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x<90) or (180<=x<270):
+                                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:08:00) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270):
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x<90) or (180<=x<270):
+                                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:08:36) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270)):
+		b = sin(x)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.8509
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:08:51) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270)):
+		b = sin(radians(x))
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:11:12) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270)):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:11:29) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270)):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:12:18) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x<90) or (180<=x<270)):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180) :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:17:01) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (((0<=x) and (x<90)) or ((180<=x<) and (x<270))):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if (((0<=x) and (x<90)) or ((180<=x<) and (x<270))):
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:17:41) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90)) or ((180<=x<) and (x<270):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x) and (x<90)) or ((180<=x<) and (x<270):
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:18:05) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90)) or ((180<=x<) 
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x) and (x<90)) or ((180<=x<) 
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:18:11) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90)) or ((180<=x<) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x) and (x<90)) or ((180<=x<) :
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:18:22) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90)) or ((180<=x) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if ((0<=x) and (x<90)) or ((180<=x) :
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:18:48) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90) or (180<=x)) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:18:51) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90) or (180<=x)) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:19:42) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90) and (180<=x)) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:20:02) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if ((0<=x) and (x<90)) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:20:20) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:20:35) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0=<x) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 6
+    if (0=<x) :
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:20:54) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x) :
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  or (:
+		a = cos (x)
+		print (round(a, 4))
+-- ERROR:
+File "XXXX", line 10
+    elif (90<=x<180)  or (:
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:22:07) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x) and (x<90) or (180<=x) and (x<270):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x<180)  :
+		a = cos (x)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 19:25:07) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x) and (x<90) or (180<=x) and (x<270):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x) and (x<180) or (270<=x) and (x<360):
+		d = radians (x)
+		a = cos (d)
+		print (round(a, 4))
+-- OUTPUT:
+0.7071
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 19:25:16) 
+-- CODE:
+from math import *
+x = float(input("insira: "))
+if (0>x) or (x>360) :
+	print ("entrada invalida")
+else :
+	if (0<=x) and (x<90) or (180<=x) and (x<270):
+		c = radians(x)
+		b = sin (c)
+		print (round(b, 4))
+	elif (90<=x) and (x<180) or (270<=x) and (x<360):
+		d = radians (x)
+		a = cos (d)
+		print (round(a, 4))
+-- EXECUTION TIME:
+0.231606
+-- TEST CASE 1:
+---- input:
+45.0
+---- correct output:
+0.7071
+---- user output:
+0.7071
+-- TEST CASE 2:
+---- input:
+275.0
+---- correct output:
+0.0872
+---- user output:
+0.0872
+-- TEST CASE 3:
+---- input:
+358.0
+---- correct output:
+0.9994
+---- user output:
+0.9994
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

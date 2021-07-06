@@ -1,0 +1,112 @@
+== TEST (2019-03-27 15:29:53) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+
+# Valores de Saída
+print(round(float(30/100) * valor_total_de_vendas),2)
+-- OUTPUT:
+210 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 15:30:50) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+
+# Valores de Saída
+print(round(float(30/100) * valor_total_de_vendas),2)
+-- OUTPUT:
+210 2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 15:34:21) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+x = (float(30/100) * valor_total_de_vendas)
+
+# Valores de Saída
+print(float(30/100) * valor_total_de_vendas)
+print(round(x,2))
+-- OUTPUT:
+210.15
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 15:35:07) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+x = (float(30/100) * valor_total_de_vendas)
+
+# Valores de Saída
+print(float(30/100) * valor_total_de_vendas)
+print(round(x,2))
+-- EXECUTION TIME:
+0.299678
+-- TEST CASE 1:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+210.15
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 15:35:15) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+x = (float(30/100) * valor_total_de_vendas)
+
+# Valores de Saída
+print(float(30/100) * valor_total_de_vendas)
+
+-- OUTPUT:
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 15:35:45) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+
+# Valores de Entrada
+valor_total_de_vendas = round(float(input("Digite o valor total de vendas da sua empresa")),2)
+x = (float(30/100) * valor_total_de_vendas)
+
+# Valores de Saída
+print(float(30/100) * valor_total_de_vendas)
+
+-- EXECUTION TIME:
+0.198193
+-- TEST CASE 1:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

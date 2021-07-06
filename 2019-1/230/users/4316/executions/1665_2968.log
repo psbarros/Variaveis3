@@ -1,0 +1,86 @@
+== TEST (2019-04-15 17:21:43) 
+-- CODE:
+var1 = input("L/S")
+var2 = float(input("quantidade de lanches ou salgados:"))
+var3 = float(input("a quantidade de refrigerantes: "))
+
+total1 = var2 * 5.00 + var3 * 4.00
+total2 = var2 * 3.50 + var3 * 4.00
+
+if (var1.upper() == "L"):
+	print(total1)
+else:
+	print(total2)
+	 
+
+
+-- OUTPUT:
+11.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 17:21:53) 
+-- CODE:
+var1 = input("L/S: ")
+var2 = float(input("quantidade de lanches ou salgados:"))
+var3 = float(input("a quantidade de refrigerantes: "))
+
+total1 = var2 * 5.00 + var3 * 4.00
+total2 = var2 * 3.50 + var3 * 4.00
+
+if (var1.upper() == "L"):
+	print(total1)
+else:
+	print(total2)
+	 
+
+
+-- OUTPUT:
+11.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 17:22:14) 
+-- CODE:
+var1 = input("L/S: ")
+var2 = float(input("quantidade de lanches ou salgados:"))
+var3 = float(input("a quantidade de refrigerantes: "))
+
+total1 = var2 * 5.00 + var3 * 4.00
+total2 = var2 * 3.50 + var3 * 4.00
+
+if (var1.upper() == "L"):
+	print(total1)
+else:
+	print(total2)
+	 
+
+
+-- EXECUTION TIME:
+0.22021
+-- TEST CASE 1:
+---- input:
+S
+1
+2
+---- correct output:
+11.5
+---- user output:
+11.5
+-- TEST CASE 2:
+---- input:
+L
+6
+7
+---- correct output:
+58.0
+---- user output:
+58.0
+-- TEST CASE 3:
+---- input:
+S
+2
+2
+---- correct output:
+15.0
+---- user output:
+15.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,129 @@
+== TEST (2019-03-19 11:35:01) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da historia"."upper()")
+-- ERROR:
+File "XXXX", line 2
+    print("Ada Lovelace foi a primeira programadora da historia"."upper()")
+                                                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 11:35:16) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da historia".upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 11:35:24) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da historia".upper())
+-- EXECUTION TIME:
+0.147535
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 11:38:18) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da ".upper())
+-- EXECUTION TIME:
+0.151391
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 11:39:21) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da "..upper())
+-- ERROR:
+File "XXXX", line 2
+    print("Ada Lovelace foi a primeira programadora da "..upper())
+                                                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 11:39:27) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia"
+print("Ada Lovelace foi a primeira programadora da "..upper())
+-- EXECUTION TIME:
+0.19748
+-- ERROR:
+  File "/home/codebench/codes/1580/1559/main.py", line 2
+    print("Ada Lovelace foi a primeira programadora da "..upper())
+                                                         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 11:40:11) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia.".upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 11:40:34) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia."".upper())
+-- EXECUTION TIME:
+0.170337
+-- ERROR:
+  File "/home/codebench/codes/1580/1559/main.py", line 2
+    print("Ada Lovelace foi a primeira programadora da historia."".upper())
+                                                                          ^
+SyntaxError: EOL while scanning string literal
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 11:40:38) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia."".upper()")
+-- OUTPUT:
+Ada Lovelace foi a primeira programadora da historia..upper()
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 11:41:09) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia." .upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 11:41:24) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia." .upper())
+-- EXECUTION TIME:
+0.216113
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 08:42:27) 
+-- CODE:
+frase = "Ada Lovelace foi a primeira programadora da historia."
+print("Ada Lovelace foi a primeira programadora da historia." .upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

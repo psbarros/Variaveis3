@@ -1,0 +1,8 @@
+2019-5-30 01:05:43.461#viewportChange#0
+2019-5-30 01:05:51.554#mousedown#{}
+2019-5-30 01:05:51.574#focus#
+2019-5-30 01:05:52.039#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","vetor1 = array(eval(input(\"\")))","vetor2 = array(eval(input(\"\")))","vetor3 = zeros(size(vetor1))","","cont = 0","cont1 = 1","cont2 = 0","while cont < size(vetor1):","\tvetor3[cont] = vetor1[cont]/vetor2[cont]","\tcont = cont + 1","while cont2 < size(vetor3):","\tif vetor3[cont2] == max(vetor3):","\t\tprint(cont1)","\tcont1 = cont1 + 1","\tcont2 = cont2 + 1"],"removed":[""],"origin":"paste"}
+2019-5-30 01:05:52.077#viewportChange#0
+2019-5-30 01:05:52.039#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","vetor1 = array(eval(input(\"\")))","vetor2 = array(eval(input(\"\")))","vetor3 = zeros(size(vetor1))","","cont = 0","cont1 = 1","cont2 = 0","while cont < size(vetor1):","\tvetor3[cont] = vetor1[cont]/vetor2[cont]","\tcont = cont + 1","while cont2 < size(vetor3):","\tif vetor3[cont2] == max(vetor3):","\t\tprint(cont1)","\tcont1 = cont1 + 1","\tcont2 = cont2 + 1"],"removed":[""],"origin":"paste"}
+2019-5-30 01:05:52.077#viewportChange#0
+2019-5-30 01:05:54.295#submit#Congratulations, your code is correct!

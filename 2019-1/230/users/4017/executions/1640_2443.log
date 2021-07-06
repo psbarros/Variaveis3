@@ -1,0 +1,54 @@
+== TEST (2019-04-15 01:26:09) 
+-- CODE:
+from math import*
+raio= float(input("digite o valor do raio: "))
+altura= float(input("digite o valor da altura: "))
+num = int(input("digite o valor do num: "))
+
+v_esf = (4*pi * raio**3) /3
+v_calot = ((pi * altura ** 2) * (3*raio - altura)) / 3
+
+if (num == 1):
+	print(round(v_calot, 4))
+if (num == 2):
+	print(round(v_esf - v_calot, 4))
+-- OUTPUT:
+9.0257
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 01:26:30) 
+-- CODE:
+from math import*
+raio= float(input("digite o valor do raio: "))
+altura= float(input("digite o valor da altura: "))
+num = int(input("digite o valor do num: "))
+
+v_esf = (4*pi * raio**3) /3
+v_calot = ((pi * altura ** 2) * (3*raio - altura)) / 3
+
+if (num == 1):
+	print(round(v_calot, 4))
+if (num == 2):
+	print(round(v_esf - v_calot, 4))
+-- EXECUTION TIME:
+0.271889
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+9.0257
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

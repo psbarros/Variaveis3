@@ -1,0 +1,102 @@
+2019-4-9 08:09:39.511#mousedown#{"isTrusted":true}
+2019-4-9 08:09:39.540#focus#
+2019-4-9 08:09:41.393#change#{"from":{"line":4,"ch":6,"sticky":"after","xRel":1.08331298828125},"to":{"line":4,"ch":6,"sticky":"after","xRel":1.08331298828125},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:41.464#change#{"from":{"line":4,"ch":7,"sticky":null},"to":{"line":4,"ch":7,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:41.673#change#{"from":{"line":4,"ch":8,"sticky":null},"to":{"line":4,"ch":8,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:42.586#change#{"from":{"line":4,"ch":9,"sticky":null},"to":{"line":4,"ch":9,"sticky":null},"text":["*"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:43.116#change#{"from":{"line":4,"ch":9,"sticky":"after"},"to":{"line":4,"ch":10,"sticky":null},"text":[""],"removed":["*"],"origin":"+delete"}
+2019-4-9 08:09:43.117#keyHandled#"Backspace"
+2019-4-9 08:09:43.889#change#{"from":{"line":4,"ch":9,"sticky":null},"to":{"line":4,"ch":9,"sticky":null},"text":["("],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:44.667#keyHandled#"Right"
+2019-4-9 08:09:45.167#keyHandled#"Right"
+2019-4-9 08:09:45.197#keyHandled#"Right"
+2019-4-9 08:09:45.228#keyHandled#"Right"
+2019-4-9 08:09:45.258#keyHandled#"Right"
+2019-4-9 08:09:45.288#keyHandled#"Right"
+2019-4-9 08:09:45.318#keyHandled#"Right"
+2019-4-9 08:09:45.349#keyHandled#"Right"
+2019-4-9 08:09:45.378#keyHandled#"Right"
+2019-4-9 08:09:45.409#keyHandled#"Right"
+2019-4-9 08:09:45.440#keyHandled#"Right"
+2019-4-9 08:09:45.470#keyHandled#"Right"
+2019-4-9 08:09:45.500#keyHandled#"Right"
+2019-4-9 08:09:45.530#keyHandled#"Right"
+2019-4-9 08:09:45.561#keyHandled#"Right"
+2019-4-9 08:09:45.591#keyHandled#"Right"
+2019-4-9 08:09:45.621#keyHandled#"Right"
+2019-4-9 08:09:45.651#keyHandled#"Right"
+2019-4-9 08:09:45.681#keyHandled#"Right"
+2019-4-9 08:09:45.711#keyHandled#"Right"
+2019-4-9 08:09:45.742#keyHandled#"Right"
+2019-4-9 08:09:45.772#keyHandled#"Right"
+2019-4-9 08:09:45.803#keyHandled#"Right"
+2019-4-9 08:09:45.833#keyHandled#"Right"
+2019-4-9 08:09:45.864#keyHandled#"Right"
+2019-4-9 08:09:45.894#keyHandled#"Right"
+2019-4-9 08:09:45.924#keyHandled#"Right"
+2019-4-9 08:09:45.955#keyHandled#"Right"
+2019-4-9 08:09:45.985#keyHandled#"Right"
+2019-4-9 08:09:46.014#keyHandled#"Right"
+2019-4-9 08:09:46.051#keyHandled#"Right"
+2019-4-9 08:09:46.074#keyHandled#"Right"
+2019-4-9 08:09:46.426#keyHandled#"Left"
+2019-4-9 08:09:46.602#keyHandled#"Left"
+2019-4-9 08:09:46.802#keyHandled#"Left"
+2019-4-9 08:09:47.136#keyHandled#"Left"
+2019-4-9 08:09:47.491#keyHandled#"Left"
+2019-4-9 08:09:49.410#change#{"from":{"line":4,"ch":37,"sticky":"before"},"to":{"line":4,"ch":37,"sticky":"before"},"text":[")"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:49.410#change#{"from":{"line":4,"ch":37,"sticky":"before"},"to":{"line":4,"ch":37,"sticky":"before"},"text":[")"],"removed":[""],"origin":"+input"}
+2019-4-9 08:09:50.489#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 08:09:50.489#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 08:09:52.367#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-9 08:09:52.367#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-9 08:09:58.564#saida_testar#$ python3 main.py
+File "main.py", line 7
+if (num % 2 == 0)
+SyntaxError: invalid syntax
+2019-4-9 08:10:05.383#mousedown#{"isTrusted":true}
+2019-4-9 08:10:06.609#change#{"from":{"line":6,"ch":17,"sticky":"before","xRel":25.08331298828125},"to":{"line":6,"ch":17,"sticky":"before","xRel":25.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-9 08:10:07.307#keyHandled#"Down"
+2019-4-9 08:10:07.475#keyHandled#"Down"
+2019-4-9 08:10:07.628#keyHandled#"Down"
+2019-4-9 08:10:07.811#keyHandled#"Down"
+2019-4-9 08:10:08.011#keyHandled#"Down"
+2019-4-9 08:10:09.087#keyHandled#"Left"
+2019-4-9 08:10:12.032#mousedown#{"isTrusted":true}
+2019-4-9 08:10:13.068#mousedown#{"isTrusted":true}
+2019-4-9 08:10:14.305#change#{"from":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"to":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-9 08:10:14.305#change#{"from":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"to":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-9 08:10:14.305#change#{"from":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"to":{"line":8,"ch":4,"sticky":"before","xRel":112.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-9 08:10:16.646#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 08:10:16.849#saida_testar#$ python3 main.py
+2019-4-9 08:10:16.646#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 08:10:16.849#saida_testar#$ python3 main.py
+2019-4-9 08:10:19.553#blur#
+2019-4-9 08:10:20.274#saida_testar#$ python3 main.py
+2019-4-9 08:10:20.274#saida_testar#$ python3 main.py
+2019-4-9 08:10:22.546#saida_testar#$ python3 main.py
+2019-4-9 08:10:22.546#saida_testar#$ python3 main.py
+2019-4-9 08:10:30.174#saida_testar#$ python3 main.py
+2019-4-9 08:10:30.174#saida_testar#$ python3 main.py
+2019-4-9 08:10:32.183#saida_testar#$ python3 main.py
+2019-4-9 08:10:32.183#saida_testar#$ python3 main.py
+2019-4-9 08:11:12.160#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-9 08:11:15.522#mousedown#{"isTrusted":true}
+2019-4-9 08:11:15.722#focus#
+2019-4-9 08:11:18.819#mousedown#{"isTrusted":true}
+2019-4-9 08:11:19.813#change#{"from":{"line":7,"ch":13,"sticky":"after"},"to":{"line":7,"ch":14,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["P"],"origin":"+delete"}
+2019-4-9 08:11:19.813#keyHandled#"Backspace"
+2019-4-9 08:11:22.043#change#{"from":{"line":7,"ch":13,"sticky":null},"to":{"line":7,"ch":13,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-4-9 08:11:22.728#mousedown#{"isTrusted":true}
+2019-4-9 08:11:24.907#change#{"from":{"line":9,"ch":13,"sticky":"after"},"to":{"line":9,"ch":14,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["I"],"origin":"+delete"}
+2019-4-9 08:11:24.907#keyHandled#"Backspace"
+2019-4-9 08:11:25.976#change#{"from":{"line":9,"ch":13,"sticky":null},"to":{"line":9,"ch":13,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-9 08:11:25.976#change#{"from":{"line":9,"ch":13,"sticky":null},"to":{"line":9,"ch":13,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-9 08:11:27.227#submit#Congratulations, your code is correct!
+2019-4-9 08:11:31.430#blur#

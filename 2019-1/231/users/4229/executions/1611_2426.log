@@ -1,0 +1,143 @@
+== TEST (2019-03-27 00:52:35) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade média: "))
+d=a*b
+print(d)
+-- OUTPUT:
+900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:53:14) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade média: "))
+d=a*b
+print(round(d,2)
+-- ERROR:
+File "XXXX", line 5
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:53:28) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade média: "))
+d=a*b
+print(d)
+-- OUTPUT:
+900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:53:43) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade media: "))
+d=a*b
+print(d)
+-- OUTPUT:
+900.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 00:55:04) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade media: "))
+d=a*b
+q=d*12
+print(d)
+print(q)
+-- EXECUTION TIME:
+0.195607
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+900.0
+10800.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+
+---- user output:
+600.0
+7200.0
+-- TEST CASE 3:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+
+---- user output:
+96.0
+1152.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:55:15) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade media: "))
+d=a*b
+q=d*12
+print(d)
+print(q)
+-- OUTPUT:
+900.0
+10800.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 00:55:48) 
+-- CODE:
+a = float(input("Tempo de viagem: "))
+b = float(input("Velocidade media: "))
+d=a*b
+q=d/12
+print(d)
+print(q)
+-- EXECUTION TIME:
+0.157065
+-- TEST CASE 1:
+---- input:
+9
+100
+---- correct output:
+900.0
+75.0
+---- user output:
+900.0
+75.0
+-- TEST CASE 2:
+---- input:
+5
+120
+
+---- correct output:
+600.0
+50.0
+
+---- user output:
+600.0
+50.0
+-- TEST CASE 3:
+---- input:
+1.2
+80
+---- correct output:
+96.0
+8.0
+
+---- user output:
+96.0
+8.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

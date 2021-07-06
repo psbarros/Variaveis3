@@ -1,0 +1,201 @@
+== TEST (2019-03-25 17:46:47) 
+-- CODE:
+
+
+
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+ 
+
+
+print(8* mirella valor + frete)
+-- ERROR:
+File "XXXX", line 9
+    print(8* mirella valor + frete)
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:46:48) 
+-- CODE:
+
+
+
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+ 
+
+
+print(8* mirella valor + frete)
+-- EXECUTION TIME:
+0.156675
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 9
+    print(8* mirella valor + frete)
+                         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:47:28) 
+-- CODE:
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- ERROR:
+File "XXXX", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:47:29) 
+-- CODE:
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- EXECUTION TIME:
+0.130029
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:47:33) 
+-- CODE:
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- ERROR:
+File "XXXX", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:47:34) 
+-- CODE:
+mirella = float(input(" o valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- EXECUTION TIME:
+0.159158
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:48:03) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- ERROR:
+File "XXXX", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:48:04) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8 * mirella valor + frete)
+-- EXECUTION TIME:
+0.194294
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 3
+    print(8 * mirella valor + frete)
+                          ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:48:17) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella valor + frete)
+-- ERROR:
+File "XXXX", line 3
+    print(8* mirella valor + frete)
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:48:18) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella valor + frete)
+-- EXECUTION TIME:
+0.137288
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 3
+    print(8* mirella valor + frete)
+                         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:48:34) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella valor+frete)
+-- ERROR:
+File "XXXX", line 3
+    print(8* mirella valor+frete)
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:48:35) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella valor+frete)
+-- EXECUTION TIME:
+0.15188
+-- ERROR:
+  File "/home/codebench/codes/1599/2894/main.py", line 3
+    print(8* mirella valor+frete)
+                         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:48:49) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella+frete)
+-- OUTPUT:
+54.84
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:48:50) 
+-- CODE:
+mirella = float(input("valor unitario do jogo: "))
+frete=45
+print(8* mirella+frete)
+-- EXECUTION TIME:
+0.179785
+-- TEST CASE 1:
+---- input:
+1.23
+---- correct output:
+54.84
+---- user output:
+54.84
+-- TEST CASE 2:
+---- input:
+356
+---- correct output:
+2893.0
+---- user output:
+2893.0
+-- TEST CASE 3:
+---- input:
+123987.0
+---- correct output:
+991941.0
+---- user output:
+991941.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

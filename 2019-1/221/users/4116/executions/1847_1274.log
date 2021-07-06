@@ -1,0 +1,878 @@
+== SUBMITION (2019-06-25 09:48:50) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+das dimensões da matriz
+for j in range(N):
+# Verifica se termo estah ABAIXO
+if (i > j):
+mat[i,j] = 1
+# Verifica se termo estah ACIMA
+elif (i < j):
+mat[i,j] = -1
+# Elementos da diagonal principal
+else:
+mat[i,j] = 0
+print(mat)
+
+-- EXECUTION TIME:
+0.865771
+-- ERROR:
+  File "/home/codebench/codes/1847/1274/main.py", line 9
+    das dimens\xf5es da matriz
+      ^
+IndentationError: expected an indented block
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:21) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+das dimensões da matriz
+for j in range(N):
+# Verifica se termo estah ABAIXO
+if (i > j):
+mat[i,j] = 1
+# Verifica se termo estah ACIMA
+elif (i < j):
+mat[i,j] = -1
+# Elementos da diagonal principal
+else:
+mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 9
+    das dimensões da matriz
+      ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:49:44) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+# Verifica se termo estah ABAIXO
+if (i > j):
+mat[i,j] = 1
+# Verifica se termo estah ACIMA
+elif (i < j):
+mat[i,j] = -1
+# Elementos da diagonal principal
+else:
+mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 11
+    if (i > j):
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:50:25) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+# Verifica se termo estah ACIMA
+      elif (i < j):
+		mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:50:52) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+# Verifica se termo estah ACIMA
+      elif (i < j):
+		   mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:51:09) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+# Verifica se termo estah ACIMA
+      elif (i < j):
+		   mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:51:39) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+# Verifica se termo estah ACIMA
+      elif (i < j):
+			mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:51:49) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+# Verifica se termo estah ACIMA
+      elif (i < j):
+			mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:51:59) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+      elif (i < j):
+			mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 12
+    elif (i < j):
+                ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:52:16) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+		elif (i < j):
+			mat[i,j] = -1
+# Elementos da diagonal principal
+      else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+File "XXXX", line 15
+    else:
+        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:52:33) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-25 09:52:45) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		  mat[i,j] = 0
+print(mat)
+
+-- EXECUTION TIME:
+1.02773
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+[[1 1 1]
+ [1 2 2]
+ [1 2 3]]
+---- user output:
+[[ 0 -1 -1]
+ [ 1  0 -1]
+ [ 1  1  0]]
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+[[1 1 1 1 1 1 1 1]
+ [1 2 2 2 2 2 2 2]
+ [1 2 3 3 3 3 3 3]
+ [1 2 3 4 4 4 4 4]
+ [1 2 3 4 5 5 5 5]
+ [1 2 3 4 5 6 6 6]
+ [1 2 3 4 5 6 7 7]
+ [1 2 3 4 5 6 7 8]]
+---- user output:
+[[ 0 -1 -1 -1 -1 -1 -1 -1]
+ [ 1  0 -1 -1 -1 -1 -1 -1]
+ [ 1  1  0 -1 -1 -1 -1 -1]
+ [ 1  1  1  0 -1 -1 -1 -1]
+ [ 1  1  1  1  0 -1 -1 -1]
+ [ 1  1  1  1  1  0 -1 -1]
+ [ 1  1  1  1  1  1  0 -1]
+ [ 1  1  1  1  1  1  1  0]]
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+[[1]]
+---- user output:
+[[0]]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:53:09) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		  mat[i,j] = 0
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:53:42) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		  mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-25 09:53:55) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		  mat[i,j] = 1
+print(mat)
+
+-- EXECUTION TIME:
+1.056
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+[[1 1 1]
+ [1 2 2]
+ [1 2 3]]
+---- user output:
+[[ 1 -1 -1]
+ [ 1  1 -1]
+ [ 1  1  1]]
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+[[1 1 1 1 1 1 1 1]
+ [1 2 2 2 2 2 2 2]
+ [1 2 3 3 3 3 3 3]
+ [1 2 3 4 4 4 4 4]
+ [1 2 3 4 5 5 5 5]
+ [1 2 3 4 5 6 6 6]
+ [1 2 3 4 5 6 7 7]
+ [1 2 3 4 5 6 7 8]]
+---- user output:
+[[ 1 -1 -1 -1 -1 -1 -1 -1]
+ [ 1  1 -1 -1 -1 -1 -1 -1]
+ [ 1  1  1 -1 -1 -1 -1 -1]
+ [ 1  1  1  1 -1 -1 -1 -1]
+ [ 1  1  1  1  1 -1 -1 -1]
+ [ 1  1  1  1  1  1 -1 -1]
+ [ 1  1  1  1  1  1  1 -1]
+ [ 1  1  1  1  1  1  1  1]]
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+[[1]]
+---- user output:
+[[1]]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:54:07) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-25 09:54:15) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- EXECUTION TIME:
+1.02317
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+[[1 1 1]
+ [1 2 2]
+ [1 2 3]]
+---- user output:
+[[ 1 -1 -1]
+ [ 1  1 -1]
+ [ 1  1  1]]
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+[[1 1 1 1 1 1 1 1]
+ [1 2 2 2 2 2 2 2]
+ [1 2 3 3 3 3 3 3]
+ [1 2 3 4 4 4 4 4]
+ [1 2 3 4 5 5 5 5]
+ [1 2 3 4 5 6 6 6]
+ [1 2 3 4 5 6 7 7]
+ [1 2 3 4 5 6 7 8]]
+---- user output:
+[[ 1 -1 -1 -1 -1 -1 -1 -1]
+ [ 1  1 -1 -1 -1 -1 -1 -1]
+ [ 1  1  1 -1 -1 -1 -1 -1]
+ [ 1  1  1  1 -1 -1 -1 -1]
+ [ 1  1  1  1  1 -1 -1 -1]
+ [ 1  1  1  1  1  1 -1 -1]
+ [ 1  1  1  1  1  1  1 -1]
+ [ 1  1  1  1  1  1  1  1]]
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+[[1]]
+---- user output:
+[[1]]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:54:19) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +1
+		elif (i < j):
+			mat[i,j] = -1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:54:49) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = +2
+		elif (i < j):
+			mat[i,j] = 1
+		else:
+		   mat[i,j] = +1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:55:20) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = ones((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 2
+		elif (i < j):
+			mat[i,j] = 1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-25 09:56:43) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 2
+		elif (i < j):
+			mat[i,j] = 1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 22:07:19) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = 2
+		elif (i < j):
+			mat[i,j] = 1
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 22:08:34) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = mat[i,j] + mat[1,1]
+		elif (i < j):
+			mat[i,j] = 
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+File "XXXX", line 13
+    mat[i,j] = 
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 22:08:47) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = mat[i,j] + mat[1,1]
+		elif (i < j):
+			mat[i,j] = 2
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 22:12:14) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = mat[i,j] + mat[1,1]
+		elif (i < j):
+			mat[i,j] = mat[i, j+1]
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 22:12:27) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i > j):
+			mat[i,j] = mat[i,j] + mat[1,1]
+		elif (i < j):
+			mat[i,j] = mat[i, i+1]
+		else:
+		   mat[i,j] = 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 23:37:53) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i == j):
+			mat[i,j] = i + 1
+		elif (i > j):
+			mat[i,j] = j + 1
+		else:
+		   mat[i,j] = i + 1
+print(mat)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 23:38:05) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+N = int(input("Dimensao da matriz: "))
+# Cria matriz de zeros, no formato inteiro
+mat = zeros((N,N), dtype=int)
+# Preenchimento da matriz Cada laço for percorre uma
+for i in range(N):
+	for j in range(N):
+		if (i == j):
+			mat[i,j] = i + 1
+		elif (i > j):
+			mat[i,j] = j + 1
+		else:
+		   mat[i,j] = i + 1
+print(mat)
+
+-- EXECUTION TIME:
+1.05364
+-- TEST CASE 1:
+---- input:
+3
+---- correct output:
+[[1 1 1]
+ [1 2 2]
+ [1 2 3]]
+---- user output:
+[[1 1 1]
+ [1 2 2]
+ [1 2 3]]
+-- TEST CASE 2:
+---- input:
+8
+---- correct output:
+[[1 1 1 1 1 1 1 1]
+ [1 2 2 2 2 2 2 2]
+ [1 2 3 3 3 3 3 3]
+ [1 2 3 4 4 4 4 4]
+ [1 2 3 4 5 5 5 5]
+ [1 2 3 4 5 6 6 6]
+ [1 2 3 4 5 6 7 7]
+ [1 2 3 4 5 6 7 8]]
+---- user output:
+[[1 1 1 1 1 1 1 1]
+ [1 2 2 2 2 2 2 2]
+ [1 2 3 3 3 3 3 3]
+ [1 2 3 4 4 4 4 4]
+ [1 2 3 4 5 5 5 5]
+ [1 2 3 4 5 6 6 6]
+ [1 2 3 4 5 6 7 7]
+ [1 2 3 4 5 6 7 8]]
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+[[1]]
+---- user output:
+[[1]]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

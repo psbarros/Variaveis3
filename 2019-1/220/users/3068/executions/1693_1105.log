@@ -1,0 +1,1992 @@
+== SUBMITION (2019-04-23 21:24:49) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = int(input("Valor da cedula: "))
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao: Invalido")
+-- EXECUTION TIME:
+0.160165
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1693/1105/main.py", line 3, in <module>
+    dB = int(input())
+ValueError: invalid literal for int() with base 10: 'lula'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:24:50) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = int(input("Valor da cedula: "))
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao: Invalido")
+-- EXECUTION TIME:
+0.120229
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1693/1105/main.py", line 3, in <module>
+    dB = int(input())
+ValueError: invalid literal for int() with base 10: 'lula'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:25:03) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Valor da cedula: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao: Invalido")
+-- EXECUTION TIME:
+0.210036
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao: Invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:25:05) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Valor da cedula: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao: Invalido")
+-- EXECUTION TIME:
+0.300856
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao: Invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:25:39) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao Invalido")
+-- EXECUTION TIME:
+0.201353
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao Invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:26:26) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	if(dB == 'leao'):
+		print("Brasao: Lannister")
+	if(dB == 'veado'):
+		print("Brasao: Baratheon")
+	if(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	if(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	if(dB == 'sol'):
+		print("Brasao: Martell")
+	if(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	if(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	if(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao Invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:27:14) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao Invalido")
+-- EXECUTION TIME:
+0.203462
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao Invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:27:15) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao Invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:27:27) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao Invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:27:39) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.205179
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:27:40) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:27:50) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:27:55) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:03) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:09) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:13) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:20) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:28) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:34) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:28:39) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if (dB == 'lobo' or dB == 'leao' or dB == 'veado' or dB == 'dragao' or dB == 'rosa' or dB == 'sol' or dB == 'lula' or dB == 'esfolado' or dB == 'turta'):
+	if(dB == 'lobo'):
+		print("Brasao: Stark")
+	elif(dB == 'leao'):
+		print("Brasao: Lannister")
+	elif(dB == 'veado'):
+		print("Brasao: Baratheon")
+	elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+	elif(dB == 'rosa'):
+		print("Brasao: Tyrell")
+	elif(dB == 'sol'):
+		print("Brasao: Martell")
+	elif(dB == 'lula'):
+		print("Brasao: Greyjoy")
+	elif(dB == 'esfolado'):
+		print("Brasao: Bolton")
+	elif(dB == 'turta'):
+		print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:29:19) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == 'lobo'):
+	print("Brasao: Stark")
+elif(dB == 'leao'):
+	print("Brasao: Lannister")
+elif(dB == 'veado'):
+	print("Brasao: Baratheon")
+elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+elif(dB == 'rosa'):
+	print("Brasao: Tyrell")
+elif(dB == 'sol'):
+	print("Brasao: Martell")
+elif(dB == 'lula'):
+	print("Brasao: Greyjoy")
+elif(dB == 'esfolado'):
+	print("Brasao: Bolton")
+elif(dB == 'turta'):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.185758
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:29:20) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == 'lobo'):
+	print("Brasao: Stark")
+elif(dB == 'leao'):
+	print("Brasao: Lannister")
+elif(dB == 'veado'):
+	print("Brasao: Baratheon")
+elif(dB == 'dragao'):
+		print("Brasao: Targaryen")
+elif(dB == 'rosa'):
+	print("Brasao: Tyrell")
+elif(dB == 'sol'):
+	print("Brasao: Martell")
+elif(dB == 'lula'):
+	print("Brasao: Greyjoy")
+elif(dB == 'esfolado'):
+	print("Brasao: Bolton")
+elif(dB == 'turta'):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:30:56) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+		print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.136551
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:31:54) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+		print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:13) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+		print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.206676
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:14) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+		print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.161695
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:32:14) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+		print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:37) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.133213
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:39) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.132824
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:39) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.105293
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:40) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.138533
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:40) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB.lower())
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.170082
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:51) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.140268
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Brasao: Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Brasao: Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Brasao: Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:53) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.216479
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:32:53) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.119933
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:37:41) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.127492
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:37:42) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.149116
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:37:43) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.186326
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-23 21:37:45) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- OUTPUT:
+Entrada: lula
+Brasao: Greyjoy
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-23 21:37:45) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB == "lobo"):
+	print("Brasao: Stark")
+elif(dB == "leao"):
+	print("Brasao: Lannister")
+elif(dB == "veado"):
+	print("Brasao: Baratheon")
+elif(dB == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB == "sol"):
+	print("Brasao: Martell")
+elif(dB == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.223138
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Brasao: Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 20:54:22) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.159393
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 20:54:23) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB.lower() == "lobo"):
+	print("Brasao: Stark")
+elif(dB.lower() == "leao"):
+	print("Brasao: Lannister")
+elif(dB.lower() == "veado"):
+	print("Brasao: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Brasao: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Brasao: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Brasao: Martell")
+elif(dB.lower() == "lula"):
+	print("Brasao: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Brasao: Bolton")
+elif(dB.lower() == "turta"):
+	print("Brasao: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.132153
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Brasao: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Brasao: Targaryen
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-30 21:25:12) 
+-- CODE:
+# Teste seu código aos poucos. Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo. Teste as diversas possibilidades de saída
+dB = input("Brasao: ")
+print("Entrada:",dB)
+if(dB.lower() == "lobo"):
+	print("Casa: Stark")
+elif(dB.lower() == "leao"):
+	print("Casa: Lannister")
+elif(dB.lower() == "veado"):
+	print("Casa: Baratheon")
+elif(dB.lower() == "dragao"):
+	print("Casa: Targaryen")
+elif(dB.lower() == "rosa"):
+	print("Casa: Tyrell")
+elif(dB.lower() == "sol"):
+	print("Casa: Martell")
+elif(dB.lower() == "lula"):
+	print("Casa: Greyjoy")
+elif(dB.lower() == "esfolado"):
+	print("Casa: Bolton")
+elif(dB.lower() == "turta"):
+	print("Casa: Tully")
+else:
+	print("Brasao invalido")
+-- EXECUTION TIME:
+0.157341
+-- TEST CASE 1:
+---- input:
+lula
+---- correct output:
+Entrada: lula
+Casa: Greyjoy
+---- user output:
+Entrada: lula
+Casa: Greyjoy
+-- TEST CASE 2:
+---- input:
+tambaqui
+---- correct output:
+Entrada: tambaqui
+Brasao invalido
+---- user output:
+Entrada: tambaqui
+Brasao invalido
+-- TEST CASE 3:
+---- input:
+dragao
+---- correct output:
+Entrada: dragao
+Casa: Targaryen
+---- user output:
+Entrada: dragao
+Casa: Targaryen
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

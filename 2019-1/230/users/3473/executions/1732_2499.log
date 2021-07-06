@@ -1,0 +1,80 @@
+== TEST (2019-05-08 16:24:06) 
+-- CODE:
+import math as mt
+
+k = int(input())
+
+count = 0
+
+e = 1
+
+while(count < k):
+	e = e + 1/(mt.factorial(count))
+	
+	count = count + 1
+	
+print(e)
+-- OUTPUT:
+3.7180555555555554
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-08 16:24:35) 
+-- CODE:
+import math as mt
+
+k = int(input())
+
+count = 1
+
+e = 1
+
+while(count < k):
+	e = e + 1/(mt.factorial(count))
+	
+	count = count + 1
+	
+print(e)
+-- OUTPUT:
+2.7180555555555554
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-08 16:24:53) 
+-- CODE:
+import math as mt
+
+k = int(input())
+
+count = 1
+
+e = 1
+
+while(count < k):
+	e = e + 1/(mt.factorial(count))
+	
+	count = count + 1
+	
+print(round(e,8))
+-- EXECUTION TIME:
+0.141473
+-- TEST CASE 1:
+---- input:
+7
+---- correct output:
+2.71805556
+---- user output:
+2.71805556
+-- TEST CASE 2:
+---- input:
+15
+---- correct output:
+2.71828183
+---- user output:
+2.71828183
+-- TEST CASE 3:
+---- input:
+6
+---- correct output:
+2.71666667
+---- user output:
+2.71666667
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,18 @@
+2019-4-11 18:45:26.811#viewportChange#0
+2019-4-11 18:46:42.991#mousedown#{"isTrusted":true}
+2019-4-11 18:46:42.996#focus#
+2019-4-11 18:46:44.843#change#{"from":{"line":0,"ch":0,"sticky":null,"xRel":-1,"outside":true},"to":{"line":2,"ch":52,"sticky":"before","xRel":0.31939697265625},"text":[""],"removed":["# Teste seu código aos poucos.","# Não teste tudo no final, pois fica mais difícil de identificar erros.","# Use as mensagens de erro para corrigir seu código."],"origin":"+delete"}
+2019-4-11 18:46:44.843#keyHandled#"Backspace"
+2019-4-11 18:46:44.847#viewportChange#0
+2019-4-11 18:46:46.202#blur#
+2019-4-16 17:55:25.531#viewportChange#0
+2019-4-16 17:55:31.496#mousedown#{"isTrusted":true}
+2019-4-16 17:55:31.498#focus#
+2019-4-16 17:55:32.447#blur#
+2019-4-16 17:55:37.640#mousedown#{"isTrusted":true}
+2019-4-16 17:55:37.679#focus#
+2019-4-16 17:55:38.749#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":96.28125},"to":{"line":0,"ch":0,"sticky":"after","xRel":96.28125},"text":["from math import*","","r=float(input(\"Valor do raio: \"))","a=float(input(\"Altura do tanque: \"))","n=int(input(\"opcao desejada: \"))","","if(n==1):","\tv=(pi*a**2*(3*r-a))/3","else:","\tv=((4*pi*r**3)/3)-(pi*a**2*(3*r-a))/3","print(round(v,4))"],"removed":[""],"origin":"paste"}
+2019-4-16 17:55:38.762#viewportChange#0
+2019-4-16 17:55:38.749#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":96.28125},"to":{"line":0,"ch":0,"sticky":"after","xRel":96.28125},"text":["from math import*","","r=float(input(\"Valor do raio: \"))","a=float(input(\"Altura do tanque: \"))","n=int(input(\"opcao desejada: \"))","","if(n==1):","\tv=(pi*a**2*(3*r-a))/3","else:","\tv=((4*pi*r**3)/3)-(pi*a**2*(3*r-a))/3","print(round(v,4))"],"removed":[""],"origin":"paste"}
+2019-4-16 17:55:38.762#viewportChange#0
+2019-4-16 17:55:45.589#submit#Congratulations, your code is correct!

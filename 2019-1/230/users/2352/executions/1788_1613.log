@@ -1,0 +1,63 @@
+== SUBMITION (2019-05-29 16:31:23) 
+-- CODE:
+from numṕy import *
+
+vetor = array(eval(input(["ALONGAMENTO","CORRIDA","DANCA","ESCALADA","HIDROGINASTICA"])))
+vetor1 = array(eval(input(["3.0","10.3","6.7","9.7","5.0"])
+
+vetor = "ALONGAMENTO"
+vetor = "CORRIDA"
+vetor = "ESCALADA"
+						  
+
+print(round(vetor , 2(dtype = float)))
+-- EXECUTION TIME:
+0.256055
+-- ERROR:
+  File "/home/codebench/codes/1788/1613/main.py", line 6
+    vetor = "ALONGAMENTO"
+        ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-29 16:31:24) 
+-- CODE:
+from numṕy import *
+
+vetor = array(eval(input(["ALONGAMENTO","CORRIDA","DANCA","ESCALADA","HIDROGINASTICA"])))
+vetor1 = array(eval(input(["3.0","10.3","6.7","9.7","5.0"])
+
+vetor = "ALONGAMENTO"
+vetor = "CORRIDA"
+vetor = "ESCALADA"
+						  
+
+print(round(vetor , 2(dtype = float)))
+-- ERROR:
+File "XXXX", line 6
+    vetor = "ALONGAMENTO"
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-29 16:31:31) 
+-- CODE:
+from numṕy import *
+
+vetor = array(eval(input(["ALONGAMENTO","CORRIDA","DANCA","ESCALADA","HIDROGINASTICA"])))
+vetor1 = array(eval(input(["3.0","10.3","6.7","9.7","5.0"])
+
+vetor = "ALONGAMENTO"
+vetor = "CORRIDA"
+vetor = "ESCALADA"
+						  
+
+print(round(vetor , 2(dtype = float)))
+-- EXECUTION TIME:
+0.143678
+-- ERROR:
+  File "/home/codebench/codes/1788/1613/main.py", line 6
+    vetor = "ALONGAMENTO"
+        ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,452 @@
+== TEST (2019-05-02 18:28:25) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2 or d2<=6) and (d3>=1 or d3<=6) and (d4<=1 or d4<= 6)
+dano = (d1+d2+d3)*d4
+print(dano)
+
+
+-- ERROR:
+File "XXXX", line 7
+    if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2 or d2<=6) and (d3>=1 or d3<=6) and (d4<=1 or d4<= 6)
+                                                                                                                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:28:52) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6)
+dano = (d1+d2+d3)*d4
+print(dano)
+
+
+-- ERROR:
+File "XXXX", line 7
+    if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6)
+                                                                                                                           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:29:20) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6):
+dano = (d1+d2+d3)*d4
+print(dano)
+
+
+-- ERROR:
+File "XXXX", line 8
+    dano = (d1+d2+d3)*d4
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:29:30) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:29:42) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:32:09) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA"):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:32:24) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and ((1 <= d1) or ( d1 <= 6)) and (1<=d2) or (d2<=6) and (d3>=1) or (d3<=6) and (d4<=1) or (d4<= 6):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA"):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- EXECUTION TIME:
+0.180837
+-- TEST CASE 1:
+---- input:
+CAUDA
+3
+5
+2
+4
+---- correct output:
+40
+---- user output:
+40
+-- TEST CASE 2:
+---- input:
+ESPADA
+3
+3
+3
+3
+---- correct output:
+36
+---- user output:
+27
+-- TEST CASE 3:
+---- input:
+ESPAD
+3
+3
+3
+3
+---- correct output:
+Entrada invalida
+---- user output:
+27
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:35:04) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1): 
+	print(dano)
+elif(atac == "ESPADA"):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(dano)
+NameError: name 'dano' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:37:05) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	print(dano)
+elif(atac == "ESPADA"):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    print(dano)
+NameError: name 'dano' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:39:06) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- EXECUTION TIME:
+0.170877
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3067/main.py", line 8, in <module>
+    print(dano)
+NameError: name 'dano' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:39:46) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dado = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- EXECUTION TIME:
+0.146577
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3067/main.py", line 9, in <module>
+    print(dano)
+NameError: name 'dano' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:39:50) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dado = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    print(dano)
+NameError: name 'dano' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:40:25) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:40:27) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- EXECUTION TIME:
+0.178864
+-- TEST CASE 1:
+---- input:
+CAUDA
+3
+5
+2
+4
+---- correct output:
+40
+---- user output:
+40
+-- TEST CASE 2:
+---- input:
+ESPADA
+3
+3
+3
+3
+---- correct output:
+36
+---- user output:
+27
+-- TEST CASE 3:
+---- input:
+ESPAD
+3
+3
+3
+3
+---- correct output:
+Entrada invalida
+---- user output:
+Entrada invalida
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:40:30) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:40:47) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+d2+d3)*d4
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- OUTPUT:
+40
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:42:42) 
+-- CODE:
+atac = input("ataque: ")
+d1 = int(input())
+d2 = int(input())
+d3 = int(input())
+d4 = int(input())
+
+if (atac == "CAUDA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):  
+	dano = (d1+d2+d3)*d4
+	print(dano)
+elif(atac == "ESPADA") and (d1<=6 and d1>=1) and (d2<=6 and d2>=1) and (d3<=6 and d3>=1) and (d4<=6 and d4>=1):
+	dano = (d1+6) + (6+d2) + (6+d3) + (6+d4)
+	print(dano)
+else:
+	print("Entrada invalida")
+
+-- EXECUTION TIME:
+0.232094
+-- TEST CASE 1:
+---- input:
+CAUDA
+3
+5
+2
+4
+---- correct output:
+40
+---- user output:
+40
+-- TEST CASE 2:
+---- input:
+ESPADA
+3
+3
+3
+3
+---- correct output:
+36
+---- user output:
+36
+-- TEST CASE 3:
+---- input:
+ESPAD
+3
+3
+3
+3
+---- correct output:
+Entrada invalida
+---- user output:
+Entrada invalida
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

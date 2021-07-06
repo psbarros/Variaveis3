@@ -1,0 +1,70 @@
+2019-6-12 22:44:56.236#viewportChange#0
+2019-6-12 22:45:22.756#mousedown#{"isTrusted":true}
+2019-6-12 22:45:22.929#contextmenu#{"isTrusted":true}
+2019-6-12 22:45:22.931#focus#
+2019-6-12 22:45:26.317#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["","from math import*","from numpy import*","x = array(eval(input(\"Valores: \")))","n = size(x)","m  = sum(x)/n","p = 1","for i in range(n):","    p = p*(abs(x[i] - m))","e = 1/n","p = p**e","print(round(p,3))","s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)",""],"removed":[""],"origin":"paste"}
+2019-6-12 22:45:26.340#viewportChange#0
+2019-6-12 22:45:33.960#blur#
+2019-6-12 22:48:52.644#mousedown#{"isTrusted":true}
+2019-6-12 22:48:52.650#focus#
+2019-6-12 22:48:52.644#mousedown#{"isTrusted":true}
+2019-6-12 22:48:52.650#focus#
+2019-6-12 22:48:56.763#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 22:48:56.763#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 22:49:02.380#blur#
+2019-6-12 22:49:37.604#viewportChange#0
+2019-6-12 22:49:38.495#mousedown#{"isTrusted":true}
+2019-6-12 22:49:38.501#focus#
+2019-6-12 22:49:41.795#blur#
+2019-6-12 22:50:00.530#mousedown#{"isTrusted":true}
+2019-6-12 22:50:00.536#focus#
+2019-6-12 22:50:00.530#mousedown#{"isTrusted":true}
+2019-6-12 22:50:00.536#focus#
+2019-6-12 22:50:04.031#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 22:50:15.272#blur#
+2019-6-12 22:50:19.048#focus#
+2019-6-12 22:50:22.465#blur#
+2019-6-12 22:51:05.958#focus#
+2019-6-12 22:51:27.901#mousedown#{"isTrusted":true}
+2019-6-12 22:51:32.352#copy#{"isTrusted":true}
+2019-6-12 22:51:33.854#change#{"from":{"line":11,"ch":0,"sticky":"after","xRel":0.6875},"to":{"line":17,"ch":9,"sticky":"before","xRel":10.6875},"text":[""],"removed":["s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)"],"origin":"+delete"}
+2019-6-12 22:51:33.854#keyHandled#"Backspace"
+2019-6-12 22:51:33.863#viewportChange#0
+2019-6-12 22:51:33.854#change#{"from":{"line":11,"ch":0,"sticky":"after","xRel":0.6875},"to":{"line":17,"ch":9,"sticky":"before","xRel":10.6875},"text":[""],"removed":["s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)"],"origin":"+delete"}
+2019-6-12 22:51:33.854#keyHandled#"Backspace"
+2019-6-12 22:51:33.863#viewportChange#0
+2019-6-12 22:51:38.505#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 22:51:40.469#blur#
+2019-6-12 22:51:57.716#mousedown#{"isTrusted":true}
+2019-6-12 22:51:57.720#focus#
+2019-6-12 22:51:58.185#change#{"from":{"line":11,"ch":0,"sticky":null},"to":{"line":11,"ch":0,"sticky":null},"text":["s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)"],"removed":[""],"origin":"undo"}
+2019-6-12 22:51:58.185#keyHandled#"Ctrl-Z"
+2019-6-12 22:51:58.201#viewportChange#0
+2019-6-12 22:52:04.816#mousedown#{"isTrusted":true}
+2019-6-12 22:52:05.366#mousedown#{"isTrusted":true}
+2019-6-12 22:55:58.682#viewportChange#0
+2019-6-12 22:56:02.521#mousedown#{"isTrusted":true}
+2019-6-12 22:56:02.533#focus#
+2019-6-12 22:56:05.271#copy#{"isTrusted":true}
+2019-6-12 22:56:05.823#change#{"from":{"line":11,"ch":0,"sticky":"after","xRel":-0.3125},"to":{"line":17,"ch":9,"sticky":"before","xRel":74.6875},"text":[""],"removed":["s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)"],"origin":"+delete"}
+2019-6-12 22:56:05.823#keyHandled#"Backspace"
+2019-6-12 22:56:05.831#viewportChange#0
+2019-6-12 22:56:05.271#copy#{"isTrusted":true}
+2019-6-12 22:56:05.823#change#{"from":{"line":11,"ch":0,"sticky":"after","xRel":-0.3125},"to":{"line":17,"ch":9,"sticky":"before","xRel":74.6875},"text":[""],"removed":["s = input(\"digite: \")","sn= \"\"","n = len(s)","for i in  range(n):","    if(s[i] != \"a\") and (s[i] != \"A\") :","        sn = sn + s[i]","print(sn)"],"origin":"+delete"}
+2019-6-12 22:56:05.823#keyHandled#"Backspace"
+2019-6-12 22:56:05.831#viewportChange#0
+2019-6-12 22:56:10.338#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 22:56:12.875#blur#
+2019-6-12 22:57:39.439#mousedown#{"isTrusted":true}
+2019-6-12 22:57:39.445#focus#
+2019-6-12 22:57:42.340#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":3.699981689453125},"to":{"line":10,"ch":17,"sticky":"before","xRel":11.699981689453125},"text":[""],"removed":["from math import*","from numpy import*","x = array(eval(input(\"Valores: \")))","n = size(x)","m  = sum(x)/n","p = 1","for i in range(n):","    p = p*(abs(x[i] - m))","e = 1/n","p = p**e","print(round(p,3))"],"origin":"+delete"}
+2019-6-12 22:57:42.340#keyHandled#"Backspace"
+2019-6-12 22:57:42.348#viewportChange#0
+2019-6-12 22:57:42.810#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from math import*","from numpy import*","x = array(eval(input(\"Valores: \")))","n = size(x)","m  = sum(x)/n","p = 1","for i in range(n):","    p = p*(abs(x[i] - m))","e = 1/n","p = p**e","print(round(p,3))",""],"removed":[""],"origin":"paste"}
+2019-6-12 22:57:42.823#viewportChange#0
+2019-6-12 22:57:42.340#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":3.699981689453125},"to":{"line":10,"ch":17,"sticky":"before","xRel":11.699981689453125},"text":[""],"removed":["from math import*","from numpy import*","x = array(eval(input(\"Valores: \")))","n = size(x)","m  = sum(x)/n","p = 1","for i in range(n):","    p = p*(abs(x[i] - m))","e = 1/n","p = p**e","print(round(p,3))"],"origin":"+delete"}
+2019-6-12 22:57:42.340#keyHandled#"Backspace"
+2019-6-12 22:57:42.348#viewportChange#0
+2019-6-12 22:57:42.810#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from math import*","from numpy import*","x = array(eval(input(\"Valores: \")))","n = size(x)","m  = sum(x)/n","p = 1","for i in range(n):","    p = p*(abs(x[i] - m))","e = 1/n","p = p**e","print(round(p,3))",""],"removed":[""],"origin":"paste"}
+2019-6-12 22:57:42.823#viewportChange#0
+2019-6-12 22:57:47.424#submit#Congratulations, your code is correct!

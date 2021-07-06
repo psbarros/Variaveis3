@@ -1,0 +1,423 @@
+== TEST (2019-05-02 21:09:28) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos => 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos => 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos = > 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+-- ERROR:
+File "XXXX", line 3
+    if((minutos => 0) and (minutos < 100)):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:10:01) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+-- ERROR:
+File "XXXX", line 3
+    if((minutos => 0) and (minutos < 100)):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:10:29) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+	
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:10:39) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+	
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:10:45) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+	
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 21:10:55) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+	
+print(round(valor,2))
+-- EXECUTION TIME:
+0.204579
+-- TEST CASE 1:
+---- input:
+100
+---- correct output:
+121.0
+---- user output:
+140.0
+-- TEST CASE 2:
+---- input:
+301
+---- correct output:
+476.5
+---- user output:
+476.5
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+2.2
+---- user output:
+2.2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:11:05) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	valor = (minutos * 1.2) + 1
+elif((minutos >= 100) and (minutos < 200)):
+	valor = (minutos * 1.3) + 10
+elif((minutos >= 200) and (minutos < 300)):
+	valor = (minutos * 1.4) + 20
+else:
+	valor = (minutos * 1.5) + 25
+	
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:14:18) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+valor = (minutos * tarifa) + taxa
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+	
+print(round(valor,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    valor = (minutos * tarifa) + taxa
+NameError: name 'tarifa' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:15:30) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:15:39) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:15:46) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:15:52) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:15:58) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 21:15:59) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- EXECUTION TIME:
+0.146689
+-- TEST CASE 1:
+---- input:
+100
+---- correct output:
+121.0
+---- user output:
+140.0
+-- TEST CASE 2:
+---- input:
+301
+---- correct output:
+476.5
+---- user output:
+476.5
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+2.2
+---- user output:
+2.2
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:16:48) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos < 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos >= 100) and (minutos < 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos >= 200) and (minutos < 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+140.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 21:19:27) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos <= 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos > 100) and (minutos <= 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos > 200) and (minutos <= 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- OUTPUT:
+121.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 21:19:29) 
+-- CODE:
+minutos = int(input("minutos: "))
+
+if((minutos >= 0) and (minutos <= 100)):
+	tarifa = 1.2
+	taxa = 1
+elif((minutos > 100) and (minutos <= 200)):
+	tarifa = 1.3
+	taxa = 10
+elif((minutos > 200) and (minutos <= 300)):
+	tarifa = 1.4
+	taxa = 20
+else:
+	tarifa = 1.5
+	taxa = 25
+
+valor = (minutos * tarifa) + taxa
+
+print(round(valor,2))
+-- EXECUTION TIME:
+0.25135
+-- TEST CASE 1:
+---- input:
+100
+---- correct output:
+121.0
+---- user output:
+121.0
+-- TEST CASE 2:
+---- input:
+301
+---- correct output:
+476.5
+---- user output:
+476.5
+-- TEST CASE 3:
+---- input:
+1
+---- correct output:
+2.2
+---- user output:
+2.2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

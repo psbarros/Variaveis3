@@ -1,0 +1,65 @@
+== TEST (2019-04-04 16:58:56) 
+-- CODE:
+from math import *
+pv=int(input("Pontos de vida iniciais: "))
+D1=int(input("Dado 1: "))
+D2=int(input("Dado 2: "))
+dano= sqrt(5*D1) + pi**(D2/3)
+dano=int(dano)
+print(dano)
+-- OUTPUT:
+12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 16:59:57) 
+-- CODE:
+from math import *
+pv=int(input("Pontos de vida iniciais: "))
+D1=int(input("Dado 1: "))
+D2=int(input("Dado 2: "))
+dano= sqrt(5*D1) + pi**(D2/3)
+dano=int(dano)
+print(pv-dano)
+-- OUTPUT:
+188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 17:00:09) 
+-- CODE:
+from math import *
+pv=int(input("Pontos de vida iniciais: "))
+D1=int(input("Dado 1: "))
+D2=int(input("Dado 2: "))
+dano= sqrt(5*D1) + pi**(D2/3)
+dano=int(dano)
+print(pv-dano)
+-- EXECUTION TIME:
+0.180671
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+188
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+285
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+497
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

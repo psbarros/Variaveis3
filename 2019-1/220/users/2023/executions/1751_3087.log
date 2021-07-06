@@ -1,0 +1,1438 @@
+== TEST (2019-05-16 21:29:23) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(media)
+-- OUTPUT:
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:29:34) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(media)
+-- OUTPUT:
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:32:30) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+print(media)
+	else:
+		soma=soma+n
+		media=soma/i
+		i=i+1
+print(media)
+-- ERROR:
+File "XXXX", line 13
+    else:
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:34:23) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+print(media)
+	elif:
+		soma=soma+n
+		media=soma/i
+		i=i+1
+print(media)
+-- ERROR:
+File "XXXX", line 13
+    elif:
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:38:11) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(media)
+while(n==0):
+	if(n%2==1)
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(media)
+-- ERROR:
+File "XXXX", line 14
+    if(n%2==1)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:39:20) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+while(n==0):
+	if(n%2==1)
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+-- ERROR:
+File "XXXX", line 14
+    if(n%2==1)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:40:01) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+while(n==0):
+	if(n%2!=0)
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+-- ERROR:
+File "XXXX", line 14
+    if(n%2!=0)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:41:05) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+while(n==0):
+	n = int(input("digite numero inteiro:"))
+	if(n%2!=0)
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+-- ERROR:
+File "XXXX", line 15
+    if(n%2!=0)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:41:35) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+while(n==0):
+	n = int(input("digite numero inteiro:"))
+	if(n%2!=0):
+		soma=soma+n
+		media=soma/i
+		i=i+1
+	print(round(media,2))
+-- ERROR:
+File "XXXX", line 15
+    if(n%2!=0)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:43:27) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		mpar=soma/i
+		i=i+1
+	print(round(mpar,2))
+while(n==0):
+	n = int(input("digite numero inteiro:"))
+	if(n%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+	print(round(mimpar,2))
+-- ERROR:
+File "XXXX", line 15
+    if(n%2!=0)
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:43:39) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		mpar=soma/i
+		i=i+1
+print(round(mpar,2))
+while(n==0):
+	n = int(input("digite numero inteiro:"))
+	if(n%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mpar,2))
+NameError: name 'mpar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:44:11) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+soma=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(n%2==0):
+		soma=soma+n
+		mpar=soma/i
+		i=i+1
+	print(round(mpar,2))
+while(n==0):
+	n = int(input("digite numero inteiro:"))
+	if(n%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mpar,2))
+NameError: name 'mpar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:46:00) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+s=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(s%2==0):
+		soma=soma+n
+		mpar=soma/i
+		i=i+1
+	print(round(mpar,2))
+while(s==0):
+	n = int(input("digite numero inteiro:"))
+	if(s%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mpar,2))
+NameError: name 'mpar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:47:24) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+s=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(s%2==0):
+		soma=soma+s
+		mpar=soma/i
+		i=i+1
+		s=s+n
+	print(round(mpar,2))
+while(s==0):
+	n = int(input("digite numero inteiro:"))
+	if(s%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mpar,2))
+NameError: name 'mpar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:48:08) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+s=n
+i=0
+while(n==0):
+	n = int(input("digite numero minteiro:"))
+	if(s%2==0):
+		soma=soma+s
+		mpar=soma/i
+		i=i+1
+		s=s+n
+	print(round(mpar,2))
+while(s==0):
+	n = int(input("digite numero inteiro:"))
+	if(s%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+		s=s+n
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(mpar,2))
+NameError: name 'mpar' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:57:34) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+valor=n
+p=0
+i=1
+cont=0
+while(valor==0):
+	n = int(input("digite numero minteiro:"))
+	if(s%2==0):
+		p=p+n
+		soma=p/i
+		cont=cont+1
+	print(round(mpar,2))
+while(s==0):
+	n = int(input("digite numero inteiro:"))
+	if(s%2!=0):
+		soma=soma+n
+		mimpar=soma/i
+		i=i+1
+		s=s+n
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    while(s==0):
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 21:59:58) 
+-- CODE:
+# Pares e impares -media.
+n=1
+n = int(input("digite numero inteiro:"))
+valor=n
+p=0
+i=1
+cont=0
+while(valor==0):
+	n = int(input("digite numero minteiro:"))
+	if(s%2==0):
+		p=p+n
+		soma=p/cont
+		cont=cont+1
+	print(round(mpar,2))
+while(s==0):
+	n = int(input("digite numero inteiro:"))
+	if(s%2!=0):
+		i=i+n
+		i=i/cont
+		cont=cont+1
+	print(round(mimpar,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 15, in <module>
+    while(s==0):
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

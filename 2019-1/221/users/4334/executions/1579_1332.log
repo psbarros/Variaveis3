@@ -1,0 +1,93 @@
+== TEST (2019-03-21 09:21:27) 
+-- CODE:
+aresta = 5
+area = 6,625
+ 
+print(round(3//2*3**0,5*5**2, 4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(3//2*3**0,5*5**2, 4))
+TypeError: round() takes at most 2 arguments (3 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:22:46) 
+-- CODE:
+aresta = 5
+area = 6,625
+ 
+print(round(3%2*3**0,5*5**2, 4))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print(round(3%2*3**0,5*5**2, 4))
+TypeError: round() takes at most 2 arguments (3 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 09:22:47) 
+-- CODE:
+aresta = 5
+area = 6,625
+ 
+print(round(3%2*3**0,5*5**2, 4))
+-- EXECUTION TIME:
+0.126137
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1579/1332/main.py", line 4, in <module>
+    print(round(3%2*3**0,5*5**2, 4))
+TypeError: round() takes at most 2 arguments (3 given)
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:23:00) 
+-- CODE:
+aresta = 5
+area = 6.625
+ 
+print(round(3%2*3**0.5*5**2, 4))
+-- OUTPUT:
+43.3013
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 09:23:03) 
+-- CODE:
+aresta = 5
+area = 6.625
+ 
+print(round(3%2*3**0.5*5**2, 4))
+-- EXECUTION TIME:
+0.126441
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+43.3013
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-21 09:25:04) 
+-- CODE:
+aresta = 5
+area = (3/2)*(3**0.5)*(aresta**2)
+ 
+print(round(area, 4))
+-- OUTPUT:
+64.9519
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-21 09:25:05) 
+-- CODE:
+aresta = 5
+area = (3/2)*(3**0.5)*(aresta**2)
+ 
+print(round(area, 4))
+-- EXECUTION TIME:
+0.198296
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+64.9519
+---- user output:
+64.9519
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,111 @@
+== SUBMITION (2019-06-26 13:06:54) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+vet = array(eval(input(":")))
+vet = vet.T
+
+mat = 
+from numpy import *
+from numpy.linalg import *
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+
+-- EXECUTION TIME:
+0.678646
+-- ERROR:
+  File "/home/codebench/codes/1841/1273/main.py", line 7
+    mat = 
+         ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-26 13:07:16) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+
+-- EXECUTION TIME:
+1.02114
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[280. 230. 350. 590.]
+[280. 230. 350. 590.]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-26 13:07:32) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+
+-- EXECUTION TIME:
+0.906118
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[280. 230. 350. 590.]
+[280. 230. 350. 590.]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-26 13:08:40) 
+-- CODE:
+from numpy import *
+from numpy.linalg import *
+
+vet = array([50,-120,350,870])
+vet = vet.T
+mat= array([[1,-1,0,0],[0,1,-1,0],[0,0,1,0],[1,0,0,1]])
+prod = dot(inv(mat),vet)
+print(prod)
+-- EXECUTION TIME:
+0.902788
+-- TEST CASE 1:
+---- input:
+Não_há
+---- correct output:
+[280. 230. 350. 590.]
+---- user output:
+[280. 230. 350. 590.]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

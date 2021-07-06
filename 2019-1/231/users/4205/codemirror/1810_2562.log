@@ -1,0 +1,15 @@
+2019-6-13 13:07:22.586#viewportChange#0
+2019-6-13 13:07:26.636#mousedown#{"isTrusted":true}
+2019-6-13 13:07:32.411#mousedown#{"isTrusted":true}
+2019-6-13 13:07:32.517#focus#
+2019-6-13 13:07:32.611#mousedown#{"isTrusted":true}
+2019-6-13 13:07:32.790#dblclick#{"isTrusted":true}
+2019-6-13 13:07:35.174#mousedown#{"isTrusted":true}
+2019-6-13 13:07:36.266#viewportChange#0
+2019-6-13 13:07:38.141#change#{"from":{"line":0,"ch":1,"sticky":"before","xRel":-2.4296875},"to":{"line":26,"ch":0,"sticky":null,"xRel":1,"outside":true},"text":["from numpy import*","","# Leitura do primeiro vetor","vet = array(eval(input(\"Primeiro vetor: \")))","","# Verifica se o programa vai terminar","while (size(vet) > 1):","   # Zera contador de elementos pares","   npar = 0","","   # Conta quantidade de elementos pares","   for elemento in vet:","      if (elemento % 2 == 0):","         npar = npar + 1","","   # No. de elementos pares","   print(npar)","","   # No. de elementos impares","   print(size(vet)-npar)","","   # No. total de elementos","   print(size(vet))","","   # Leitura do proximo vetor","   vet = array(eval(input(\"Proximo vetor: \")))",""],"removed":["rom numpy import*","","# Leitura do primeiro vetor","vet = array(eval(input(\"Primeiro vetor: \")))","","# Verifica se o programa vai terminar","while (size(vet) > ???):","   # Zera contador de elementos pares","   npar = 0","","   # Conta quantidade de elementos pares","   for elemento in vet:","      if (elemento % 2 == ???):","         npar = npar + 1","","   # No. de elementos pares","   print(???)","","   # No. de elementos impares","   print(???)","","   # No. total de elementos","   print(???)","","   # Leitura do proximo vetor","   vet = array(eval(input(\"Proximo vetor: \")))",""],"origin":"paste"}
+2019-6-13 13:07:42.679#mousedown#{"isTrusted":true}
+2019-6-13 13:07:43.293#change#{"from":{"line":0,"ch":0,"sticky":"after"},"to":{"line":0,"ch":1,"sticky":"before","xRel":-0.4296875},"text":[""],"removed":["f"],"origin":"+delete"}
+2019-6-13 13:07:43.293#keyHandled#"Backspace"
+2019-6-13 13:07:44.624#blur#
+2019-6-13 13:10:37.854#viewportChange#0
+2019-6-13 13:10:37.854#viewportChange#0

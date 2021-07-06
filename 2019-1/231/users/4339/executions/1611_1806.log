@@ -1,0 +1,1010 @@
+== SUBMITION (2019-04-04 18:44:48) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(
+input("Digite b: "))
+c = float(input("Digite c: "))
+delta = b**2 –4 * a * 
+cif(delta < 0):
+print("Naotem raiz real")
+else:
+print("Tem raiz real")
+-- EXECUTION TIME:
+0.257865
+-- ERROR:
+  File "/home/codebench/codes/1611/1806/main.py", line 5
+    delta = b**2 \u20134 * a * 
+                  ^
+SyntaxError: invalid character in identifier
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:44:51) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(
+input("Digite b: "))
+c = float(input("Digite c: "))
+delta = b**2 –4 * a * 
+cif(delta < 0):
+print("Naotem raiz real")
+else:
+print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 5
+    delta = b**2 –4 * a * 
+                  ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:45:42) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta = b**2 –4 * a * 
+
+cif(delta < 0):
+print("Naotem raiz real")
+
+else:
+print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 5
+    delta = b**2 –4 * a * 
+                  ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:46:03) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta = b**2 –4 * a * c
+
+if(delta < 0):
+print("Naotem raiz real")
+
+else:
+print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 5
+    delta = b**2 –4 * a * c
+                  ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:49:36) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta =(( b**2) –4 * (a * c))
+
+if(delta < 0):
+
+print("Naotem raiz real")
+
+else:
+print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 5
+    delta =(( b**2) –4 * (a * c))
+                     ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:50:13) 
+-- CODE:
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta =(( b**2)-4*(c*b)
+
+if(delta < 0):
+
+print("Naotem raiz real")
+
+else:
+print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 7
+    if(delta < 0):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:51:03) 
+-- CODE:
+
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta =(( b**2)-4*(c*b)
+
+if(delta < 0):
+
+ print("Naotem raiz real")
+
+else:
+ print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 8
+    if(delta < 0):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:51:19) 
+-- CODE:
+from meth import*
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta =(( b**2)-4*(c*b)
+
+if(delta < 0):
+
+ print("Naotem raiz real")
+
+else:
+ print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 8
+    if(delta < 0):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 18:51:49) 
+-- CODE:
+
+a = float(input("Digite a: "))
+b = float(input("Digite b: "))
+c = float(input("Digite c: "))
+
+delta =(( b**2)-4*(c*b)
+
+if (delta < 0):
+
+ print("Nao tem raiz real")
+
+else:
+ print("Tem raiz real")
+-- ERROR:
+File "XXXX", line 8
+    if (delta < 0):
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:05:22) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+printt(round(p,2))
+-- ERROR:
+File "XXXX", line 4
+    printt(round(p,2))
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:05:29) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+print(round(p,2))
+-- ERROR:
+File "XXXX", line 4
+    print(round(p,2))
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:05:42) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+print(round(p,2)
+-- ERROR:
+File "XXXX", line 4
+    print(round(p,2)
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:05:53) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+print(round(p,2)))
+-- ERROR:
+File "XXXX", line 4
+    print(round(p,2)))
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:07:12) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:07:27) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+v= (p*100)
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v= (p*100)
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:07:39) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=(1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+v=(p*100)
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=(p*100)
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:08:36) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=(1-(fatorial((360/(fatorial-x))*(1/(365**x)))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:09:06) 
+-- CODE:
+from meth import*
+x=float(int("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:09:42) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial((360/(fatorial-x))*(1/(365**x))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:10:37) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360/(fatorial(365-x))*(1/(365**x))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:11:40) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360/(fatorial(365-x))*(1/fatorial(365**x))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:12:12) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:12:28) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+v= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v= p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 19:12:32) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+v= p*100
+print(round(p,2))
+	  
+	  
+-- EXECUTION TIME:
+0.16717
+-- ERROR:
+  File "/home/codebench/codes/1611/1806/main.py", line 4
+    v= p*100
+    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:12:35) 
+-- CODE:
+from meth import*
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+v= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 4
+    v= p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:13:44) 
+-- CODE:
+from meth import*
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+v= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v= p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:14:08) 
+-- CODE:
+from meth import*
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+o= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    o= p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:15:28) 
+-- CODE:
+from meth import*fatorial 
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+o= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 1
+    from meth import*fatorial 
+                            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:15:36) 
+-- CODE:
+from meth import* fatorial 
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+o= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 1
+    from meth import* fatorial 
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:15:58) 
+-- CODE:
+from meth import* 
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+o= p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    o= p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:16:25) 
+-- CODE:
+from meth import* 
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+v=*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 19:16:33) 
+-- CODE:
+from meth import* 
+
+x=float(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:18:33) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:19:01) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-(fatorial(360)/(fatorial(365-x))*(1/fatorial(365**x))
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:19:47) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-fatorial(360)/(fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:20:17) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-fatorial(360))/((fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:20:43) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-fatorial(360)/(fatorial(365-x))*(1/(365**x)
+
+v=p*100
+print(round(p,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:22:51) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-(fatorial(365)/(fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:23:48) 
+-- CODE:
+from meth import* 
+
+x=int(input("n"))
+p=float(1-(fatorial(365)/(fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:24:21) 
+-- CODE:
+from meth import* 
+x=int(input("n"))
+
+p=float(1-(fatorial(365))/((fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:24:41) 
+-- CODE:
+from meth import* 
+x=int(input("n"))
+
+p=int(1-(fatorial(365))/((fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:25:55) 
+-- CODE:
+from meth import* 
+x=int(input("n"))
+
+p=(1-((fatorial(365)/(fatorial(365-x))*(1/(365**x))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:26:37) 
+-- CODE:
+from meth import* 
+x=int(input("n"))
+
+p=(1-((fatorial(365)/(fatorial(365-x))*(1/(365**x)))
+
+v=p*100
+print(round(v,2))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:26:55) 
+-- CODE:
+from meth import* 
+x=int(input("n"))
+
+p=(1-((fatorial(365)/(fatorial(365-x))*(1/(365**x)))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:27:08) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=(1-((fatorial(365)/(fatorial(365-x))*(1/(365**x)))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:27:19) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-((fatorial(365)/(fatorial(365-x))*(1/(365**x)))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:28:20) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-(fatorial(365))/(fatorial(365-x)*(1/(365**x))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:28:34) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-fatorial(365)/fatorial(365-x)*(1/(365**x))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:29:05) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-(fatorial(365)/fatorial(365-x)*(1/(365**x))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:29:19) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-((fatorial(365)/fatorial(365-x)*(1/(365**x)))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:29:25) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-((fatorial(365)/fatorial(365-x)*(1/(365**x))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 18:29:28) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-((fatorial(365)/fatorial(365-x)*(1/(365**x))
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- EXECUTION TIME:
+0.131574
+-- ERROR:
+  File "/home/codebench/codes/1611/1806/main.py", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:29:46) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-((fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:29:56) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-(fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:30:04) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(round(v,1))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:30:21) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(round(p))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:30:28) 
+-- CODE:
+from meth import* 
+x=int(input("numero"))
+
+p=float(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(round(x))
+	  
+	  
+-- ERROR:
+File "XXXX", line 6
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:30:55) 
+-- CODE:
+from meth import* 
+
+x=int(input("numero"))
+
+p=float(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(x)
+	  
+	  
+-- ERROR:
+File "XXXX", line 7
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:31:14) 
+-- CODE:
+from meth import* 
+
+x=float(input("numero"))
+
+p=int(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(x)
+	  
+	  
+-- ERROR:
+File "XXXX", line 7
+    v=p*100
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 18:31:24) 
+-- CODE:
+from meth import
+
+x=float(input("numero"))
+
+p=int(1-fatorial(365)/fatorial(365-x)*(1/ 365**x)
+
+v=p*100
+print(x)
+	  
+	  
+-- ERROR:
+File "XXXX", line 1
+    from meth import
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

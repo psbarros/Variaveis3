@@ -1,0 +1,2157 @@
+== SUBMITION (2019-05-09 03:36:07) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.13338
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 03:36:40) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.136845
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 03:36:41) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.13343
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+Valor do angulo: Numero de termos: 0.8662952838
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 03:36:41) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.107648
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1.0000035426
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 03:36:42) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.190065
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+1.0000035426
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 03:36:42) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.153891
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:28:27) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:29:37) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 13:31:20) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.133544
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+0.8499817984
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.8498213572
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8453062793
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 13:31:35) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.133804
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+2.1325464851
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+2.1323860439
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1.2280998186
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:31:38) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- OUTPUT:
+2.1325464851
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:33:35) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- OUTPUT:
+0.8499817984
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:34:30) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 13:35:07) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:29) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.202365
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:40) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.1895
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+Valor do angulo: Numero de termos: 1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+Valor do angulo: Numero de termos: 0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+Valor do angulo: Numero de termos: 0.8662952838
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:50) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.129408
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+Valor do angulo: Numero de termos: 1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+Valor do angulo: Numero de termos: 0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+Valor do angulo: Numero de termos: 0.8662952838
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:51) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.156485
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:52) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.176247
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+1.0000035426
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:52) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.231465
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:33:52) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=-1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.165906
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:37:00) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.183112
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1736/2505/main.py", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() not defined for negative values
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 17:37:01) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.203936
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1736/2505/main.py", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() not defined for negative values
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 17:37:05) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() not defined for negative values
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:10:26) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.260558
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1736/2505/main.py", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() not defined for negative values
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:10:46) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=soma*sinal
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.130407
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1736/2505/main.py", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() only accepts integral values
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:10:47) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+sinal=1
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=soma*sinal
+print(round(abs(soma),10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+ValueError: factorial() only accepts integral values
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:11:25) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.2756
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:12:00) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=soma*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.155436
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:12:00) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=soma*-1
+print(round(abs(sinal),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:12:14) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=soma*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.148381
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:14:03) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=soma*sinal
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.199173
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.459072638
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+1.4590674691
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+Valor do angulo: Numero de termos: 0.7763673212
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:14:03) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=soma*sinal
+print(round(abs(sinal),10))
+-- OUTPUT:
+1.459072638
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:14:31) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.156498
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+5.5000000556
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+4.499996513
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+2.7692936165
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:14:32) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.14086
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+5.5000000556
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+4.499996513
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+2.7692936165
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:14:32) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- OUTPUT:
+5.5000000556
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:14:41) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.182528
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.6506493942
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.6506458516
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1.0576920534
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:14:41) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=0
+while(i<n):
+	soma=soma + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- OUTPUT:
+1.6506493942
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:15:07) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- EXECUTION TIME:
+0.13082
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+6.5000000556
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+3.499996513
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+3.7692936165
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:15:08) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(sinal),10))
+-- OUTPUT:
+6.5000000556
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:15:17) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=(sinal+soma)*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.172065
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:15:36) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- OUTPUT:
+0.8499817984
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:15:43) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+0.8499817984
+-1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:15:50) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+0.8499817984
+-1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:15:55) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+0.8499817984
+-1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:16:11) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+1.0000035426
+-1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:16:23) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*-1 + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+1.0000035426
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:17:56) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+2.1325464851
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:18:40) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	sinal=sinal*-1
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+print(sinal)
+-- EXECUTION TIME:
+0.194566
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+0.8499817984
+1
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.8498213572
+-1
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8453062793
+1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:18:40) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	sinal=sinal*-1
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+0.8499817984
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:18:54) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	sinal=sinal*-1
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+0.8499817984
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:19:00) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	sinal=sinal*-1
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+print(sinal)
+-- OUTPUT:
+2.1325464851
+-1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:19:31) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+2.3012952459
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-12 20:19:45) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-12 20:19:52) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.132605
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 19:20:46) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*sinal
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.146667
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+2.3012952459
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+2.3011348047
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1.249088823
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 19:20:47) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*sinal
+print(round(abs(soma),10))
+-- OUTPUT:
+2.3012952459
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 19:26:37) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.139045
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+2.1325464851
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+2.1323860439
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1.2280998186
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 19:26:38) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+	sinal=sinal*-1
+print(round(abs(soma),10))
+-- OUTPUT:
+2.1325464851
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 19:27:08) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.149755
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 19:27:08) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+print(round(abs(soma),10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:15:42) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+if(n%2==0):
+	soma=soma*sinal
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.189848
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:15:56) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+if(n%2==0):
+	soma=soma*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.134024
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:16:15) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+if(n%2==0):
+	soma=soma*-1
+print(round(abs(soma),10))
+-- EXECUTION TIME:
+0.182068
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:16:30) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+if(n%2==0):
+	soma=soma*-1
+print(round(soma),10)
+-- EXECUTION TIME:
+0.147559
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1 10
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-1 10
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+1 10
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 22:16:38) 
+-- CODE:
+# Aproximação do Seno
+from math import*
+x=eval(input("Valor do angulo: "))
+n=int(input("Numero de termos: "))
+# Variáveis acumuladoras
+soma=0
+# Variável contadora
+i=0
+sinal=-1
+while(i<n):
+	soma=soma*sinal + x**(1+i*2)/factorial(1+i*2)
+	i+=1
+if(n%2==0):
+	soma=soma*-1
+print(round(soma,10))
+-- EXECUTION TIME:
+0.223483
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

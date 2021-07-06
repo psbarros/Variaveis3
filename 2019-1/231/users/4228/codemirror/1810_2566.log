@@ -1,0 +1,10 @@
+2019-6-13 11:34:56.180#viewportChange#0
+2019-6-13 11:35:17.773#mousedown#{}
+2019-6-13 11:35:17.792#focus#
+2019-6-13 11:35:18.170#mousedown#{}
+2019-6-13 11:35:18.527#mousedown#{}
+2019-6-13 11:35:18.767#mousedown#{}
+2019-6-13 11:35:18.767#contextmenu#{}
+2019-6-13 11:35:20.010#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["from numpy import*","faltas = array(eval(input(\"faltas: \")))","","per = zeros(6,dtype=float)","","for i in faltas:","\tif(i==2):","\t\tper[0] = per[0]+1","\telif(i==3):","\t\tper[1] = per[1]+1","\telif(i==4):","\t\tper[2] = per[2]+1","\telif(i==5):","\t\tper[3] = per[3]+1","\telif(i==6):","\t\tper[4] = per[4]+1","\telif(i==7):","\t\tper[-1] = per[-1]+1","l = sum(per)","for j in range(6):","\tper[j] = round(100*per[j]/l,1)","","print(per)"],"removed":[""],"origin":"paste"}
+2019-6-13 11:35:20.111#viewportChange#0
+2019-6-13 11:35:40.611#blur#

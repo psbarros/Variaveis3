@@ -1,0 +1,20 @@
+== SUBMITION (2019-06-11 21:08:39) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("media finais: ")))
+while(size(vet)>1):
+	aprovados = 0
+	for i in vet:
+		if(i>=5) and (i<7):
+			aprovados = aprovados + 1
+	print(aprovados)
+	vet=array(eval(input("media finais: ")))
+-- EXECUTION TIME:
+0.914546
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1814/2575/main.py", line 6, in <module>
+    if(i>=5) and (i<7):
+TypeError: unorderable types: numpy.str_() >= int()
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

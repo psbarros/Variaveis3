@@ -1,0 +1,474 @@
+2019-4-25 08:44:12.469#viewportChange#0
+2019-4-25 08:45:57.903#mousedown#{"isTrusted":true}
+2019-4-25 08:45:57.935#focus#
+2019-4-25 08:46:00.053#change#{"from":{"line":21,"ch":0,"sticky":"after","xRel":-4},"to":{"line":22,"ch":24,"sticky":"before","xRel":20.4000244140625},"text":[""],"removed":["else:","\tprint(\"Area: invalida\")"],"origin":"+delete"}
+2019-4-25 08:46:00.054#keyHandled#"Backspace"
+2019-4-25 08:46:00.075#viewportChange#0
+2019-4-25 08:46:05.976#mousedown#{"isTrusted":true}
+2019-4-25 08:46:06.833#change#{"from":{"line":18,"ch":14,"sticky":"after","xRel":1.4000244140625},"to":{"line":18,"ch":14,"sticky":"after","xRel":1.4000244140625},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:46:27.144#mousedown#{"isTrusted":true}
+2019-4-25 08:46:28.344#change#{"from":{"line":9,"ch":16,"sticky":"before","xRel":-3.5999755859375},"to":{"line":9,"ch":16,"sticky":"before","xRel":-3.5999755859375},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:46:32.433#mousedown#{"isTrusted":true}
+2019-4-25 08:46:36.368#mousedown#{"isTrusted":true}
+2019-4-25 08:46:40.280#mousedown#{"isTrusted":true}
+2019-4-25 08:46:42.505#mousedown#{"isTrusted":true}
+2019-4-25 08:46:48.900#change#{"from":{"line":9,"ch":22,"sticky":"after"},"to":{"line":9,"ch":23,"sticky":"before","xRel":-3.5999755859375},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-25 08:46:48.900#keyHandled#"Backspace"
+2019-4-25 08:46:49.378#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":null},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-25 08:46:49.378#keyHandled#"Backspace"
+2019-4-25 08:46:50.248#change#{"from":{"line":9,"ch":21,"sticky":null},"to":{"line":9,"ch":21,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:46:51.929#mousedown#{"isTrusted":true}
+2019-4-25 08:46:52.612#change#{"from":{"line":9,"ch":29,"sticky":"after"},"to":{"line":9,"ch":30,"sticky":"before","xRel":-3.5999755859375},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-25 08:46:52.612#keyHandled#"Backspace"
+2019-4-25 08:46:52.819#change#{"from":{"line":9,"ch":28,"sticky":"after"},"to":{"line":9,"ch":29,"sticky":null},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-25 08:46:52.819#keyHandled#"Backspace"
+2019-4-25 08:46:53.328#change#{"from":{"line":9,"ch":28,"sticky":null},"to":{"line":9,"ch":28,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:46:53.328#change#{"from":{"line":9,"ch":28,"sticky":null},"to":{"line":9,"ch":28,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:46:59.337#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:46:59.337#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:01.094#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:01.094#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:01.929#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:02.164#saida_testar#$ python3 main.py
+File "main.py", line 10
+print("Entradas: ", a ",", b ",", c)
+SyntaxError: invalid syntax
+2019-4-25 08:47:26.554#mousedown#{"isTrusted":true}
+2019-4-25 08:47:27.436#change#{"from":{"line":14,"ch":25,"sticky":"before","xRel":-1.5999755859375},"to":{"line":14,"ch":25,"sticky":"before","xRel":-1.5999755859375},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:28.361#mousedown#{"isTrusted":true}
+2019-4-25 08:47:28.511#change#{"from":{"line":12,"ch":24,"sticky":"before","xRel":-0.5999755859375},"to":{"line":12,"ch":24,"sticky":"before","xRel":-0.5999755859375},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:34.040#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:34.263#saida_testar#$ python3 main.py
+File "main.py", line 10
+print("Entradas: ", a ",", b ",", c)
+SyntaxError: invalid syntax
+2019-4-25 08:47:34.040#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:34.263#saida_testar#$ python3 main.py
+File "main.py", line 10
+print("Entradas: ", a ",", b ",", c)
+SyntaxError: invalid syntax
+2019-4-25 08:47:36.718#change#{"from":{"line":12,"ch":24,"sticky":"after"},"to":{"line":12,"ch":25,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-25 08:47:36.718#keyHandled#"Backspace"
+2019-4-25 08:47:37.184#saida_testar#$ python3 main.py
+File "main.py", line 10
+print("Entradas: ", a ",", b ",", c)
+SyntaxError: invalid syntax
+2019-4-25 08:47:38.810#mousedown#{"isTrusted":true}
+2019-4-25 08:47:40.068#change#{"from":{"line":14,"ch":26,"sticky":"before","xRel":-1.5999755859375},"to":{"line":14,"ch":27,"sticky":"before","xRel":2.4000244140625},"text":[""],"removed":[":"],"origin":"+delete"}
+2019-4-25 08:47:40.068#keyHandled#"Backspace"
+2019-4-25 08:47:40.268#change#{"from":{"line":14,"ch":25,"sticky":"after"},"to":{"line":14,"ch":26,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-25 08:47:40.268#keyHandled#"Backspace"
+2019-4-25 08:47:41.256#change#{"from":{"line":14,"ch":25,"sticky":null},"to":{"line":14,"ch":25,"sticky":null},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:47.442#mousedown#{"isTrusted":true}
+2019-4-25 08:47:48.826#change#{"from":{"line":9,"ch":21,"sticky":"after","xRel":2.4000244140625},"to":{"line":9,"ch":21,"sticky":"after","xRel":2.4000244140625},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:50.426#mousedown#{"isTrusted":true}
+2019-4-25 08:47:50.609#change#{"from":{"line":9,"ch":29,"sticky":"after","xRel":1.4000244140625},"to":{"line":9,"ch":29,"sticky":"after","xRel":1.4000244140625},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:50.426#mousedown#{"isTrusted":true}
+2019-4-25 08:47:50.609#change#{"from":{"line":9,"ch":29,"sticky":"after","xRel":1.4000244140625},"to":{"line":9,"ch":29,"sticky":"after","xRel":1.4000244140625},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-25 08:47:53.506#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:53.506#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:53.506#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:54.663#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:54.663#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:54.663#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:54.663#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:55.780#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:55.800#saida_testar#$ python3 main.py
+File "main.py", line 13
+if (___COMPLETE AQUI___):
+SyntaxError: invalid syntax
+2019-4-25 08:47:55.814#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:55.780#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-25 08:47:55.800#saida_testar#$ python3 main.py
+File "main.py", line 13
+if (___COMPLETE AQUI___):
+SyntaxError: invalid syntax
+2019-4-25 08:47:55.814#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-30 09:07:53.862#viewportChange#0
+2019-4-30 09:08:01.573#mousedown#{"isTrusted":true}
+2019-4-30 09:08:01.602#focus#
+2019-4-30 09:08:01.604#viewportChange#0
+2019-4-30 09:08:02.455#change#{"from":{"line":9,"ch":20,"sticky":"after"},"to":{"line":9,"ch":21,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:08:02.455#keyHandled#"Backspace"
+2019-4-30 09:08:02.883#change#{"from":{"line":9,"ch":20,"sticky":null},"to":{"line":9,"ch":20,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:08:04.576#mousedown#{"isTrusted":true}
+2019-4-30 09:08:05.250#change#{"from":{"line":9,"ch":28,"sticky":"after"},"to":{"line":9,"ch":29,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:08:05.250#keyHandled#"Backspace"
+2019-4-30 09:08:05.514#change#{"from":{"line":9,"ch":28,"sticky":null},"to":{"line":9,"ch":28,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:08:06.863#mousedown#{"isTrusted":true}
+2019-4-30 09:08:07.524#change#{"from":{"line":9,"ch":36,"sticky":"after"},"to":{"line":9,"ch":37,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:08:07.524#keyHandled#"Backspace"
+2019-4-30 09:08:07.692#change#{"from":{"line":9,"ch":36,"sticky":null},"to":{"line":9,"ch":36,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:08:51.421#mousedown#{"isTrusted":true}
+2019-4-30 09:08:54.973#mousedown#{"isTrusted":true}
+2019-4-30 09:08:56.070#change#{"from":{"line":9,"ch":23,"sticky":"after"},"to":{"line":9,"ch":24,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:08:56.070#keyHandled#"Backspace"
+2019-4-30 09:08:56.732#change#{"from":{"line":9,"ch":22,"sticky":"after"},"to":{"line":9,"ch":23,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:08:56.732#keyHandled#"Backspace"
+2019-4-30 09:08:57.332#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":null},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-30 09:08:57.332#keyHandled#"Backspace"
+2019-4-30 09:08:59.077#mousedown#{"isTrusted":true}
+2019-4-30 09:08:59.509#change#{"from":{"line":9,"ch":22,"sticky":"after"},"to":{"line":9,"ch":23,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:08:59.509#keyHandled#"Backspace"
+2019-4-30 09:09:00.884#mousedown#{"isTrusted":true}
+2019-4-30 09:09:00.990#change#{"from":{"line":9,"ch":22,"sticky":"after"},"to":{"line":9,"ch":23,"sticky":"after","xRel":3.08331298828125},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-30 09:09:00.990#keyHandled#"Backspace"
+2019-4-30 09:09:01.710#mousedown#{"isTrusted":true}
+2019-4-30 09:09:01.746#change#{"from":{"line":9,"ch":27,"sticky":"after"},"to":{"line":9,"ch":28,"sticky":"before","xRel":-3.91668701171875},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-30 09:09:01.746#keyHandled#"Backspace"
+2019-4-30 09:09:02.352#change#{"from":{"line":9,"ch":26,"sticky":null},"to":{"line":9,"ch":28,"sticky":null},"text":[""],"removed":["\"\""],"origin":"+delete"}
+2019-4-30 09:09:02.352#keyHandled#"Backspace"
+2019-4-30 09:09:02.919#change#{"from":{"line":9,"ch":25,"sticky":"after"},"to":{"line":9,"ch":26,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:09:02.919#keyHandled#"Backspace"
+2019-4-30 09:09:03.407#change#{"from":{"line":9,"ch":24,"sticky":"after"},"to":{"line":9,"ch":25,"sticky":null},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-30 09:09:03.407#keyHandled#"Backspace"
+2019-4-30 09:09:05.150#mousedown#{"isTrusted":true}
+2019-4-30 09:09:08.561#change#{"from":{"line":9,"ch":21,"sticky":"after","xRel":1.08331298828125},"to":{"line":9,"ch":21,"sticky":"after","xRel":1.08331298828125},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:08.561#keyHandled#"'\"'"
+2019-4-30 09:09:09.386#change#{"from":{"line":9,"ch":21,"sticky":null},"to":{"line":9,"ch":23,"sticky":null},"text":[""],"removed":["\"\""],"origin":"+delete"}
+2019-4-30 09:09:09.386#keyHandled#"Backspace"
+2019-4-30 09:09:09.577#change#{"from":{"line":9,"ch":20,"sticky":"after"},"to":{"line":9,"ch":21,"sticky":null},"text":[""],"removed":["A"],"origin":"+delete"}
+2019-4-30 09:09:09.577#keyHandled#"Backspace"
+2019-4-30 09:09:10.073#change#{"from":{"line":9,"ch":20,"sticky":null},"to":{"line":9,"ch":20,"sticky":null},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:10.073#keyHandled#"'\"'"
+2019-4-30 09:09:10.871#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":21,"sticky":"after"},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:11.963#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":null},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:09:11.963#keyHandled#"Backspace"
+2019-4-30 09:09:12.732#change#{"from":{"line":9,"ch":21,"sticky":null},"to":{"line":9,"ch":21,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:14.283#mousedown#{"isTrusted":true}
+2019-4-30 09:09:16.118#change#{"from":{"line":9,"ch":25,"sticky":"after"},"to":{"line":9,"ch":26,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["B"],"origin":"+delete"}
+2019-4-30 09:09:16.118#keyHandled#"Backspace"
+2019-4-30 09:09:16.698#change#{"from":{"line":9,"ch":25,"sticky":null},"to":{"line":9,"ch":25,"sticky":null},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:16.698#keyHandled#"'\"'"
+2019-4-30 09:09:17.796#change#{"from":{"line":9,"ch":26,"sticky":"after"},"to":{"line":9,"ch":26,"sticky":"after"},"text":["b"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:18.614#change#{"from":{"line":9,"ch":26,"sticky":"after"},"to":{"line":9,"ch":27,"sticky":null},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:09:18.614#keyHandled#"Backspace"
+2019-4-30 09:09:18.969#change#{"from":{"line":9,"ch":26,"sticky":null},"to":{"line":9,"ch":26,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:21.928#mousedown#{"isTrusted":true}
+2019-4-30 09:09:22.670#change#{"from":{"line":9,"ch":30,"sticky":"after"},"to":{"line":9,"ch":31,"sticky":"before","xRel":-1.91668701171875},"text":[""],"removed":["C"],"origin":"+delete"}
+2019-4-30 09:09:22.670#keyHandled#"Backspace"
+2019-4-30 09:09:23.627#change#{"from":{"line":9,"ch":30,"sticky":null},"to":{"line":9,"ch":30,"sticky":null},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:23.628#keyHandled#"'\"'"
+2019-4-30 09:09:24.558#change#{"from":{"line":9,"ch":31,"sticky":"after"},"to":{"line":9,"ch":31,"sticky":"after"},"text":["c"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:25.911#change#{"from":{"line":9,"ch":31,"sticky":"after"},"to":{"line":9,"ch":32,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:09:25.911#keyHandled#"Backspace"
+2019-4-30 09:09:26.399#change#{"from":{"line":9,"ch":31,"sticky":null},"to":{"line":9,"ch":31,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:27.227#change#{"from":{"line":9,"ch":31,"sticky":"after"},"to":{"line":9,"ch":32,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:09:27.228#keyHandled#"Backspace"
+2019-4-30 09:09:27.522#change#{"from":{"line":9,"ch":31,"sticky":null},"to":{"line":9,"ch":31,"sticky":null},"text":["c"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:28.543#change#{"from":{"line":9,"ch":31,"sticky":"after"},"to":{"line":9,"ch":32,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:09:28.543#keyHandled#"Backspace"
+2019-4-30 09:09:28.877#change#{"from":{"line":9,"ch":31,"sticky":null},"to":{"line":9,"ch":31,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:09:34.007#mousedown#{"isTrusted":true}
+2019-4-30 09:10:07.939#mousedown#{"isTrusted":true}
+2019-4-30 09:10:10.425#change#{"from":{"line":12,"ch":4,"sticky":"after","xRel":3.08331298828125},"to":{"line":12,"ch":23,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["___COMPLETE AQUI___"],"origin":"+delete"}
+2019-4-30 09:10:10.425#keyHandled#"Backspace"
+2019-4-30 09:11:11.666#mousedown#{"isTrusted":true}
+2019-4-30 09:11:12.770#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["A"],"origin":"+delete"}
+2019-4-30 09:11:12.771#keyHandled#"Backspace"
+2019-4-30 09:11:13.088#change#{"from":{"line":9,"ch":21,"sticky":null},"to":{"line":9,"ch":21,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:14.248#mousedown#{"isTrusted":true}
+2019-4-30 09:11:14.895#change#{"from":{"line":9,"ch":26,"sticky":"after"},"to":{"line":9,"ch":27,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["B"],"origin":"+delete"}
+2019-4-30 09:11:14.895#keyHandled#"Backspace"
+2019-4-30 09:11:15.122#change#{"from":{"line":9,"ch":26,"sticky":null},"to":{"line":9,"ch":26,"sticky":null},"text":["b"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:19.178#change#{"from":{"line":9,"ch":26,"sticky":"after"},"to":{"line":9,"ch":27,"sticky":null},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:11:19.178#keyHandled#"Backspace"
+2019-4-30 09:11:19.695#change#{"from":{"line":9,"ch":26,"sticky":null},"to":{"line":9,"ch":26,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:21.242#mousedown#{"isTrusted":true}
+2019-4-30 09:11:21.766#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:11:21.766#keyHandled#"Backspace"
+2019-4-30 09:11:21.979#change#{"from":{"line":9,"ch":21,"sticky":null},"to":{"line":9,"ch":21,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:24.058#mousedown#{"isTrusted":true}
+2019-4-30 09:11:24.795#change#{"from":{"line":5,"ch":0,"sticky":"after"},"to":{"line":5,"ch":1,"sticky":"after","xRel":2.08331298828125},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:11:24.795#keyHandled#"Backspace"
+2019-4-30 09:11:25.324#change#{"from":{"line":5,"ch":0,"sticky":null},"to":{"line":5,"ch":0,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:26.610#mousedown#{"isTrusted":true}
+2019-4-30 09:11:27.200#change#{"from":{"line":6,"ch":0,"sticky":"after"},"to":{"line":6,"ch":1,"sticky":"before","xRel":-2.91668701171875},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:11:27.200#keyHandled#"Backspace"
+2019-4-30 09:11:27.596#change#{"from":{"line":6,"ch":0,"sticky":null},"to":{"line":6,"ch":0,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:28.744#mousedown#{"isTrusted":true}
+2019-4-30 09:11:29.504#change#{"from":{"line":7,"ch":0,"sticky":"after"},"to":{"line":7,"ch":1,"sticky":"before","xRel":-1.91668701171875},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:11:29.504#keyHandled#"Backspace"
+2019-4-30 09:11:29.739#change#{"from":{"line":7,"ch":0,"sticky":null},"to":{"line":7,"ch":0,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:11:39.523#mousedown#{"isTrusted":true}
+2019-4-30 09:12:59.154#blur#
+2019-4-30 09:24:01.730#viewportChange#0
+2019-4-30 09:25:03.220#viewportChange#0
+2019-4-30 09:25:08.615#mousedown#{"isTrusted":true}
+2019-4-30 09:25:08.630#focus#
+2019-4-30 09:25:10.025#change#{"from":{"line":11,"ch":0,"sticky":"after","xRel":-4},"to":{"line":12,"ch":6,"sticky":"before","xRel":11.08331298828125},"text":[""],"removed":["# Testa se pelo menos uma das entradas eh negativa ","if ():"],"origin":"+delete"}
+2019-4-30 09:25:10.026#keyHandled#"Backspace"
+2019-4-30 09:25:10.041#viewportChange#0
+2019-4-30 09:25:11.254#change#{"from":{"line":10,"ch":0,"sticky":"before"},"to":{"line":11,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-4-30 09:25:11.254#keyHandled#"Backspace"
+2019-4-30 09:25:11.268#viewportChange#0
+2019-4-30 09:25:12.228#mousedown#{"isTrusted":true}
+2019-4-30 09:25:13.049#change#{"from":{"line":11,"ch":1,"sticky":"before","xRel":-0.91668701171875},"to":{"line":11,"ch":52,"sticky":"before","xRel":15.08331298828125},"text":[""],"removed":["# Testa se medidas correspondem aas de um triangulo"],"origin":"+delete"}
+2019-4-30 09:25:13.050#keyHandled#"Backspace"
+2019-4-30 09:25:13.589#change#{"from":{"line":11,"ch":0,"sticky":"after"},"to":{"line":11,"ch":1,"sticky":null},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-4-30 09:25:13.589#keyHandled#"Backspace"
+2019-4-30 09:25:13.866#change#{"from":{"line":10,"ch":0,"sticky":"before"},"to":{"line":11,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-4-30 09:25:13.866#keyHandled#"Backspace"
+2019-4-30 09:25:13.880#viewportChange#0
+2019-4-30 09:25:19.852#mousedown#{"isTrusted":true}
+2019-4-30 09:25:24.076#mousedown#{"isTrusted":true}
+2019-4-30 09:25:24.577#mousedown#{"isTrusted":true}
+2019-4-30 09:25:30.118#mousedown#{"isTrusted":true}
+2019-4-30 09:25:30.988#change#{"from":{"line":9,"ch":20,"sticky":"after"},"to":{"line":9,"ch":21,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:30.988#keyHandled#"Backspace"
+2019-4-30 09:25:31.629#mousedown#{"isTrusted":true}
+2019-4-30 09:25:31.722#change#{"from":{"line":9,"ch":21,"sticky":"after"},"to":{"line":9,"ch":22,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:31.722#keyHandled#"Backspace"
+2019-4-30 09:25:32.374#mousedown#{"isTrusted":true}
+2019-4-30 09:25:32.502#change#{"from":{"line":9,"ch":25,"sticky":"after"},"to":{"line":9,"ch":26,"sticky":"before","xRel":-1.91668701171875},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:32.502#keyHandled#"Backspace"
+2019-4-30 09:25:33.231#mousedown#{"isTrusted":true}
+2019-4-30 09:25:33.298#change#{"from":{"line":9,"ch":23,"sticky":"after"},"to":{"line":9,"ch":24,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:33.298#keyHandled#"Backspace"
+2019-4-30 09:25:33.997#mousedown#{"isTrusted":true}
+2019-4-30 09:25:34.079#change#{"from":{"line":9,"ch":28,"sticky":"after"},"to":{"line":9,"ch":29,"sticky":"after","xRel":2.08331298828125},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:34.079#keyHandled#"Backspace"
+2019-4-30 09:25:35.119#mousedown#{"isTrusted":true}
+2019-4-30 09:25:35.176#change#{"from":{"line":9,"ch":26,"sticky":"after"},"to":{"line":9,"ch":27,"sticky":"before","xRel":-1.91668701171875},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:35.176#keyHandled#"Backspace"
+2019-4-30 09:25:36.321#change#{"from":{"line":9,"ch":25,"sticky":"after"},"to":{"line":9,"ch":26,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:25:36.321#keyHandled#"Backspace"
+2019-4-30 09:25:46.451#change#{"from":{"line":9,"ch":21,"sticky":"after","xRel":1.08331298828125},"to":{"line":9,"ch":21,"sticky":"after","xRel":1.08331298828125},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:25:46.451#keyHandled#"'\"'"
+2019-4-30 09:25:48.182#mousedown#{"isTrusted":true}
+2019-4-30 09:25:48.774#change#{"from":{"line":9,"ch":23,"sticky":"after"},"to":{"line":9,"ch":24,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":[","],"origin":"+delete"}
+2019-4-30 09:25:48.774#keyHandled#"Backspace"
+2019-4-30 09:25:49.070#change#{"from":{"line":9,"ch":22,"sticky":"after"},"to":{"line":9,"ch":23,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-4-30 09:25:49.070#keyHandled#"Backspace"
+2019-4-30 09:25:50.394#change#{"from":{"line":9,"ch":22,"sticky":null},"to":{"line":9,"ch":22,"sticky":null},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-30 09:25:53.572#change#{"from":{"line":9,"ch":23,"sticky":null},"to":{"line":9,"ch":23,"sticky":null},"text":["\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:25:57.708#mousedown#{"isTrusted":true}
+2019-4-30 09:25:58.466#change#{"from":{"line":9,"ch":21,"sticky":"before","xRel":-0.91668701171875},"to":{"line":9,"ch":21,"sticky":"before","xRel":-0.91668701171875},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-30 09:25:58.719#change#{"from":{"line":9,"ch":22,"sticky":null},"to":{"line":9,"ch":22,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:03.121#mousedown#{"isTrusted":true}
+2019-4-30 09:26:04.291#change#{"from":{"line":9,"ch":26,"sticky":"after","xRel":1.08331298828125},"to":{"line":9,"ch":26,"sticky":"after","xRel":1.08331298828125},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:08.437#mousedown#{"isTrusted":true}
+2019-4-30 09:26:09.449#change#{"from":{"line":9,"ch":30,"sticky":"before","xRel":-0.91668701171875},"to":{"line":9,"ch":30,"sticky":"before","xRel":-0.91668701171875},"text":["\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:10.012#change#{"from":{"line":9,"ch":31,"sticky":null},"to":{"line":9,"ch":31,"sticky":null},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:12.421#change#{"from":{"line":9,"ch":32,"sticky":null},"to":{"line":9,"ch":32,"sticky":null},"text":["'"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:13.300#change#{"from":{"line":9,"ch":32,"sticky":"after"},"to":{"line":9,"ch":33,"sticky":null},"text":[""],"removed":["'"],"origin":"+delete"}
+2019-4-30 09:26:13.300#keyHandled#"Backspace"
+2019-4-30 09:26:13.667#change#{"from":{"line":9,"ch":32,"sticky":null},"to":{"line":9,"ch":32,"sticky":null},"text":["\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:14.717#change#{"from":{"line":9,"ch":33,"sticky":null},"to":{"line":9,"ch":33,"sticky":null},"text":[","],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:22.196#mousedown#{"isTrusted":true}
+2019-4-30 09:26:22.851#change#{"from":{"line":9,"ch":36,"sticky":"before","xRel":52.08331298828125},"to":{"line":9,"ch":36,"sticky":"before","xRel":52.08331298828125},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:22.851#keyHandled#"Enter"
+2019-4-30 09:26:22.865#viewportChange#0
+2019-4-30 09:26:24.509#change#{"from":{"line":10,"ch":0,"sticky":null},"to":{"line":10,"ch":0,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:24.509#keyHandled#"Enter"
+2019-4-30 09:26:24.524#viewportChange#0
+2019-4-30 09:26:25.208#change#{"from":{"line":11,"ch":1,"sticky":null},"to":{"line":11,"ch":1,"sticky":null},"text":["f"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:25.704#change#{"from":{"line":11,"ch":2,"sticky":null},"to":{"line":11,"ch":2,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:26.125#change#{"from":{"line":11,"ch":3,"sticky":null},"to":{"line":11,"ch":3,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:26.125#keyHandled#"'('"
+2019-4-30 09:26:28.765#change#{"from":{"line":11,"ch":4,"sticky":"after"},"to":{"line":11,"ch":4,"sticky":"after"},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:29.430#change#{"from":{"line":11,"ch":5,"sticky":null},"to":{"line":11,"ch":5,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:30.485#change#{"from":{"line":11,"ch":6,"sticky":null},"to":{"line":11,"ch":6,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:31.644#change#{"from":{"line":11,"ch":6,"sticky":"after"},"to":{"line":11,"ch":7,"sticky":null},"text":[""],"removed":["0"],"origin":"+delete"}
+2019-4-30 09:26:31.644#keyHandled#"Backspace"
+2019-4-30 09:26:31.834#change#{"from":{"line":11,"ch":5,"sticky":"after"},"to":{"line":11,"ch":6,"sticky":null},"text":[""],"removed":["<"],"origin":"+delete"}
+2019-4-30 09:26:31.834#keyHandled#"Backspace"
+2019-4-30 09:26:32.205#change#{"from":{"line":11,"ch":4,"sticky":"after"},"to":{"line":11,"ch":5,"sticky":null},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:26:32.205#keyHandled#"Backspace"
+2019-4-30 09:26:32.872#change#{"from":{"line":11,"ch":4,"sticky":null},"to":{"line":11,"ch":4,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:33.358#change#{"from":{"line":11,"ch":5,"sticky":null},"to":{"line":11,"ch":5,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:33.898#change#{"from":{"line":11,"ch":6,"sticky":null},"to":{"line":11,"ch":6,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:35.737#change#{"from":{"line":11,"ch":7,"sticky":null},"to":{"line":11,"ch":7,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:36.769#change#{"from":{"line":11,"ch":8,"sticky":null},"to":{"line":11,"ch":8,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:36.946#change#{"from":{"line":11,"ch":9,"sticky":null},"to":{"line":11,"ch":9,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:37.134#change#{"from":{"line":11,"ch":10,"sticky":null},"to":{"line":11,"ch":10,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:38.110#change#{"from":{"line":11,"ch":11,"sticky":null},"to":{"line":11,"ch":11,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:38.981#change#{"from":{"line":11,"ch":12,"sticky":null},"to":{"line":11,"ch":12,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:40.338#change#{"from":{"line":11,"ch":13,"sticky":null},"to":{"line":11,"ch":13,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:40.790#change#{"from":{"line":11,"ch":14,"sticky":null},"to":{"line":11,"ch":14,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:41.139#change#{"from":{"line":11,"ch":15,"sticky":null},"to":{"line":11,"ch":15,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:41.456#change#{"from":{"line":11,"ch":16,"sticky":null},"to":{"line":11,"ch":16,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:41.838#change#{"from":{"line":11,"ch":17,"sticky":null},"to":{"line":11,"ch":17,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:42.278#change#{"from":{"line":11,"ch":18,"sticky":null},"to":{"line":11,"ch":18,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:43.061#change#{"from":{"line":11,"ch":19,"sticky":null},"to":{"line":11,"ch":19,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:43.463#change#{"from":{"line":11,"ch":20,"sticky":null},"to":{"line":11,"ch":20,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:46.851#mousedown#{"isTrusted":true}
+2019-4-30 09:26:47.528#change#{"from":{"line":11,"ch":22,"sticky":"before","xRel":78.08331298828125},"to":{"line":11,"ch":22,"sticky":"before","xRel":78.08331298828125},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:47.528#keyHandled#"Enter"
+2019-4-30 09:26:47.547#viewportChange#0
+2019-4-30 09:26:49.947#mousedown#{"isTrusted":true}
+2019-4-30 09:26:50.604#change#{"from":{"line":11,"ch":22,"sticky":"before","xRel":82.08331298828125},"to":{"line":11,"ch":22,"sticky":"before","xRel":82.08331298828125},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:50.823#change#{"from":{"line":11,"ch":23,"sticky":null},"to":{"line":11,"ch":23,"sticky":null},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:51.068#change#{"from":{"line":11,"ch":24,"sticky":null},"to":{"line":11,"ch":24,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:51.068#change#{"from":{"line":12,"ch":0,"sticky":null},"to":{"line":12,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:51.068#keyHandled#"Enter"
+2019-4-30 09:26:51.083#viewportChange#0
+2019-4-30 09:26:51.984#change#{"from":{"line":12,"ch":1,"sticky":null},"to":{"line":12,"ch":1,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:52.127#change#{"from":{"line":12,"ch":2,"sticky":null},"to":{"line":12,"ch":2,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:52.223#change#{"from":{"line":12,"ch":3,"sticky":null},"to":{"line":12,"ch":3,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:52.402#change#{"from":{"line":12,"ch":4,"sticky":null},"to":{"line":12,"ch":4,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:52.490#change#{"from":{"line":12,"ch":5,"sticky":null},"to":{"line":12,"ch":5,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:53.426#change#{"from":{"line":12,"ch":6,"sticky":null},"to":{"line":12,"ch":6,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:53.427#keyHandled#"'('"
+2019-4-30 09:26:53.943#change#{"from":{"line":12,"ch":7,"sticky":"after"},"to":{"line":12,"ch":7,"sticky":"after"},"text":["\"\""],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:53.943#keyHandled#"'\"'"
+2019-4-30 09:26:56.017#change#{"from":{"line":12,"ch":8,"sticky":"after"},"to":{"line":12,"ch":8,"sticky":"after"},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:56.592#change#{"from":{"line":12,"ch":9,"sticky":null},"to":{"line":12,"ch":9,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:56.759#change#{"from":{"line":12,"ch":10,"sticky":null},"to":{"line":12,"ch":10,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:56.847#change#{"from":{"line":12,"ch":11,"sticky":null},"to":{"line":12,"ch":11,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:58.749#change#{"from":{"line":12,"ch":12,"sticky":null},"to":{"line":12,"ch":12,"sticky":null},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-30 09:26:59.181#change#{"from":{"line":12,"ch":13,"sticky":null},"to":{"line":12,"ch":13,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:00.374#change#{"from":{"line":12,"ch":14,"sticky":null},"to":{"line":12,"ch":14,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:00.565#change#{"from":{"line":12,"ch":15,"sticky":null},"to":{"line":12,"ch":15,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:00.768#change#{"from":{"line":12,"ch":16,"sticky":null},"to":{"line":12,"ch":16,"sticky":null},"text":["v"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:00.902#change#{"from":{"line":12,"ch":17,"sticky":null},"to":{"line":12,"ch":17,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:01.034#change#{"from":{"line":12,"ch":18,"sticky":null},"to":{"line":12,"ch":18,"sticky":null},"text":["l"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:01.175#change#{"from":{"line":12,"ch":19,"sticky":null},"to":{"line":12,"ch":19,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:01.279#change#{"from":{"line":12,"ch":20,"sticky":null},"to":{"line":12,"ch":20,"sticky":null},"text":["d"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:01.399#change#{"from":{"line":12,"ch":21,"sticky":null},"to":{"line":12,"ch":21,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:04.269#mousedown#{"isTrusted":true}
+2019-4-30 09:27:09.177#mousedown#{"isTrusted":true}
+2019-4-30 09:27:09.692#change#{"from":{"line":12,"ch":24,"sticky":"before","xRel":5.08331298828125},"to":{"line":12,"ch":24,"sticky":"before","xRel":5.08331298828125},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:09.692#change#{"from":{"line":13,"ch":0,"sticky":null},"to":{"line":13,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:09.692#keyHandled#"Enter"
+2019-4-30 09:27:09.709#viewportChange#0
+2019-4-30 09:27:10.059#change#{"from":{"line":13,"ch":0,"sticky":"after"},"to":{"line":13,"ch":1,"sticky":null},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-4-30 09:27:10.059#keyHandled#"Backspace"
+2019-4-30 09:27:10.777#change#{"from":{"line":13,"ch":0,"sticky":null},"to":{"line":13,"ch":0,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:10.923#change#{"from":{"line":13,"ch":1,"sticky":null},"to":{"line":13,"ch":1,"sticky":null},"text":["l"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:11.054#change#{"from":{"line":13,"ch":2,"sticky":null},"to":{"line":13,"ch":2,"sticky":null},"text":["s"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:11.248#change#{"from":{"line":13,"ch":3,"sticky":null},"to":{"line":13,"ch":3,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:12.640#change#{"from":{"line":13,"ch":4,"sticky":null},"to":{"line":13,"ch":4,"sticky":null},"text":[":"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:12.905#change#{"from":{"line":13,"ch":5,"sticky":null},"to":{"line":13,"ch":5,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:12.905#change#{"from":{"line":14,"ch":0,"sticky":null},"to":{"line":14,"ch":0,"sticky":null},"text":["\t"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:12.905#keyHandled#"Enter"
+2019-4-30 09:27:12.917#viewportChange#0
+2019-4-30 09:27:16.035#mousedown#{"isTrusted":true}
+2019-4-30 09:27:16.556#change#{"from":{"line":14,"ch":1,"sticky":"before"},"to":{"line":15,"ch":0,"sticky":"after","xRel":38.08331298828125},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-4-30 09:27:16.556#keyHandled#"Backspace"
+2019-4-30 09:27:16.568#viewportChange#0
+2019-4-30 09:27:17.563#change#{"from":{"line":14,"ch":0,"sticky":"after"},"to":{"line":14,"ch":1,"sticky":null},"text":[""],"removed":["\t"],"origin":"+delete"}
+2019-4-30 09:27:17.564#keyHandled#"Backspace"
+2019-4-30 09:27:18.116#change#{"from":{"line":13,"ch":5,"sticky":"before"},"to":{"line":14,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-4-30 09:27:18.117#keyHandled#"Backspace"
+2019-4-30 09:27:18.130#viewportChange#0
+2019-4-30 09:27:22.954#mousedown#{"isTrusted":true}
+2019-4-30 09:27:26.521#change#{"from":{"line":14,"ch":5,"sticky":"after","xRel":3.08331298828125},"to":{"line":14,"ch":24,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["___COMPLETE AQUI___"],"origin":"+delete"}
+2019-4-30 09:27:26.521#keyHandled#"Backspace"
+2019-4-30 09:27:29.962#change#{"from":{"line":14,"ch":5,"sticky":null},"to":{"line":14,"ch":5,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:29.962#keyHandled#"'('"
+2019-4-30 09:27:31.691#change#{"from":{"line":14,"ch":6,"sticky":"after"},"to":{"line":14,"ch":6,"sticky":"after"},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:32.375#change#{"from":{"line":14,"ch":7,"sticky":null},"to":{"line":14,"ch":7,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:33.547#change#{"from":{"line":14,"ch":8,"sticky":null},"to":{"line":14,"ch":8,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:34.181#change#{"from":{"line":14,"ch":9,"sticky":null},"to":{"line":14,"ch":9,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:34.282#change#{"from":{"line":14,"ch":10,"sticky":null},"to":{"line":14,"ch":10,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:34.416#change#{"from":{"line":14,"ch":11,"sticky":null},"to":{"line":14,"ch":11,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:38.033#change#{"from":{"line":14,"ch":11,"sticky":"after"},"to":{"line":14,"ch":12,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:27:38.033#keyHandled#"Backspace"
+2019-4-30 09:27:38.424#change#{"from":{"line":14,"ch":10,"sticky":"after"},"to":{"line":14,"ch":11,"sticky":null},"text":[""],"removed":["B"],"origin":"+delete"}
+2019-4-30 09:27:38.424#keyHandled#"Backspace"
+2019-4-30 09:27:38.641#change#{"from":{"line":14,"ch":9,"sticky":"after"},"to":{"line":14,"ch":10,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:27:38.641#keyHandled#"Backspace"
+2019-4-30 09:27:39.424#change#{"from":{"line":14,"ch":9,"sticky":null},"to":{"line":14,"ch":9,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:40.813#change#{"from":{"line":14,"ch":10,"sticky":null},"to":{"line":14,"ch":10,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:41.675#change#{"from":{"line":14,"ch":11,"sticky":null},"to":{"line":14,"ch":11,"sticky":null},"text":["+"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:42.080#change#{"from":{"line":14,"ch":12,"sticky":null},"to":{"line":14,"ch":12,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:47.643#mousedown#{"isTrusted":true}
+2019-4-30 09:27:48.695#change#{"from":{"line":14,"ch":14,"sticky":"before","xRel":-1.91668701171875},"to":{"line":14,"ch":14,"sticky":"before","xRel":-1.91668701171875},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:49.184#change#{"from":{"line":14,"ch":15,"sticky":null},"to":{"line":14,"ch":15,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:49.940#change#{"from":{"line":14,"ch":16,"sticky":null},"to":{"line":14,"ch":16,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:50.066#change#{"from":{"line":14,"ch":17,"sticky":null},"to":{"line":14,"ch":17,"sticky":null},"text":["d"],"removed":[""],"origin":"+input"}
+2019-4-30 09:27:51.746#change#{"from":{"line":14,"ch":18,"sticky":null},"to":{"line":14,"ch":18,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:01.237#change#{"from":{"line":14,"ch":19,"sticky":null},"to":{"line":14,"ch":19,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:01.238#keyHandled#"'('"
+2019-4-30 09:28:02.307#change#{"from":{"line":14,"ch":20,"sticky":"after"},"to":{"line":14,"ch":20,"sticky":"after"},"text":["b"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:03.069#change#{"from":{"line":14,"ch":20,"sticky":"after"},"to":{"line":14,"ch":21,"sticky":null},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:28:03.069#keyHandled#"Backspace"
+2019-4-30 09:28:03.681#change#{"from":{"line":14,"ch":20,"sticky":null},"to":{"line":14,"ch":20,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:05.831#change#{"from":{"line":14,"ch":21,"sticky":null},"to":{"line":14,"ch":21,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:06.596#change#{"from":{"line":14,"ch":22,"sticky":null},"to":{"line":14,"ch":22,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:07.518#change#{"from":{"line":14,"ch":23,"sticky":null},"to":{"line":14,"ch":23,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:09.139#change#{"from":{"line":14,"ch":24,"sticky":null},"to":{"line":14,"ch":24,"sticky":null},"text":["+"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:09.518#change#{"from":{"line":14,"ch":25,"sticky":null},"to":{"line":14,"ch":25,"sticky":null},"text":["c"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:10.491#change#{"from":{"line":14,"ch":25,"sticky":"after"},"to":{"line":14,"ch":26,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:28:10.491#keyHandled#"Backspace"
+2019-4-30 09:28:11.224#change#{"from":{"line":14,"ch":25,"sticky":null},"to":{"line":14,"ch":25,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:11.440#change#{"from":{"line":14,"ch":26,"sticky":null},"to":{"line":14,"ch":26,"sticky":null},"text":["c"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:11.890#change#{"from":{"line":14,"ch":26,"sticky":"after"},"to":{"line":14,"ch":27,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:28:11.890#keyHandled#"Backspace"
+2019-4-30 09:28:12.049#change#{"from":{"line":14,"ch":25,"sticky":"after"},"to":{"line":14,"ch":26,"sticky":null},"text":[""],"removed":["A"],"origin":"+delete"}
+2019-4-30 09:28:12.049#keyHandled#"Backspace"
+2019-4-30 09:28:12.654#change#{"from":{"line":14,"ch":25,"sticky":null},"to":{"line":14,"ch":25,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:14.683#mousedown#{"isTrusted":true}
+2019-4-30 09:28:16.077#change#{"from":{"line":14,"ch":23,"sticky":null},"to":{"line":14,"ch":24,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:28:16.077#keyHandled#"Backspace"
+2019-4-30 09:28:17.326#mousedown#{"isTrusted":true}
+2019-4-30 09:28:17.431#change#{"from":{"line":14,"ch":10,"sticky":"after"},"to":{"line":14,"ch":11,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:28:17.431#keyHandled#"Backspace"
+2019-4-30 09:28:21.546#change#{"from":{"line":14,"ch":10,"sticky":null},"to":{"line":14,"ch":10,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:23.280#mousedown#{"isTrusted":true}
+2019-4-30 09:28:24.046#mousedown#{"isTrusted":true}
+2019-4-30 09:28:30.913#change#{"from":{"line":14,"ch":26,"sticky":"after","xRel":1.08331298828125},"to":{"line":14,"ch":26,"sticky":"after","xRel":1.08331298828125},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:31.201#change#{"from":{"line":14,"ch":27,"sticky":null},"to":{"line":14,"ch":27,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:31.349#change#{"from":{"line":14,"ch":28,"sticky":null},"to":{"line":14,"ch":28,"sticky":null},"text":["N"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:31.481#change#{"from":{"line":14,"ch":29,"sticky":null},"to":{"line":14,"ch":29,"sticky":null},"text":["D"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:31.910#change#{"from":{"line":14,"ch":29,"sticky":"after"},"to":{"line":14,"ch":30,"sticky":null},"text":[""],"removed":["D"],"origin":"+delete"}
+2019-4-30 09:28:31.910#keyHandled#"Backspace"
+2019-4-30 09:28:32.059#change#{"from":{"line":14,"ch":28,"sticky":"after"},"to":{"line":14,"ch":29,"sticky":null},"text":[""],"removed":["N"],"origin":"+delete"}
+2019-4-30 09:28:32.059#keyHandled#"Backspace"
+2019-4-30 09:28:32.209#change#{"from":{"line":14,"ch":27,"sticky":"after"},"to":{"line":14,"ch":28,"sticky":null},"text":[""],"removed":["A"],"origin":"+delete"}
+2019-4-30 09:28:32.209#keyHandled#"Backspace"
+2019-4-30 09:28:32.760#change#{"from":{"line":14,"ch":27,"sticky":null},"to":{"line":14,"ch":27,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:32.900#change#{"from":{"line":14,"ch":28,"sticky":null},"to":{"line":14,"ch":28,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:33.001#change#{"from":{"line":14,"ch":29,"sticky":null},"to":{"line":14,"ch":29,"sticky":null},"text":["d"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:33.750#change#{"from":{"line":14,"ch":30,"sticky":null},"to":{"line":14,"ch":30,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:34.247#change#{"from":{"line":14,"ch":31,"sticky":null},"to":{"line":14,"ch":31,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:34.247#keyHandled#"'('"
+2019-4-30 09:28:36.622#change#{"from":{"line":14,"ch":32,"sticky":"after"},"to":{"line":14,"ch":32,"sticky":"after"},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:37.697#change#{"from":{"line":14,"ch":33,"sticky":null},"to":{"line":14,"ch":33,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:37.981#change#{"from":{"line":14,"ch":34,"sticky":null},"to":{"line":14,"ch":34,"sticky":null},"text":["<"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:38.577#change#{"from":{"line":14,"ch":35,"sticky":null},"to":{"line":14,"ch":35,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:39.122#change#{"from":{"line":14,"ch":36,"sticky":null},"to":{"line":14,"ch":36,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:39.457#change#{"from":{"line":14,"ch":37,"sticky":null},"to":{"line":14,"ch":37,"sticky":null},"text":["+"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:40.552#change#{"from":{"line":14,"ch":38,"sticky":null},"to":{"line":14,"ch":38,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:28:43.072#mousedown#{"isTrusted":true}
+2019-4-30 09:28:43.637#change#{"from":{"line":14,"ch":33,"sticky":"after"},"to":{"line":14,"ch":34,"sticky":"after","xRel":1.08331298828125},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:28:43.637#keyHandled#"Backspace"
+2019-4-30 09:28:44.695#mousedown#{"isTrusted":true}
+2019-4-30 09:28:44.748#change#{"from":{"line":14,"ch":35,"sticky":"after"},"to":{"line":14,"ch":36,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-30 09:28:44.748#keyHandled#"Backspace"
+2019-4-30 09:29:22.114#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-4-30 09:29:22.247#saida_testar#$ python3 main.py
+2019-4-30 09:29:25.944#mousedown#{"isTrusted":true}
+2019-4-30 09:29:26.863#mousedown#{"isTrusted":true}
+2019-4-30 09:29:27.619#change#{"from":{"line":15,"ch":7,"sticky":"after"},"to":{"line":15,"ch":8,"sticky":"before","xRel":-2.91668701171875},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:29:27.619#keyHandled#"Backspace"
+2019-4-30 09:29:27.843#change#{"from":{"line":15,"ch":7,"sticky":null},"to":{"line":15,"ch":7,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:29.219#mousedown#{"isTrusted":true}
+2019-4-30 09:29:29.864#change#{"from":{"line":15,"ch":11,"sticky":"after"},"to":{"line":15,"ch":12,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:29:29.864#keyHandled#"Backspace"
+2019-4-30 09:29:30.078#change#{"from":{"line":15,"ch":11,"sticky":null},"to":{"line":15,"ch":11,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:31.169#mousedown#{"isTrusted":true}
+2019-4-30 09:29:31.903#change#{"from":{"line":15,"ch":15,"sticky":"after"},"to":{"line":15,"ch":16,"sticky":"after","xRel":2.08331298828125},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:29:31.903#keyHandled#"Backspace"
+2019-4-30 09:29:32.156#change#{"from":{"line":15,"ch":15,"sticky":null},"to":{"line":15,"ch":15,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:34.149#mousedown#{"isTrusted":true}
+2019-4-30 09:29:34.795#change#{"from":{"line":16,"ch":21,"sticky":"after"},"to":{"line":16,"ch":22,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-4-30 09:29:34.795#keyHandled#"Backspace"
+2019-4-30 09:29:34.963#change#{"from":{"line":16,"ch":21,"sticky":null},"to":{"line":16,"ch":21,"sticky":null},"text":["A"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:36.435#mousedown#{"isTrusted":true}
+2019-4-30 09:29:37.019#change#{"from":{"line":16,"ch":29,"sticky":"after"},"to":{"line":16,"ch":30,"sticky":"after","xRel":0.08331298828125},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-4-30 09:29:37.019#keyHandled#"Backspace"
+2019-4-30 09:29:37.263#change#{"from":{"line":16,"ch":29,"sticky":null},"to":{"line":16,"ch":29,"sticky":null},"text":["B"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:38.834#mousedown#{"isTrusted":true}
+2019-4-30 09:29:39.745#change#{"from":{"line":16,"ch":38,"sticky":"after","xRel":2.08331298828125},"to":{"line":16,"ch":38,"sticky":"after","xRel":2.08331298828125},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:41.510#change#{"from":{"line":16,"ch":38,"sticky":"after"},"to":{"line":16,"ch":39,"sticky":null},"text":[""],"removed":["C"],"origin":"+delete"}
+2019-4-30 09:29:41.510#keyHandled#"Backspace"
+2019-4-30 09:29:41.651#change#{"from":{"line":16,"ch":37,"sticky":"after"},"to":{"line":16,"ch":38,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:29:41.651#keyHandled#"Backspace"
+2019-4-30 09:29:41.698#change#{"from":{"line":16,"ch":37,"sticky":null},"to":{"line":16,"ch":37,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}
+2019-4-30 09:29:41.510#change#{"from":{"line":16,"ch":38,"sticky":"after"},"to":{"line":16,"ch":39,"sticky":null},"text":[""],"removed":["C"],"origin":"+delete"}
+2019-4-30 09:29:41.510#keyHandled#"Backspace"
+2019-4-30 09:29:41.651#change#{"from":{"line":16,"ch":37,"sticky":"after"},"to":{"line":16,"ch":38,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-4-30 09:29:41.651#keyHandled#"Backspace"
+2019-4-30 09:29:41.698#change#{"from":{"line":16,"ch":37,"sticky":null},"to":{"line":16,"ch":37,"sticky":null},"text":["C"],"removed":[""],"origin":"+input"}

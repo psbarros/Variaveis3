@@ -1,0 +1,26 @@
+2019-3-19 20:41:09.093#viewportChange#0
+2019-3-19 20:45:19.150#mousedown#{"isTrusted":true}
+2019-3-19 20:45:19.154#focus#
+2019-3-19 20:45:19.439#change#{"from":{"line":0,"ch":12,"sticky":"before","xRel":11.296875},"to":{"line":0,"ch":12,"sticky":"before","xRel":11.296875},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-19 20:45:20.197#change#{"from":{"line":0,"ch":12,"sticky":"after"},"to":{"line":0,"ch":13,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-3-19 20:45:20.197#keyHandled#"Backspace"
+2019-3-19 20:45:20.569#change#{"from":{"line":0,"ch":12,"sticky":null},"to":{"line":0,"ch":12,"sticky":null},"text":["30 – 3 ** 2 + 8 // 3 ** 2 * 10"],"removed":[""],"origin":"paste"}
+2019-3-19 20:45:20.197#change#{"from":{"line":0,"ch":12,"sticky":"after"},"to":{"line":0,"ch":13,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-3-19 20:45:20.197#keyHandled#"Backspace"
+2019-3-19 20:45:20.569#change#{"from":{"line":0,"ch":12,"sticky":null},"to":{"line":0,"ch":12,"sticky":null},"text":["30 – 3 ** 2 + 8 // 3 ** 2 * 10"],"removed":[""],"origin":"paste"}
+2019-3-19 20:45:22.416#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-19 20:45:41.296#blur#
+2019-3-19 20:45:42.173#saida_testar#$ python3 main.py
+File "main.py", line 1
+expressao = 30 \u2013 3 ** 2 + 8 // 3 ** 2 * 10
+SyntaxError: invalid character in identifier
+2019-3-19 20:45:45.946#mousedown#{"isTrusted":true}
+2019-3-19 20:45:45.980#focus#
+2019-3-19 20:45:47.481#mousedown#{"isTrusted":true}
+2019-3-19 20:45:49.293#mousedown#{"isTrusted":true}
+2019-3-19 20:45:53.096#mousedown#{"isTrusted":true}
+2019-3-19 20:45:53.854#change#{"from":{"line":0,"ch":15,"sticky":"after"},"to":{"line":0,"ch":16,"sticky":"after","xRel":1.609375},"text":[""],"removed":["–"],"origin":"+delete"}
+2019-3-19 20:45:53.854#keyHandled#"Backspace"
+2019-3-19 20:45:54.569#change#{"from":{"line":0,"ch":15,"sticky":null},"to":{"line":0,"ch":15,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-3-19 20:45:54.569#change#{"from":{"line":0,"ch":15,"sticky":null},"to":{"line":0,"ch":15,"sticky":null},"text":["-"],"removed":[""],"origin":"+input"}
+2019-3-19 20:45:55.912#submit#Congratulations, your code is correct!

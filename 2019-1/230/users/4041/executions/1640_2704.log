@@ -1,0 +1,132 @@
+== TEST (2019-04-04 12:12:41) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+if (S):
+	nota_final = nota*(90/100)
+else:
+	nota_final = nota
+print(float(nota_final))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:12:56) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+if (S):
+	nota_final = nota*(90/100)
+else:
+	nota_final = nota
+print(float(nota_final))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:14:18) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+if (bonus.upper() == S):
+	nota_final = nota*(90/100)
+else:
+	nota_final = nota
+print(float(nota_final))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if (bonus.upper() == S):
+NameError: name 'S' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:15:23) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+if (bonus.upper() == "S"):
+	nota_final = nota*(90/100)
+else:
+	nota_final = nota
+print(float(nota_final))
+-- OUTPUT:
+4.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:18:03) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+acrescimo = nota*(100/90) + nota
+
+if (bonus.upper() == "S"):
+	nota_final = acrescimo
+else:
+	nota_final = nota
+print(float(nota_final))
+-- OUTPUT:
+10.555555555555555
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-04 12:19:39) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+acrescimo = nota*(10/100) + nota
+
+if (bonus.upper() == "S"):
+	nota_final = acrescimo
+else:
+	nota_final = nota
+print(float(nota_final))
+-- OUTPUT:
+5.5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-04 12:19:47) 
+-- CODE:
+nota = float(input("insira a nota do aluno: "))
+bonus = input("aluno recebera bonus? S/N: ")
+
+acrescimo = nota*(10/100) + nota
+
+if (bonus.upper() == "S"):
+	nota_final = acrescimo
+else:
+	nota_final = nota
+print(float(nota_final))
+-- EXECUTION TIME:
+0.18185
+-- TEST CASE 1:
+---- input:
+5.0
+S
+---- correct output:
+5.5
+---- user output:
+5.5
+-- TEST CASE 2:
+---- input:
+9.0
+S
+---- correct output:
+9.9
+---- user output:
+9.9
+-- TEST CASE 3:
+---- input:
+4.4
+N
+---- correct output:
+4.4
+---- user output:
+4.4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

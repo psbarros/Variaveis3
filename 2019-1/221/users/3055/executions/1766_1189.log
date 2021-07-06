@@ -1,0 +1,817 @@
+== TEST (2019-05-30 00:50:26) 
+-- CODE:
+s = input("String: ")
+print(replace(s))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(replace(s))
+NameError: name 'replace' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 00:52:13) 
+-- CODE:
+from numpy import *
+s = input("String: ")
+print(replace(s))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 00:52:23) 
+-- CODE:
+from numpy import *
+s = input("String: ").upper()
+print(replace(s))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 00:54:37) 
+-- CODE:
+s = input("String: ").upper()
+s0 = s.replace(" ", "")
+print(s0)
+-- OUTPUT:
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:03:21) 
+-- CODE:
+s = input("String: ").upper()
+s0 = s.replace(" ", "")
+print(s0)
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+	
+if(s == inv):
+	print("1")
+else:
+	print("0")
+
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:06:58) 
+-- CODE:
+s = input("String: ").upper()
+s0 = s.replace(" ", "")
+print(s0)
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s0[i]
+	i = i - 1
+	
+if(s0== inv):
+	print("1")
+else:
+	print("0")
+
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:07:35) 
+-- CODE:
+s = input("String: ").upper()
+s0 = s.replace(" ", "")
+print(s0)
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+	
+if(s0== inv):
+	print("1")
+else:
+	print("0")
+
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:06) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:25) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:36) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = " 
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = " 
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:40) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = 
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = 
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:44) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:45) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:46) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:46) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:46) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:47) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:47) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:47) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:47) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:47) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:49) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:50) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:50) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:50) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:50) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:50) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:10:59) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s0 == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:11:28) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:11:43) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 3
+    inv = ""
+      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:11:48) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 4
+    i = -1
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:12:20) 
+-- CODE:
+s = input("String: ").upper()
+print(s.replace(" ", "")
+
+
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i - 1
+print(inv)
+if(s == inv):
+	print("1")
+else:
+	print("0")
+
+-- ERROR:
+File "XXXX", line 5
+    while i >= -len(s):
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:14:50) 
+-- CODE:
+s =input("String: ").upper()
+print(s.replace(" ", ""))
+-- OUTPUT:
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:16:15) 
+-- CODE:
+s =input("String: ").upper()
+print(s.replace(" ", ""))
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i -1
+print(inv)
+-- OUTPUT:
+ACARARAJADADAJARARACA
+ACARARAJADADAJARARACA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 01:23:21) 
+-- CODE:
+s =input("String: ").upper()
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i -1
+s0 = s.replace(" ", "")
+inv0 = inv.replace(" ", "")
+print(s0)
+if(s0 == inv0):
+	print("1")
+else:
+	print("0")
+-- OUTPUT:
+ACARARAJADADAJARARACA
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 01:23:32) 
+-- CODE:
+s =input("String: ").upper()
+inv = ""
+i = -1
+while i >= -len(s):
+	inv = inv + s[i]
+	i = i -1
+s0 = s.replace(" ", "")
+inv0 = inv.replace(" ", "")
+print(s0)
+if(s0 == inv0):
+	print("1")
+else:
+	print("0")
+-- EXECUTION TIME:
+0.154887
+-- TEST CASE 1:
+---- input:
+ACARARAJADADAJARARACA
+---- correct output:
+ACARARAJADADAJARARACA
+1
+---- user output:
+ACARARAJADADAJARARACA
+1
+-- TEST CASE 2:
+---- input:
+CACHORRO
+---- correct output:
+CACHORRO
+0
+---- user output:
+CACHORRO
+0
+-- TEST CASE 3:
+---- input:
+amalanadanalama
+---- correct output:
+AMALANADANALAMA
+1
+---- user output:
+AMALANADANALAMA
+1
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,83 @@
+== TEST (2019-06-13 18:13:44) 
+-- CODE:
+sti =input("Informe uma string: ")
+vog = 'a','e','i','o','u'
+v, c = 0, 0
+n = 0
+for i in sti:
+	for z in vog:
+		if(i == z):
+			v = v + 1
+		else: 
+			c = c + 1
+			
+print(v)
+print(c)
+-- OUTPUT:
+3
+37
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 18:15:03) 
+-- CODE:
+sti =input("Informe uma string: ")
+vog = 'a','e','i','o','u'
+v, c = 0, 0
+n = 0
+for i in sti:
+	for z in vog:
+		if(i == z):
+			v = v + 1
+	
+c = len(sti)-v			
+print(v)
+print(c)
+-- OUTPUT:
+3
+5
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:15:11) 
+-- CODE:
+sti =input("Informe uma string: ")
+vog = 'a','e','i','o','u'
+v, c = 0, 0
+n = 0
+for i in sti:
+	for z in vog:
+		if(i == z):
+			v = v + 1
+	
+c = len(sti)-v			
+print(v)
+print(c)
+-- EXECUTION TIME:
+0.665442
+-- TEST CASE 1:
+---- input:
+cachorro
+---- correct output:
+3
+5
+---- user output:
+3
+5
+-- TEST CASE 2:
+---- input:
+amazonia
+---- correct output:
+5
+3
+---- user output:
+5
+3
+-- TEST CASE 3:
+---- input:
+qwrt
+---- correct output:
+0
+4
+---- user output:
+0
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

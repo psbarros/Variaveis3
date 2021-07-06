@@ -1,0 +1,118 @@
+== TEST (2019-03-11 18:54:06) 
+-- CODE:
+print(50//3)
+print((50//3)%4)
+-- OUTPUT:
+16
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:54:37) 
+-- CODE:
+print(50//3)
+print((50//3%4)
+-- ERROR:
+File "XXXX", line 3
+    
+                   ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:55:17) 
+-- CODE:
+print(50//3)
+print(print(50//3)%4)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    print(print(50//3)%4)
+TypeError: unsupported operand type(s) for %: 'NoneType' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:56:33) 
+-- CODE:
+print(50//3)
+
+-- OUTPUT:
+16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:57:02) 
+-- CODE:
+print(50//3)
+print(16%4)
+-- OUTPUT:
+16
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 18:57:27) 
+-- CODE:
+print(50//3)
+print((50//3)%4)
+-- EXECUTION TIME:
+0.131147
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16
+0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:57:34) 
+-- CODE:
+print(50//3)
+print((50//3)%4)
+-- OUTPUT:
+16
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 18:58:07) 
+-- CODE:
+print(50//3)
+print((50%3)
+-- EXECUTION TIME:
+0.181469
+-- ERROR:
+  File "/home/codebench/codes/1576/1331/main.py", line 3
+    
+                ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:58:12) 
+-- CODE:
+print(50//3)
+print((50%3)
+-- ERROR:
+File "XXXX", line 3
+    
+                ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 18:58:26) 
+-- CODE:
+print(50//3)
+print(50%3)
+-- OUTPUT:
+16
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 18:58:30) 
+-- CODE:
+print(50//3)
+print(50%3)
+-- EXECUTION TIME:
+0.197629
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+16
+2
+---- user output:
+16
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,39 @@
+== TEST (2019-03-12 19:17:58) 
+-- CODE:
+expressao = (30-3**2+8//3**2*10)
+print(expressao)
+-- OUTPUT:
+21
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 19:18:05) 
+-- CODE:
+expressao = (30-3**2+8//3**2*10)
+print(expressao)
+-- EXECUTION TIME:
+0.140632
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 19:38:41) 
+-- CODE:
+expressao = (30-3**2+8//3**2*10)
+print(expressao)
+-- EXECUTION TIME:
+0.197179
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,213 @@
+== TEST (2019-03-26 21:58:43) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero//10
+#d =
+#c =
+#m =
+print(u)
+-- OUTPUT:
+200
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:59:02) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+#d =
+#c =
+#m =
+print(u)
+-- OUTPUT:
+200
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:59:48) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+#d = numero//
+#c =
+#m =
+print(u)
+print(d)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(d)
+NameError: name 'd' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 21:59:58) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+#d = numero//
+#c =
+#m =
+print(u)
+#print(d)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(d)
+NameError: name 'd' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:00:47) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero//10
+#c =
+#m =
+print(u)
+print(d)
+-- OUTPUT:
+0
+200
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:01:50) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero//100
+#c =
+#m =
+print(u)
+print(d)
+-- OUTPUT:
+0
+20
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:02:09) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100
+#c =
+#m =
+print(u)
+print(d)
+-- OUTPUT:
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:02:32) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+#c =
+#m =
+print(u)
+print(d)
+-- OUTPUT:
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:03:14) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+#m =
+print(u)
+print(d)
+-- OUTPUT:
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:03:24) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+#m =
+print(u)
+print(d)
+print(c)
+-- OUTPUT:
+0
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:03:39) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+m = numero//1000
+print(u)
+print(d)
+print(c)
+-- OUTPUT:
+0
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:03:49) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+m = numero//1000
+print(u)
+print(d)
+print(c)
+print(m)
+-- OUTPUT:
+0
+0
+0
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-26 22:06:38) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+m = numero//1000
+soma = u * 2 + d * 3 + c * 4+ m * 5
+digito = soma % 11
+print(digito)
+-- OUTPUT:
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-26 22:06:48) 
+-- CODE:
+numero = int(input("Digite um numero de quatro digitos: "))
+u = numero%10
+d = numero%100//10
+c = numero%1000//100
+m = numero//1000
+soma = u * 2 + d * 3 + c * 4+ m * 5
+digito = soma % 11
+print(digito)
+-- EXECUTION TIME:
+0.175391
+-- TEST CASE 1:
+---- input:
+2000
+---- correct output:
+10
+---- user output:
+10
+-- TEST CASE 2:
+---- input:
+3550
+---- correct output:
+6
+---- user output:
+6
+-- TEST CASE 3:
+---- input:
+0007
+---- correct output:
+3
+---- user output:
+3
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

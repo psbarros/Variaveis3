@@ -1,0 +1,245 @@
+== SUBMITION (2019-05-29 16:09:38) 
+-- CODE:
+from numpy import*
+
+vec_real = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0
+media = 0
+while (i < size(vec_real)):
+	media += v[i]**(1/2)
+	i += 1
+media = (media/size(vec_real))**2
+print("%.2f" %(media))
+-- EXECUTION TIME:
+0.489591
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1788/3135/main.py", line 8, in <module>
+    media += v[i]**(1/2)
+NameError: name 'v' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-29 16:09:55) 
+-- CODE:
+from numpy import*
+
+vec_real = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0
+media = 0
+while (i < size(vec_real)):
+	media += v[i]**(1/2)
+	i += 1
+media = (media/size(vec_real))**2
+print(round(media, 2))
+-- EXECUTION TIME:
+0.480168
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1788/3135/main.py", line 8, in <module>
+    media += v[i]**(1/2)
+NameError: name 'v' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-29 16:09:58) 
+-- CODE:
+from numpy import*
+
+vec_real = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0
+media = 0
+while (i < size(vec_real)):
+	media += v[i]**(1/2)
+	i += 1
+media = (media/size(vec_real))**2
+print(round(media, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-29 16:10:48) 
+-- CODE:
+from numpy import*
+
+vec = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0
+media = 0
+while (i < size(vec)):
+	media += vec[i]**(1/2)
+	i += 1
+media = (media/size(vec))**2
+print("%.2f" %(media))
+-- EXECUTION TIME:
+0.465071
+-- TEST CASE 1:
+---- input:
+[1.9,2.9,3.9,4.9,5.9,6.9,7.9]
+---- correct output:
+4.68
+---- user output:
+4.68
+-- TEST CASE 2:
+---- input:
+[1.1,2.2,3.3,4.4,5.5,6.6]
+---- correct output:
+3.59
+---- user output:
+3.59
+-- TEST CASE 3:
+---- input:
+[1.1,2.1,3.1,4.1,5.1]
+---- correct output:
+2.92
+---- user output:
+2.92
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-29 16:46:25) 
+-- CODE:
+'''
+	|-----------|
+ 	| Questão 2 |
+ 	|-----------|
+	
+	Universidade Federal do Amazonas
+	Instituto de Ciências Exatas
+	Departamento de Física
+	
+	Aluno: Micael Davi Lima de Oliveira
+	Matrícula: 21851626 | Turma: FB01
+'''
+
+from numpy import* # é preciso importar a biblioteca numpy para utilizar a função array.
+
+# o vetor 'vec' terá que armazenar todos os números reais positivos inseridos pelo usuário, onde
+# para cada número digitado deve-se concatenar uma vírgula, para em seguida, digitar o próximo
+# número. E por isso, utilizar-se a função eval para interpretar as vírgulas inseridas.
+vec = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0 # variável contadora
+media = 0 # variável acumuladora
+while (i < size(vec)): # o vetor 'vec' será percorrido por um laço de repetição
+	media += vec[i]**(1/2) # para cada número digitado deverá ser calculado a raiz quadrada 
+	                       # e somar o resultado com o índice anterior, armazenando tudo numa
+		                    # variável denominada media
+	i += 1 # incrementa-se o 'i' para cada elemento calculado
+media = (media/size(vec))**2 # a média quadrática é obtida pela razão da variável acumuladora(media)
+                             # pela quantidade de elementos do vetor, que é obtida fazendo-se o uso
+									  # da função 'size' cujo argumento é o vetor a ser descoberto a quantidade.
+print("%.2f" %(media) # no fim, é mostrado ao usuário a media quadrática dos elementos presentes no vetor,
+                       # e com uma aproximação de 2 casas decimais.
+-- ERROR:
+File "XXXX", line 33
+    
+                                                                         ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-29 16:46:27) 
+-- CODE:
+'''
+	|-----------|
+ 	| Questão 2 |
+ 	|-----------|
+	
+	Universidade Federal do Amazonas
+	Instituto de Ciências Exatas
+	Departamento de Física
+	
+	Aluno: Micael Davi Lima de Oliveira
+	Matrícula: 21851626 | Turma: FB01
+'''
+
+from numpy import* # é preciso importar a biblioteca numpy para utilizar a função array.
+
+# o vetor 'vec' terá que armazenar todos os números reais positivos inseridos pelo usuário, onde
+# para cada número digitado deve-se concatenar uma vírgula, para em seguida, digitar o próximo
+# número. E por isso, utilizar-se a função eval para interpretar as vírgulas inseridas.
+vec = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0 # variável contadora
+media = 0 # variável acumuladora
+while (i < size(vec)): # o vetor 'vec' será percorrido por um laço de repetição
+	media += vec[i]**(1/2) # para cada número digitado deverá ser calculado a raiz quadrada 
+	                       # e somar o resultado com o índice anterior, armazenando tudo numa
+		                    # variável denominada media
+	i += 1 # incrementa-se o 'i' para cada elemento calculado
+media = (media/size(vec))**2 # a média quadrática é obtida pela razão da variável acumuladora(media)
+                             # pela quantidade de elementos do vetor, que é obtida fazendo-se o uso
+									  # da função 'size' cujo argumento é o vetor a ser descoberto a quantidade.
+print("%.2f" %(media) # no fim, é mostrado ao usuário a media quadrática dos elementos presentes no vetor,
+                       # e com uma aproximação de 2 casas decimais.
+-- EXECUTION TIME:
+0.133249
+-- ERROR:
+  File "/home/codebench/codes/1788/3135/media_quadratica.py", line 33
+    
+                                                                         ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-29 16:46:33) 
+-- CODE:
+'''
+	|-----------|
+ 	| Questão 2 |
+ 	|-----------|
+	
+	Universidade Federal do Amazonas
+	Instituto de Ciências Exatas
+	Departamento de Física
+	
+	Aluno: Micael Davi Lima de Oliveira
+	Matrícula: 21851626 | Turma: FB01
+'''
+
+from numpy import* # é preciso importar a biblioteca numpy para utilizar a função array.
+
+# o vetor 'vec' terá que armazenar todos os números reais positivos inseridos pelo usuário, onde
+# para cada número digitado deve-se concatenar uma vírgula, para em seguida, digitar o próximo
+# número. E por isso, utilizar-se a função eval para interpretar as vírgulas inseridas.
+vec = array(eval(input("vetor de numeros reais positivos: ")))
+
+i = 0 # variável contadora
+media = 0 # variável acumuladora
+while (i < size(vec)): # o vetor 'vec' será percorrido por um laço de repetição
+	media += vec[i]**(1/2) # para cada número digitado deverá ser calculado a raiz quadrada 
+	                       # e somar o resultado com o índice anterior, armazenando tudo numa
+		                    # variável denominada media
+	i += 1 # incrementa-se o 'i' para cada elemento calculado
+media = (media/size(vec))**2 # a média quadrática é obtida pela razão da variável acumuladora(media)
+                             # pela quantidade de elementos do vetor, que é obtida fazendo-se o uso
+									  # da função 'size' cujo argumento é o vetor a ser descoberto a quantidade.
+print("%.2f" %(media)) # no fim, é mostrado ao usuário a media quadrática dos elementos presentes no vetor,
+                       # e com uma aproximação de 2 casas decimais.
+-- EXECUTION TIME:
+0.509531
+-- TEST CASE 1:
+---- input:
+[1.9,2.9,3.9,4.9,5.9,6.9,7.9]
+---- correct output:
+4.68
+---- user output:
+4.68
+-- TEST CASE 2:
+---- input:
+[1.1,2.2,3.3,4.4,5.5,6.6]
+---- correct output:
+3.59
+---- user output:
+3.59
+-- TEST CASE 3:
+---- input:
+[1.1,2.1,3.1,4.1,5.1]
+---- correct output:
+2.92
+---- user output:
+2.92
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,108 @@
+== TEST (2019-05-02 09:08:07) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(a)
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 09:08:24) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(a)
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 09:08:39) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(a)
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 09:09:11) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(round(a, 4))
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 09:09:18) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(round(a, 4))
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 09:11:41) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(round(a, 4))
+elif(x == -1<x<0 or 0<x<1):
+	print(round(b, 4))
+elif(x==0):
+	print(round(c, 4))
+-- OUTPUT:
+3.9601
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 09:11:52) 
+-- CODE:
+x = float(input("numero para x: "))
+a = x * x
+b = x
+c = 1
+if(x == x<=-1 or x>=1):
+	print(round(a, 4))
+elif(x == -1<x<0 or 0<x<1):
+	print(round(b, 4))
+elif(x==0):
+	print(round(c, 4))
+-- EXECUTION TIME:
+0.139608
+-- TEST CASE 1:
+---- input:
+-1.99
+---- correct output:
+3.9601
+---- user output:
+3.9601
+-- TEST CASE 2:
+---- input:
+0.99
+---- correct output:
+0.99
+---- user output:
+0.99
+-- TEST CASE 3:
+---- input:
+-1.01
+---- correct output:
+1.0201
+---- user output:
+1.0201
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

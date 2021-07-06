@@ -1,0 +1,301 @@
+== TEST (2019-05-16 09:17:47) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=x<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(s,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    while(-pi<=x<=pi):
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:08) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=n<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(s,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:19) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=n<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(s,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:25) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=a<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(s,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:40) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=a<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(so,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:47) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=a<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(so,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:18:52) 
+-- CODE:
+from math import*
+
+a  = radians(eval(input("insira um angulo: ")))
+n  = eval(input("No k de termos:"))
+so = 0
+si = -1
+
+while(-pi<=a<=pi):
+	sen = a*si*(a**(n+2))
+	so = so + sen
+	si = +si
+print(round(sen,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(round(s,10))
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:24:57) 
+-- CODE:
+from math import*
+
+x = eval(input("angulo em rad: "))
+k = int(input("termos: "))
+
+soma = 0
+i = 0
+n = 1
+
+while(i<k):
+	soma = soma + (-1)**i*(x**n/factorial(n))
+	n = n + 2
+	i = i + 1
+
+print(round(soma,10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:55:43) 
+-- CODE:
+from math import*
+
+x = eval(input("angulo em rad: "))
+k = int(input("termos: "))
+
+soma = 0
+i = 0
+n = 1
+
+while(i<k):
+	soma = soma + (-1)**i*(x**n/factorial(n))
+	n = n + 2
+	i = i + 1
+
+print(round(soma,10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:01:31) 
+-- CODE:
+from math import*
+
+x = eval(input("angulo em rad: "))
+k = int(input("termos: "))
+
+soma = 0
+i = 0
+n = 1
+
+while(i<k):
+	soma = soma + (-1)**i*(x**n/factorial(n))
+	n = n + 2
+	i = i + 1
+
+print(round(soma,10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:39:29) 
+-- CODE:
+from math import*
+
+n = eval(input("insira um angul:o "))
+k = int(input("numero k"))
+d = 1
+e = 1
+t = 0
+si = 1
+so = 0
+while(t<k):
+	tg = (n**e)/factorial(d)*(si)
+	d = d + 2
+	e = e + 2
+	si = -1*si
+	t = t + 1
+	so = so + tg
+print(round(so, 10))
+	
+	
+
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 17:39:36) 
+-- CODE:
+from math import*
+
+n = eval(input("insira um angul:o "))
+k = int(input("numero k"))
+d = 1
+e = 1
+t = 0
+si = 1
+so = 0
+while(t<k):
+	tg = (n**e)/factorial(d)*(si)
+	d = d + 2
+	e = e + 2
+	si = -1*si
+	t = t + 1
+	so = so + tg
+print(round(so, 10))
+	
+	
+
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 17:40:20) 
+-- CODE:
+from math import*
+
+n = eval(input("insira um angul:o "))
+k = int(input("numero k"))
+d = 1
+e = 1
+t = 0
+si = 1
+so = 0
+while(t<k):
+	tg = (n**e)/factorial(d)*(si)
+	d = d + 2
+	e = e + 2
+	si = -1*si
+	t = t + 1
+	so = so + tg
+print(round(so, 10))
+	
+	
+
+-- EXECUTION TIME:
+0.160899
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

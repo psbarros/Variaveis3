@@ -1,0 +1,504 @@
+== TEST (2019-03-25 18:26:41) 
+-- CODE:
+texto="herbert vinicius"
+print(texto.upper())
+-- OUTPUT:
+HERBERT VINICIUS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:26:44) 
+-- CODE:
+texto="herbert vinicius"
+print(texto.upper())
+-- EXECUTION TIME:
+0.140592
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:28:49) 
+-- CODE:
+texto = "Newton Foi o Rei da Física"
+print("Newton Foi o Rei da Física".upper())
+-- OUTPUT:
+NEWTON FOI O REI DA FÍSICA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:28:59) 
+-- CODE:
+texto = "Newton Foi o Rei da Física"
+print(Newton Foi o Rei da Física.upper())
+-- ERROR:
+File "XXXX", line 2
+    print(Newton Foi o Rei da Física.upper())
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:29:10) 
+-- CODE:
+texto = "Newton Foi o Rei da Física"
+print(texto.upper())
+-- OUTPUT:
+NEWTON FOI O REI DA FÍSICA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:29:27) 
+-- CODE:
+texto = "Newton Foi o Rei da Física."
+print(texto.upper())
+-- OUTPUT:
+NEWTON FOI O REI DA FÍSICA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:30:52) 
+-- CODE:
+Texto = "Herbert Vinicius"
+print(Texto.upper())
+-- OUTPUT:
+HERBERT VINICIUS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:30:55) 
+-- CODE:
+Texto = "Herbert Vinicius"
+print(Texto.upper())
+-- EXECUTION TIME:
+0.187387
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:31:52) 
+-- CODE:
+texto = "Herbert Vinicius"
+print(texto.upper())
+-- OUTPUT:
+HERBERT VINICIUS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:31:59) 
+-- CODE:
+texto = "Herbert Vinicius"
+print(texto.upper())
+-- EXECUTION TIME:
+0.127949
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:34:30) 
+-- CODE:
+string="Herbert Vinicius"
+
+print(string.upper())
+		
+-- OUTPUT:
+HERBERT VINICIUS
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:34:32) 
+-- CODE:
+string="Herbert Vinicius"
+
+print(string.upper())
+		
+-- EXECUTION TIME:
+0.207491
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:36:31) 
+-- CODE:
+texto="Selina Kyle"
+print(texto.upper())
+		
+-- EXECUTION TIME:
+0.157349
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+SELINA KYLE
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:36:33) 
+-- CODE:
+texto="Selina Kyle"
+print(texto.upper())
+		
+-- OUTPUT:
+SELINA KYLE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:36:36) 
+-- CODE:
+texto="Selina Kyle"
+print(texto.upper())
+		
+-- EXECUTION TIME:
+0.17944
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+SELINA KYLE
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 18:37:46) 
+-- CODE:
+var=input("herbert vinicius")
+print(var.upper())
+		
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 18:37:48) 
+-- CODE:
+var=input("herbert vinicius")
+print(var.upper())
+		
+-- EXECUTION TIME:
+0.228477
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-29 16:06:26) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- OUTPUT:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:06:29) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- EXECUTION TIME:
+0.129291
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:06:36) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- EXECUTION TIME:
+0.183026
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:06:38) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- EXECUTION TIME:
+0.187328
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-29 16:06:39) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- OUTPUT:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:06:40) 
+-- CODE:
+
+var=input("Herbert Vinicius Teixeira Pereira".upper())
+print(var)
+
+-- EXECUTION TIME:
+0.129129
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+HERBERT VINICIUS TEIXEIRA PEREIRAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:06:55) 
+-- CODE:
+var=input("herbert vinicius")
+print(var.upper())
+		
+	
+	
+	
+	
+	
+	
+
+-- EXECUTION TIME:
+0.199044
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+herbert viniciusPRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-29 16:07:00) 
+-- CODE:
+var=input("herbert vinicius")
+print(var.upper())
+		
+	
+	
+	
+	
+	
+	
+
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:07:15) 
+-- CODE:
+var=input("herbert vinicius")
+print(var.upper())
+		
+	
+	
+	
+	
+	
+	
+
+-- EXECUTION TIME:
+0.140996
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:13:34) 
+-- CODE:
+
+	
+	
+var=input("chimbinha".upper())
+print(var)
+	
+	
+	
+
+-- EXECUTION TIME:
+0.18994
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+CHIMBINHAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-29 16:13:36) 
+-- CODE:
+
+	
+	
+var=input("chimbinha".upper())
+print(var)
+	
+	
+	
+
+-- OUTPUT:
+CHIMBINHAPrimeiro_caso_de_teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:13:38) 
+-- CODE:
+
+	
+	
+var=input("chimbinha".upper())
+print(var)
+	
+	
+	
+
+-- EXECUTION TIME:
+0.135558
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+CHIMBINHAPrimeiro_caso_de_teste
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-29 16:13:39) 
+-- CODE:
+
+	
+	
+var=input("chimbinha".upper())
+print(var)
+	
+	
+	
+
+-- OUTPUT:
+CHIMBINHAPrimeiro_caso_de_teste
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-29 16:14:22) 
+-- CODE:
+
+var=input("chimbinha")
+print(var.upper())
+	
+	
+	
+
+-- EXECUTION TIME:
+0.150549
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-01 08:49:59) 
+-- CODE:
+var=input("Herbert Vinicius")
+print(var.upper())
+	
+	
+	
+
+-- EXECUTION TIME:
+0.125728
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 08:50:07) 
+-- CODE:
+var=input("Herbert Vinicius")
+print(var.upper())
+	
+	
+	
+
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-01 08:50:32) 
+-- CODE:
+var=input("Herbert Vinicius")
+print(var.upper())
+	
+	
+	
+
+-- EXECUTION TIME:
+0.187965
+-- TEST CASE 1:
+---- input:
+Primeiro_caso_de_teste
+---- correct output:
+PRIMEIRO_CASO_DE_TESTE
+---- user output:
+PRIMEIRO_CASO_DE_TESTE
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-01 08:50:59) 
+-- CODE:
+var=input("Herbert Vinicius Teixeira Pereira")
+print(var.upper())
+	
+	
+	
+
+-- OUTPUT:
+PRIMEIRO_CASO_DE_TESTE
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

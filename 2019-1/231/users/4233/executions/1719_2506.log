@@ -1,0 +1,325 @@
+== TEST (2019-05-13 23:00:10) 
+-- CODE:
+q = 12000
+Quant = int(input("Quant. tamb: "))
+Perq = float(input("Percentual de cresc:"))
+v = int(input("Quantidade de tamb. para venda: "))
+
+ano = 0
+
+while(Quant>0 and Quant<q):
+	Quant = Perq*Quant + Quant - v
+	ano = ano + 1
+if(Quant>=q):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+	
+print(ano)
+	
+
+
+-- OUTPUT:
+LIMITE
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 23:02:20) 
+-- CODE:
+q = 12000
+Quant = int(input("Quant. tamb: "))
+Perq = float(input("Percentual de cresc: "))
+v = int(input("Quantidade de tamb. para venda: "))
+
+ano = 0
+
+while(Quant>0) and (Quant<q):
+	Quant = Perq*Quant + Quant - v
+	ano = ano + 1
+if(Quant>=q):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+	
+print(ano)
+	
+
+
+-- OUTPUT:
+LIMITE
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 23:02:43) 
+-- CODE:
+q = 12000
+Quant = int(input("Quant. tamb: "))
+Perq = float(input("Percentual de cresc: "))
+v = int(input("Quantidade de tamb. para venda: "))
+
+ano = 0
+
+while(Quant>0) and (Quant<q):
+	Quant = Perq*Quant + Quant - v
+	ano = ano + 1
+if(Quant>=q):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+print(ano)
+	
+
+
+-- OUTPUT:
+LIMITE
+2
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 23:02:55) 
+-- CODE:
+q = 12000
+Quant = int(input("Quant. tamb: "))
+Perq = float(input("Percentual de cresc: "))
+v = int(input("Quantidade de tamb. para venda: "))
+
+ano = 0
+
+while(Quant>0) and (Quant<q):
+	Quant = Perq*Quant + Quant - v
+	ano = ano + 1
+if(Quant>=q):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+print(ano)
+	
+
+
+-- EXECUTION TIME:
+0.116604
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+2
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 23:09:55) 
+-- CODE:
+l = 12000
+quant_inicial = int(input("Quantidade inicial de tambaquis: "))
+percentual = float(input("Percentual de crescimento: "))
+v = int(input("Quantidade de tambaquis a venda: "))
+
+ano = 0 
+
+while(quant_inicial>0) and (quant_inicial<l):
+	quant_inicial = percentual/1000*quant_inicial + quant_inicial - v
+	ano = ano + 1
+if(quant_inicial>=l):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+
+print(ano)
+	
+
+
+-- OUTPUT:
+EXTINCAO
+10
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-13 23:10:44) 
+-- CODE:
+l = 12000
+quant_inicial = int(input("Quantidade inicial de tambaquis: "))
+percentual = float(input("Percentual de crescimento: "))
+v = int(input("Quantidade de tambaquis a venda: "))
+
+ano = 0 
+
+while(quant_inicial>0) and (quant_inicial<l):
+	quant_inicial = percentual/100*quant_inicial + quant_inicial - v
+	ano = ano + 1
+if(quant_inicial>=l):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+
+print(ano)
+	
+
+
+-- OUTPUT:
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-13 23:10:59) 
+-- CODE:
+l = 12000
+quant_inicial = int(input("Quantidade inicial de tambaquis: "))
+percentual = float(input("Percentual de crescimento: "))
+v = int(input("Quantidade de tambaquis a venda: "))
+
+ano = 0 
+
+while(quant_inicial>0) and (quant_inicial<l):
+	quant_inicial = percentual/100*quant_inicial + quant_inicial - v
+	ano = ano + 1
+if(quant_inicial>=l):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+
+print(ano)
+	
+
+
+-- EXECUTION TIME:
+0.212431
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 00:47:57) 
+-- CODE:
+limite = 12000
+quant_inicial = int(input("Quant. inicial de tambaquis no tanque: "))
+per = float(input("Perc. de crescimento anual da quant. de tambaquis no tanque: "))
+venda = int(input("Quant. de tambaquis retirados todos os anos para venda: "))
+
+t = 0
+
+while(quant_inicial>0) and (quant_inicial<limite):
+	quant_inicial = (per/100)*quant_inicial + quant_inicial - venda
+	t = t+1
+if(quant_inicial>=limite):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+	
+print(t)
+	
+
+
+-- OUTPUT:
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-16 00:48:20) 
+-- CODE:
+limite = 12000
+quant_inicial = int(input("Quant. inicial de tambaquis no tanque: "))
+per = float(input("Perc. de crescimento anual da quant. de tambaquis no tanque: "))
+venda = int(input("Quant. de tambaquis retirados todos os anos para venda: "))
+
+t = 0
+
+while(quant_inicial>0) and (quant_inicial<limite):
+	quant_inicial = (per/100)*quant_inicial + quant_inicial - venda
+	t = t+1
+if(quant_inicial>=limite):
+	print("LIMITE")
+else:
+	print("EXTINCAO")
+	
+print(t)
+	
+
+
+-- EXECUTION TIME:
+0.217801
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

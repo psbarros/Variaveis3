@@ -1,0 +1,803 @@
+== TEST (2019-04-09 12:46:51) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:47:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:47:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:47:57) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 12:48:03) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.201453
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:48:23) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 12:48:24) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.188371
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:48:34) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:08) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 12:49:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.124502
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 12:49:20) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.203027
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:20) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:21) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 12:49:22) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 13:40:02) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 13:40:05) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.209651
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:24:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:24:41) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0)
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0)
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:25:07) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 9
+    else
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:25:13) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    if (num % 2 == 0):
+TypeError: not all arguments converted during string formatting
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:25:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 17:25:44) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.124878
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+Impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+Par
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:25:52) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:25:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:26:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- OUTPUT:
+Impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 17:26:37) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.134285
+-- ERROR:
+  File "/home/codebench/codes/1647/2442/main.py", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:01) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "par"
+else:
+	mensagem = "impar"
+
+print(mensagem)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:26) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagemlower)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:30) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem.lower)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:36) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem.lower)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:40) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: ")
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem.lower)
+
+-- ERROR:
+File "XXXX", line 7
+    if (num % 2 == 0):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:27:42) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(mensagem.lower)
+
+-- OUTPUT:
+<built-in method lower of str object at 0x7fe0aa4f75e0>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:28:19) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "Par"
+else:
+	mensagem = "Impar"
+
+print(string.lower(mensagem))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    print(string.lower(mensagem))
+NameError: name 'string' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-10 17:28:45) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "par"
+else:
+	mensagem = "impar"
+
+print(mensagem)
+
+-- OUTPUT:
+impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-10 17:28:49) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+
+num = int(input("Digite um numero: "))
+
+if (num % 2 == 0):
+	mensagem = "par"
+else:
+	mensagem = "impar"
+
+print(mensagem)
+
+-- EXECUTION TIME:
+0.158042
+-- TEST CASE 1:
+---- input:
+55
+---- correct output:
+impar
+---- user output:
+impar
+-- TEST CASE 3:
+---- input:
+842
+---- correct output:
+par
+---- user output:
+par
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

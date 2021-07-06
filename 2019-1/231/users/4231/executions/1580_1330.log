@@ -1,0 +1,537 @@
+== TEST (2019-03-14 10:03:36) 
+-- CODE:
+print(round(41,6))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:03:41) 
+-- CODE:
+print(round(41,6))
+-- EXECUTION TIME:
+0.198779
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:04:01) 
+-- CODE:
+print(round(41.6))
+-- EXECUTION TIME:
+0.199241
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:04:03) 
+-- CODE:
+print(round(41.6))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:04:40) 
+-- CODE:
+print(round(41.66))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:04:47) 
+-- CODE:
+print(round(41.66))
+-- EXECUTION TIME:
+0.14573
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:04:53) 
+-- CODE:
+print(round(42))
+-- EXECUTION TIME:
+0.170664
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:05:13) 
+-- CODE:
+print(round(41,2))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:05:16) 
+-- CODE:
+print(round(41,2))
+-- EXECUTION TIME:
+0.141075
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:05:24) 
+-- CODE:
+print(round(41,n))
+-- EXECUTION TIME:
+0.214705
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1580/1330/main.py", line 1, in <module>
+    print(round(41,n))
+NameError: name 'n' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:05:50) 
+-- CODE:
+print(round(250//6))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:05:54) 
+-- CODE:
+print(round(250//6))
+-- EXECUTION TIME:
+0.162649
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:07:03) 
+-- CODE:
+print(round(250,6))
+-- OUTPUT:
+250
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:07:06) 
+-- CODE:
+print(round(250,6))
+-- EXECUTION TIME:
+0.193907
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+250
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:07:12) 
+-- CODE:
+print(round(250,2))
+-- EXECUTION TIME:
+0.174638
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+250
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:07:42) 
+-- CODE:
+print(round(41,66))
+-- EXECUTION TIME:
+0.133196
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:08:20) 
+-- CODE:
+print(round(250/6)
+-- ERROR:
+File "XXXX", line 2
+    
+                      ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:08:26) 
+-- CODE:
+print(round(250/6))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:08:30) 
+-- CODE:
+print(round(250/6))
+-- EXECUTION TIME:
+0.212177
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:08:44) 
+-- CODE:
+print(round(250/6))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:09:02) 
+-- CODE:
+print(round(41,66))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:09:06) 
+-- CODE:
+print(round(41,66))
+-- EXECUTION TIME:
+0.142914
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:09:19) 
+-- CODE:
+print(round(41.66))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:09:21) 
+-- CODE:
+print(round(41.66))
+-- EXECUTION TIME:
+0.139089
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+42
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:10:19) 
+-- CODE:
+print(round(41.66))
+-- OUTPUT:
+42
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:12:29) 
+-- CODE:
+print(round(x,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(x,2))
+NameError: name 'x' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:12:36) 
+-- CODE:
+print(round(41,2))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:12:39) 
+-- CODE:
+print(round(41,2))
+-- EXECUTION TIME:
+0.158638
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:12:45) 
+-- CODE:
+print(round(41,n))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(41,n))
+NameError: name 'n' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:13:27) 
+-- CODE:
+print(round(41,6666666666))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:13:30) 
+-- CODE:
+print(round(41,6666666666))
+-- EXECUTION TIME:
+0.161335
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:13:44) 
+-- CODE:
+print(round(41,666))
+-- OUTPUT:
+41
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:13:46) 
+-- CODE:
+print(round(41,666))
+-- EXECUTION TIME:
+0.136423
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:14:17) 
+-- CODE:
+print(round(x=250, y/3))
+-- ERROR:
+File "XXXX", line 1
+    print(round(x=250, y/3))
+                      ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:16:22) 
+-- CODE:
+print(round(x=250,n=2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(x=250,n=2))
+TypeError: Required argument 'number' (pos 1) not found
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:20:01) 
+-- CODE:
+print(round(41,6666666666,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(41,6666666666,2))
+TypeError: round() takes at most 2 arguments (3 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:20:18) 
+-- CODE:
+print(round(41,6666666666,10))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    print(round(41,6666666666,10))
+TypeError: round() takes at most 2 arguments (3 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 10:20:45) 
+-- CODE:
+print(round(41.6666666666,2))
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:20:49) 
+-- CODE:
+print(round(41.6666666666,2))
+-- EXECUTION TIME:
+0.154539
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:20:58) 
+-- CODE:
+print(round(41.6666666666,2))
+-- EXECUTION TIME:
+0.161623
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:21:06) 
+-- CODE:
+print(round(41.6666666666,2))
+-- EXECUTION TIME:
+0.155086
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 10:21:12) 
+-- CODE:
+print(round(41.6666666666,2))
+-- EXECUTION TIME:
+0.185326
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 18:02:51) 
+-- CODE:
+x=(250/6)
+n=2
+print(round(x,n)
+-- ERROR:
+File "XXXX", line 4
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 18:03:08) 
+-- CODE:
+x = (250/6)
+n = 2
+print(round(x,n)
+-- ERROR:
+File "XXXX", line 4
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 18:03:32) 
+-- CODE:
+x=(250/6)
+n=2
+print(round(x,n))
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 18:03:35) 
+-- CODE:
+x=(250/6)
+n=2
+print(round(x,n))
+-- EXECUTION TIME:
+0.129861
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 19:01:38) 
+-- CODE:
+x=(250/6)
+n=2
+print(round(x,n))
+-- EXECUTION TIME:
+0.14261
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:24:38) 
+-- CODE:
+x=(250/6)
+print(round(x,2))
+-- OUTPUT:
+41.67
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:24:43) 
+-- CODE:
+x=(250/6)
+print(round(x,2))
+-- EXECUTION TIME:
+0.213517
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+41.67
+---- user output:
+41.67
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,67 @@
+== TEST (2019-03-11 17:35:18) 
+-- CODE:
+frase = "Ada lovelace foi a promeira programadora da historia"
+print(frase.upper)
+-- OUTPUT:
+<built-in method upper of str object at 0x7f232700c9f0>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:35:48) 
+-- CODE:
+frase = "Ada lovelace foi a promeira programadora da historia."
+print(frase.upper)
+-- OUTPUT:
+<built-in method upper of str object at 0x7f86ab39e9f0>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:36:24) 
+-- CODE:
+frase = "Ada lovelace foi a promeira programadora da historia."
+print(frase.upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PROMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:36:30) 
+-- CODE:
+frase = "Ada lovelace foi a promeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME:
+0.181716
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PROMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:36:42) 
+-- CODE:
+frase = "Ada lovelace foi a promeira programadora da historia."
+print(frase.upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PROMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-11 17:37:03) 
+-- CODE:
+frase = "Ada lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- OUTPUT:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-11 17:37:06) 
+-- CODE:
+frase = "Ada lovelace foi a primeira programadora da historia."
+print(frase.upper())
+-- EXECUTION TIME:
+0.204636
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+---- user output:
+ADA LOVELACE FOI A PRIMEIRA PROGRAMADORA DA HISTORIA.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,167 @@
+== TEST (2019-04-28 23:11:59) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=input('coordenada x: ')
+y=input('coordenada y: ')
+
+if(x==y==o):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    elif(x<0) or (x>0):
+TypeError: '<' not supported between instances of 'str' and 'int'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 23:12:33) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==o):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- OUTPUT:
+Eixo X
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-28 23:12:46) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==o):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- EXECUTION TIME:
+0.150899
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Eixo X
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo X
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 23:15:18) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==o):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- OUTPUT:
+Eixo X
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 23:15:33) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==0):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- OUTPUT:
+Eixo X
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-28 23:15:41) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==0):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- EXECUTION TIME:
+0.103952
+-- TEST CASE 1:
+---- input:
+4.5
+-2.2
+---- correct output:
+Q4
+---- user output:
+Eixo X
+-- TEST CASE 2:
+---- input:
+0.1
+0
+---- correct output:
+Eixo X
+---- user output:
+Eixo X
+-- TEST CASE 3:
+---- input:
+0.0
+0.0
+---- correct output:
+Origem
+---- user output:
+origem
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-28 23:15:48) 
+-- CODE:
+# Ao testar sua solução, não se limite ao caso de exemplo.
+x=float(input('coordenada x: '))
+y=float(input('coordenada y: '))
+
+if(x==y==0):
+	print('origem')
+elif(x<0) or (x>0):
+	print('Eixo X')
+elif(y<0) or (y>0):
+	print('Eixo Y')
+
+-- OUTPUT:
+Eixo X
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

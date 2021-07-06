@@ -1,0 +1,531 @@
+== TEST (2019-06-10 16:34:22) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(media[i] > 5 and f[i] > 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(media[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:34:52) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] > 5 and f[i] > 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:35:18) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] > 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:35:39) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] > 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+0.950921
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[5 0 0]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[7 0 0]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[7 1 2]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:36:11) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] > 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:36:32) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] > 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+0.912236
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[5 0 0]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[7 0 0]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[7 1 2]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:37:11) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:37:30) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 0.75*60):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*60):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+0.94285
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[5 0 0]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[7 0 0]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[7 1 2]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:40:19) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 45):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 45):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:40:37) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 45):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 45):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+1.0731
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[5 0 0]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[7 0 0]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[7 1 2]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:42:53) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 45):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 45):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:44:03) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(size(f), dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 45):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 45):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:44:28) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(size(f), dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 45):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 45):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+1.09878
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[5 0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[7 0 0 0 0 0 0]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[7 1 2 0 0 0 0 0 0 0]
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-10 16:48:15) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 0.75*c):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*c):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-10 16:48:32) 
+-- CODE:
+from numpy import*
+
+medias = array(eval(input("medias: ")))
+f = array(eval(input("frequencia: ")))
+c = int(input("carga: "))
+v0 = zeros(3, dtype=int)
+
+for i in range(size(f)):
+	if(medias[i] >= 5 and f[i] >= 0.75*c):
+		v0[0] = v0[0] + 1
+	elif(medias[i] < 5):
+		v0[1] = v0[1] + 1
+	elif(f[i] < 0.75*c):
+		v0[2] = v0[2] + 1
+		
+print(v0)
+	
+-- EXECUTION TIME:
+1.137
+-- TEST CASE 1:
+---- input:
+[6.2,7.3,7.0,7.5,8.9]
+[75,76,74,73,72]
+100
+---- correct output:
+[2 0 3]
+---- user output:
+[2 0 3]
+-- TEST CASE 2:
+---- input:
+[7.4,7.6,7.5,7.2,7.2,7.3,7.8]
+[60,80,55,58,61,70,79]
+80
+---- correct output:
+[5 0 2]
+---- user output:
+[5 0 2]
+-- TEST CASE 3:
+---- input:
+[8.2,6.9,7.0,6.5,7.4,8.5,7.6,6.9,4.5,5.5]
+[90,40,70,35,100,110,85,99,100,110]
+120
+---- correct output:
+[5 1 4]
+---- user output:
+[5 1 4]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

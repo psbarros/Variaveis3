@@ -1,0 +1,18 @@
+2019-4-15 21:01:38.145#viewportChange#0
+2019-4-15 21:02:25.131#mousedown#{"isTrusted":true}
+2019-4-15 21:02:25.134#focus#
+2019-4-15 21:02:26.021#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":9.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":9.09375},"text":["print(\"A UFAM tem\", 2016 - XXXX, \"anos de fundacao.\")"],"removed":[""],"origin":"paste"}
+2019-4-15 21:02:28.318#mousedown#{"isTrusted":true}
+2019-4-15 21:02:29.035#change#{"from":{"line":0,"ch":30,"sticky":"after"},"to":{"line":0,"ch":31,"sticky":"before","xRel":-1.453125},"text":[""],"removed":["X"],"origin":"+delete"}
+2019-4-15 21:02:29.035#keyHandled#"Backspace"
+2019-4-15 21:02:29.281#change#{"from":{"line":0,"ch":29,"sticky":"after"},"to":{"line":0,"ch":30,"sticky":null},"text":[""],"removed":["X"],"origin":"+delete"}
+2019-4-15 21:02:29.281#keyHandled#"Backspace"
+2019-4-15 21:02:29.497#change#{"from":{"line":0,"ch":28,"sticky":"after"},"to":{"line":0,"ch":29,"sticky":null},"text":[""],"removed":["X"],"origin":"+delete"}
+2019-4-15 21:02:29.497#keyHandled#"Backspace"
+2019-4-15 21:02:30.032#change#{"from":{"line":0,"ch":27,"sticky":"after"},"to":{"line":0,"ch":28,"sticky":null},"text":[""],"removed":["X"],"origin":"+delete"}
+2019-4-15 21:02:30.033#keyHandled#"Backspace"
+2019-4-15 21:02:31.059#change#{"from":{"line":0,"ch":27,"sticky":null},"to":{"line":0,"ch":27,"sticky":null},"text":["1"],"removed":[""],"origin":"+input"}
+2019-4-15 21:02:31.415#change#{"from":{"line":0,"ch":28,"sticky":null},"to":{"line":0,"ch":28,"sticky":null},"text":["9"],"removed":[""],"origin":"+input"}
+2019-4-15 21:02:31.815#change#{"from":{"line":0,"ch":29,"sticky":null},"to":{"line":0,"ch":29,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-15 21:02:32.284#change#{"from":{"line":0,"ch":30,"sticky":null},"to":{"line":0,"ch":30,"sticky":null},"text":["9"],"removed":[""],"origin":"+input"}
+2019-4-15 21:02:39.301#blur#

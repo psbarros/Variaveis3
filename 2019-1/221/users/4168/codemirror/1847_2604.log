@@ -1,0 +1,16 @@
+2019-7-1 15:13:47.215#viewportChange#0
+2019-7-1 15:14:03.374#mousedown#{"isTrusted":true}
+2019-7-1 15:14:03.376#focus#
+2019-7-1 15:14:03.987#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":249.2916259765625},"to":{"line":0,"ch":0,"sticky":"after","xRel":249.2916259765625},"text":["from numpy import*","from numpy.linalg import*","","matriz = array(eval(input('Matriz: ')))","","for i in range(len(matriz)):","\tprint(max(matriz[i, :]))"],"removed":[""],"origin":"paste"}
+2019-7-1 15:14:03.995#viewportChange#0
+2019-7-1 15:14:04.802#blur#
+2019-7-1 15:14:04.802#blur#
+2019-7-1 15:14:07.544#submit#Congratulations, your code is correct!
+2019-7-2 00:48:47.208#viewportChange#0
+2019-7-2 00:48:50.201#mousedown#{"isTrusted":true}
+2019-7-2 00:48:50.211#focus#
+2019-7-2 00:48:53.553#mousedown#{"isTrusted":true}
+2019-7-2 00:48:54.234#mousedown#{"isTrusted":true}
+2019-7-2 00:48:55.881#dblclick#{"isTrusted":true}
+2019-7-2 00:48:56.240#copy#{"isTrusted":true}
+2019-7-2 00:48:57.558#blur#

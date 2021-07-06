@@ -1,0 +1,38 @@
+2019-6-12 15:46:59.987#mousedown#{"isTrusted":true}
+2019-6-12 15:47:00.011#focus#
+2019-6-12 15:47:01.099#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":76.08331298828125},"to":{"line":0,"ch":0,"sticky":"after","xRel":76.08331298828125},"text":["from numpy import*","v=array(eval(input(\"Matricula dos alunos:\")))","a=0","m=size(v)","for i in range(m)","\tif\t(v[i]%2!=0):","\t\ta=a+1","v2=zeros(a, dtype=int)","k=0","for i in range(m)","\tif\t(v[i]%2!=0):","\t\tv2[k]=v[i]","\t\tk=k+1","print(k)"],"removed":[""],"origin":"paste"}
+2019-6-12 15:47:01.149#viewportChange#0
+2019-6-12 15:47:03.516#blur#
+2019-6-12 15:47:03.516#blur#
+2019-6-12 15:47:31.830#mousedown#{"isTrusted":true}
+2019-6-12 15:47:31.859#focus#
+2019-6-12 15:47:34.309#blur#
+2019-6-12 15:47:48.229#mousedown#{"isTrusted":true}
+2019-6-12 15:47:48.250#focus#
+2019-6-12 15:47:48.998#mousedown#{"isTrusted":true}
+2019-6-12 15:47:49.719#change#{"from":{"line":4,"ch":17,"sticky":"before","xRel":2.08331298828125},"to":{"line":4,"ch":17,"sticky":"before","xRel":2.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-6-12 15:47:51.527#blur#
+2019-6-12 15:47:51.527#blur#
+2019-6-12 15:47:54.017#saida_testar#$ python3 main.py
+File "main.py", line 10
+for i in range(m)
+SyntaxError: invalid syntax
+2019-6-12 15:47:57.154#mousedown#{"isTrusted":true}
+2019-6-12 15:47:57.177#focus#
+2019-6-12 15:47:57.939#change#{"from":{"line":9,"ch":17,"sticky":"before","xRel":31.08331298828125},"to":{"line":9,"ch":17,"sticky":"before","xRel":31.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-6-12 15:47:57.154#mousedown#{"isTrusted":true}
+2019-6-12 15:47:57.177#focus#
+2019-6-12 15:47:57.939#change#{"from":{"line":9,"ch":17,"sticky":"before","xRel":31.08331298828125},"to":{"line":9,"ch":17,"sticky":"before","xRel":31.08331298828125},"text":[":"],"removed":[""],"origin":"+input"}
+2019-6-12 15:48:01.971#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 15:48:01.971#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-6-12 15:48:09.860#blur#
+2019-6-12 15:49:20.376#mousedown#{"isTrusted":true}
+2019-6-12 15:49:20.596#focus#
+2019-6-12 15:49:21.134#change#{"from":{"line":13,"ch":6,"sticky":"after"},"to":{"line":13,"ch":7,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["k"],"origin":"+delete"}
+2019-6-12 15:49:21.135#keyHandled#"Backspace"
+2019-6-12 15:49:21.317#change#{"from":{"line":13,"ch":6,"sticky":null},"to":{"line":13,"ch":6,"sticky":null},"text":["v"],"removed":[""],"origin":"+input"}
+2019-6-12 15:49:21.745#change#{"from":{"line":13,"ch":7,"sticky":null},"to":{"line":13,"ch":7,"sticky":null},"text":["2"],"removed":[""],"origin":"+input"}
+2019-6-12 15:49:21.134#change#{"from":{"line":13,"ch":6,"sticky":"after"},"to":{"line":13,"ch":7,"sticky":"before","xRel":-0.91668701171875},"text":[""],"removed":["k"],"origin":"+delete"}
+2019-6-12 15:49:21.135#keyHandled#"Backspace"
+2019-6-12 15:49:21.317#change#{"from":{"line":13,"ch":6,"sticky":null},"to":{"line":13,"ch":6,"sticky":null},"text":["v"],"removed":[""],"origin":"+input"}
+2019-6-12 15:49:21.745#change#{"from":{"line":13,"ch":7,"sticky":null},"to":{"line":13,"ch":7,"sticky":null},"text":["2"],"removed":[""],"origin":"+input"}

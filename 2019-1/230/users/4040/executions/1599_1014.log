@@ -1,0 +1,44 @@
+== TEST (2019-03-25 16:12:59) 
+-- CODE:
+#Entries
+
+solds = float(input("Valor total das vendas: "))
+profit = 0.3*solds
+
+-- OUTPUT:
+8
+5
+1
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 16:13:49) 
+-- CODE:
+#Entries
+
+solds = float(input("Valor total das vendas: "))
+profit = 0.3*solds
+print(profit)
+
+-- OUTPUT:
+210.15
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 16:13:55) 
+-- CODE:
+#Entries
+
+solds = float(input("Valor total das vendas: "))
+profit = 0.3*solds
+print(profit)
+
+-- EXECUTION TIME:
+0.139199
+-- TEST CASE 1:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

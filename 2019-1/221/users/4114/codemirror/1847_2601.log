@@ -1,0 +1,79 @@
+2019-6-25 08:09:20.052#viewportChange#0
+2019-6-25 08:09:26.836#mousedown#{"isTrusted":true}
+2019-6-25 08:09:26.842#focus#
+2019-6-25 08:09:29.570#viewportChange#0
+2019-6-25 08:09:34.904#mousedown#{"isTrusted":true}
+2019-6-25 08:09:37.195#mousedown#{"isTrusted":true}
+2019-6-25 08:09:41.444#mousedown#{"isTrusted":true}
+2019-6-25 08:09:45.371#mousedown#{"isTrusted":true}
+2019-6-25 08:09:47.840#mousedown#{"isTrusted":true}
+2019-6-25 08:09:57.003#mousedown#{"isTrusted":true}
+2019-6-25 08:10:11.995#mousedown#{"isTrusted":true}
+2019-6-25 08:10:20.212#mousedown#{"isTrusted":true}
+2019-6-26 11:59:01.345#viewportChange#0
+2019-6-26 11:59:03.888#viewportChange#0
+2019-6-26 12:01:23.989#mousedown#{"isTrusted":true}
+2019-6-26 12:01:24.005#focus#
+2019-6-26 12:01:25.989#change#{"from":{"line":2,"ch":0,"sticky":"after","xRel":1.0728759765625},"to":{"line":31,"ch":0,"sticky":null,"xRel":1,"outside":true},"text":[""],"removed":["@author: IComp / UFAM","SISTEMAS DE EQUACOES LINEARES -- FRUTAS","\"\"\"","","from numpy import *","from numpy.linalg import *","","# Matriz do sistema linear (informado no enunciado)","frutas = array([[ ,  , ], [ ,  ,  ], [ ,  ,  ]])","","# Vetor de constantes (informado no enunciado)","compras = array([23.6, 52.6, 27.7])","compras = compras.T","","# Resolucao do sistema de equacoes lineares","preco = dot( , )","","# Imprime o preco de cada fruta","print(\"abacate: \", round(preco[0], 1))","print(\"banana: \", round(preco[1], 1))","print(\"caqui: \", round(preco[2], 1))","","# Imprime nome da fruta mais cara","if preco[0] == max(preco):","    print(\"abacate\")","elif preco[0] == max(preco):","    print(\"banana\")","else:","    print(\"caqui\")",""],"origin":"+delete"}
+2019-6-26 12:01:25.989#keyHandled#"Backspace"
+2019-6-26 12:01:26.010#viewportChange#0
+2019-6-26 12:01:27.813#change#{"from":{"line":1,"ch":21,"sticky":"before"},"to":{"line":2,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-6-26 12:01:27.813#keyHandled#"Backspace"
+2019-6-26 12:01:27.822#viewportChange#0
+2019-6-26 12:01:28.329#change#{"from":{"line":1,"ch":19,"sticky":"after"},"to":{"line":1,"ch":20,"sticky":null},"text":[""],"removed":["0"],"origin":"+delete"}
+2019-6-26 12:01:28.329#keyHandled#"Backspace"
+2019-6-26 12:01:28.412#change#{"from":{"line":1,"ch":18,"sticky":"after"},"to":{"line":1,"ch":19,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-26 12:01:28.412#keyHandled#"Backspace"
+2019-6-26 12:01:28.419#change#{"from":{"line":1,"ch":17,"sticky":"after"},"to":{"line":1,"ch":18,"sticky":null},"text":[""],"removed":["o"],"origin":"+delete"}
+2019-6-26 12:01:28.419#keyHandled#"Backspace"
+2019-6-26 12:01:28.451#change#{"from":{"line":1,"ch":16,"sticky":"after"},"to":{"line":1,"ch":17,"sticky":null},"text":[""],"removed":["i"],"origin":"+delete"}
+2019-6-26 12:01:28.451#keyHandled#"Backspace"
+2019-6-26 12:01:28.493#change#{"from":{"line":1,"ch":15,"sticky":"after"},"to":{"line":1,"ch":16,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-6-26 12:01:28.493#keyHandled#"Backspace"
+2019-6-26 12:01:28.518#change#{"from":{"line":1,"ch":14,"sticky":"after"},"to":{"line":1,"ch":15,"sticky":null},"text":[""],"removed":["i"],"origin":"+delete"}
+2019-6-26 12:01:28.518#keyHandled#"Backspace"
+2019-6-26 12:01:28.576#change#{"from":{"line":1,"ch":13,"sticky":"after"},"to":{"line":1,"ch":14,"sticky":null},"text":[""],"removed":["c"],"origin":"+delete"}
+2019-6-26 12:01:28.576#keyHandled#"Backspace"
+2019-6-26 12:01:28.594#change#{"from":{"line":1,"ch":12,"sticky":"after"},"to":{"line":1,"ch":13,"sticky":null},"text":[""],"removed":["r"],"origin":"+delete"}
+2019-6-26 12:01:28.594#keyHandled#"Backspace"
+2019-6-26 12:01:28.608#change#{"from":{"line":1,"ch":11,"sticky":"after"},"to":{"line":1,"ch":12,"sticky":null},"text":[""],"removed":["e"],"origin":"+delete"}
+2019-6-26 12:01:28.608#keyHandled#"Backspace"
+2019-6-26 12:01:28.652#change#{"from":{"line":1,"ch":10,"sticky":"after"},"to":{"line":1,"ch":11,"sticky":null},"text":[""],"removed":["x"],"origin":"+delete"}
+2019-6-26 12:01:28.652#keyHandled#"Backspace"
+2019-6-26 12:01:28.670#change#{"from":{"line":1,"ch":9,"sticky":"after"},"to":{"line":1,"ch":10,"sticky":null},"text":[""],"removed":["E"],"origin":"+delete"}
+2019-6-26 12:01:28.670#keyHandled#"Backspace"
+2019-6-26 12:01:28.683#change#{"from":{"line":1,"ch":8,"sticky":"after"},"to":{"line":1,"ch":9,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-26 12:01:28.683#keyHandled#"Backspace"
+2019-6-26 12:01:28.773#change#{"from":{"line":1,"ch":7,"sticky":"after"},"to":{"line":1,"ch":8,"sticky":null},"text":[""],"removed":["–"],"origin":"+delete"}
+2019-6-26 12:01:28.773#keyHandled#"Backspace"
+2019-6-26 12:01:28.797#change#{"from":{"line":1,"ch":6,"sticky":"after"},"to":{"line":1,"ch":7,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-26 12:01:28.797#keyHandled#"Backspace"
+2019-6-26 12:01:28.810#change#{"from":{"line":1,"ch":5,"sticky":"after"},"to":{"line":1,"ch":6,"sticky":null},"text":[""],"removed":["7"],"origin":"+delete"}
+2019-6-26 12:01:28.810#keyHandled#"Backspace"
+2019-6-26 12:01:28.836#change#{"from":{"line":1,"ch":4,"sticky":"after"},"to":{"line":1,"ch":5,"sticky":null},"text":[""],"removed":["0"],"origin":"+delete"}
+2019-6-26 12:01:28.836#keyHandled#"Backspace"
+2019-6-26 12:01:28.906#change#{"from":{"line":1,"ch":3,"sticky":"after"},"to":{"line":1,"ch":4,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-6-26 12:01:28.906#keyHandled#"Backspace"
+2019-6-26 12:01:28.916#change#{"from":{"line":1,"ch":2,"sticky":"after"},"to":{"line":1,"ch":3,"sticky":null},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-6-26 12:01:28.916#keyHandled#"Backspace"
+2019-6-26 12:01:29.412#change#{"from":{"line":1,"ch":1,"sticky":"after"},"to":{"line":1,"ch":2,"sticky":null},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-6-26 12:01:29.412#keyHandled#"Backspace"
+2019-6-26 12:01:29.486#change#{"from":{"line":1,"ch":0,"sticky":"after"},"to":{"line":1,"ch":1,"sticky":null},"text":[""],"removed":["L"],"origin":"+delete"}
+2019-6-26 12:01:29.486#keyHandled#"Backspace"
+2019-6-26 12:01:29.494#change#{"from":{"line":0,"ch":3,"sticky":"before"},"to":{"line":1,"ch":0,"sticky":null},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-6-26 12:01:29.494#keyHandled#"Backspace"
+2019-6-26 12:01:29.498#viewportChange#0
+2019-6-26 12:01:29.518#change#{"from":{"line":0,"ch":2,"sticky":"after"},"to":{"line":0,"ch":3,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-6-26 12:01:29.518#keyHandled#"Backspace"
+2019-6-26 12:01:29.545#change#{"from":{"line":0,"ch":1,"sticky":"after"},"to":{"line":0,"ch":2,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-6-26 12:01:29.545#keyHandled#"Backspace"
+2019-6-26 12:01:29.603#change#{"from":{"line":0,"ch":0,"sticky":"after"},"to":{"line":0,"ch":1,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-6-26 12:01:29.603#keyHandled#"Backspace"
+2019-6-26 12:01:29.641#keyHandled#"Backspace"
+2019-6-26 12:01:29.738#keyHandled#"Backspace"
+2019-6-26 12:01:29.934#keyHandled#"Backspace"
+2019-6-26 12:01:31.630#change#{"from":{"line":0,"ch":0,"sticky":null,"hitSide":true},"to":{"line":0,"ch":0,"sticky":null},"text":["\"\"\"","Lab 07 – Exercicio 01","@author: IComp / UFAM","SISTEMAS DE EQUACOES LINEARES -- FRUTAS","\"\"\"","","from numpy import *","from numpy.linalg import *","","# Matriz do sistema linear (informado no enunciado)","frutas = array([[3,12,1], [12,0,2], [0,2,3]])","","# Vetor de constantes (informado no enunciado)","compras = array([23.6, 52.6, 27.7])","compras = compras.T","","# Resolucao do sistema de equacoes lineares","preco = dot(inv(frutas),compras )","","# Imprime o preco de cada fruta","print(\"abacate: \", round(preco[0], 1))","print(\"banana: \", round(preco[1], 1))","print(\"caqui: \", round(preco[2], 1))","","# Imprime nome da fruta mais cara","if preco[0] == max(preco):","    print(\"abacate\")","elif preco[1] == max(preco):","    print(\"banana\")","else:","    print(\"caqui\")",""],"removed":[""],"origin":"paste"}
+2019-6-26 12:01:31.667#viewportChange#0
+2019-6-26 12:01:31.630#change#{"from":{"line":0,"ch":0,"sticky":null,"hitSide":true},"to":{"line":0,"ch":0,"sticky":null},"text":["\"\"\"","Lab 07 – Exercicio 01","@author: IComp / UFAM","SISTEMAS DE EQUACOES LINEARES -- FRUTAS","\"\"\"","","from numpy import *","from numpy.linalg import *","","# Matriz do sistema linear (informado no enunciado)","frutas = array([[3,12,1], [12,0,2], [0,2,3]])","","# Vetor de constantes (informado no enunciado)","compras = array([23.6, 52.6, 27.7])","compras = compras.T","","# Resolucao do sistema de equacoes lineares","preco = dot(inv(frutas),compras )","","# Imprime o preco de cada fruta","print(\"abacate: \", round(preco[0], 1))","print(\"banana: \", round(preco[1], 1))","print(\"caqui: \", round(preco[2], 1))","","# Imprime nome da fruta mais cara","if preco[0] == max(preco):","    print(\"abacate\")","elif preco[1] == max(preco):","    print(\"banana\")","else:","    print(\"caqui\")",""],"removed":[""],"origin":"paste"}
+2019-6-26 12:01:31.667#viewportChange#0
+2019-6-26 12:01:36.406#submit#Congratulations, your code is correct!

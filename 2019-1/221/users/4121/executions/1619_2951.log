@@ -1,0 +1,395 @@
+== TEST (2019-04-02 09:17:38) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    i = (Qf/Q0**(1/t)- 1)
+NameError: name 'Qf' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:18:38) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+Qf= float(input("Acumulado:"))
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Qf= float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:19:16) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+Qf= float(input("Acumulado:"))
+Q0 = float(input("Inicial:"))
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Qf= float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:20:15) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+Qf= float(input("Acumulado:"))
+Q0 = float(input("Inicial:"))
+t = float(input())
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Qf= float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 09:20:30) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+Qf= float(input("Acumulado:"))
+Q0 = float(input("Inicial:"))
+t = float(input())
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- EXECUTION TIME:
+0.181762
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1619/2951/main.py", line 3, in <module>
+    Qf= float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:25:16) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    i = (Qf/Q0**(1/t)- 1)
+NameError: name 'Qf' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:27:14) 
+-- CODE:
+T = float(input("Tempo:"))
+from math import*
+Qf= 1.420.000
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+File "XXXX", line 3
+    Qf= 1.420.000
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:31:50) 
+-- CODE:
+T = float(input("Tempo:"))
+
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    i = (Qf/Q0**(1/t)- 1)
+NameError: name 'Qf' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:32:37) 
+-- CODE:
+T = float(input("Tempo:"))
+Qf = i 
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    Qf = i 
+NameError: name 'i' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:33:54) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = T - 1500
+i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    i = (Qf/Q0**(1/t)- 1)
+NameError: name 't' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:34:16) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = T - 1500
+q =i = (Qf/Q0**(1/t)- 1)
+print(round(i,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    q =i = (Qf/Q0**(1/t)- 1)
+NameError: name 't' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:34:46) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = T - 1500
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(i,5))
+-- OUTPUT:
+-1404.662
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:35:01) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = T - 1500
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(iq,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(round(iq,5))
+NameError: name 'iq' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:35:12) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = T - 1500
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(q,5))
+-- OUTPUT:
+-1404.662
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:35:29) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 09:35:36) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(q,5))
+-- EXECUTION TIME:
+0.202602
+-- TEST CASE 1:
+---- input:
+90
+---- correct output:
+0.07541
+---- user output:
+-89.10219
+-- TEST CASE 2:
+---- input:
+99
+---- correct output:
+0.06833
+---- user output:
+-98.10149
+-- TEST CASE 3:
+---- input:
+121
+---- correct output:
+0.05557
+---- user output:
+-120.10023
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:35:44) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = i = (Qf/Q0**(1/T)- 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:37:18) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = (Qf/(Q0**(1/T))- 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:38:04) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = (Qf/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:38:24) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 09:41:41) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- EXECUTION TIME:
+0.140176
+-- TEST CASE 1:
+---- input:
+90
+---- correct output:
+0.07541
+---- user output:
+-89.10219
+-- TEST CASE 2:
+---- input:
+99
+---- correct output:
+0.06833
+---- user output:
+-98.10149
+-- TEST CASE 3:
+---- input:
+121
+---- correct output:
+0.05557
+---- user output:
+-120.10023
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:41:54) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:42:37) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - Qf
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Qf = 1.500 - Qf
+NameError: name 'Qf' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:42:49) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1.500
+Qf = 1.500 - T
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- OUTPUT:
+-89.10219
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:48:51) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1500
+Qf = 1042000
+q = ((Qf)/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- OUTPUT:
+960676.93547
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:49:16) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1500
+Qf = 1042000
+q = ((Qf/(Q0**(1/T)) - 1)
+print(round(q,5))
+-- ERROR:
+File "XXXX", line 5
+    print(round(q,5))
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 09:50:06) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1500
+Qf = 1042000
+q = ((Qf/Q0)**(1/T) - 1)
+print(round(q,5))
+-- OUTPUT:
+0.07541
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 09:50:12) 
+-- CODE:
+T = float(input("Tempo:"))
+Q0 = 1500
+Qf = 1042000
+q = ((Qf/Q0)**(1/T) - 1)
+print(round(q,5))
+-- EXECUTION TIME:
+0.127538
+-- TEST CASE 1:
+---- input:
+90
+---- correct output:
+0.07541
+---- user output:
+0.07541
+-- TEST CASE 2:
+---- input:
+99
+---- correct output:
+0.06833
+---- user output:
+0.06833
+-- TEST CASE 3:
+---- input:
+121
+---- correct output:
+0.05557
+---- user output:
+0.05557
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

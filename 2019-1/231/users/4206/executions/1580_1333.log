@@ -1,0 +1,62 @@
+== SUBMITION (2019-03-14 19:26:24) 
+-- CODE:
+expressao = 30 – 3 ** 2 + 8 // 3 ** 2 * 10 
+print(expressao)
+-- EXECUTION TIME:
+0.21415
+-- ERROR:
+  File "/home/codebench/codes/1580/1333/main.py", line 1
+    expressao = 30 \u2013 3 ** 2 + 8 // 3 ** 2 * 10 
+                   ^
+SyntaxError: invalid character in identifier
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 19:26:26) 
+-- CODE:
+expressao = 30 – 3 ** 2 + 8 // 3 ** 2 * 10 
+print(expressao)
+-- ERROR:
+File "XXXX", line 1
+    expressao = 30 – 3 ** 2 + 8 // 3 ** 2 * 10 
+                   ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 19:27:09) 
+-- CODE:
+expressao = 30 – (3 ** 2) + 8 // (3 ** 2) * 10 
+print(expressao)
+-- EXECUTION TIME:
+0.189661
+-- ERROR:
+  File "/home/codebench/codes/1580/1333/main.py", line 1
+    expressao = 30 \u2013 (3 ** 2) + 8 // (3 ** 2) * 10 
+                   ^
+SyntaxError: invalid character in identifier
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-14 19:27:10) 
+-- CODE:
+expressao = 30 – (3 ** 2) + 8 // (3 ** 2) * 10 
+print(expressao)
+-- ERROR:
+File "XXXX", line 1
+    expressao = 30 – (3 ** 2) + 8 // (3 ** 2) * 10 
+                   ^
+SyntaxError: invalid character in identifier
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 19:28:03) 
+-- CODE:
+expressao = 30-(3**2)+8//((3**2)*10)
+print(expressao)
+-- EXECUTION TIME:
+0.235076
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+21
+---- user output:
+21
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

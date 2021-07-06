@@ -1,0 +1,23 @@
+2019-3-19 18:39:25.055#viewportChange#0
+2019-3-19 18:39:39.071#mousedown#{"isTrusted":true}
+2019-3-19 18:39:39.084#focus#
+2019-3-19 18:39:39.439#mousedown#{"isTrusted":true}
+2019-3-19 18:39:40.039#change#{"from":{"line":0,"ch":10,"sticky":"before","xRel":-1.5999755859375},"to":{"line":0,"ch":10,"sticky":"before","xRel":-1.5999755859375},"text":["Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."],"removed":[""],"origin":"paste"}
+2019-3-19 18:39:40.519#mousedown#{"isTrusted":true}
+2019-3-19 18:39:41.673#change#{"from":{"line":1,"ch":15,"sticky":"after"},"to":{"line":1,"ch":16,"sticky":"before","xRel":-0.5999755859375},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-19 18:39:41.673#keyHandled#"Backspace"
+2019-3-19 18:39:41.848#change#{"from":{"line":1,"ch":14,"sticky":"after"},"to":{"line":1,"ch":15,"sticky":null},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-19 18:39:41.849#keyHandled#"Backspace"
+2019-3-19 18:39:42.024#change#{"from":{"line":1,"ch":13,"sticky":"after"},"to":{"line":1,"ch":14,"sticky":null},"text":[""],"removed":["?"],"origin":"+delete"}
+2019-3-19 18:39:42.024#keyHandled#"Backspace"
+2019-3-19 18:39:43.446#change#{"from":{"line":1,"ch":13,"sticky":null},"to":{"line":1,"ch":13,"sticky":null},"text":["l"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:43.500#change#{"from":{"line":1,"ch":14,"sticky":null},"to":{"line":1,"ch":14,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:43.596#change#{"from":{"line":1,"ch":15,"sticky":null},"to":{"line":1,"ch":15,"sticky":null},"text":["w"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:43.644#change#{"from":{"line":1,"ch":16,"sticky":null},"to":{"line":1,"ch":16,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:43.740#change#{"from":{"line":1,"ch":17,"sticky":null},"to":{"line":1,"ch":17,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:44.194#change#{"from":{"line":1,"ch":18,"sticky":null},"to":{"line":1,"ch":18,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:44.194#keyHandled#"'('"
+2019-3-19 18:39:44.194#change#{"from":{"line":1,"ch":18,"sticky":null},"to":{"line":1,"ch":18,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-19 18:39:44.194#keyHandled#"'('"
+2019-3-19 18:39:46.168#saida_testar#$ python3 main.py
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.

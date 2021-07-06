@@ -1,0 +1,273 @@
+== TEST (2019-03-23 20:57:25) 
+-- CODE:
+quantidade = 5
+valor_unitario = 10
+frete1 = 20
+frete2 = 15
+var1 = input(float("Quantidade de jogos a serem encomendados: ")
+-- ERROR:
+File "XXXX", line 6
+    
+                                                                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 20:57:36) 
+-- CODE:
+quantidade = 5
+valor_unitario = 10
+frete1 = 20
+frete2 = 15
+
+var1 = input(float("Quantidade de jogos a serem encomendados: ")
+-- ERROR:
+File "XXXX", line 7
+    
+                                                                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 20:58:00) 
+-- CODE:
+quantidade = 5
+valor_unitario = 10
+frete1 = 20
+frete2 = 15
+
+var1 = input(float("Quantidade de jogos a serem encomendados: "))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    var1 = input(float("Quantidade de jogos a serem encomendados: "))
+ValueError: could not convert string to float: 'Quantidade de jogos a serem encomendados: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 20:58:34) 
+-- CODE:
+quantidade = 5
+valor_unitario = 10
+frete1 = 20
+frete2 = 15
+
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    var1 = input(float("Quantidade de jogos a serem encomendados: "))
+ValueError: could not convert string to float: 'Quantidade de jogos a serem encomendados: '
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:00:29) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo"))
+var3 = float(input("valor do frete"))
+
+total = var1 + var2 + var3
+
+print(total)
+-- OUTPUT:
+135.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:00:39) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = float(input("valor do frete: "))
+
+total = var1 + var2 + var3
+
+print(total)
+-- OUTPUT:
+135.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:00:44) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = float(input("valor do frete: "))
+
+total = var1 + var2 + var3
+
+print(total)
+-- OUTPUT:
+135.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-23 21:00:46) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = float(input("valor do frete: "))
+
+total = var1 + var2 + var3
+
+print(total)
+-- EXECUTION TIME:
+0.143332
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+135.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+172.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+1542.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:03:20) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = float(input("valor do frete: "))
+
+frete1 = 10
+frete2 = 15
+frete3 = 20
+
+total1 = var1 + var2 + var3 + frete1
+total2 = var1 + var2 + var3 + frete2
+total3 = var1 + var2 + var3 + frete3
+
+print(total1)
+-- OUTPUT:
+145.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-23 21:03:33) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = float(input("valor do frete: "))
+
+frete1 = 10
+frete2 = 15
+frete3 = 20
+
+total1 = var1 + var2 + var3 + frete1
+total2 = var1 + var2 + var3 + frete2
+total3 = var1 + var2 + var3 + frete3
+
+print(total1)
+-- EXECUTION TIME:
+0.16192
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+145.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+182.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+1552.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:03:45) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+var2 = float(input("valor unitario de cada jogo: "))
+var3 = int(input("valor do frete: "))
+
+frete1 = 10
+frete2 = 15
+frete3 = 20
+
+total1 = var1 + var2 + var3 + frete1
+total2 = var1 + var2 + var3 + frete2
+total3 = var1 + var2 + var3 + frete3
+
+print(total1)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    var3 = int(input())
+ValueError: invalid literal for int() with base 10: '78.0'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-23 21:05:09) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+
+var2 = float(input("valor unitario de cada jogo: "))
+
+var3 = float(input("valor do frete: "))
+
+total = var1 * var2 + var3
+print(total)
+-- OUTPUT:
+618.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-23 21:05:16) 
+-- CODE:
+var1 = float(input("Quantidade de jogos a serem encomendados: "))
+
+var2 = float(input("valor unitario de cada jogo: "))
+
+var3 = float(input("valor do frete: "))
+
+total = var1 * var2 + var3
+print(total)
+-- EXECUTION TIME:
+0.131591
+-- TEST CASE 1:
+---- input:
+12
+45.0
+78.0
+---- correct output:
+618.0
+---- user output:
+618.0
+-- TEST CASE 2:
+---- input:
+10
+67.0
+95.0
+---- correct output:
+765.0
+---- user output:
+765.0
+-- TEST CASE 3:
+---- input:
+246
+975.0
+321.0
+---- correct output:
+240171.0
+---- user output:
+240171.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

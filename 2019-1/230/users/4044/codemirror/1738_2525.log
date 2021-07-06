@@ -1,0 +1,23 @@
+2019-5-8 21:46:55.708#viewportChange#0
+2019-5-8 21:52:30.189#mousedown#{"isTrusted":true}
+2019-5-8 21:52:30.196#focus#
+2019-5-8 21:52:34.585#mousedown#{"isTrusted":true}
+2019-5-8 21:52:35.623#blur#
+2019-5-8 21:52:38.453#focus#
+2019-5-8 21:52:38.886#rename_file#divisores
+2019-5-8 21:52:39.137#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["n = int(input(\"Digite um numero: \"))","","i = 1","cont = 0","","while (i <= n):","    if (n%i == 0):","        print(i)","        cont += 1","    i += 1","    ","if (cont == 1):","    print(\"1 divisor\")","elif (cont > 1):","    print(\"%d divisores\" %cont)    "],"removed":[""],"origin":"paste"}
+2019-5-8 21:52:39.165#viewportChange#0
+2019-5-8 21:52:40.653#blur#
+2019-5-8 21:52:40.653#blur#
+2019-5-8 21:52:43.312#submit#Congratulations, your code is correct!
+2019-5-10 20:50:52.692#viewportChange#0
+2019-5-10 20:50:55.008#mousedown#{"isTrusted":true}
+2019-5-10 20:50:55.022#focus#
+2019-5-10 20:50:58.108#keyHandled#"Ctrl-A"
+2019-5-10 20:50:58.829#copy#{"isTrusted":true}
+2019-5-15 00:19:41.140#viewportChange#0
+2019-5-15 00:19:42.675#mousedown#{"isTrusted":true}
+2019-5-15 00:19:42.681#focus#
+2019-5-15 00:19:43.963#keyHandled#"Ctrl-A"
+2019-5-15 00:19:44.667#copy#{"isTrusted":true}
+2019-5-15 00:19:48.861#blur#

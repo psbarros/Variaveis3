@@ -1,0 +1,10 @@
+2019-4-16 17:30:28.011#viewportChange#0
+2019-4-16 17:30:42.015#mousedown#{"isTrusted":true}
+2019-4-16 17:30:42.031#focus#
+2019-4-16 17:30:42.840#change#{"from":{"line":3,"ch":0,"sticky":"after","xRel":12.09375},"to":{"line":3,"ch":0,"sticky":"after","xRel":12.09375},"text":["from math import *","","v0 = float(input(\"digite v0:\"))","alfa = float(input(\"digite alfa:\"))","D = float(input(\"digite D:\"))","g = 9.8","","R = ((v0**2) * sin(radians(2*alfa)))/g","","if(abs(R - D) <= 0.1):","\tprint(\"sim\")","else:","\tprint(\"nao\")","\t","",""],"removed":[""],"origin":"paste"}
+2019-4-16 17:30:42.893#viewportChange#0
+2019-4-16 17:30:42.015#mousedown#{"isTrusted":true}
+2019-4-16 17:30:42.031#focus#
+2019-4-16 17:30:42.840#change#{"from":{"line":3,"ch":0,"sticky":"after","xRel":12.09375},"to":{"line":3,"ch":0,"sticky":"after","xRel":12.09375},"text":["from math import *","","v0 = float(input(\"digite v0:\"))","alfa = float(input(\"digite alfa:\"))","D = float(input(\"digite D:\"))","g = 9.8","","R = ((v0**2) * sin(radians(2*alfa)))/g","","if(abs(R - D) <= 0.1):","\tprint(\"sim\")","else:","\tprint(\"nao\")","\t","",""],"removed":[""],"origin":"paste"}
+2019-4-16 17:30:42.893#viewportChange#0
+2019-4-16 17:30:44.981#submit#Congratulations, your code is correct!

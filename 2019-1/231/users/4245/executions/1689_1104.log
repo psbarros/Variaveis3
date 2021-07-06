@@ -1,0 +1,134 @@
+== TEST (2019-05-02 12:57:35) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo.
+
+a= float(input("Digite um valor para a: "))
+b= float(input("Digite um valor para b: "))
+c= float(input("Digite um valor para c: "))
+d= float(input("Digite um valor para d: "))
+
+if(b>a and d>c):
+	if(a<c and c<b):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+		
+	elif(a<d and d<b):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+	
+	elif(c<a and a<d):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+		
+	elif(c<b and b<d):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+	else:
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Nao ha intersecao")
+else:
+	print("Intervalo 1: ",a,", ",b)
+	print("Intervalo 2: ",c,", ",d)
+	print("Entradas invalidas")
+
+
+-- OUTPUT:
+Intervalo 1:  1.0 ,  2.0
+Intervalo 2:  4.0 ,  5.0
+Nao ha intersecao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 12:57:45) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Ao testar sua solução, não se limite ao caso de exemplo.
+
+a= float(input("Digite um valor para a: "))
+b= float(input("Digite um valor para b: "))
+c= float(input("Digite um valor para c: "))
+d= float(input("Digite um valor para d: "))
+
+if(b>a and d>c):
+	if(a<c and c<b):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+		
+	elif(a<d and d<b):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+	
+	elif(c<a and a<d):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+		
+	elif(c<b and b<d):
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Ha intersecao")
+	else:
+		print("Intervalo 1: ",a,", ",b)
+		print("Intervalo 2: ",c,", ",d)
+		print("Nao ha intersecao")
+else:
+	print("Intervalo 1: ",a,", ",b)
+	print("Intervalo 2: ",c,", ",d)
+	print("Entradas invalidas")
+
+
+-- EXECUTION TIME:
+0.164249
+-- TEST CASE 1:
+---- input:
+1
+2
+4
+5
+---- correct output:
+Intervalo 1: 1.0 , 2.0
+Intervalo 2: 4.0 , 5.0
+Nao ha intersecao
+---- user output:
+Intervalo 1:  1.0 ,  2.0
+Intervalo 2:  4.0 ,  5.0
+Nao ha intersecao
+-- TEST CASE 2:
+---- input:
+1.5
+5
+2.5
+3
+---- correct output:
+Intervalo 1: 1.5 , 5.0
+Intervalo 2: 2.5 , 3.0
+Ha intersecao
+---- user output:
+Intervalo 1:  1.5 ,  5.0
+Intervalo 2:  2.5 ,  3.0
+Ha intersecao
+-- TEST CASE 3:
+---- input:
+-1
+-3
+1
+3
+---- correct output:
+Intervalo 1: -1.0 , -3.0
+Intervalo 2: 1.0 , 3.0
+Entradas invalidas
+---- user output:
+Intervalo 1:  -1.0 ,  -3.0
+Intervalo 2:  1.0 ,  3.0
+Entradas invalidas
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

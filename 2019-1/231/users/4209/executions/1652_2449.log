@@ -1,0 +1,1494 @@
+== TEST (2019-04-12 14:59:37) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+print(x)
+y = ((a*f)-(c*d))/((a*e)-(c*d))
+print(y)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:00:59) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+print(x)
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+print(y)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:16:18) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y>0):
+	mens = 
+else:
+	mens = "Nao tem solucao"
+print(x)
+print(y)
+
+-- ERROR:
+File "XXXX", line 12
+    mens = 
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:17:13) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y>0):
+	mens = "tem solucao"
+else:
+	mens = "Nao tem solucao"
+print(x)
+print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 15:17:32) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y>0):
+	mens = "tem solucao"
+else:
+	mens = "Nao tem solucao"
+print(x)
+print(y)
+
+-- EXECUTION TIME:
+0.153375
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:19:09) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y<=0):
+	mens = "Nao tem solucao"
+else:
+	print(x)
+   print(y)
+
+-- ERROR:
+File "XXXX", line 15
+    print(y)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:19:51) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y<=0):
+	mens = "Nao tem solucao"
+else: ggg
+
+print(x)
+print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 15:20:05) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y<=0):
+	mens = "Nao tem solucao"
+else: ggg
+
+print(x)
+print(y)
+
+-- EXECUTION TIME:
+0.149494
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 15:20:07) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y<=0):
+	mens = "Nao tem solucao"
+else: ggg
+
+print(x)
+print(y)
+
+-- EXECUTION TIME:
+0.121771
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:23:42) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y==0):
+	mens = "Nao tem solucao"
+else:
+   print(x)
+   print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:23:58) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y==0):
+	mens = "Nao tem solucao"
+else:
+   print(x)
+   print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:25:10) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y==0):
+	mens = "Nao tem solucao"
+else:
+   print(x)
+   print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:25:31) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y==0):
+	mens = "Nao tem solucao"
+else:
+   print(x)
+   print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:26:33) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y == 0):
+	mens = "Nao tem solucao"
+else:
+   print(x)
+   print(y)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:29:54) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y ! 0):
+	print(x)
+   print(y) 
+else (x,y ==0
+		mensagem = Nao tem solucao
+   
+
+-- ERROR:
+File "XXXX", line 11
+    if (x,y ! 0):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:30:31) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(d*b))
+
+if (x,y > 0):
+	print(x)
+   print(y) 
+else (x,y ==0
+		mensagem = Nao tem solucao
+   
+
+-- ERROR:
+File "XXXX", line 13
+    print(y) 
+            ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:31:22) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d)
+
+if (x,y > 0):
+	print(x)
+   print(y) 
+else (x,y ==0
+		mensagem = Nao tem solucao
+   
+
+-- ERROR:
+File "XXXX", line 11
+    if (x,y > 0):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:33:16) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d)
+
+if (x,y == 0)
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 12
+    mensagem = "Nao tem solucao"
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:33:40) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d)
+
+if (x,y == 0):
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 11
+    if (x,y == 0):
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:34:53) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if (x,y == 0):
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 15:35:17) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if (x,y == 0):
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- EXECUTION TIME:
+0.193676
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:35:20) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if (x,y == 0):
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-12 15:36:15) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+print(x
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+print(y
+
+   
+
+-- EXECUTION TIME:
+0.188167
+-- ERROR:
+  File "/home/codebench/codes/1652/2449/main.py", line 10
+    y = ((a*f)-(c*d))/((a*e)-(b*d))
+    ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:36:17) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+print(x
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+print(y
+
+   
+
+-- ERROR:
+File "XXXX", line 10
+    y = ((a*f)-(c*d))/((a*e)-(b*d))
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:36:28) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+print(x)
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+print(y)
+
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    x = ((c*e)-(b*f))/((a*e)-(b*d))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:42:11) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if (((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) ==0
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 13
+    mensagem = "Nao tem solucao"
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:42:28) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if (((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0:
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 12
+    if (((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0:
+                                                                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:43:41) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if ((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0:
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 12
+    if ((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0:
+                                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:43:59) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if ((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0):
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 12
+    if ((c*e)-(b*f))/((a*e)-(b*d)), ((a*f)-(c*d))/((a*e)-(b*d)) == 0):
+                                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 15:46:59) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+
+x = ((c*e)-(b*f))/((a*e)-(b*d))
+
+y = ((a*f)-(c*d))/((a*e)-(b*d))
+
+if ()
+	 mensagem = "Nao tem solucao"
+else:
+	print(x)
+	print(y)
+   
+
+-- ERROR:
+File "XXXX", line 12
+    if ()
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:13:22) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+cont = (((c*e)-(b*))/((a*e)-(b*d)))
+print(cont)
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 7
+    cont = (((c*e)-(b*))/((a*e)-(b*d)))
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:13:56) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+cont = (((c*e)-(b*f))/((a*e)-(b*d)))
+print(cont)
+
+	
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    cont = (((c*e)-(b*f))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:22:46) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if ((x)(y) == 0):
+	mens = (((c*e)-(b*f))/(a*e)/(b*d))
+          (((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	mens = "Mao tem solucao"
+print()	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 11
+    (((a*f)-(c*d))/(a*e)-(b*d))
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:26:32) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0, y!0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0, y!0):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:26:53) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0 y!0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0 y!0):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:28:02) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0_y!0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0_y!0):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:28:18) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0y!0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0y!0):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:28:53) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:29:07) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x ! 0):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x ! 0):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:29:34) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x > 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- OUTPUT:
+Nao tem solucao
+<built-in function print>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:30:32) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x ! 0.1 y ! 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x ! 0.1 y ! 0.1):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:30:45) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x ! 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x ! 0.1):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:30:56) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (x!0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (x!0.1):
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:32:02) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y > 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+print(print)	
+
+
+	
+	
+
+	
+   
+
+-- OUTPUT:
+Nao tem solucao
+<built-in function print>
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:33:09) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y > 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:33:09) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y > 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- OUTPUT:
+Nao tem solucao
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:33:56) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y < 0.1):
+	print(((c*e)-(b*f))/(a*e)/(b*d))
+	print(((a*f)-(c*d))/(a*e)-(b*d))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- OUTPUT:
+0.0
+-100.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:35:25) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y < 0.1):
+	print(((c*e)-(b*f))/((a*e)/(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    print(((a*f)-(c*d))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:36:01) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y < 0.1):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 10, in <module>
+    print(((c*e)-(b*f))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-18 21:36:26) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/(a*e)/(b*d))
+y = (((a*f)-(c*d))/(a*e)-(b*d))
+if (y < 0.1):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- EXECUTION TIME:
+0.165057
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 10, in <module>
+    print(((c*e)-(b*f))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:40:43) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if (((c*e)-(b*f)>0):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (((c*e)-(b*f)>0):
+                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:41:08) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if (((c*e)-(b*f) ! 0.1):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if (((c*e)-(b*f) ! 0.1):
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:44:02) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if ((((c*e)-(b*f))/((a*e)-(b*d)))!0):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if ((((c*e)-(b*f))/((a*e)-(b*d)))!0):
+                                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-18 21:44:22) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if ((((c*e)-(b*f))/((a*e)-(b*d))) ! 0):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+File "XXXX", line 9
+    if ((((c*e)-(b*f))/((a*e)-(b*d))) ! 0):
+                                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-25 18:10:53) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if ((((a*f)-(c*d))/((a*e)-(b*d))) > 0):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    x = (((c*e)-(b*f))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-25 18:11:08) 
+-- CODE:
+a = float(input())
+b = float(input())
+c = float(input())
+d = float(input())
+e = float(input())
+f = float(input())
+x = (((c*e)-(b*f))/((a*e)-(b*d)))
+y = (((a*f)-(c*d))/((a*e)-(b*d)))
+if ((((a*f)-(c*d))/((a*e)-(b*d))) > 0):
+	print(((c*e)-(b*f))/((a*e)-(b*d)))
+	print(((a*f)-(c*d))/((a*e)-(b*d)))
+else:
+	print("Nao tem solucao")
+
+
+
+	
+	
+
+	
+   
+
+-- EXECUTION TIME:
+0.210381
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1652/2449/main.py", line 7, in <module>
+    x = (((c*e)-(b*f))/((a*e)-(b*d)))
+ZeroDivisionError: float division by zero
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

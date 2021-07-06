@@ -1,0 +1,87 @@
+== SUBMITION (2019-03-13 16:16:12) 
+-- CODE:
+string = "ugusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- EXECUTION TIME:
+0.134425
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+ugusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-13 16:16:27) 
+-- CODE:
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- EXECUTION TIME:
+0.148281
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-18 16:28:53) 
+-- CODE:
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- OUTPUT:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 17:19:57) 
+-- CODE:
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- EXECUTION TIME:
+0.156779
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 17:19:57) 
+-- CODE:
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- EXECUTION TIME:
+0.117853
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-18 17:32:37) 
+-- CODE:
+string = "Augusta Ada Byron, a Condessa de Lovelace, nasceu em 1815, na Inglaterra."
+print(string.lower())
+-- EXECUTION TIME:
+0.14468
+-- TEST CASE 1:
+---- input:
+nonono
+---- correct output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+---- user output:
+augusta ada byron, a condessa de lovelace, nasceu em 1815, na inglaterra.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

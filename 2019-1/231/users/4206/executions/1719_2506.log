@@ -1,0 +1,3404 @@
+== TEST (2019-05-14 23:33:18) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a*(b/100)-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+EXTINCAO
+1
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:34:08) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:34:16) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.200076
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:35:25) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:35:33) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:35:40) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:35:55) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.202772
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:36:00) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:36:09) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:37:03) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:37:35) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.137098
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:37:40) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<=12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.172194
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:41:39) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:41:59) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print(" EXTINCAO")
+		print(t)
+	else:
+		print(" LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+ LIMITE
+2
+ LIMITE
+3
+ LIMITE
+4
+ LIMITE
+5
+ LIMITE
+6
+ LIMITE
+7
+ LIMITE
+8
+ LIMITE
+9
+ LIMITE
+10
+ LIMITE
+11
+ LIMITE
+12
+ LIMITE
+13
+ EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:42:07) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print(" EXTINCAO")
+		print(t)
+	else:
+		print(" LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.136827
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+ LIMITE
+2
+ LIMITE
+3
+ LIMITE
+4
+ LIMITE
+5
+ LIMITE
+6
+ LIMITE
+7
+ LIMITE
+8
+ LIMITE
+9
+ LIMITE
+10
+ LIMITE
+11
+ LIMITE
+12
+ LIMITE
+13
+ EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+ LIMITE
+2
+ LIMITE
+3
+ LIMITE
+4
+ LIMITE
+5
+ LIMITE
+6
+ LIMITE
+7
+ LIMITE
+8
+ LIMITE
+9
+ LIMITE
+10
+ LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+ LIMITE
+2
+ LIMITE
+3
+ LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:43:48) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.150812
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:43:49) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:44:04) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:45:30) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+d = 0
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:46:10) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- EXECUTION TIME:
+0.139273
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:46:12) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:47:43) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:49:10) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- EXECUTION TIME:
+0.304726
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:49:10) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:49:18) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:49:45) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:50:00) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+LIMITE
+1
+LIMITE
+2
+LIMITE
+3
+LIMITE
+4
+LIMITE
+5
+LIMITE
+6
+LIMITE
+7
+LIMITE
+8
+LIMITE
+9
+LIMITE
+10
+LIMITE
+11
+LIMITE
+12
+LIMITE
+13
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:50:27) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:51:59) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 23:52:48) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- EXECUTION TIME:
+0.143296
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+767.23
+LIMITE
+1
+1025.1051
+LIMITE
+2
+1378.393987
+LIMITE
+3
+1862.3997621899998
+LIMITE
+4
+2525.4876742003
+LIMITE
+5
+3433.9181136544107
+LIMITE
+6
+4678.467815706543
+LIMITE
+7
+6383.500907517963
+LIMITE
+8
+8719.396243299609
+LIMITE
+9
+11919.572853320464
+LIMITE
+10
+16303.814809049036
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499.049999999999
+LIMITE
+1
+8528.6225
+LIMITE
+2
+10021.502625
+LIMITE
+3
+12186.178806249998
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:52:50) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:53:03) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:53:09) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:53:20) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 23:54:14) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	if(a<=0 and t==0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		t = t+1
+		if(a<=0):
+			print("EXTINCAO")
+			print(t)
+		else:
+			print("LIMITE")
+			print(t)
+	
+
+-- OUTPUT:
+1173.04
+LIMITE
+1
+1108.4224
+LIMITE
+2
+1039.9277439999998
+LIMITE
+3
+967.3234086399998
+LIMITE
+4
+890.3628131583998
+LIMITE
+5
+808.7845819479038
+LIMITE
+6
+722.311656864778
+LIMITE
+7
+630.6503562766646
+LIMITE
+8
+533.4893776532645
+LIMITE
+9
+430.4987403124603
+LIMITE
+10
+321.32866473120794
+LIMITE
+11
+205.6083846150804
+LIMITE
+12
+82.94488769198523
+LIMITE
+13
+-47.078419046495654
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 00:00:48) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(a)
+	
+-- OUTPUT:
+1173.04
+1108.4224
+1039.9277439999998
+967.3234086399998
+890.3628131583998
+808.7845819479038
+722.311656864778
+630.6503562766646
+533.4893776532645
+430.4987403124603
+321.32866473120794
+205.6083846150804
+82.94488769198523
+-47.078419046495654
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 00:01:13) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	
+-- OUTPUT:
+1173
+1108
+1039
+967
+890
+808
+722
+630
+533
+430
+321
+205
+82
+-47
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:19) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.121591
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+767
+LIMITE
+1
+1025
+LIMITE
+2
+1378
+LIMITE
+3
+1862
+LIMITE
+4
+2525
+LIMITE
+5
+3433
+LIMITE
+6
+4678
+LIMITE
+7
+6383
+LIMITE
+8
+8719
+LIMITE
+9
+11919
+LIMITE
+10
+16303
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499
+LIMITE
+1
+8528
+LIMITE
+2
+10021
+LIMITE
+3
+12186
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:22) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.163423
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+767
+LIMITE
+1
+1025
+LIMITE
+2
+1378
+LIMITE
+3
+1862
+LIMITE
+4
+2525
+LIMITE
+5
+3433
+LIMITE
+6
+4678
+LIMITE
+7
+6383
+LIMITE
+8
+8719
+LIMITE
+9
+11919
+LIMITE
+10
+16303
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499
+LIMITE
+1
+8528
+LIMITE
+2
+10021
+LIMITE
+3
+12186
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:23) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.126149
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:24) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.191658
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499
+LIMITE
+1
+8528
+LIMITE
+2
+10021
+LIMITE
+3
+12186
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:24) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.102094
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1719/2506/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:02:24) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- EXECUTION TIME:
+0.269095
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+7499
+LIMITE
+1
+8528
+LIMITE
+2
+10021
+LIMITE
+3
+12186
+LIMITE
+4
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499
+LIMITE
+1
+8528
+LIMITE
+2
+10021
+LIMITE
+3
+12186
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 00:02:25) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- OUTPUT:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 00:02:37) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	if(a<0):
+		print("EXTINCAO")
+		print(t)
+	else:
+		print("LIMITE")
+		print(t)
+	
+-- OUTPUT:
+1173
+LIMITE
+1
+1108
+LIMITE
+2
+1039
+LIMITE
+3
+967
+LIMITE
+4
+890
+LIMITE
+5
+808
+LIMITE
+6
+722
+LIMITE
+7
+630
+LIMITE
+8
+533
+LIMITE
+9
+430
+LIMITE
+10
+321
+LIMITE
+11
+205
+LIMITE
+12
+82
+LIMITE
+13
+-47
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:06:32) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	
+if(a<=0):
+	print("EXTINCAO")
+	print(t)
+else:
+	print("LIMITE")
+	print(t)
+
+-- EXECUTION TIME:
+0.216443
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+1173
+1108
+1039
+967
+890
+808
+722
+630
+533
+430
+321
+205
+82
+-47
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+767
+1025
+1378
+1862
+2525
+3433
+4678
+6383
+8719
+11919
+16303
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+7499
+8528
+10021
+12186
+LIMITE
+4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 00:06:33) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	print(int(a))
+	t = t+1
+	
+if(a<=0):
+	print("EXTINCAO")
+	print(t)
+else:
+	print("LIMITE")
+	print(t)
+
+-- OUTPUT:
+1173
+1108
+1039
+967
+890
+808
+722
+630
+533
+430
+321
+205
+82
+-47
+EXTINCAO
+14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-15 00:06:49) 
+-- CODE:
+a = int(input())
+b = int(input())
+c = int(input())
+t = 0
+while(a>0 and a<12000):
+	a = a+(a*(b/100))-c
+	t = t+1
+	
+if(a<=0):
+	print("EXTINCAO")
+	print(t)
+else:
+	print("LIMITE")
+	print(t)
+
+-- EXECUTION TIME:
+0.117634
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+EXTINCAO
+14
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+LIMITE
+11
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+LIMITE
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

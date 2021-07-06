@@ -1,0 +1,62 @@
+== TEST (2019-03-27 13:11:53) 
+-- CODE:
+from math import *
+xa=float(input("Informe a coordenada X do ponto A:"))
+ya=float(input("Informe a coordenada Y do ponto A:"))
+xb=float(input("Informe a coordenada X do ponto B:"))
+yb=float(input("Informe a coordenada Y do ponto B:"))
+parte_x=(xb-xa)**2
+parte_y=(yb-ya)**2
+distancia=sqrt(parte_x+parte_y)
+print(round(distancia,3))
+
+-- OUTPUT:
+30.48
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 13:12:10) 
+-- CODE:
+from math import *
+xa=float(input("Informe a coordenada X do ponto A:"))
+ya=float(input("Informe a coordenada Y do ponto A:"))
+xb=float(input("Informe a coordenada X do ponto B:"))
+yb=float(input("Informe a coordenada Y do ponto B:"))
+parte_x=(xb-xa)**2
+parte_y=(yb-ya)**2
+distancia=sqrt(parte_x+parte_y)
+print(round(distancia,3))
+
+-- EXECUTION TIME:
+0.141973
+-- TEST CASE 1:
+---- input:
+50
+25
+30
+48
+---- correct output:
+30.48
+---- user output:
+30.48
+-- TEST CASE 2:
+---- input:
+2.5
+3.0
+5.0
+1.8
+---- correct output:
+2.773
+---- user output:
+2.773
+-- TEST CASE 3:
+---- input:
+1.22
+2.33
+3.44
+4.55
+---- correct output:
+3.14
+---- user output:
+3.14
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

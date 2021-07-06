@@ -1,0 +1,494 @@
+== TEST (2019-03-28 08:33:07) 
+-- CODE:
+a = float(input(" nome do objeto:"))
+c = float(input(" Abra + a"))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:33:34) 
+-- CODE:
+a = int(input(" nome do objeto:"))
+c = float(input(" Abra + a"))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = int(input())
+ValueError: invalid literal for int() with base 10: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:33:49) 
+-- CODE:
+a = float(input(" nome do objeto:"))
+c = float(input(" Abra + a"))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:34:50) 
+-- CODE:
+a = (input(" nome do objeto:"))
+c = (input(" Abra + a"))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:35:31) 
+-- CODE:
+a = (input(" Abra + nome do objeto:"))
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:35:55) 
+-- CODE:
+a = (input(" nome do objeto:"))
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    a = float(input())
+ValueError: could not convert string to float: 'livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:37:07) 
+-- CODE:
+a = (input(" nome do objeto:"))
+abra + a 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    abra + a 
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:38:04) 
+-- CODE:
+a = (input(" nome do objeto:"))
+b = input("abra")
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    abra + a 
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:39:03) 
+-- CODE:
+a = (input(" nome do objeto:"))
+b = input("abra")
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print((b + a) * N) 
+NameError: name 'N' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:39:27) 
+-- CODE:
+a = (input(" nome do objeto:"))
+b = abra
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    b = abra
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:40:05) 
+-- CODE:
+a = (input(" nome do objeto:"))
+b = ("abra")
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    print((b + a) * N) 
+NameError: name 'N' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:42:15) 
+-- CODE:
+a = (input(" nome do objeto:"))
+b = ("abra")
+N = (input("digite o valor da variavel: "))
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print((b + a) * N) 
+TypeError: can't multiply sequence by non-int of type 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:42:38) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = ("abra")
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    print((b + a) * N) 
+TypeError: can't multiply sequence by non-int of type 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:43:07) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = int("abra")
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = int("abra")
+ValueError: invalid literal for int() with base 10: 'abra'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:43:45) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = abra
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = abra
+NameError: name 'abra' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:44:38) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = (input("repetiçao do feitico:" ))
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = (input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:44:57) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = (input("repeticao do feitico:" ))
+print((b + a) * N) 
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = (input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:45:57) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = (input("repeticao do feitico:" ))
+Feitico = ((b + a) * N) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = (input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:46:40) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = (input("repeticao do feitico:" ))
+Feitico = int(((b + a) * N)) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = (input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:52:43) 
+-- CODE:
+a = (input(" nome do objeto:"))
+N = (input("digite o valor da variavel: "))
+b = (input("repeticao do feitico:" ))
+Feitico = int(((b + a) * N)) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    b = (input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:53:33) 
+-- CODE:
+a = (input(" nome do objeto:")) 
+b = (input("repeticao do feitico:" ))
+Feitico = int(((b + a) * N)) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Feitico = int(((b + a) * N)) 
+NameError: name 'N' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:54:29) 
+-- CODE:
+a = (input(" nome do objeto:")) 
+b = (input("repeticao do feitico:" ))
+Feitico = int((b + a) ) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Feitico = int((b + a) ) 
+ValueError: invalid literal for int() with base 10: '8livro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:55:32) 
+-- CODE:
+a = (input(" nome do objeto:")) 
+b = int(input("repeticao do feitico:" ))
+Feitico = int((b * a) ) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Feitico = int((b * a) ) 
+ValueError: invalid literal for int() with base 10: 'livrolivrolivrolivrolivrolivrolivrolivro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:56:04) 
+-- CODE:
+a = (input(" nome do objeto:")) 
+b = int(input("repeticao do feitico:" ))
+Feitico = int((b * a) ) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Feitico = int((b * a) ) 
+ValueError: invalid literal for int() with base 10: 'livrolivrolivrolivrolivrolivrolivrolivro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:56:49) 
+-- CODE:
+a = "abra" + (input(" nome do objeto:")) 
+b = int(input("repeticao do feitico:" ))
+Feitico = int((b * a) ) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    Feitico = int((b * a) ) 
+ValueError: invalid literal for int() with base 10: 'abralivroabralivroabralivroabralivroabralivroabralivroabralivroabralivro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:57:25) 
+-- CODE:
+a = "abra" + (input(" nome do objeto:")) 
+from math import 
+b = int(input("repeticao do feitico:" ))
+Feitico = int((b * a) ) 
+print(Feitico)
+
+
+-- ERROR:
+File "XXXX", line 2
+    from math import 
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:57:31) 
+-- CODE:
+a = "abra" + (input(" nome do objeto:")) 
+from math import*
+b = int(input("repeticao do feitico:" ))
+Feitico = int((b * a) ) 
+print(Feitico)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    Feitico = int((b * a) ) 
+ValueError: invalid literal for int() with base 10: 'abralivroabralivroabralivroabralivroabralivroabralivroabralivroabralivro'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:58:24) 
+-- CODE:
+a = "abra" + (input(" nome do objeto:")) 
+from math import*
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- OUTPUT:
+abralivroabralivroabralivroabralivroabralivroabralivroabralivroabralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:59:21) 
+-- CODE:
+a = "Abra" + (input(" nome do objeto: ")) + " "
+from math import*
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- OUTPUT:
+Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 09:59:27) 
+-- CODE:
+a = "Abra" + (input(" nome do objeto: ")) + " "
+from math import*
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- EXECUTION TIME:
+0.236912
+-- TEST CASE 1:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+-- TEST CASE 2:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abracarro Abracarro
+-- TEST CASE 3:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abracaixa
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:59:43) 
+-- CODE:
+a = "Abra" + (input(" nome do objeto: ")) + " "
+from math import*
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- OUTPUT:
+Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:00:11) 
+-- CODE:
+a = "Abra" + (input(" nome do objeto: ")) + " "
+
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- OUTPUT:
+Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro Abralivro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:00:30) 
+-- CODE:
+a = "Abra " + (input(" nome do objeto: ")) + " "
+
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- OUTPUT:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:00:36) 
+-- CODE:
+a = "Abra " + (input(" nome do objeto: ")) + " "
+
+b = int(input("repeticao do feitico:" ))
+print(b * a) 
+
+
+
+-- EXECUTION TIME:
+0.204949
+-- TEST CASE 1:
+---- input:
+livro
+8
+---- correct output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+---- user output:
+Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro Abra livro
+-- TEST CASE 2:
+---- input:
+carro
+2
+---- correct output:
+Abra carro Abra carro
+---- user output:
+Abra carro Abra carro
+-- TEST CASE 3:
+---- input:
+caixa
+1
+---- correct output:
+Abra caixa
+---- user output:
+Abra caixa
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

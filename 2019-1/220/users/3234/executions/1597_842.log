@@ -1,0 +1,33 @@
+== SUBMITION (2019-03-24 13:19:00) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+a = float(input())
+milhar = a // 1000
+restomilhar = a % 1000
+centena = restomilhar // 100
+restocentena = restomilhar % 100
+dezena = restocentena // 10
+restodezena = restocentena % 10
+unidade = restodezena // 1
+print(int(milhar+ centena+dezena+unidade))
+-- EXECUTION TIME:
+0.205237
+-- TEST CASE 1:
+---- input:
+9173
+---- correct output:
+20
+---- user output:
+20
+-- TEST CASE 2:
+---- input:
+1010
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

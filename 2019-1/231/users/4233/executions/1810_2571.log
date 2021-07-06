@@ -1,0 +1,1059 @@
+== TEST (2019-06-08 18:43:50) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:44:25) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+print(string)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:44:43) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+print(string)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:44:46) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+print(string)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:47:02) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+print(string)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_COMPUTACAO-ICOMP-UFAMINSTITUTO_DE_C
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:47:20) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+for i in range(len(string)):
+	if(string[i]!="a" or string[i]!="A"):
+		string = string + string_b
+		
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:48:18) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:48:22) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:48:39) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:48:44) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("a","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:52:43) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("A","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:52:47) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("A","")
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 18:53:06) 
+-- CODE:
+string = input("String: ").upper()
+
+string_b = string.replace("A","")
+
+
+print(string_b)
+	
+	
+-- EXECUTION TIME:
+0.872677
+-- TEST CASE 1:
+---- input:
+Instituto_de_Computacao-ICOMP-UFAM
+---- correct output:
+Instituto_de_Computco-ICOMP-UFM
+---- user output:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFM
+-- TEST CASE 2:
+---- input:
+a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-aa-a-a-a-a-a-a-a-a-a-a
+---- correct output:
+-----------------------------
+---- user output:
+-----------------------------
+-- TEST CASE 3:
+---- input:
+.aaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb.aaaaaaaaaaaaaaaaa.
+---- correct output:
+..bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb..
+---- user output:
+..BBBBBBBBBBBBBBBBBBB.CCCCCCCCCCCCCCCCCCCCCCC.BBBBBBBBBBBBBBBBBB..
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:54:53) 
+-- CODE:
+string = input("String: ").upper()
+
+string_m = input("String: ").lower()
+
+string_a = string.replace("a", "")
+
+string_b = string.replace("A","")
+
+print(string_a)
+print(string_b)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    string_m = input().lower()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 18:55:11) 
+-- CODE:
+string = input("String: ").upper()
+
+string_m = input("String: ").lower()
+
+string_a = string.replace("a", "")
+
+string_b = string.replace("A","")
+
+print(string_a)
+print(string_b)
+	
+	
+-- EXECUTION TIME:
+0.651201
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 3, in <module>
+    string_m = input().lower()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:55:13) 
+-- CODE:
+string = input("String: ").upper()
+
+string_m = input("String: ").lower()
+
+string_a = string.replace("a", "")
+
+string_b = string.replace("A","")
+
+print(string_a)
+print(string_b)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    string_m = input().lower()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:55:49) 
+-- CODE:
+string = input("String: ").upper()
+
+
+string_b = string.replace("A","", "a", "")
+
+print(string_b)
+	
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    string_b = string.replace("A","", "a", "")
+TypeError: replace() takes at most 3 arguments (4 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:56:13) 
+-- CODE:
+string = input("String: ").upper()
+
+
+string_b = string.replace("A or a","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTACAO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:56:25) 
+-- CODE:
+string = input("String: ").upper()
+
+
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:56:37) 
+-- CODE:
+string = input("String: ").upper().lower()
+
+
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+instituto_de_computacao-icomp-ufam
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:56:43) 
+-- CODE:
+string = input("String: ").upper().lower()
+
+
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+instituto_de_computacao-icomp-ufam
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:56:56) 
+-- CODE:
+string = input("String: ").lower()
+
+
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+instituto_de_computacao-icomp-ufam
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:57:00) 
+-- CODE:
+string = input("String: ").lower()
+
+
+string_b = string.replace("a","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+instituto_de_computco-icomp-ufm
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 18:57:07) 
+-- CODE:
+string = input("String: ").lower()
+
+
+string_b = string.replace("a","")
+
+print(string_b)
+	
+	
+-- EXECUTION TIME:
+0.858843
+-- TEST CASE 1:
+---- input:
+Instituto_de_Computacao-ICOMP-UFAM
+---- correct output:
+Instituto_de_Computco-ICOMP-UFM
+---- user output:
+instituto_de_computco-icomp-ufm
+-- TEST CASE 2:
+---- input:
+a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-aa-a-a-a-a-a-a-a-a-a-a
+---- correct output:
+-----------------------------
+---- user output:
+-----------------------------
+-- TEST CASE 3:
+---- input:
+.aaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb.aaaaaaaaaaaaaaaaa.
+---- correct output:
+..bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb..
+---- user output:
+..bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb..
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:59:24) 
+-- CODE:
+string = input("String: ").lower()
+
+
+string_b = string.replace("a","")
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+instituto_de_computacao-icomp-ufam
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:59:32) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","")
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+Instituto_de_Computacao-ICOMP-UFM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 18:59:44) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","")
+string_b = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+Instituto_de_Computacao-ICOMP-UFM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:00:26) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","").upper()
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:00:31) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","").upper()
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:00:42) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","").upper()
+
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:01:18) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","").upper()
+string_c = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:01:24) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","").upper()
+string_c = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+INSTITUTO_DE_COMPUTCO-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:01:32) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","")
+string_c = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+Instituto_de_Computco-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:01:37) 
+-- CODE:
+string = input("String: ")
+
+
+string_b = string.replace("a","")
+string_c = string.replace("A","")
+
+print(string_b)
+	
+	
+-- OUTPUT:
+Instituto_de_Computco-ICOMP-UFAM
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:13:26) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:13:58) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+
+-- EXECUTION TIME:
+0.791567
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:14:02) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+
+-- EXECUTION TIME:
+0.822743
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:14:40) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:15:08) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+string = input("String: ")
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:15:20) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+string = input("String: ")
+
+
+-- EXECUTION TIME:
+0.876388
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:15:25) 
+-- CODE:
+string = input("String: ")
+
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("a","")
+	
+		
+print(string_b)
+
+string = input("String: ")
+
+for i in string:
+	if(i=="a" or i=="A"):
+		string_b = string.replace("A","")
+		
+print(string_b)
+
+string = input("String: ")
+
+
+-- EXECUTION TIME:
+0.884563
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 11, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:28:16) 
+-- CODE:
+string = input("String: ")
+
+string_b = ""
+
+
+for i in string:
+	if(i!="a" and i!="A"):
+		string_b = string + string_b
+		
+print(string_b)
+
+string = input("String")
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:28:24) 
+-- CODE:
+string = input("String: ")
+
+string_b = ""
+
+
+for i in string:
+	if(i!="a" and i!="A"):
+		string_b = string + string_b
+		
+print(string_b)
+
+string = input("String")
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:28:30) 
+-- CODE:
+string = input("String: ")
+
+string_b = ""
+
+
+for i in string:
+	if(i!="a" and i!="A"):
+		string_b = string + string_b
+		
+print(string_b)
+
+string = input("String")
+
+
+
+
+-- EXECUTION TIME:
+0.451788
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 12, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 19:28:34) 
+-- CODE:
+string = input("String: ")
+
+string_b = ""
+
+
+for i in string:
+	if(i!="a" and i!="A"):
+		string_b = string + string_b
+		
+print(string_b)
+
+string = input("String")
+
+
+
+
+-- EXECUTION TIME:
+0.694044
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1810/2571/main.py", line 12, in <module>
+    string = input()
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 19:29:25) 
+-- CODE:
+string = input("String: ")
+
+string_b = ""
+
+
+for i in string:
+	if(i!="a" and i!="A"):
+		i = i + string_b
+		
+print(i)
+
+string = input("String")
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 12, in <module>
+    string = input()
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:10:11) 
+-- CODE:
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(size(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    for i in range(size(string)):
+NameError: name 'size' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:10:36) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(size(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:10:53) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:11:06) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string[i]
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:11:12) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string[i]
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:11:18) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string[i]
+		
+print(string_b)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 12:11:46) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string[i]
+		
+print(string_b)
+
+string = input("Digite: ")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-11 12:12:01) 
+-- CODE:
+from numpy import*
+
+string = input("Digite: ")
+
+string_b = ""
+
+for i in range(len(string)):
+	if(string[i]!="A" and string[i]!="a"):
+		string_b = string_b + string[i]
+		
+print(string_b)
+
+
+-- EXECUTION TIME:
+1.26443
+-- TEST CASE 1:
+---- input:
+Instituto_de_Computacao-ICOMP-UFAM
+---- correct output:
+Instituto_de_Computco-ICOMP-UFM
+---- user output:
+Instituto_de_Computco-ICOMP-UFM
+-- TEST CASE 2:
+---- input:
+a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-aa-a-a-a-a-a-a-a-a-a-a
+---- correct output:
+-----------------------------
+---- user output:
+-----------------------------
+-- TEST CASE 3:
+---- input:
+.aaaaaaaaaaaaaaaaaaaaa.bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb.aaaaaaaaaaaaaaaaa.
+---- correct output:
+..bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb..
+---- user output:
+..bbbbbbbbbbbbbbbbbbb.ccccccccccccccccccccccc.bbbbbbbbbbbbbbbbbb..
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

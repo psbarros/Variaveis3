@@ -1,0 +1,347 @@
+== TEST (2019-04-13 02:23:18) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v=(pi*h**2*(3*r-h))/3
+v2=v-v1
+if   (volume=1):
+		print(v)
+else	
+		print(v2)
+
+
+-- ERROR:
+File "XXXX", line 8
+    if   (volume=1):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:23:28) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v=(pi*h**2*(3*r-h))/3
+v2=v-v1
+if   (volume==1):
+		print(v)
+else	
+		print(v2)
+
+
+-- ERROR:
+File "XXXX", line 10
+    else	
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:23:36) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v=(pi*h**2*(3*r-h))/3
+v2=v-v1
+if   (volume==1):
+		print(v)
+else:	
+		print(v2)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    v2=v-v1
+NameError: name 'v1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:24:02) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(v)
+else:	
+		print(v2)
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    v2=abs(v-v1)
+NameError: name 'v1' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:24:20) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(v)
+else:	
+		print(v2)
+
+
+-- OUTPUT:
+179.5943800302165
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:24:55) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4)
+else:	
+		print(round(v2,  4)
+
+
+-- ERROR:
+File "XXXX", line 10
+    else:	
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:25:04) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-13 02:25:12) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- EXECUTION TIME:
+0.216887
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+179.5944
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:25:17) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-13 02:25:31) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+h=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*h**2*(3*r-h))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- EXECUTION TIME:
+0.186217
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+179.5944
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:28:22) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+x=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*x**2*(3*r-x))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-13 02:28:31) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+x=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*x**2*(3*r-x))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- EXECUTION TIME:
+0.129926
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+179.5944
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 02:29:05) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+x=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*x**2*(3*r-x))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v1,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- OUTPUT:
+9.0257
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-13 02:29:11) 
+-- CODE:
+from math import*
+r=float(input("Tamanho do raio:"))
+x=float(input("Altura da coluna de ar:"))
+volume=int(input("Numero da opcao: (1/2)"))
+v=(4*pi*r**3)/3
+v1=(pi*x**2*(3*r-x))/3
+v2=abs(v-v1)
+if   (volume==1):
+		print(round(v1,   4))
+else:	
+		print(round(v2,  4))
+
+
+-- EXECUTION TIME:
+0.182096
+-- TEST CASE 1:
+---- input:
+3.50
+0.95
+1
+---- correct output:
+9.0257
+---- user output:
+9.0257
+-- TEST CASE 2:
+---- input:
+4.20
+1.30
+2
+---- correct output:
+290.3408
+---- user output:
+290.3408
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

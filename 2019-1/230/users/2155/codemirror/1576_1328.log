@@ -1,0 +1,34 @@
+2019-4-1 21:09:36.573#viewportChange#0
+2019-4-1 21:14:13.765#mousedown#{"isTrusted":true}
+2019-4-1 21:14:15.433#focus#
+2019-4-1 21:14:26.250#change#{"from":{"line":0,"ch":0,"sticky":null},"to":{"line":0,"ch":0,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:28.710#change#{"from":{"line":0,"ch":1,"sticky":null},"to":{"line":0,"ch":1,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:29.857#change#{"from":{"line":0,"ch":2,"sticky":null},"to":{"line":0,"ch":2,"sticky":null},"text":["="],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:31.466#change#{"from":{"line":0,"ch":3,"sticky":null},"to":{"line":0,"ch":3,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:32.567#change#{"from":{"line":0,"ch":4,"sticky":null},"to":{"line":0,"ch":4,"sticky":null},"text":["3"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:33.597#change#{"from":{"line":0,"ch":5,"sticky":null},"to":{"line":0,"ch":5,"sticky":null},"text":["5"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:44.741#change#{"from":{"line":1,"ch":0,"sticky":null},"to":{"line":1,"ch":0,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:46.503#change#{"from":{"line":1,"ch":1,"sticky":null},"to":{"line":1,"ch":1,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:47.740#change#{"from":{"line":1,"ch":2,"sticky":null},"to":{"line":1,"ch":2,"sticky":null},"text":["="],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:48.524#change#{"from":{"line":1,"ch":3,"sticky":null},"to":{"line":1,"ch":3,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:49.678#change#{"from":{"line":1,"ch":4,"sticky":null},"to":{"line":1,"ch":4,"sticky":null},"text":["2"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:50.686#change#{"from":{"line":1,"ch":5,"sticky":null},"to":{"line":1,"ch":5,"sticky":null},"text":["0"],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:51.793#change#{"from":{"line":1,"ch":6,"sticky":null},"to":{"line":1,"ch":6,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:53.299#change#{"from":{"line":1,"ch":6,"sticky":"after"},"to":{"line":1,"ch":7,"sticky":null},"text":[""],"removed":[" "],"origin":"+delete"}
+2019-4-1 21:14:53.300#keyHandled#"Backspace"
+2019-4-1 21:14:53.729#change#{"from":{"line":1,"ch":6,"sticky":null},"to":{"line":1,"ch":6,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-1 21:14:53.729#keyHandled#"Enter"
+2019-4-1 21:14:53.739#viewportChange#0
+2019-4-1 21:14:55.867#change#{"from":{"line":2,"ch":0,"sticky":null},"to":{"line":2,"ch":0,"sticky":null},"text":["h"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:02.976#change#{"from":{"line":2,"ch":5,"sticky":null},"to":{"line":2,"ch":5,"sticky":null},"text":["*"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:04.280#change#{"from":{"line":2,"ch":6,"sticky":null},"to":{"line":2,"ch":6,"sticky":null},"text":["a"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:05.497#change#{"from":{"line":2,"ch":7,"sticky":null},"to":{"line":2,"ch":7,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:05.497#keyHandled#"Enter"
+2019-4-1 21:15:05.510#viewportChange#0
+2019-4-1 21:15:08.675#change#{"from":{"line":3,"ch":2,"sticky":null},"to":{"line":3,"ch":2,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:09.489#change#{"from":{"line":3,"ch":3,"sticky":null},"to":{"line":3,"ch":3,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:10.183#change#{"from":{"line":3,"ch":4,"sticky":null},"to":{"line":3,"ch":4,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:13.037#change#{"from":{"line":3,"ch":5,"sticky":null},"to":{"line":3,"ch":5,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:13.038#keyHandled#"'('"
+2019-4-1 21:15:14.709#change#{"from":{"line":3,"ch":6,"sticky":"after"},"to":{"line":3,"ch":6,"sticky":"after"},"text":["h"],"removed":[""],"origin":"+input"}
+2019-4-1 21:15:16.144#blur#

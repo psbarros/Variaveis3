@@ -1,0 +1,10 @@
+2019-4-14 00:54:51.272#viewportChange#0
+2019-4-14 00:55:21.035#mousedown#{"isTrusted":true}
+2019-4-14 00:55:21.041#focus#
+2019-4-14 00:55:21.308#mousedown#{"isTrusted":true}
+2019-4-14 00:55:21.410#blur#
+2019-4-14 00:55:21.493#contextmenu#{"isTrusted":true}
+2019-4-14 00:55:21.498#focus#
+2019-4-14 00:55:23.713#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":20.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":20.09375},"text":["nota= float(input(\"nota\"))","opcao=input(\"bonificacao? (S/N)\")","if(opcao.upper()==\"S\"):","\tprint(float(nota+nota*0.1))","if(opcao.upper()==\"N\"):","\tprint(float(nota))"],"removed":[""],"origin":"paste"}
+2019-4-14 00:55:23.724#viewportChange#0
+2019-4-14 00:55:31.519#blur#

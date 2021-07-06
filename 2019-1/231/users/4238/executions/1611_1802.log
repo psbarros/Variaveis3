@@ -1,0 +1,65 @@
+== TEST (2019-03-28 19:05:40) 
+-- CODE:
+import math
+var=int(input("vida:"))
+D1=int(input("d1:"))
+D2=int(input("d2:"))
+dano=(5*D1)**0.5 + math.pi**(D2/3)
+x=var-dano
+print(x)
+-- OUTPUT:
+187.89432762141087
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 19:06:36) 
+-- CODE:
+import math
+var=int(input("vida:"))
+D1=int(input("d1:"))
+D2=int(input("d2:"))
+dano=(5*D1)**0.5 + math.pi**(D2/3)
+x=var-int(dano)
+print(x)
+-- OUTPUT:
+188
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 19:06:48) 
+-- CODE:
+import math
+var=int(input("vida:"))
+D1=int(input("d1:"))
+D2=int(input("d2:"))
+dano=(5*D1)**0.5 + math.pi**(D2/3)
+x=var-int(dano)
+print(x)
+-- EXECUTION TIME:
+0.126899
+-- TEST CASE 1:
+---- input:
+200
+1
+6
+---- correct output:
+188
+---- user output:
+188
+-- TEST CASE 2:
+---- input:
+300
+6
+6
+---- correct output:
+285
+---- user output:
+285
+-- TEST CASE 3:
+---- input:
+500
+1
+1
+---- correct output:
+497
+---- user output:
+497
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,1610 @@
+== TEST (2019-06-17 17:46:25) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( , )
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[0] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+File "XXXX", line 18
+    preco = dot( , )
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:47:55) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[0] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:49:21) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( compras, frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[0] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-17 17:51:41) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( compras, frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[0] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+0.807718
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  702.0
+banana:  338.6
+caqui:  211.9
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:51:57) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( compras, frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-17 17:52:01) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( compras, frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+0.976349
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  702.0
+banana:  338.6
+caqui:  211.9
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:52:04) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot( compras, frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:53:53) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras,frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-17 17:54:10) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 15:56:25) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 15:56:30) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 15:56:35) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 15:57:22) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+print(frutas)
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 15:58:07) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+print(preco)
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:03:10) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+print(preco)
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:03:36) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:03:38) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas,compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+0.930172
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  729.7
+banana:  338.6
+caqui:  188.3
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:13:09) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras,frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:15:04) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras,frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:15:06) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras,frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+1.00189
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  702.0
+banana:  338.6
+caqui:  211.9
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:15:12) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras,frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:15:58) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras/frutas)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:16:23) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:16:28) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+1.2813
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  729.7
+banana:  338.6
+caqui:  188.3
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:17:23) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:17:26) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+0.994154
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  729.7
+banana:  338.6
+caqui:  188.3
+abacate
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:17:27) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(frutas, compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:21:45) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:21:48) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+1.05099
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  3.2
+banana:  1.2
+caqui:  7.4
+caqui
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:21:58) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:21:59) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:22:00) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+1.03102
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  3.2
+banana:  1.2
+caqui:  7.4
+caqui
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:22:02) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+1.01915
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  3.2
+banana:  1.2
+caqui:  7.4
+caqui
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:22:04) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:22:41) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(compras, inv(frutas))
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-19 16:24:31) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(inv(frutas), compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-19 16:25:12) 
+-- CODE:
+"""
+Lab 07 – Exercicio 01
+@author: IComp / UFAM
+SISTEMAS DE EQUACOES LINEARES -- FRUTAS
+"""
+
+from numpy import *
+from numpy.linalg import *
+
+# Matriz do sistema linear (informado no enunciado)
+frutas = array([[3 , 12 , 1 ], [12 , 0 , 2 ], [0 , 2 , 3 ]])
+
+# Vetor de constantes (informado no enunciado)
+compras = array([23.6, 52.6, 27.7])
+compras = compras.T
+
+# Resolucao do sistema de equacoes lineares
+preco = dot(inv(frutas), compras)
+
+# Imprime o preco de cada fruta
+print("abacate: ", round(preco[0], 1))
+print("banana: ", round(preco[1], 1))
+print("caqui: ", round(preco[2], 1))
+
+# Imprime nome da fruta mais cara
+if preco[0] == max(preco):
+    print("abacate")
+elif preco[1] == max(preco):
+    print("banana")
+else:
+    print("caqui")
+
+-- EXECUTION TIME:
+0.929691
+-- TEST CASE 1:
+---- input:
+nada
+---- correct output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+
+---- user output:
+abacate:  2.9
+banana:  0.5
+caqui:  8.9
+caqui
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

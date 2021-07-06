@@ -1,0 +1,333 @@
+== TEST (2019-04-15 19:33:11) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = input("Qual o valor do saque? ")
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- ERROR:
+File "XXXX", line 8
+    valor // 50 = notas_RS50
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 19:33:12) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = input("Qual o valor do saque? ")
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- EXECUTION TIME:
+0.144223
+-- ERROR:
+  File "/home/codebench/codes/1653/820/main.py", line 8
+    valor // 50 = notas_RS50
+    ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:37:21) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? ")
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- ERROR:
+File "XXXX", line 8
+    valor // 50 = notas_RS50
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 19:37:21) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? ")
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- EXECUTION TIME:
+0.161604
+-- ERROR:
+  File "/home/codebench/codes/1653/820/main.py", line 8
+    valor // 50 = notas_RS50
+        ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 22:13:00) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- ERROR:
+File "XXXX", line 8
+    valor // 50 = notas_RS50
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 22:13:00) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+valor // 50 = notas_RS50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- EXECUTION TIME:
+0.179595
+-- ERROR:
+  File "/home/codebench/codes/1653/820/main.py", line 8
+    valor // 50 = notas_RS50
+    ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 22:14:58) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_RS50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    notas_RS50 = valor // 50
+NameError: name 'valor' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 22:14:58) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+# Quantidade de notas de R$ 50
+notas_RS50 = valor // 50
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS50 = valor % 50
+
+# Quantidade de notas de R$ 10
+notas_RS10 = resto_RS50 // 10
+
+# Valor restante a ser sacado com notas menores que R$ 50
+resto_RS10 = resto_RS50 % 10
+
+# Quantidade de notas de R$ 2
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- EXECUTION TIME:
+0.142307
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/820/main.py", line 8, in <module>
+    notas_RS50 = valor // 50
+NameError: name 'valor' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 22:31:31) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+notas_RS50 = VALOR // 50
+resto_RS50 = VALOR % 50
+notas_RS10 = resto_RS50 // 10
+resto_RS10 = resto_RS50 % 10
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- OUTPUT:
+40
+2
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 22:31:32) 
+-- CODE:
+# Instituto de Computacao - UFAM
+# Lab 01 - Ex 10
+# 20 / 05 / 2016
+
+VALOR = int(input("Qual o valor do saque? "))
+
+notas_RS50 = VALOR // 50
+resto_RS50 = VALOR % 50
+notas_RS10 = resto_RS50 // 10
+resto_RS10 = resto_RS50 % 10
+notas_RS2 = resto_RS10 // 2
+
+print(int(notas_RS50))
+print(int(notas_RS10))
+print(int(notas_RS2))
+
+-- EXECUTION TIME:
+0.17538
+-- TEST CASE 1:
+---- input:
+2028
+---- correct output:
+40
+2
+4
+---- user output:
+40
+2
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

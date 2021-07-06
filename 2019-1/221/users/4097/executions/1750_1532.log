@@ -1,0 +1,133 @@
+== TEST (2019-05-16 09:11:20) 
+-- CODE:
+from mah import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 0
+n = 3
+
+while (x != 0):
+	x = x + (x ** n + 2 / n + 2)
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from mah import*
+ModuleNotFoundError: No module named 'mah'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:11:42) 
+-- CODE:
+from mah import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 0
+n = 3
+
+while (x != 0):
+	x = x + (x ** n + 2 / factorial(n + 2))
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from mah import*
+ModuleNotFoundError: No module named 'mah'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:11:49) 
+-- CODE:
+from math import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 0
+n = 3
+
+while (x != 0):
+	x = x + (x ** n + 2 / factorial(n + 2))
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    x = x + (x ** n + 2 / factorial(n + 2))
+OverflowError: (34, 'Numerical result out of range')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:12:13) 
+-- CODE:
+from math import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 0
+n = 3
+
+while (x != 0):
+	x = x + (x ** n / factorial(n))
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    x = x + (x ** n / factorial(n))
+OverflowError: (34, 'Numerical result out of range')
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:12:26) 
+-- CODE:
+from math import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 0
+n = 3
+
+while (x != 0):
+	x = (x + (x ** n / factorial(n))
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+File "XXXX", line 10
+    cont = cont + 1
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:13:28) 
+-- CODE:
+from math import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 3
+
+
+while (x != 0):
+	x = x + (x ** (3 + cont)) / factorial(3 + cont)
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    x = x + (x ** (3 + cont)) / factorial(3 + cont)
+OverflowError: int too large to convert to float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 09:13:55) 
+-- CODE:
+from math import*
+x = float(input("x: "))
+k = int(input("k: "))
+
+cont = 3
+
+
+while (x != 0):
+	x = x + ((x ** (3 + cont)) / factorial(3 + cont))
+	cont = cont + 1
+print(round(x, 9))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 9, in <module>
+    x = x + ((x ** (3 + cont)) / factorial(3 + cont))
+OverflowError: int too large to convert to float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

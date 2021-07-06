@@ -1,0 +1,674 @@
+== TEST (2019-04-15 14:49:17) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:49:20) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:54:50) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+     x = q - p
+else:
+	y = p - q 
+-- OUTPUT:
+179.5944
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:56:22) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(x = q - p)
+else:
+	print(y = p - q) 
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(y = p - q) 
+TypeError: 'y' is an invalid keyword argument for this function
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:57:02) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print( q - p)
+else:
+	print( p - q) 
+-- OUTPUT:
+26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 14:57:31) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print( q - p)
+else:
+	print( p - q) 
+-- EXECUTION TIME:
+0.151793
+-- TEST CASE 1:
+---- input:
+38.0
+12.0
+---- correct output:
+Falta 26.0
+---- user output:
+26.0
+-- TEST CASE 2:
+---- input:
+32.0
+60.0
+---- correct output:
+Troco de 28.0
+---- user output:
+28.0
+-- TEST CASE 3:
+---- input:
+516.0
+516.0
+---- correct output:
+Troco de 0.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:58:41) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round( q - p,2))
+else:
+	print(round( p - q,2))
+-- OUTPUT:
+26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 14:58:55) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round( q - p,2))
+else:
+	print(round( p - q,2))
+-- EXECUTION TIME:
+0.2756
+-- TEST CASE 1:
+---- input:
+38.0
+12.0
+---- correct output:
+Falta 26.0
+---- user output:
+26.0
+-- TEST CASE 2:
+---- input:
+32.0
+60.0
+---- correct output:
+Troco de 28.0
+---- user output:
+28.0
+-- TEST CASE 3:
+---- input:
+516.0
+516.0
+---- correct output:
+Troco de 0.0
+---- user output:
+0.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 14:59:12) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round( q - p,2))
+else:
+	print(round( p - q,2))
+-- OUTPUT:
+26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:00:21) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+   " Falta " print(round( q - p,2))
+else:
+	"Troco de " print(round( p - q,2))
+-- ERROR:
+File "XXXX", line 5
+    " Falta " print(round( q - p,2))
+                  ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:00:45) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+   " Falta " + print(round( q - p,2))
+else:
+	"Troco de " + print(round( p - q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    "Troco de " + print(round( p - q,2))
+TypeError: must be str, not NoneType
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:01:41) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+   " Falta " + print(round( q - p,2))
+else:
+	" Troco de " + print(round( p - q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    " Troco de " + print(round( p - q,2))
+TypeError: must be str, not NoneType
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:03:35) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round(" Falta " q - p,2))
+else:
+	 print(round(" Troco de " p - q,2))
+-- ERROR:
+File "XXXX", line 5
+    print(round(" Falta " q - p,2))
+                          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:03:47) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round(" Falta " + q - p,2))
+else:
+	 print(round(" Troco de " p - q,2))
+-- ERROR:
+File "XXXX", line 7
+    print(round(" Troco de " p - q,2))
+                             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:03:56) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round(" Falta " + q - p,2))
+else:
+	 print(round(" Troco de " + p - q,2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    print(round(" Troco de " + p - q,2))
+TypeError: must be str, not float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 15:04:26) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+    print(round(" Falta " + q - p,2))
+else:
+	 print(round(" Troco de " + p - q,2))
+-- EXECUTION TIME:
+0.325153
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2447/main.py", line 7, in <module>
+    print(round(" Troco de " + p - q,2))
+TypeError: Can't convert 'float' object to str implicitly
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:06:09) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = q - p
+    print(round(input(" Falta x" ,2)))
+else:
+	 print(round(" Troco de " + p - q,2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(input(" Falta x" ,2)))
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:06:22) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = q - p
+    print(round(input(" Falta x" ,2))
+else:
+	 print(round(" Troco de " + p - q,2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(input(" Falta x" ,2))
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:06:25) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = q - p
+    print(round(input(" Falta x" ,2))
+else:
+	 print(round(" Troco de " + p - q,2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(input(" Falta x" ,2))
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:06:28) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = q - p
+    print(round(input(" Falta x" ,2
+else:
+	 print(round(" Troco de " + p - q,2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(input(" Falta x" ,2
+                                  ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:11:00) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+    print(round(x ,2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y,2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x ,2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:11:40) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+    print(round(x, 2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x, 2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 15:12:03) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+    print(round(x, 2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y, 2))
+-- EXECUTION TIME:
+0.143691
+-- ERROR:
+  File "/home/codebench/codes/1653/2447/main.py", line 6
+    print(round(x, 2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 15:12:08) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+    print(round(x, 2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x, 2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:05:35) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+    print(round(x, 2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x, 2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:05:58) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x, 2))
+else:
+		y = "Troco de " +  p - q
+	 print(round(y, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x, 2))
+                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:06:44) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2))
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 2))
+                                        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:06:51) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2)
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 2)
+                                       ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:07:10) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 2
+                                      ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:07:14) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 
+                                     ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:07:20) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p,
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p,
+                                    ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 19:07:31) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2))
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- EXECUTION TIME:
+0.174504
+-- ERROR:
+  File "/home/codebench/codes/1653/2447/main.py", line 6
+    print(round(x = "Falta " + q - p, 2))
+                                        ^
+IndentationError: unindent does not match any outer indentation level
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:07:35) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2))
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 2))
+                                        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:07:58) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+	x = "Falta " + q - p
+   print(round(x = "Falta " + q - p, 2))
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 6
+    print(round(x = "Falta " + q - p, 2))
+                                        ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:09:20) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  q > p:
+   print(round(x = "Falta " + q - p, 2))
+else:
+	 print(round(y = "Troco de " +  p - q, 2))
+-- ERROR:
+File "XXXX", line 5
+    print(round(x = "Falta " + q - p, 2))
+                                     ^
+SyntaxError: positional argument follows keyword argument
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:20:42) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   mensagem = " Falta " + (p - q)
+else:
+	mensagem = "Troco de " +  (q - p)
+print(round(mensagem, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    mensagem = " Falta " + (p - q)
+TypeError: must be str, not float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 19:24:11) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   mensagem =  (p - q)
+else:
+	mensagem =   (q - p)
+print(round(mensagem, 2))
+-- OUTPUT:
+26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 21:43:23) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   mensagem = "Falta " (p - q)
+else:
+	mensagem = "Troco de " (q - p)
+print(round(mensagem, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    mensagem = "Falta " (p - q)
+TypeError: 'str' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 21:43:49) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   mensagem = "Falta " + (p - q)
+else:
+	mensagem = "Troco de " + (q - p)
+print(round(mensagem, 2))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    mensagem = "Falta " + (p - q)
+TypeError: must be str, not float
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-15 21:44:46) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   "Falta " + mensagem = (p - q)
+else:
+	"Troco de " + mensagem = (q - p)
+print(round(mensagem, 2))
+-- ERROR:
+File "XXXX", line 5
+    "Falta " + mensagem = (p - q)
+    ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 21:45:58) 
+-- CODE:
+p = float(input(" Preco: "))
+q = float(input(" Pagamento: "))
+
+if  p > q:
+   "Falta " + mensagem = (p - q)
+else:
+	"Troco de " + mensagem = (q - p)
+print(round(mensagem, 2))
+-- EXECUTION TIME:
+0.145918
+-- ERROR:
+  File "/home/codebench/codes/1653/2447/main.py", line 5
+    "Falta " + mensagem = (p - q)
+      ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

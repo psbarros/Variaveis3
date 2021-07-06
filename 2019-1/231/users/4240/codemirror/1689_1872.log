@@ -1,0 +1,11 @@
+2019-5-2 11:29:55.031#viewportChange#0
+2019-5-2 11:30:18.120#mousedown#{"isTrusted":true}
+2019-5-2 11:30:18.131#focus#
+2019-5-2 11:30:20.178#change#{"from":{"line":1,"ch":0,"sticky":null,"xRel":1,"outside":true},"to":{"line":1,"ch":0,"sticky":null,"xRel":1,"outside":true},"text":["x = float(input(\"Digite o valor de x: \"))","y = float(input(\"Digite o valor de y: \"))","","if(x == 0 and y == 0):","    print(\"Origem\")","if(x > 0 and y > 0):","    print(\"Q1\")","if(x < 0 and y > 0):","    print(\"Q2\")","if(x < 0 and y < 0):","    print(\"Q3\")","if(x > 0 and y < 0):","    print(\"Q4\")","","if(x == 0 and y > 0):","    print(\"Eixo Y\")","if(x == 0 and y < 0):","    print(\"Eixo Y\")","if(x < 0 and y == 0):","    print(\"Eixo X\")","if(x > 0 and y == 0):","    print(\"Eixo X\")",""],"removed":[""],"origin":"paste"}
+2019-5-2 11:30:20.204#viewportChange#0
+2019-5-2 11:30:27.196#blur#
+2019-5-2 11:30:27.196#blur#
+2019-5-2 11:30:29.366#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-5-2 11:30:35.048#mousedown#{"isTrusted":true}
+2019-5-2 11:30:35.053#focus#
+2019-5-2 11:30:40.812#blur#

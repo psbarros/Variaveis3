@@ -1,0 +1,86 @@
+== SUBMITION (2019-04-15 23:13:52) 
+-- CODE:
+d01 = senha // 100000
+b = senha % 100000
+d02 = b // 10000
+c = b % 10000
+d03 = c // 1000
+d = c % 1000
+d04 = d // 100
+e = d % 100
+d05 = e // 10
+f = e % 10
+d06 = f // 1
+g = f % 1
+x = (d02 + d04 + d06)
+y = (d01 + d03 + d05)
+w = x // y
+z = x % y
+
+if(z == 0):
+	mensagem = " acesso liberado " 
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+-- EXECUTION TIME:
+0.184379
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2446/main.py", line 1, in <module>
+    d01 = senha // 100000
+NameError: name 'senha' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-15 23:14:38) 
+-- CODE:
+senha = int(input("senha inserida: "))
+d01 = senha // 100000
+b = senha % 100000
+d02 = b // 10000
+c = b % 10000
+d03 = c // 1000
+d = c % 1000
+d04 = d // 100
+e = d % 100
+d05 = e // 10
+f = e % 10
+d06 = f // 1
+g = f % 1
+x = (d02 + d04 + d06)
+y = (d01 + d03 + d05)
+w = x // y
+z = x % y
+
+if(z == 0):
+	mensagem = " acesso liberado " 
+	print(mensagem)
+else:
+	mensagem = " senha invalida "
+	print(mensagem)
+-- EXECUTION TIME:
+0.152579
+-- TEST CASE 1:
+---- input:
+087612
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- TEST CASE 2:
+---- input:
+760834
+---- correct output:
+senha invalida
+---- user output:
+senha invalida
+-- TEST CASE 3:
+---- input:
+122967
+---- correct output:
+acesso liberado
+---- user output:
+acesso liberado
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

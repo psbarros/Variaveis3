@@ -1,0 +1,5 @@
+pj=float(input("preco"))
+sej=float(input("valor"))
+sj=sej-(sej*(25/100))
+print(round(sj,2))
+print(round((pj+sj,2)))

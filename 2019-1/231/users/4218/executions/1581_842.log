@@ -1,0 +1,84 @@
+== TEST (2019-03-30 23:22:21) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ff = int(input('digite um num inteiro:'))
+print(ff+ff+ff+ff)
+-- OUTPUT:
+36692
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 23:22:57) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ff = int(input('digite um num inteiro:'))
+print(ff,ff,ff,ff)
+-- OUTPUT:
+9173 9173 9173 9173
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 23:36:56) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ff = int(input('digite um num inteiro:'))
+soma = 0
+while (ff > 0):
+	resto = ff % 10
+	ff = ff // 10
+	soma = soma + resto
+	
+print(soma)
+-- OUTPUT:
+20
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-30 23:37:04) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ff = int(input('digite um num inteiro:'))
+soma = 0
+while (ff > 0):
+	resto = ff % 10
+	ff = ff // 10
+	soma = soma + resto
+	
+print(soma)
+-- OUTPUT:
+20
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-30 23:37:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Nao se intimide com as mensagens de erro. Elas ajudam a corrigir seu codigo.
+ff = int(input('digite um num inteiro:'))
+soma = 0
+while (ff > 0):
+	resto = ff % 10
+	ff = ff // 10
+	soma = soma + resto
+	
+print(soma)
+-- EXECUTION TIME:
+0.175116
+-- TEST CASE 1:
+---- input:
+9173
+---- correct output:
+20
+---- user output:
+20
+-- TEST CASE 2:
+---- input:
+1010
+---- correct output:
+2
+---- user output:
+2
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

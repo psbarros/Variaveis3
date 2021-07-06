@@ -1,0 +1,166 @@
+== TEST (2019-04-08 00:53:01) 
+-- CODE:
+1n=float(input("digite a nota; "))
+2n=float(input("digite a nota; "))
+3n=float(input("digite a nota; "))
+4n=float(input("digite a nota; "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- ERROR:
+File "XXXX", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 00:53:04) 
+-- CODE:
+1n=float(input("digite a nota; "))
+2n=float(input("digite a nota; "))
+3n=float(input("digite a nota; "))
+4n=float(input("digite a nota; "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- EXECUTION TIME:
+0.185591
+-- ERROR:
+  File "/home/codebench/codes/1641/2043/main.py", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 00:53:28) 
+-- CODE:
+1n=float(input("digite a nota; "))
+2n=float(input("digite a nota; "))
+3n=float(input("digite a nota; "))
+4n=float(input("digite a nota; "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- ERROR:
+File "XXXX", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 00:54:03) 
+-- CODE:
+1n=float(input("digite a nota: "))
+2n=float(input("digite a nota: "))
+3n=float(input("digite a nota: "))
+4n=float(input("digite a nota: "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- ERROR:
+File "XXXX", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 00:54:04) 
+-- CODE:
+1n=float(input("digite a nota: "))
+2n=float(input("digite a nota: "))
+3n=float(input("digite a nota: "))
+4n=float(input("digite a nota: "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- EXECUTION TIME:
+0.200325
+-- ERROR:
+  File "/home/codebench/codes/1641/2043/main.py", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 00:57:10) 
+-- CODE:
+1n=float(input("digite a nota: "))
+2n=float(input("digite a nota: "))
+3n=float(input("digite a nota: "))
+4n=float(input("digite a nota: "))
+media=(1n+2n+3n+4n)/4
+print(round(media,2))
+-- ERROR:
+File "XXXX", line 1
+    1n=float(input())
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 00:58:22) 
+-- CODE:
+a=float(input("digite a nota: "))
+b=float(input("digite a nota: "))
+c=float(input("digite a nota: "))
+d=float(input("digite a nota: "))
+media=((a+b+c+d)/4)
+print(round(media,2))
+-- OUTPUT:
+8.12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-08 00:58:46) 
+-- CODE:
+a=float(input("digite a nota: "))
+b=float(input("digite a nota: "))
+c=float(input("digite a nota: "))
+d=float(input("digite a nota: "))
+media=((a+b+c+d)/4)
+print(round(media,2))
+-- OUTPUT:
+8.12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-08 00:58:47) 
+-- CODE:
+a=float(input("digite a nota: "))
+b=float(input("digite a nota: "))
+c=float(input("digite a nota: "))
+d=float(input("digite a nota: "))
+media=((a+b+c+d)/4)
+print(round(media,2))
+-- EXECUTION TIME:
+0.123488
+-- TEST CASE 1:
+---- input:
+8
+8.5
+7
+9
+---- correct output:
+8.2
+---- user output:
+8.12
+-- TEST CASE 2:
+---- input:
+7
+7
+7
+7
+---- correct output:
+7.0
+---- user output:
+7.0
+-- TEST CASE 3:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+7.4
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-17 16:42:43) 
+-- CODE:
+a=float(input("digite a nota: "))
+b=float(input("digite a nota: "))
+c=float(input("digite a nota: "))
+d=float(input("digite a nota: "))
+media=((a+b+c+d)/4)
+print(round(media,2))
+-- OUTPUT:
+8.12
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

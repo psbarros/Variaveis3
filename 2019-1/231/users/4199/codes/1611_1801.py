@@ -1,0 +1,2 @@
+
+feitiço=input("palavra")

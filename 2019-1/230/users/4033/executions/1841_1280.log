@@ -1,0 +1,663 @@
+== TEST (2019-06-20 23:50:44) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimento:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moeda)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-20 23:51:12) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moeda)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-20 23:51:35) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-20 23:53:51) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+print(linhas)
+print(colunas)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-20 23:54:21) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+print(linhas)
+print(colunas)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-23 19:01:03) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	if(x=="A"): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D"): #vai para a direita
+		xi=xi+1
+	elif(x=="W"): #sobe
+		yi=yi-1
+	elif(x=="S"): #Desce
+		yi=yi+1
+	elif(tabuleiro[xi,yi]==11 and linhas<=xi and colunas<=yi):
+		moeda=moeda+1
+	elif(tabuleiro[xi,yi]==0):
+		life=life-5
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 01:08:29) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moeda=moeda+1
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		aux_x=xi
+		aux_y=yi
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 01:08:53) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		aux_x=xi
+		aux_y=yi
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 01:10:03) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		aux_x=xi
+		aux_y=yi
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 01:11:35) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		xi=aux_x
+		yi=aux_y
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 01:14:01) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		xi=aux_x
+		yi=aux_y
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 03:05:56) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		xi=aux_x
+		yi=aux_y
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-26 03:07:53) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		xi=aux_x
+		yi=aux_y
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-26 03:08:27) 
+-- CODE:
+from numpy import*
+from numpy.linalg import*
+
+tabuleiro=array(eval(input("Digite os codigos do tabuleiro: ")))
+movimentos=input("Digite os movimentos: ")
+
+linhas,colunas=shape(tabuleiro)
+
+xi=0
+yi=0
+moedas=0
+life=100
+
+for x in movimentos:
+	
+	aux_x=xi
+	aux_y=yi
+	
+	if(x=="A" and (xi-1)>=0): #vai para a esquerda
+		xi=xi-1
+	elif(x=="D" and (xi+1)<colunas): #vai para a direita
+		xi=xi+1
+	elif(x=="W" and (yi-1)>=0): #sobe
+		yi=yi-1
+	elif(x=="S" and (yi+1)<linhas): #Desce
+		yi=yi+1
+		
+	if(tabuleiro[yi,xi]==11):
+		moedas=moedas+1
+		tabuleiro[yi,xi]=0 #apaga moeda do tabuleiro
+	elif(tabuleiro[yi,xi]==22):
+		life=life-5
+	elif(tabuleiro[yi,xi]==33):
+		xi=aux_x
+		yi=aux_y
+		
+print("posicao x:",xi)
+print("posicao y:",yi)
+print("moedas:",moedas)
+print("life:",life)
+	
+-- EXECUTION TIME:
+0.933699
+-- TEST CASE 1:
+---- input:
+[[0,11,0,33,0,33,22,0,11,0,11,0,11],[11,0,22,11,0,11,33,0,11,0,0,0,22],[11,22,22,33,0,11,11,0,22,0,11,11,22],[22,33,0,11,0,11,11,0,22,0,0,0,0],[22,11,11,11,0,11,22,0,11,0,22,0,22],[11,11,22,33,0,0,11,0,22,0,0,22,11],[0,11,0,33,0,11,22,0,22,0,22,0,11],[0,11,33,11,0,11,22,0,11,0,0,11,11],[11,11,33,11,0,0,11,0,22,0,22,0,11],[0,11,22,11,0,11,22,0,22,0,0,0,11],[0,11,22,11,0,0,11,0,22,0,11,0,11]]
+DDDDDWWWWSSSSDDDWSWDSDWDDDDDDDDDSSSSSSSSSSSDDDDWSADSWASADSWASD
+---- correct output:
+posicao x:  11
+posicao y:  10
+moedas:  13
+life:  75
+---- user output:
+posicao x: 11
+posicao y: 10
+moedas: 13
+life: 75
+-- TEST CASE 2:
+---- input:
+[[0,11,0,33,0,33,22,0,11,0,11,0,11],[11,0,22,11,0,11,33,0,11,0,0,0,22],[11,22,22,33,0,11,11,0,22,0,11,11,22],[22,33,0,11,0,11,11,0,22,0,0,0,0],[22,11,11,11,0,11,22,0,11,0,22,0,22],[11,11,22,33,0,0,11,0,22,0,0,22,11],[0,11,0,33,0,11,22,0,22,0,22,0,11],[0,11,33,11,0,11,22,0,11,0,0,11,11],[11,11,33,11,0,0,11,0,22,0,22,0,11],[0,11,22,11,0,11,22,0,22,0,0,0,11],[0,11,22,11,0,0,11,0,22,0,11,0,11]]
+SAWSDADDDDDDDDDDSSSSSSSSSSSDDDDDDDWWWWWWWWAAAAAAAAAAWSDAASDSWADSAWSWD
+---- correct output:
+posicao x:  5
+posicao y:  3
+moedas:  20
+life:  75
+---- user output:
+posicao x: 5
+posicao y: 3
+moedas: 20
+life: 75
+-- TEST CASE 3:
+---- input:
+[[0,11,0,33,0,33,22,0,11,0,11,0,11],[11,0,22,11,0,11,33,0,11,0,0,0,22],[11,22,22,33,0,11,11,0,22,0,11,11,22],[22,33,0,11,0,11,11,0,22,0,0,0,0],[22,11,11,11,0,11,22,0,11,0,22,0,22],[11,11,22,33,0,0,11,0,22,0,0,22,11],[0,11,0,33,0,11,22,0,22,0,22,0,11],[0,11,33,11,0,11,22,0,11,0,0,11,11],[11,11,33,11,0,0,11,0,22,0,22,0,11],[0,11,22,11,0,11,22,0,22,0,0,0,11],[0,11,22,11,0,0,11,0,22,0,11,0,11]]
+AWSWDSSDSDSDSDSAWAWAWASDSDSSASASASWDWDWDWDWASWDAWSWDAWSDWSADSWASDWSAWWDSADWSAWSWDSAWSW
+---- correct output:
+posicao x:  6
+posicao y:  2
+moedas:  13
+life:  55
+---- user output:
+posicao x: 6
+posicao y: 2
+moedas: 13
+life: 55
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

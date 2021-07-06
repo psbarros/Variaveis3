@@ -1,0 +1,141 @@
+== TEST (2019-05-30 16:11:16) 
+-- CODE:
+from numpy import*
+
+#Dois vetores inteiros
+ve = array(eval(input( ))) #sequencia de jogadas de EUSAPIA
+vb = array(eval(input( ))) #sequencia de jogadas de BARSANULFO
+#Variaveis acumuladoras
+e = 0 #pontos de EUSAPIA
+b = 0 #pontos de BARSANULFO
+i = 0
+#Significado
+pedra = 11
+papel = 22
+tesoura = 33
+#Laco de repeticao
+while(i<size(ve)):
+	if(e==pedra and b==papel):
+		b = b+1
+	elif(e==pedra and b==tesoura):
+		e = e+1
+	elif(e==papel and b==pedra):
+		e = e+1
+	elif(e==papel and b==tesoura):
+		b = b+1
+	elif(e==tesoura and b==pedra):
+		b = b+1
+	elif(e==tesoura and b==papel):
+		e = e+1
+	elif((e==pedra and b==pedra)or(e==papel and b==papel)or(e==tesoura and b==tesoura)):
+		e = e+0
+		b = b+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-30 16:13:56) 
+-- CODE:
+from numpy import*
+
+#Dois vetores inteiros
+ve = array(eval(input( ))) #sequencia de jogadas de EUSAPIA
+vb = array(eval(input( ))) #sequencia de jogadas de BARSANULFO
+#Variaveis acumuladoras
+e = 0 #pontos de EUSAPIA
+b = 0 #pontos de BARSANULFO
+i = 0
+#Significado
+pedra = 11
+papel = 22
+tesoura = 33
+#Laco de repeticao
+while(i<size(ve)):
+	if(e[i]==pedra and b[i]==papel):
+		b = b+1
+	elif(e[i]==pedra and b[i]==tesoura):
+		e = e+1
+	elif(e[i]==papel and b[i]==pedra):
+		e = e+1
+	elif(e[i]==papel and b[i]==tesoura):
+		b = b+1
+	elif(e[i]==tesoura and b[i]==pedra):
+		b = b+1
+	elif(e[i]==tesoura and b[i]==papel):
+		e = e+1
+	elif((e[i]==pedra and b[i]==pedra)or(e[i]==papel and b[i]==papel)or(e[i]==tesoura and b[i]==tesoura)):
+		e = e+0
+		b = b+0
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-30 16:14:42) 
+-- CODE:
+from numpy import*
+e = array(eval(input("")))
+b = array(eval(input("")))
+
+i = 0
+ve = 0
+vb = 0
+print(size(e))
+while (i < size(e)):
+	if (e[i] == 11 and b[i] == 22):
+		vb = vb + 1
+	elif (e[i] == 22 and b[i] == 33):
+		vb = vb + 1
+	elif (e[i] == 33 and b[i] == 11):
+		vb = vb + 1
+	elif (e[i] == 11 and b[i] == 33):
+		ve = ve + 1
+	elif (e[i] == 22 and b[i] == 11):
+		ve = ve + 1
+	elif (e[i] == 33 and b[i] == 22):
+		ve = ve + 1
+	i = i + 1 
+if ( ve > vb):
+	print("EUSAPIA")
+elif (vb > ve):
+	print("BARSANULFO")
+else:
+	print("EMPATE")
+-- EXECUTION TIME:
+0.502673
+-- TEST CASE 1:
+---- input:
+[33,22,33,22,11,11,33,22,11,11,22,33]
+[22,33,22,11,11,33,22,11,11,22,33,33]
+---- correct output:
+12
+EUSAPIA
+---- user output:
+12
+EUSAPIA
+-- TEST CASE 2:
+---- input:
+[33,22,33,11,33,22,11,22,33,11]
+[11,33,22,33,11,33,22,11,22,33]
+---- correct output:
+10
+EMPATE
+---- user output:
+10
+EMPATE
+-- TEST CASE 3:
+---- input:
+[33,33,22,11,11,22,33,33,22,11,11,22,33,33,22,11,11,22]
+[11,33,33,22,11,11,22,33,33,22,11,11,22,33,33,22,11,11]
+---- correct output:
+18
+BARSANULFO
+---- user output:
+18
+BARSANULFO
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

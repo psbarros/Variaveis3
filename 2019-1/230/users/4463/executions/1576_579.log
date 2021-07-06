@@ -1,0 +1,174 @@
+== TEST (2019-03-25 17:22:50) 
+-- CODE:
+print("A Ufam tem", 2019 - 1909, "anos de funcacao.")
+-- OUTPUT:
+A Ufam tem 110 anos de funcacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:22:51) 
+-- CODE:
+print("A Ufam tem", 2019 - 1909, "anos de funcacao.")
+-- EXECUTION TIME:
+0.138405
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A Ufam tem 110 anos de funcacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:23:10) 
+-- CODE:
+print("A Ufam tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A Ufam tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:23:11) 
+-- CODE:
+print("A Ufam tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.154318
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A Ufam tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:23:25) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:23:26) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.145023
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:23:47) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:23:47) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.121268
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:23:49) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:23:56) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.12733
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:24:21) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:24:28) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.200211
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:25:23) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:25:24) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.151844
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 110 anos de fundacao.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:25:25) 
+-- CODE:
+print("A UFAM tem", 2019 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 110 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-25 17:25:52) 
+-- CODE:
+print("A UFAM tem", 2016 - 1909, "anos de fundacao.")
+-- OUTPUT:
+A UFAM tem 107 anos de fundacao.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-25 17:25:52) 
+-- CODE:
+print("A UFAM tem", 2016 - 1909, "anos de fundacao.")
+-- EXECUTION TIME:
+0.127991
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+A UFAM tem 107 anos de fundacao.
+---- user output:
+A UFAM tem 107 anos de fundacao.
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

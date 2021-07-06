@@ -1,0 +1,474 @@
+== SUBMITION (2019-05-11 19:16:44) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("650.00")
+	if (tipo == "ida-e-volta"):
+		print("350.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida")
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida")
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida")
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida")
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida")
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- EXECUTION TIME:
+0.214762
+-- ERROR:
+  File "/home/codebench/codes/1683/2167/main.py", line 11
+    if (tipo == "ida")
+                     ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 19:16:48) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("650.00")
+	if (tipo == "ida-e-volta"):
+		print("350.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida")
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida")
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida")
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida")
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida")
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- ERROR:
+File "XXXX", line 11
+    if (tipo == "ida")
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 19:17:19) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("650.00")
+	if (tipo == "ida-e-volta"):
+		print("350.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- EXECUTION TIME:
+0.211971
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200.00
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190.00
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 19:17:21) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("650.00")
+	if (tipo == "ida-e-volta"):
+		print("350.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- ERROR:
+File "XXXX", line 11
+    if (tipo == "ida")
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 19:18:08) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("350.00")
+	if (tipo == "ida-e-volta"):
+		print("650.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- EXECUTION TIME:
+0.185418
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200.00
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190.00
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-11 19:18:11) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("350.00")
+	if (tipo == "ida-e-volta"):
+		print("650.00")
+
+if (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.00")
+	if (tipo == "ida-e-volta"):
+		print("152.00")
+
+if (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.00")
+	if (tipo == "ida-e-volta"):
+		print("199.00")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.00")
+	if (tipo == "ida-e-volta"):
+		print("390.00")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.00")
+	if (tipo == "ida-e-volta"):
+		print("280.00")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.00")
+	if (tipo == "ida-e-volta"):
+		print("190.00")
+
+-- ERROR:
+File "XXXX", line 11
+    if (tipo == "ida")
+                     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 19:18:43) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("350.0")
+	if (tipo == "ida-e-volta"):
+		print("650.0")
+
+if (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.0")
+	if (tipo == "ida-e-volta"):
+		print("152.0")
+
+if (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.0")
+	if (tipo == "ida-e-volta"):
+		print("199.0")
+
+if (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.0")
+	if (tipo == "ida-e-volta"):
+		print("390.0")
+
+if (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.0")
+	if (tipo == "ida-e-volta"):
+		print("280.0")
+		
+if (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.0")
+	if (tipo == "ida-e-volta"):
+		print("190.0")
+
+-- EXECUTION TIME:
+0.129091
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200.0
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190.0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-11 19:19:22) 
+-- CODE:
+cidade = input("Cidade de destino: ")
+tipo = input("(1)ida ou (2)ida-e-volta: ")
+
+if (cidade == "Belem"):
+	if (tipo == "ida"):
+		print("350.0")
+	if (tipo == "ida-e-volta"):
+		print("650.0")
+
+elif (cidade == "Borba"):
+	if (tipo == "ida"):
+		print("80.0")
+	if (tipo == "ida-e-volta"):
+		print("152.0")
+
+elif (cidade == "Coari"):
+	if (tipo == "ida"):
+		print("106.0")
+	if (tipo == "ida-e-volta"):
+		print("199.0")
+
+elif (cidade == "Humaita"):
+	if (tipo == "ida"):
+		print("200.0")
+	if (tipo == "ida-e-volta"):
+		print("390.0")
+
+elif (cidade == "Manicore"):
+	if (tipo == "ida"):
+		print("150.0")
+	if (tipo == "ida-e-volta"):
+		print("280.0")
+		
+elif (cidade == "Maues"):
+	if (tipo == "ida"):
+		print("100.0")
+	if (tipo == "ida-e-volta"):
+		print("190.0")
+
+else:
+	print("Destino inexistente")
+
+-- EXECUTION TIME:
+0.169576
+-- TEST CASE 1:
+---- input:
+Manaus
+ida
+---- correct output:
+Destino inexistente
+---- user output:
+Destino inexistente
+-- TEST CASE 2:
+---- input:
+Humaita
+ida
+---- correct output:
+200.0
+---- user output:
+200.0
+-- TEST CASE 3:
+---- input:
+Maues
+ida-e-volta
+---- correct output:
+190.0
+---- user output:
+190.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

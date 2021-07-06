@@ -1,0 +1,1 @@
+print("falta")print(10-2)

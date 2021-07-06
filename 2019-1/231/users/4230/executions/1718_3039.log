@@ -1,0 +1,649 @@
+== SUBMITION (2019-05-02 18:20:42) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	print(arcsen(x))
+elif(x>=-1/2 and x<=1/2):
+	print(arccos(x))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.193875
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3039/main.py", line 5, in <module>
+    print(arcsen(x))
+NameError: name 'arcsen' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:20:43) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	print(arcsen(x))
+elif(x>=-1/2 and x<=1/2):
+	print(arccos(x))
+else:
+	print("entrada invalida")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(arcsen(x))
+NameError: name 'arcsen' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:22:04) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=arcsen(x)
+	print(fx)
+elif(x>=-1/2 and x<=1/2):
+	fx=arccos(x)
+	print(fx)
+else:
+	print("entrada invalida")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    fx=arcsen(x)
+NameError: name 'arcsen' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:22:04) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=arcsen(x)
+	print(fx)
+elif(x>=-1/2 and x<=1/2):
+	fx=arccos(x)
+	print(fx)
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.137769
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3039/main.py", line 5, in <module>
+    fx=arcsen(x)
+NameError: name 'arcsen' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:23:10) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=arcsen(x)
+	print(fx)
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(fx)
+else:
+	print("entrada invalida")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    fx=arcsen(x)
+NameError: name 'arcsen' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:23:19) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=arcsen(x)
+	print(fx)
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(fx)
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.207826
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3039/main.py", line 5, in <module>
+    fx=arcsen(x)
+NameError: name 'arcsen' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:24:27) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(fx(degrees(round(fx, 2))))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(fx(degrees(round(fx, 2))))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.130691
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3039/main.py", line 6, in <module>
+    print(fx(degrees(round(fx, 2))))
+TypeError: 'float' object is not callable
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:24:28) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(fx(degrees(round(fx, 2))))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(fx(degrees(round(fx, 2))))
+else:
+	print("entrada invalida")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(fx(degrees(round(fx, 2))))
+TypeError: 'float' object is not callable
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:24:44) 
+-- CODE:
+from math import*
+x=int(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(fx(degrees(round(fx, 2))))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(fx(degrees(round(fx, 2))))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.222059
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1718/3039/main.py", line 2, in <module>
+    x=int(input())
+ValueError: invalid literal for int() with base 10: '-0.99'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:25:32) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx, 2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:25:40) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx, 2)))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.164442
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.93296470370773
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+101.98648753328654
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:25:58) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx, 2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:26:28) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.217895
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.93296470370773
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+101.98648753328654
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:26:29) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:27:19) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=rad(asin(x))
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=rad(acos(x))
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    fx=rad(asin(x))
+NameError: name 'rad' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:27:34) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=radians(asin(x))
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=radians(acos(x))
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-1.1459155902616465
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:28:12) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:28:13) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- EXECUTION TIME:
+0.157633
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.93296470370773
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+101.98648753328654
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:28:14) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:28:25) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx,2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx,2)))
+else:
+	print("entrada invalida")
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:29:05) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	
+else:
+	print("entrada invalida")
+
+print(degrees(round(fx, 2)))
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:29:09) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	
+else:
+	print("entrada invalida")
+
+print(degrees(round(fx, 2)))
+-- EXECUTION TIME:
+0.183428
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.93296470370773
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+101.98648753328654
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:30:52) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx, 2)))
+else:
+	print("entrada invalida")
+
+
+-- EXECUTION TIME:
+0.168229
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.93296470370773
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+101.98648753328654
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:30:53) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(degrees(round(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(degrees(round(fx, 2)))
+else:
+	print("entrada invalida")
+
+
+-- OUTPUT:
+-81.93296470370773
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:31:55) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(round(degrees(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(round(degrees(fx, 2)))
+else:
+	print("entrada invalida")
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(degrees(fx, 2)))
+TypeError: degrees() takes exactly one argument (2 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:32:00) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(round(degrees(fx, 2)))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(round(degrees(fx, 2)))
+else:
+	print("entrada invalida")
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print(round(degrees(fx, 2)))
+TypeError: degrees() takes exactly one argument (2 given)
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-02 18:32:22) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(round(degrees(fx), 2))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(round(degrees(fx), 2))
+else:
+	print("entrada invalida")
+
+
+-- OUTPUT:
+-81.89
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-02 18:32:27) 
+-- CODE:
+from math import*
+x=float(input())
+
+if((x>=-1 and x<-1/2) or (x>1/2 and x<=1)):
+	fx=asin(x)
+	print(round(degrees(fx), 2))
+elif(x>=-1/2 and x<=1/2):
+	fx=acos(x)
+	print(round(degrees(fx), 2))
+else:
+	print("entrada invalida")
+
+
+-- EXECUTION TIME:
+0.183527
+-- TEST CASE 1:
+---- input:
+-0.99
+---- correct output:
+-81.89
+---- user output:
+-81.89
+-- TEST CASE 2:
+---- input:
+1.51
+---- correct output:
+entrada invalida
+---- user output:
+entrada invalida
+-- TEST CASE 3:
+---- input:
+-0.21
+---- correct output:
+102.12
+---- user output:
+102.12
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

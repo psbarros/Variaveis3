@@ -1,0 +1,115 @@
+== TEST (2019-04-02 08:14:20) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(Q)
+-- OUTPUT:
+14365502.75713173
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:14:28) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(Q)
+-- EXECUTION TIME:
+0.192931
+-- TEST CASE 1:
+---- input:
+0.29
+---- correct output:
+14365502.76
+---- user output:
+14365502.75713173
+-- TEST CASE 2:
+---- input:
+0.095
+---- correct output:
+39354.97
+---- user output:
+39354.96671270733
+-- TEST CASE 3:
+---- input:
+0.134
+---- correct output:
+138727.07
+---- user output:
+138727.0729687867
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:14:35) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(Q)
+-- OUTPUT:
+14365502.75713173
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:14:53) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(round(Q,2)
+-- EXECUTION TIME:
+0.212291
+-- ERROR:
+  File "/home/codebench/codes/1619/2950/main.py", line 6
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 08:14:55) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(round(Q,2)
+-- ERROR:
+File "XXXX", line 6
+    
+                    ^
+SyntaxError: unexpected EOF while parsing
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 08:15:05) 
+-- CODE:
+j=float(input("Qual a taxa de juros?"))
+Q0=1500
+t=36
+Q=Q0*((1+j)**t)
+print(round(Q,2))
+-- EXECUTION TIME:
+0.146173
+-- TEST CASE 1:
+---- input:
+0.29
+---- correct output:
+14365502.76
+---- user output:
+14365502.76
+-- TEST CASE 2:
+---- input:
+0.095
+---- correct output:
+39354.97
+---- user output:
+39354.97
+-- TEST CASE 3:
+---- input:
+0.134
+---- correct output:
+138727.07
+---- user output:
+138727.07
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

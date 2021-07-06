@@ -1,0 +1,151 @@
+== TEST (2019-06-13 18:31:36) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+for i in string.split(",") :
+	print(i)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 18:34:26) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+vet = zeros(5, dtype=int)
+for i in string.split(",") :
+	if i == "BE" :
+		vet [0] = vet[0] + 1
+	elif i == "ES" :
+		vet[1] = vet[1] + 1
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 18:34:49) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+vet = zeros(5, dtype=int)
+for i in string.split(",") :
+	if i == "BE" :
+		vet [0] = vet[0] + 1
+	elif i == "ES" :
+		vet[1] = vet[1] + 1
+print(vet)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 18:36:28) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+vet = zeros(5, dtype=int)
+for i in string.split(",") :
+	if i == "BE" :
+		vet [0] = vet[0] + 1
+	elif i == "ES" :
+		vet[1] = vet[1] + 1
+	elif i == "FR" :
+		vet [2] = vet[2] + 1
+	elif i == "IT":
+		vet[3] = vet[3] + 1
+	elif i == "PT" :
+		vet[4] = vet[4] + 1
+print(vet)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 18:38:48) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+vet = zeros(5, dtype=int)
+
+pt = 0 
+for i in string.split(",") :
+	if i == "BE" :
+		vet [0] = vet[0] + 1
+		
+	elif i == "ES" :
+		vet[1] = vet[1] + 1
+		
+	elif i == "FR" :
+		vet [2] = vet[2] + 1
+	elif i == "IT":
+		vet[3] = vet[3] + 1
+	elif i == "PT" :
+		vet[4] = vet[4] + 1
+print(max(vet))
+print(vet)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:39:01) 
+-- CODE:
+from numpy import*
+string = input("paises: ")
+vet = zeros(5, dtype=int)
+
+pt = 0 
+for i in string.split(",") :
+	if i == "BE" :
+		vet [0] = vet[0] + 1
+		
+	elif i == "ES" :
+		vet[1] = vet[1] + 1
+		
+	elif i == "FR" :
+		vet [2] = vet[2] + 1
+	elif i == "IT":
+		vet[3] = vet[3] + 1
+	elif i == "PT" :
+		vet[4] = vet[4] + 1
+print(max(vet))
+print(vet)
+-- EXECUTION TIME:
+1.02243
+-- TEST CASE 1:
+---- input:
+IT,FR,BE,BE,BE,ES,PT
+---- correct output:
+3
+[3 1 1 1 1]
+---- user output:
+3
+[3 1 1 1 1]
+-- TEST CASE 2:
+---- input:
+PT,FR,FR,FR,FR,FR,PT,PT,ES,PT,ES,ES,ES,PT,IT
+---- correct output:
+5
+[0 4 5 1 5]
+---- user output:
+5
+[0 4 5 1 5]
+-- TEST CASE 3:
+---- input:
+BE,IT,BE,IT,IT,BE,PT,IT,ES,PT,IT,PT,IT,IT,ES,ES,FR,FR,BE,PT,FR,ES,ES,FR,PT,BE,IT,PT,IT,PT,PT,IT
+---- correct output:
+10
+[ 5  5  4 10  8]
+---- user output:
+10
+[ 5  5  4 10  8]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

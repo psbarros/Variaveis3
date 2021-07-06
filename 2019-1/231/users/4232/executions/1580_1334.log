@@ -1,0 +1,238 @@
+== TEST (2019-03-14 19:40:23) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 3 - 2)
+
+print("Multiplicacao: ", 3 * 3)
+
+print("Divisao: ", 6 / 3)
+
+print("Resto: ", 9 % 4)
+
+print("Potenciacao: ", 3 ** 2)
+-- OUTPUT:
+Adicao:  8
+Subtracao:  1
+Multiplicacao:  9
+Divisao:  2.0
+Resto:  1
+Potenciacao:  9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-14 19:40:28) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 3 - 2)
+
+print("Multiplicacao: ", 3 * 3)
+
+print("Divisao: ", 6 / 3)
+
+print("Resto: ", 9 % 4)
+
+print("Potenciacao: ", 3 ** 2)
+-- EXECUTION TIME:
+0.229803
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto:  8
+Potenciacao:  8
+---- user output:
+Adicao:  8
+Subtracao:  1
+Multiplicacao:  9
+Divisao:  2.0
+Resto:  1
+Potenciacao:  9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-19 18:06:47) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 8")
+
+print("Potenciacao: ", 2 ** 3)
+-- OUTPUT:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 8
+Potenciacao:  8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 18:07:17) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 8")
+
+print("Potenciacao: ", 2 ** 3)
+-- EXECUTION TIME:
+0.147894
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto:  8
+Potenciacao:  8
+---- user output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 8
+Potenciacao:  8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 10:02:14) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 27%3")
+
+print("Potenciacao: ", 2 ** 3)
+-- OUTPUT:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 27%3
+Potenciacao:  8
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 10:02:27) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 27%3")
+
+print("Potenciacao: ", 2 ** 3)
+-- EXECUTION TIME:
+0.182728
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto:  8
+Potenciacao:  8
+---- user output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 27%3
+Potenciacao:  8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 10:02:40) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 27%9")
+
+print("Potenciacao: ", 2 ** 3)
+-- EXECUTION TIME:
+0.19762
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto:  8
+Potenciacao:  8
+---- user output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 27%9
+Potenciacao:  8
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 10:02:53) 
+-- CODE:
+print("Adicao: ", 5 + 3)
+
+print("Subtracao: ", 10 - 2)
+
+print("Multiplicacao: ", 4 * 2)
+
+print("Divisao: ", 16 / 2)
+
+print("Resto: 8")
+
+print("Potenciacao: ", 2 ** 3)
+-- EXECUTION TIME:
+0.11091
+-- TEST CASE 1:
+---- input:
+xxx
+---- correct output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto:  8
+Potenciacao:  8
+---- user output:
+Adicao:  8
+Subtracao:  8
+Multiplicacao:  8
+Divisao:  8.0
+Resto: 8
+Potenciacao:  8
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

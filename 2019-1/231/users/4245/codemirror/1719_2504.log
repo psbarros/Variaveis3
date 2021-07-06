@@ -1,0 +1,13 @@
+2019-5-16 17:24:52.072#viewportChange#0
+2019-5-16 17:25:19.659#touchstart#{"isTrusted":true}
+2019-5-16 17:25:19.963#mousedown#{"isTrusted":true}
+2019-5-16 17:25:19.967#focus#
+2019-5-16 17:25:20.538#touchstart#{"isTrusted":true}
+2019-5-16 17:25:21.141#blur#
+2019-5-16 17:25:21.149#contextmenu#{"isTrusted":true}
+2019-5-16 17:25:21.153#focus#
+2019-5-16 17:25:22.589#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":13.609375},"to":{"line":0,"ch":0,"sticky":"after","xRel":13.609375},"text":["v=int(input(\"Insira a quantidade inicial de copias: \"))","l=int(input(\"Insira a Quantidade inicial de leucocitos: \"))","pv=int(input(\"Percentual de multiplicao diaria do virus.\"))/100","pl=int(input(\"Percentual de multiplicacao diaria dos leucocitos.\"))/100","dia=0","while(l<2*v):","\tl=l+pl*l","\tv=v+pv*v","\tdia=dia+1","","print(dia)",""],"removed":[""],"origin":"paste"}
+2019-5-16 17:25:22.613#viewportChange#0
+2019-5-16 18:32:35.332#viewportChange#0
+2019-5-16 18:32:35.332#viewportChange#0
+2019-5-16 18:33:21.143#saida_testar#$ python3 main.py

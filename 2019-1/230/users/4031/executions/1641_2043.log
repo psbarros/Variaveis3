@@ -1,0 +1,56 @@
+== TEST (2019-04-13 21:10:33) 
+-- CODE:
+notaum = float(input(" nota um: "))
+notadois = float(input(" nota dois: "))
+notatres = float(input(" nota tres: "))
+notaquatro = float(input(" nota quatro: "))
+-- OUTPUT:
+8
+5
+1
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-13 21:14:35) 
+-- CODE:
+a = float(input(" nota um: "))
+b = float(input(" nota dois: "))
+c = float(input(" nota tres: "))
+d = float(input(" nota quatro: "))
+mediaponderada = ((a * 1) + (b * 2) + (c * 3) + (d * 4)) / 10
+print(round(mediaponderada, 2))
+
+-- EXECUTION TIME:
+0.193893
+-- TEST CASE 1:
+---- input:
+8
+8.5
+7
+9
+---- correct output:
+8.2
+---- user output:
+8.2
+-- TEST CASE 2:
+---- input:
+7
+7
+7
+7
+---- correct output:
+7.0
+---- user output:
+7.0
+-- TEST CASE 3:
+---- input:
+5.75
+6.9
+7.95
+8.99
+---- correct output:
+7.94
+---- user output:
+7.94
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

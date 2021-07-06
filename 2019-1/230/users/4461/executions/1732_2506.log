@@ -1,0 +1,211 @@
+== TEST (2019-05-14 15:37:43) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+ano = 0
+cont = 0
+
+while(inicial>0 or inicial<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+	elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+File "XXXX", line 15
+    elif(resto==12000):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 15:38:16) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+ano = 0
+cont = 0
+
+while(inicial>0 or inicial<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+File "XXXX", line 15
+    elif(resto==12000):
+       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 15:38:56) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+ano = 0
+cont = 0
+
+while(resto>0 or resto<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(resto>0 or resto<12000):
+NameError: name 'resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 15:39:01) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+ano = 0
+cont = 0
+
+while(resto>0 or resto<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(resto>0 or resto<12000):
+NameError: name 'resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 15:39:15) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+resto = 0
+cont = 0
+
+while(resto>0 or resto<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(resto>0 or resto<12000):
+NameError: name 'resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 15:39:46) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+resto = inicial - r
+cont = 0
+
+while(resto>0 or resto<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 7, in <module>
+    while(resto>0 or resto<12000):
+NameError: name 'resto' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-14 15:42:14) 
+-- CODE:
+inicial = int(input("quantidade inicial: "))
+p = float(input("per: "))
+r = int(input("retirados: "))
+ano = 0
+cont = 0
+
+while(inicial>0 or inicial<12000):
+	pe = inicial * (p/100)
+	inicial = inicial + pe
+	resto = inicial - r
+	cont = cont +1
+
+if(resto==0):
+	print("EXTINCAO")
+elif(resto==12000):
+		print("LIMITE")
+		
+print(cont)
+-- EXECUTION TIME:
+226.417
+-- TEST CASE 1:
+---- input:
+1234
+6
+135
+---- correct output:
+EXTINCAO
+14
+---- user output:
+
+-- TEST CASE 2:
+---- input:
+579
+37
+26
+---- correct output:
+LIMITE
+11
+---- user output:
+OCI runtime exec failed: exec failed: cannot exec a container that has stopped: unknown
+-- TEST CASE 3:
+---- input:
+6789
+45
+2345
+---- correct output:
+LIMITE
+4
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

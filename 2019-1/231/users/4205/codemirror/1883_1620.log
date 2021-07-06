@@ -1,0 +1,16 @@
+2019-7-4 19:04:46.328#viewportChange#0
+2019-7-4 19:04:47.201#mousedown#{"isTrusted":true}
+2019-7-4 19:04:47.218#focus#
+2019-7-4 19:04:48.178#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":78.60000610351562},"to":{"line":0,"ch":0,"sticky":"after","xRel":78.60000610351562},"text":["from numpy import*","from math import*"," ","a= array(eval(input(\"\")))","b= array(eval(input(\"\")))","","c1=(a*b)","c2= (c1/100)","c3= (c2*5)","","a= sum(c3)","print(round(a,2))"],"removed":[""],"origin":"paste"}
+2019-7-4 19:04:48.214#viewportChange#0
+2019-7-4 19:04:49.557#blur#
+2019-7-4 19:04:49.557#blur#
+2019-7-4 19:04:53.611#submit#Congratulations, your code is correct!
+2019-7-4 19:08:35.357#viewportChange#0
+2019-7-4 19:08:36.920#mousedown#{"isTrusted":true}
+2019-7-4 19:08:36.939#focus#
+2019-7-4 19:08:38.122#mousedown#{"isTrusted":true}
+2019-7-4 19:08:38.459#mousedown#{"isTrusted":true}
+2019-7-4 19:08:40.394#mousedown#{"isTrusted":true}
+2019-7-4 19:08:40.395#contextmenu#{"isTrusted":true}
+2019-7-4 19:08:42.191#copy#{"isTrusted":true}

@@ -1,0 +1,128 @@
+== TEST (2019-05-09 21:21:25) 
+-- CODE:
+ang = eval(input("Digite o valor do angulo: "))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    ang = eval(input())
+  File "<string>", line 1, in <module>
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 21:21:43) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    ang = eval(input())
+  File "<string>", line 1, in <module>
+NameError: name 'pi' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 21:28:39) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+k = int(input("Imprima o numero de termos da serie: "))
+if (ang>=-pi and ang<=pi):
+i = 0
+soma = 0
+while (i<k):
+	soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+	i = i + 1
+print(round(soma,10))
+-- ERROR:
+File "XXXX", line 5
+    i = 0
+    ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 21:29:03) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+k = int(input("Imprima o numero de termos da serie: "))
+if (ang>=-pi and ang<=pi):
+	i = 0
+	soma = 0
+	while (i<k):
+	soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+	i = i + 1
+print(round(soma,10))
+-- ERROR:
+File "XXXX", line 8
+    soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+       ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 21:29:24) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+k = int(input("Imprima o numero de termos da serie: "))
+if (ang>=-pi and ang<=pi):
+	i = 0
+	soma = 0
+	while (i<k):
+		soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+		i = i + 1
+print(round(soma,10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 21:29:40) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+k = int(input("Imprima o numero de termos da serie: "))
+if (ang>=-pi and ang<=pi):
+	i = 0
+	soma = 0
+	while (i<k):
+		soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+		i = i + 1
+print(round(soma,10))
+-- OUTPUT:
+1.0000035426
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 21:30:02) 
+-- CODE:
+from math import *
+ang = eval(input("Digite o valor do angulo: "))
+k = int(input("Imprima o numero de termos da serie: "))
+if (ang>=-pi and ang<=pi):
+	i = 0
+	soma = 0
+	while (i<k):
+		soma = soma + ((ang**(2*i + 1))/(factorial(2*i + 1)))*(-1)**i
+		i = i + 1
+print(round(soma,10))
+-- EXECUTION TIME:
+0.135793
+-- TEST CASE 1:
+---- input:
+pi/2
+5
+---- correct output:
+1.0000035426
+---- user output:
+1.0000035426
+-- TEST CASE 2:
+---- input:
+-pi/2
+4
+---- correct output:
+-0.9998431014
+---- user output:
+-0.9998431014
+-- TEST CASE 3:
+---- input:
+pi/3
+3
+---- correct output:
+0.8662952838
+---- user output:
+0.8662952838
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

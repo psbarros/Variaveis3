@@ -1,0 +1,668 @@
+== SUBMITION (2019-03-27 00:45:06) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = valor%100%10
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME:
+0.122769
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+0
+0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:45:12) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = valor%100%10
+print(x)
+print(y)
+print(z)
+-- OUTPUT:
+9
+0
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:46:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = valor%100/10
+print(x)
+print(y)
+print(z)
+-- OUTPUT:
+9
+0
+9.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:46:48) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = int(valor%100/10)
+print(x)
+print(y)
+print(z)
+-- OUTPUT:
+9
+0
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 00:47:10) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = int(valor%100/10)
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME:
+0.193853
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+0
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-27 00:47:15) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = int(valor%100/10)
+print(x)
+print(y)
+print(z)
+-- EXECUTION TIME:
+0.116445
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+0
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-27 00:47:19) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+x = valor//100
+y = valor%100%5
+z = int(valor%100/10)
+print(x)
+print(y)
+print(z)
+-- OUTPUT:
+9
+0
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:17:52) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas100 =
+-- ERROR:
+File "XXXX", line 5
+    notas100 =
+             ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:18:14) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 =
+-- ERROR:
+File "XXXX", line 5
+    notas_100 =
+              ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:29:07) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:29:21) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.220679
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:29:26) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.127523
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:29:31) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:29:55) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.137571
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:33:13) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.207329
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:33:58) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = valor//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+19
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 10:34:30) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = valor//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.160001
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+19
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:35:25) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = valor//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+19
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 10:36:34) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 17:58:36) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.203564
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 17:58:39) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 17:59:42) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:03:23) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(int(notas_100))
+print(int(notas_50))
+print(int(notas_10))
+-- EXECUTION TIME:
+0.154158
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:03:26) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(int(notas_100))
+print(int(notas_50))
+print(int(notas_10))
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:14:59) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.116407
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:23:13) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:23:24) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.295484
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:29:51) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50 
+notas_10 = restode100//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+9
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 18:34:51) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50
+restode50 = restode100%50
+notas_10 = restode50//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- OUTPUT:
+9
+1
+4
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 18:35:02) 
+-- CODE:
+# Teste seu codigo aos poucos.
+# Nao teste tudo no final, pois fica mais dificil de identificar erros.
+# Use as mensagens de erro para corrigir seu codigo.
+valor = int(input("insira: "))
+notas_100 = valor//100
+restode100 = valor%100
+notas_50 = restode100//50
+restode50 = restode100%50
+notas_10 = restode50//10
+print(notas_100)
+print(notas_50)
+print(notas_10)
+-- EXECUTION TIME:
+0.199589
+-- TEST CASE 1:
+---- input:
+990
+---- correct output:
+9
+1
+4
+---- user output:
+9
+1
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

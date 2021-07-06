@@ -1,0 +1,80 @@
+== TEST (2019-05-09 19:47:46) 
+-- CODE:
+x=int(inpu("num: "))
+a=0
+b=0
+c=1
+while(a<x):
+	if(a%2==0):
+		b=b+(4/c)
+	elif(a%2==1):
+		b=b-(4/c)
+	c=c+2
+	a=a+1
+print(round(b,8))
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    x=int(inpu("num: "))
+NameError: name 'inpu' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-09 19:48:01) 
+-- CODE:
+x=int(input("num: "))
+a=0
+b=0
+c=1
+while(a<x):
+	if(a%2==0):
+		b=b+(4/c)
+	elif(a%2==1):
+		b=b-(4/c)
+	c=c+2
+	a=a+1
+print(round(b,8))
+	
+-- OUTPUT:
+3.13423981
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-05-09 19:48:08) 
+-- CODE:
+x=int(input("num: "))
+a=0
+b=0
+c=1
+while(a<x):
+	if(a%2==0):
+		b=b+(4/c)
+	elif(a%2==1):
+		b=b-(4/c)
+	c=c+2
+	a=a+1
+print(round(b,8))
+	
+-- EXECUTION TIME:
+0.133598
+-- TEST CASE 1:
+---- input:
+136
+---- correct output:
+3.13423981
+---- user output:
+3.13423981
+-- TEST CASE 2:
+---- input:
+22
+---- correct output:
+3.09616153
+---- user output:
+3.09616153
+-- TEST CASE 3:
+---- input:
+15
+---- correct output:
+3.20818565
+---- user output:
+3.20818565
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

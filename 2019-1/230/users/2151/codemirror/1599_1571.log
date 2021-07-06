@@ -1,0 +1,121 @@
+2019-3-25 16:57:59.865#viewportChange#0
+2019-3-25 16:58:12.923#mousedown#{"isTrusted":true}
+2019-3-25 16:58:12.934#focus#
+2019-3-25 16:58:14.056#change#{"from":{"line":3,"ch":0,"sticky":null,"xRel":1,"outside":true},"to":{"line":3,"ch":0,"sticky":null,"xRel":1,"outside":true},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:14.056#keyHandled#"Enter"
+2019-3-25 16:58:14.060#viewportChange#0
+2019-3-25 16:58:17.158#change#{"from":{"line":4,"ch":0,"sticky":null},"to":{"line":4,"ch":0,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:17.365#change#{"from":{"line":4,"ch":1,"sticky":null},"to":{"line":4,"ch":1,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:17.588#change#{"from":{"line":4,"ch":2,"sticky":null},"to":{"line":4,"ch":2,"sticky":null},"text":["x"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:18.468#change#{"from":{"line":4,"ch":3,"sticky":null},"to":{"line":4,"ch":3,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:18.644#change#{"from":{"line":4,"ch":4,"sticky":null},"to":{"line":4,"ch":4,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:19.668#change#{"from":{"line":4,"ch":5,"sticky":null},"to":{"line":4,"ch":5,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:19.828#change#{"from":{"line":4,"ch":6,"sticky":null},"to":{"line":4,"ch":6,"sticky":null},"text":["="],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:20.020#change#{"from":{"line":4,"ch":7,"sticky":null},"to":{"line":4,"ch":7,"sticky":null},"text":[" "],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:21.156#change#{"from":{"line":4,"ch":8,"sticky":null},"to":{"line":4,"ch":8,"sticky":null},"text":["b"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:25.333#blur#
+2019-3-25 16:58:28.251#mousedown#{"isTrusted":true}
+2019-3-25 16:58:28.255#focus#
+2019-3-25 16:58:28.867#change#{"from":{"line":4,"ch":10,"sticky":"after"},"to":{"line":4,"ch":11,"sticky":"before","xRel":23.71875},"text":[""],"removed":["r"],"origin":"+delete"}
+2019-3-25 16:58:28.867#keyHandled#"Backspace"
+2019-3-25 16:58:29.122#change#{"from":{"line":4,"ch":9,"sticky":"after"},"to":{"line":4,"ch":10,"sticky":null},"text":[""],"removed":["a"],"origin":"+delete"}
+2019-3-25 16:58:29.122#keyHandled#"Backspace"
+2019-3-25 16:58:29.346#change#{"from":{"line":4,"ch":8,"sticky":"after"},"to":{"line":4,"ch":9,"sticky":null},"text":[""],"removed":["b"],"origin":"+delete"}
+2019-3-25 16:58:29.346#keyHandled#"Backspace"
+2019-3-25 16:58:30.406#change#{"from":{"line":4,"ch":8,"sticky":null},"to":{"line":4,"ch":8,"sticky":null},"text":["Guido van Rossum criou o Python"],"removed":[""],"origin":"paste"}
+2019-3-25 16:58:32.642#change#{"from":{"line":4,"ch":39,"sticky":null},"to":{"line":4,"ch":39,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:32.642#keyHandled#"Enter"
+2019-3-25 16:58:32.646#viewportChange#0
+2019-3-25 16:58:33.154#change#{"from":{"line":5,"ch":0,"sticky":null},"to":{"line":5,"ch":0,"sticky":null},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:33.154#keyHandled#"Enter"
+2019-3-25 16:58:33.158#viewportChange#0
+2019-3-25 16:58:34.804#change#{"from":{"line":6,"ch":0,"sticky":null},"to":{"line":6,"ch":0,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:34.981#change#{"from":{"line":6,"ch":1,"sticky":null},"to":{"line":6,"ch":1,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:35.156#change#{"from":{"line":6,"ch":2,"sticky":null},"to":{"line":6,"ch":2,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:35.396#change#{"from":{"line":6,"ch":3,"sticky":null},"to":{"line":6,"ch":3,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:35.732#change#{"from":{"line":6,"ch":4,"sticky":null},"to":{"line":6,"ch":4,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:36.933#change#{"from":{"line":6,"ch":5,"sticky":null},"to":{"line":6,"ch":5,"sticky":null},"text":[")"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:37.906#change#{"from":{"line":6,"ch":5,"sticky":"after"},"to":{"line":6,"ch":6,"sticky":null},"text":[""],"removed":[")"],"origin":"+delete"}
+2019-3-25 16:58:37.906#keyHandled#"Backspace"
+2019-3-25 16:58:38.439#change#{"from":{"line":6,"ch":5,"sticky":null},"to":{"line":6,"ch":5,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:38.439#keyHandled#"'('"
+2019-3-25 16:58:45.958#change#{"from":{"line":6,"ch":6,"sticky":"after"},"to":{"line":6,"ch":6,"sticky":"after"},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:46.133#change#{"from":{"line":6,"ch":7,"sticky":null},"to":{"line":6,"ch":7,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:46.389#change#{"from":{"line":6,"ch":8,"sticky":null},"to":{"line":6,"ch":8,"sticky":null},"text":["x"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:46.963#change#{"from":{"line":6,"ch":9,"sticky":null},"to":{"line":6,"ch":9,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:47.237#change#{"from":{"line":6,"ch":10,"sticky":null},"to":{"line":6,"ch":10,"sticky":null},"text":["o"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:47.813#change#{"from":{"line":6,"ch":11,"sticky":null},"to":{"line":6,"ch":11,"sticky":null},"text":["."],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:48.661#change#{"from":{"line":6,"ch":12,"sticky":null},"to":{"line":6,"ch":12,"sticky":null},"text":["u"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:50.821#change#{"from":{"line":6,"ch":13,"sticky":null},"to":{"line":6,"ch":13,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:51.541#change#{"from":{"line":6,"ch":14,"sticky":null},"to":{"line":6,"ch":14,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:52.165#change#{"from":{"line":6,"ch":15,"sticky":null},"to":{"line":6,"ch":15,"sticky":null},"text":["e"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:52.357#change#{"from":{"line":6,"ch":16,"sticky":null},"to":{"line":6,"ch":16,"sticky":null},"text":["r"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:53.396#change#{"from":{"line":6,"ch":17,"sticky":null},"to":{"line":6,"ch":17,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:53.396#keyHandled#"'('"
+2019-3-25 16:58:53.396#change#{"from":{"line":6,"ch":17,"sticky":null},"to":{"line":6,"ch":17,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-25 16:58:53.396#keyHandled#"'('"
+2019-3-25 16:58:58.238#blur#
+2019-3-25 16:58:59.585#saida_testar#$ python3 main.py
+File "main.py", line 5
+texto = Guido van Rossum criou o Python
+SyntaxError: invalid syntax
+2019-3-25 16:59:06.028#mousedown#{"isTrusted":true}
+2019-3-25 16:59:06.077#focus#
+2019-3-25 16:59:07.814#change#{"from":{"line":4,"ch":8,"sticky":"before","xRel":-4},"to":{"line":4,"ch":8,"sticky":"before","xRel":-4},"text":["\""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:08.828#mousedown#{"isTrusted":true}
+2019-3-25 16:59:09.350#change#{"from":{"line":4,"ch":40,"sticky":"before","xRel":8.40625},"to":{"line":4,"ch":40,"sticky":"before","xRel":8.40625},"text":["\""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:09.350#change#{"from":{"line":4,"ch":40,"sticky":"before","xRel":8.40625},"to":{"line":4,"ch":40,"sticky":"before","xRel":8.40625},"text":["\""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:11.230#blur#
+2019-3-25 16:59:11.606#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 16:59:11.230#blur#
+2019-3-25 16:59:11.606#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 16:59:13.683#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-25 16:59:16.652#mousedown#{"isTrusted":true}
+2019-3-25 16:59:16.699#focus#
+2019-3-25 16:59:17.668#change#{"from":{"line":5,"ch":0,"sticky":"before"},"to":{"line":6,"ch":0,"sticky":"after","xRel":-1.59375},"text":[""],"removed":["",""],"origin":"+delete"}
+2019-3-25 16:59:17.668#keyHandled#"Backspace"
+2019-3-25 16:59:17.673#viewportChange#0
+2019-3-25 16:59:19.596#mousedown#{"isTrusted":true}
+2019-3-25 16:59:20.339#change#{"from":{"line":5,"ch":20,"sticky":"before","xRel":0.859375},"to":{"line":5,"ch":20,"sticky":"before","xRel":0.859375},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:20.339#keyHandled#"Enter"
+2019-3-25 16:59:20.344#viewportChange#0
+2019-3-25 16:59:21.020#mousedown#{"isTrusted":true}
+2019-3-25 16:59:21.708#mousedown#{"isTrusted":true}
+2019-3-25 16:59:22.436#change#{"from":{"line":4,"ch":41,"sticky":"before","xRel":-0.140625},"to":{"line":4,"ch":41,"sticky":"before","xRel":-0.140625},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:22.436#keyHandled#"Enter"
+2019-3-25 16:59:22.442#viewportChange#0
+2019-3-25 16:59:22.436#change#{"from":{"line":4,"ch":41,"sticky":"before","xRel":-0.140625},"to":{"line":4,"ch":41,"sticky":"before","xRel":-0.140625},"text":["",""],"removed":[""],"origin":"+input"}
+2019-3-25 16:59:22.436#keyHandled#"Enter"
+2019-3-25 16:59:22.442#viewportChange#0
+2019-3-25 16:59:29.045#blur#
+2019-3-25 16:59:29.428#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 16:59:29.045#blur#
+2019-3-25 16:59:29.428#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 16:59:32.979#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-25 16:59:47.045#mousedown#{"isTrusted":true}
+2019-3-25 16:59:47.109#focus#
+2019-3-25 16:59:47.045#mousedown#{"isTrusted":true}
+2019-3-25 16:59:47.109#focus#
+2019-3-25 17:00:38.778#blur#
+2019-3-25 17:00:39.666#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 17:00:39.666#saida_testar#$ python3 main.py
+GUIDO VAN ROSSUM CRIOU O PYTHON
+2019-3-25 17:00:40.909#submit#Your code did not produce the correct output. Please, correct your code and try again.
+2019-3-25 17:01:01.430#mousedown#{"isTrusted":true}
+2019-3-25 17:01:01.487#focus#
+2019-3-25 17:01:04.373#change#{"from":{"line":4,"ch":9,"sticky":"after","xRel":3.40625},"to":{"line":4,"ch":41,"sticky":"before","xRel":0.859375},"text":[""],"removed":["Guido van Rossum criou o Python\""],"origin":"+delete"}
+2019-3-25 17:01:04.373#keyHandled#"Backspace"
+2019-3-25 17:01:04.789#change#{"from":{"line":4,"ch":8,"sticky":"after"},"to":{"line":4,"ch":9,"sticky":null},"text":[""],"removed":["\""],"origin":"+delete"}
+2019-3-25 17:01:04.789#keyHandled#"Backspace"
+2019-3-25 17:01:07.192#change#{"from":{"line":4,"ch":8,"sticky":null},"to":{"line":4,"ch":8,"sticky":null},"text":["i"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:07.639#change#{"from":{"line":4,"ch":9,"sticky":null},"to":{"line":4,"ch":9,"sticky":null},"text":["n"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:08.119#change#{"from":{"line":4,"ch":10,"sticky":null},"to":{"line":4,"ch":10,"sticky":null},"text":["p"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:08.552#change#{"from":{"line":4,"ch":11,"sticky":null},"to":{"line":4,"ch":11,"sticky":null},"text":["u"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:08.807#change#{"from":{"line":4,"ch":12,"sticky":null},"to":{"line":4,"ch":12,"sticky":null},"text":["t"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:09.926#change#{"from":{"line":4,"ch":13,"sticky":null},"to":{"line":4,"ch":13,"sticky":null},"text":["()"],"removed":[""],"origin":"+input"}
+2019-3-25 17:01:09.926#keyHandled#"'('"

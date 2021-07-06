@@ -1,0 +1,183 @@
+== SUBMITION (2019-04-16 18:09:11) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+-- EXECUTION TIME:
+0.190472
+-- ERROR:
+  File "/home/codebench/codes/1647/1054/main.py", line 3
+    if (2*x+y==3):
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:09:20) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+-- ERROR:
+File "XXXX", line 3
+    if (2*x+y==3):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:10:08) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- EXECUTION TIME:
+0.155271
+-- ERROR:
+  File "/home/codebench/codes/1647/1054/main.py", line 3
+    if (2*x+y==3):
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:10:10) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 3
+    if (2*x+y==3):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:10:12) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 3
+    if (2*x+y==3):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:10:33) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3.0):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- EXECUTION TIME:
+0.183033
+-- ERROR:
+  File "/home/codebench/codes/1647/1054/main.py", line 3
+    if (2*x+y==3.0):
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:10:34) 
+-- CODE:
+x= int(input("diga x:"))
+y= int(input("diga y:"))
+ if (2*x+y==3.0):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 3
+    if (2*x+y==3.0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:13:12) 
+-- CODE:
+x= float(input("diga x:"))
+y= float(input("diga y:"))
+ if (2 * x + y == 3.0):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- EXECUTION TIME:
+0.132093
+-- ERROR:
+  File "/home/codebench/codes/1647/1054/main.py", line 3
+    if (2 * x + y == 3.0):
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:13:14) 
+-- CODE:
+x= float(input("diga x:"))
+y= float(input("diga y:"))
+ if (2 * x + y == 3.0):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- ERROR:
+File "XXXX", line 3
+    if (2 * x + y == 3.0):
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:30:39) 
+-- CODE:
+x= float(input("diga x:"))
+y= float(input("diga y:"))
+if (2 * x + y == 3.0):
+		mensagem = "ponto pertence a reta"
+else:
+	mensagem = "ponto nao pertence a reta"
+	
+print(mensagem)
+-- EXECUTION TIME:
+0.134808
+-- TEST CASE 1:
+---- input:
+20
+-37
+---- correct output:
+ponto pertence a reta
+---- user output:
+ponto pertence a reta
+-- TEST CASE 2:
+---- input:
+5
+13
+---- correct output:
+ponto nao pertence a reta
+---- user output:
+ponto nao pertence a reta
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

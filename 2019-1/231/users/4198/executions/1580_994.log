@@ -1,0 +1,63 @@
+== TEST (2019-03-12 18:40:42) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- OUTPUT:
+Universidade Federal do Amazonas
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-12 18:40:49) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- EXECUTION TIME:
+0.190808
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+Universidade Federal do Amazonas
+---- user output:
+Universidade Federal do Amazonas
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-19 22:53:02) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- EXECUTION TIME:
+0.280456
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+Universidade Federal do Amazonas
+---- user output:
+Universidade Federal do Amazonas
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 10:15:33) 
+-- CODE:
+print(Universidade Federal do Amazonas")
+-- EXECUTION TIME:
+0.231672
+-- ERROR:
+  File "/home/codebench/codes/1580/994/main.py", line 1
+    print(Universidade Federal do Amazonas")
+                             ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 10:15:42) 
+-- CODE:
+print("Universidade Federal do Amazonas")
+-- EXECUTION TIME:
+0.147822
+-- TEST CASE 1:
+---- input:
+xx
+---- correct output:
+Universidade Federal do Amazonas
+---- user output:
+Universidade Federal do Amazonas
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

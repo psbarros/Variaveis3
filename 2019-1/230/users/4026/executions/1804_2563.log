@@ -1,0 +1,1625 @@
+== TEST (2019-06-05 15:54:29) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	elemento	in	v:
+		if	(m[elemento] > = 5):
+			aprov=aprov+1
+			if	(m[elemento] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+-- ERROR:
+File "XXXX", line 8
+    if	(m[elemento] > = 5):
+                      ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:54:40) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	elemento	in	v:
+		if	(m[i] > = 5):
+			aprov=aprov+1
+			if	(m[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+-- ERROR:
+File "XXXX", line 8
+    if	(m[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:54:50) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(m[i] > = 5):
+			aprov=aprov+1
+			if	(m[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+-- ERROR:
+File "XXXX", line 8
+    if	(m[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:56:35) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(m[i] > = 5):
+			aprov=aprov+1
+			if	(m[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 8
+    if	(m[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:56:36) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(m[i] > = 5):
+			aprov=aprov+1
+			if	(m[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 8
+    if	(m[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:56:41) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+i=0
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(m[i] > = 5):
+			aprov=aprov+1
+			if	(m[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 9
+    if	(m[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:56:54) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(v[i] > = 5):
+			aprov=aprov+1
+			if	(v[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 8
+    if	(v[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:57:10) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+i=0
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(v[i] > = 5):
+			aprov=aprov+1
+			if	(v[i] > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 9
+    if	(v[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:59:00) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+i=0
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i > = 5):
+			aprov=aprov+1
+			if	(i> = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 9
+    if	(i > = 5):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:59:05) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+i=0
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i > = 5):
+			aprov=aprov+1
+			if	(i > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 9
+    if	(i > = 5):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:59:10) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i > = 5):
+			aprov=aprov+1
+			if	(i > = 7):
+				monitor = monitor + 1 
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 8
+    if	(i > = 5):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 15:59:44) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	for	i	in	v:
+		if	(i > = 5):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 7
+    if	(i > = 5):
+            ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:00:26) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m>1):
+	aprov = 0
+	for	i	in	v:
+		if	(v[i] > = 5):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+File "XXXX", line 7
+    if	(v[i] > = 5):
+               ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:00:58) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(v[i] >= 5):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:01:48) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(v[i] >= 5):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:03:16) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(v[i] >= 5):
+			aprov=aprov+1
+			if	(v[i] >= 7):
+				monitor = monitor + 1 
+	print(monitor - aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:04:58) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(v[i] >= 5):
+			aprov=aprov+1
+			if	(v[i] < 7):
+				aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:07:17) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(v[i] >= 5):
+			aprov=aprov+1
+		if	(v[i] >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:14:18) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	range(v):
+		if	(v[i] >= 5):
+			aprov=aprov+1
+		if	(v[i] >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:15:21) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:15:44) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.18393
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 13, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:15:54) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:16:02) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.21766
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 13, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:16:07) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:16:33) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.08248
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 13, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:16:41) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:16:58) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.11551
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 13, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:17:29) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	monitor = 0
+	for	i	in	v:
+		if	(i >= 5):
+			aprov=aprov+1
+		if	(i >= 7):
+			monitor = monitor + 1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:18:45) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov - monitor)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:18:55) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:19:09) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.17928
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 10, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:19:15) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:19:23) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.21548
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 10, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:19:25) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:22:08) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	range(len(v)):
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:22:47) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	range(len(v)):
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:23:02) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	range(len(v)):
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:23:02) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	range(len(v)):
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:23:47) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:24:11) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+1.17167
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 11, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:24:15) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:25:06) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:25:07) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)	
+	v=array(eval(input("Media dos alunos:")))
+-- EXECUTION TIME:
+0.891027
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1804/2563/main.py", line 11, in <module>
+    v=array(eval(input()))
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:27:03) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:27:51) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+1.13969
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:27:59) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:28:23) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+0.937058
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:29:16) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+	print(aprov)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:29:36) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:29:40) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+1.07088
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:29:58) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:30:15) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:30:47) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+1.06114
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:31:30) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:31:35) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+0.907333
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+Media dos alunos:[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+Media dos alunos:4
+Media dos alunos:1
+Media dos alunos:
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:31:36) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:31:36) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+1.87045
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:31:59) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+0.846477
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+[6.3 6.4 6.  6.9 5.5 5.2]
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+[5.1 5.2 5.4 5.3 5.7 5.8 6.1 5.6 5.5 5.9 6.2]
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+[8.5 7.5 6.8 6.9 7.  5.6 5.8 6.3]
+5
+3
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:31:59) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:32:14) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:32:20) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+print(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-05 16:32:37) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- EXECUTION TIME:
+1.27682
+-- TEST CASE 1:
+---- input:
+[6.3,6.4,6.0,6.9,5.5,5.2]
+[4.5,3.8,7.8,4.8,9.6,9.2,8.7,2.3,2.9]
+[5.6,4.7,3.8,7.5,8.2,8.4,7.1,6.9,6.7]
+[1.1,3.1,2.7,7.8,6.7,4.6,4.9,7.0]
+[1]
+---- correct output:
+6
+0
+3
+1
+---- user output:
+6
+0
+3
+1
+-- TEST CASE 2:
+---- input:
+[5.1,5.2,5.4,5.3,5.7,5.8,6.1,5.6,5.5,5.9,6.2]
+[2.7,6.8,4.7,5.7,3.5,6.6,7.0,5.4]
+[8.7,8.6,8.9,8.6,7.5,7.2,6.9,7.4,7.2]
+[1]
+---- correct output:
+11
+4
+1
+---- user output:
+11
+4
+1
+-- TEST CASE 3:
+---- input:
+[8.5,7.5,6.8,6.9,7.0,5.6,5.8,6.3]
+[7.3,7.1,7.0,6.8,6.0,5.0]
+[1]
+---- correct output:
+5
+3
+---- user output:
+5
+3
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-05 16:32:37) 
+-- CODE:
+from numpy import*
+v=array(eval(input("Media dos alunos:")))
+m=size(v)
+while	(m > 1):
+	aprov = 0
+	for	i	in	v:
+		if	(i >= 5) and (i < 7):
+			aprov=aprov+1
+	print(aprov)
+	v=array(eval(input("Media dos alunos:")))
+	m=size(v)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

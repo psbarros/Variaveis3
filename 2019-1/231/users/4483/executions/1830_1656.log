@@ -1,0 +1,80 @@
+== SUBMITION (2019-06-13 18:35:21) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("")))
+
+ for i in range
+	
+-- EXECUTION TIME:
+1.02736
+-- ERROR:
+  File "/home/codebench/codes/1830/1656/main.py", line 4
+    for i in range
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:35:22) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("")))
+
+ for i in range
+	
+-- EXECUTION TIME:
+0.757886
+-- ERROR:
+  File "/home/codebench/codes/1830/1656/main.py", line 4
+    for i in range
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:35:23) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("")))
+
+ for i in range
+	
+-- EXECUTION TIME:
+2.08742
+-- ERROR:
+  File "/home/codebench/codes/1830/1656/main.py", line 4
+    for i in range
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:35:23) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("")))
+
+ for i in range
+	
+-- EXECUTION TIME:
+2.94301
+-- ERROR:
+  File "/home/codebench/codes/1830/1656/main.py", line 4
+    for i in range
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 18:36:24) 
+-- CODE:
+from numpy import*
+vet=array(eval(input("")))
+
+ for i in range
+	
+-- EXECUTION TIME:
+0.72793
+-- ERROR:
+  File "/home/codebench/codes/1830/1656/main.py", line 4
+    for i in range
+    ^
+IndentationError: unexpected indent
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

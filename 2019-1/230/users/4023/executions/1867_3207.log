@@ -1,0 +1,490 @@
+== SUBMITION (2019-07-01 16:20:08) 
+-- CODE:
+from numpy import *
+from linalg import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(y)
+	
+
+
+
+z = int(input("Digite a quantidade de lista de alunos: "))
+
+-- EXECUTION TIME:
+1.11005
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1867/3207/main.py", line 2, in <module>
+    from linalg import *
+ImportError: No module named 'linalg'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:20:25) 
+-- CODE:
+from numpy import *
+from linalg import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(y)
+	
+
+
+-- EXECUTION TIME:
+0.866141
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1867/3207/main.py", line 2, in <module>
+    from linalg import *
+ImportError: No module named 'linalg'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:20:49) 
+-- CODE:
+from numpy import *
+from linalg import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- EXECUTION TIME:
+1.01173
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1867/3207/main.py", line 2, in <module>
+    from linalg import *
+ImportError: No module named 'linalg'
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 16:20:52) 
+-- CODE:
+from numpy import *
+from linalg import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:21:04) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- EXECUTION TIME:
+1.02147
+-- TEST CASE 1:
+---- input:
+3
+5
+101,102,103,104,105
+201,202,203,204,205
+301,302,303,304,305
+---- correct output:
+[[101 102 103 104 105]
+ [201 202 203 204 205]
+ [301 302 303 304 305]]
+15
+---- user output:
+3
+15
+-- TEST CASE 2:
+---- input:
+4
+4
+101,103,105,107
+102,104,106,108
+201,203,205,207
+202,204,206,208
+---- correct output:
+[[101 103 105 107]
+ [102 104 106 108]
+ [201 203 205 207]
+ [202 204 206 208]]
+16
+---- user output:
+4
+16
+-- TEST CASE 3:
+---- input:
+3
+3
+111,112,113
+222,223,224
+333,334,335
+---- correct output:
+[[111 112 113]
+ [222 223 224]
+ [333 334 335]]
+9
+---- user output:
+3
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 16:21:06) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:21:40) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- EXECUTION TIME:
+1.05179
+-- TEST CASE 1:
+---- input:
+3
+5
+101,102,103,104,105
+201,202,203,204,205
+301,302,303,304,305
+---- correct output:
+[[101 102 103 104 105]
+ [201 202 203 204 205]
+ [301 302 303 304 305]]
+15
+---- user output:
+3
+15
+-- TEST CASE 2:
+---- input:
+4
+4
+101,103,105,107
+102,104,106,108
+201,203,205,207
+202,204,206,208
+---- correct output:
+[[101 103 105 107]
+ [102 104 106 108]
+ [201 203 205 207]
+ [202 204 206 208]]
+16
+---- user output:
+4
+16
+-- TEST CASE 3:
+---- input:
+3
+3
+111,112,113
+222,223,224
+333,334,335
+---- correct output:
+[[111 112 113]
+ [222 223 224]
+ [333 334 335]]
+9
+---- user output:
+3
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 16:23:21) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:24:34) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- EXECUTION TIME:
+1.1126
+-- TEST CASE 1:
+---- input:
+3
+5
+101,102,103,104,105
+201,202,203,204,205
+301,302,303,304,305
+---- correct output:
+[[101 102 103 104 105]
+ [201 202 203 204 205]
+ [301 302 303 304 305]]
+15
+---- user output:
+3
+15
+-- TEST CASE 2:
+---- input:
+4
+4
+101,103,105,107
+102,104,106,108
+201,203,205,207
+202,204,206,208
+---- correct output:
+[[101 103 105 107]
+ [102 104 106 108]
+ [201 203 205 207]
+ [202 204 206 208]]
+16
+---- user output:
+4
+16
+-- TEST CASE 3:
+---- input:
+3
+3
+111,112,113
+222,223,224
+333,334,335
+---- correct output:
+[[111 112 113]
+ [222 223 224]
+ [333 334 335]]
+9
+---- user output:
+3
+9
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:26:18) 
+-- CODE:
+import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- EXECUTION TIME:
+0.798716
+-- ERROR:
+  File "/home/codebench/codes/1867/3207/main.py", line 1
+    import *
+           ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-01 16:27:22) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(x)
+print(totalalunos)
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-01 16:27:46) 
+-- CODE:
+from numpy import *
+
+x = int(input("Digite a quantidade de turmas: "))
+y = int(input("Digite a quantidade de alunos: "))
+
+turma = zeros((x,y), dtype=int)
+
+for i in range(0, x):
+	turma[i,:] = input("Digite o numero de matricula dos alunos da turma: ").split(',')
+	
+totalalunos = x*y
+
+print(turma)
+print(totalalunos)
+
+-- EXECUTION TIME:
+1.04326
+-- TEST CASE 1:
+---- input:
+3
+5
+101,102,103,104,105
+201,202,203,204,205
+301,302,303,304,305
+---- correct output:
+[[101 102 103 104 105]
+ [201 202 203 204 205]
+ [301 302 303 304 305]]
+15
+---- user output:
+[[101 102 103 104 105]
+ [201 202 203 204 205]
+ [301 302 303 304 305]]
+15
+-- TEST CASE 2:
+---- input:
+4
+4
+101,103,105,107
+102,104,106,108
+201,203,205,207
+202,204,206,208
+---- correct output:
+[[101 103 105 107]
+ [102 104 106 108]
+ [201 203 205 207]
+ [202 204 206 208]]
+16
+---- user output:
+[[101 103 105 107]
+ [102 104 106 108]
+ [201 203 205 207]
+ [202 204 206 208]]
+16
+-- TEST CASE 3:
+---- input:
+3
+3
+111,112,113
+222,223,224
+333,334,335
+---- correct output:
+[[111 112 113]
+ [222 223 224]
+ [333 334 335]]
+9
+---- user output:
+[[111 112 113]
+ [222 223 224]
+ [333 334 335]]
+9
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

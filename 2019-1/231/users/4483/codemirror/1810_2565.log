@@ -1,0 +1,23 @@
+2019-6-12 22:31:13.864#viewportChange#0
+2019-6-12 22:31:42.988#mousedown#{"isTrusted":true}
+2019-6-12 22:31:42.993#focus#
+2019-6-12 22:31:44.009#mousedown#{"isTrusted":true}
+2019-6-12 22:31:44.111#blur#
+2019-6-12 22:31:44.226#contextmenu#{"isTrusted":true}
+2019-6-12 22:31:44.229#focus#
+2019-6-12 22:31:45.728#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":108.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":108.09375},"text":["from numpy import*","","vet1 = array(eval(input(\"media: \")))","vet2 = array(eval(input(\"presenca: \")))","ch = int(input(\"carga horaria: \"))","vet = zeros(3, dtype=int)","for i in range(size(vet1)):","\tif vet1[i] > 5 and vet2[i] >= ch*75/100:","\t\tvet[0] = vet[0] + 1","\telif vet1[i] < 5 and vet2[i] >= ch*75/100:","\t\tvet[1] = vet[1] + 1","\telif vet1[i] < ch*75/100:","\t\tvet[2] = vet[2] + 1","print(vet)"],"removed":[""],"origin":"paste"}
+2019-6-12 22:31:45.755#viewportChange#0
+2019-6-12 22:31:45.728#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":108.09375},"to":{"line":0,"ch":0,"sticky":"after","xRel":108.09375},"text":["from numpy import*","","vet1 = array(eval(input(\"media: \")))","vet2 = array(eval(input(\"presenca: \")))","ch = int(input(\"carga horaria: \"))","vet = zeros(3, dtype=int)","for i in range(size(vet1)):","\tif vet1[i] > 5 and vet2[i] >= ch*75/100:","\t\tvet[0] = vet[0] + 1","\telif vet1[i] < 5 and vet2[i] >= ch*75/100:","\t\tvet[1] = vet[1] + 1","\telif vet1[i] < ch*75/100:","\t\tvet[2] = vet[2] + 1","print(vet)"],"removed":[""],"origin":"paste"}
+2019-6-12 22:31:45.755#viewportChange#0
+2019-6-12 22:31:49.914#submit#Congratulations, your code is correct!
+2019-6-13 10:49:14.290#viewportChange#0
+2019-6-13 10:49:17.429#mousedown#{}
+2019-6-13 10:49:17.473#focus#
+2019-6-13 10:49:17.615#mousedown#{}
+2019-6-13 10:49:17.673#dblclick#{}
+2019-6-13 10:49:27.138#mousedown#{}
+2019-6-13 10:49:39.597#mousedown#{}
+2019-6-13 10:49:44.448#copy#{}
+2019-6-13 10:49:46.750#blur#
+2019-6-13 10:49:47.907#focus#
+2019-6-13 10:49:49.751#blur#

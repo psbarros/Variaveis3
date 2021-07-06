@@ -1,0 +1,93 @@
+== TEST (2019-05-14 16:27:58) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	soma = soma + num
+if (num**n == num):
+	print("ARMSTRONG")
+else:
+	print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 16:28:17) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+if (num**n == num):
+	print("ARMSTRONG")
+else:
+	print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 16:28:21) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+if (num**n == num):
+	print("ARMSTRONG")
+else:
+	print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-14 16:29:50) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+	n += 1
+	print("ARMSTRONG")
+print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 08:45:42) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+	n += 1
+	if (num**n == num):
+		print("ARMSTRONG")
+	else:
+		print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 08:46:41) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+	n += 1
+if (num**n == num):
+	print("ARMSTRONG")
+else:
+	print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-15 08:46:51) 
+-- CODE:
+num = int(input("digite um numero inteiro: "))
+n = 0
+while (num > 0):
+	n = n + num
+	n += 1
+if (num**n == num):
+	print("ARMSTRONG")
+else:
+	print("NAO ARMSTRONG")
+-- OUTPUT:
+NAO ARMSTRONG
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

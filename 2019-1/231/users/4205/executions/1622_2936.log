@@ -1,0 +1,297 @@
+== TEST (2019-04-02 19:09:59) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+v=n*r*t//p
+form=p*v=n*r*t
+print(v)
+
+
+-- ERROR:
+File "XXXX", line 7
+    form=p*v=n*r*t
+        ^
+SyntaxError: can't assign to operator
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:10:11) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+v=n*r*t//p
+form=p*v=n*r*t
+print(v)
+
+
+-- EXECUTION TIME:
+0.192191
+-- ERROR:
+  File "/home/codebench/codes/1622/2936/main.py", line 7
+    form=p*v=n*r*t
+        ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:11:04) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+v=n*r*t//p
+form=p*v=n*r*t
+print(p)
+print(n)
+print(t)
+print(v)
+
+
+-- EXECUTION TIME:
+0.138165
+-- ERROR:
+  File "/home/codebench/codes/1622/2936/main.py", line 7
+    form=p*v=n*r*t
+        ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:12:08) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+t=273.15
+v=n*r*t//p
+form=p*v=n*r*t
+print(p)
+print(n)
+print(t)
+print(v)
+
+
+-- EXECUTION TIME:
+0.203846
+-- ERROR:
+  File "/home/codebench/codes/1622/2936/main.py", line 8
+    form=p*v=n*r*t
+        ^
+SyntaxError: can't assign to operator
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:12:36) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+t=273.15
+v=n*r*t/p
+print(p)
+print(n)
+print(t)
+print(v)
+
+
+-- EXECUTION TIME:
+0.139229
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1622/2936/main.py", line 4, in <module>
+    v=float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:13:08) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+t=273.15
+v=(n*r*t)/p
+print(p)
+print(n)
+print(t)
+print(v)
+
+
+-- EXECUTION TIME:
+0.182027
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1622/2936/main.py", line 4, in <module>
+    v=float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:14:45) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+t=273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+print(v)
+
+
+-- EXECUTION TIME:
+0.197777
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1622/2936/main.py", line 4, in <module>
+    v=float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 19:15:34) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input("o volume e"))
+r=0.082
+t=273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v=float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 19:16:09) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+v=float(input())
+r=0.082
+t=273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+print(v)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    v=float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 19:17:40) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+t=float(input("leia a temperatura"))
+
+r=0.082
+t=273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+print(v)
+
+
+
+-- OUTPUT:
+26877.959999999995
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-02 19:20:54) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+temp=float(input("qual a temperatura"))
+
+
+r=0.082
+t=temp+273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+print(v)
+
+
+
+-- OUTPUT:
+29387.16
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-02 19:21:12) 
+-- CODE:
+p=float(input("leia a pressao:"))
+n=float(input("leia o numero de mols"))
+temp=float(input("qual a temperatura"))
+
+
+r=0.082
+t=temp+273.15
+v=(n*r*t)/p
+#print(p)
+#print(n)
+#print(t)
+#print(v)
+print(v)
+
+
+
+-- EXECUTION TIME:
+0.123612
+-- TEST CASE 1:
+---- input:
+0.01
+12
+25.5
+---- correct output:
+29387.16
+---- user output:
+29387.16
+-- TEST CASE 2:
+---- input:
+0.25
+2
+35.5
+---- correct output:
+202.4744
+---- user output:
+202.4744
+-- TEST CASE 3:
+---- input:
+0.28
+28
+288.8
+---- correct output:
+4607.990000000001
+---- user output:
+4607.990000000001
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

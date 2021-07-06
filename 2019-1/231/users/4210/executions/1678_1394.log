@@ -1,0 +1,128 @@
+== TEST (2019-04-16 18:07:09) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*(horas)/7)
+salario2 = float(50*(horas)/7)+70*(horas%20)
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+107.14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:07:22) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*(horas)/7)
+salario2 = float(50*(horas)/7)+70*(horas%20)
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+107.14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:08:14) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*(horas)/7)
+salario2 = float(50*(horas)/7)+70*(horas-20)
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+107.14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:08:53) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*(horas)/7)
+salario2 = float(50*(horas/7)+70*(horas-20))
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+107.14
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:09:15) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*(horas)
+salario2 = float(50*(horas)+70*(horas-20))
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- ERROR:
+File "XXXX", line 3
+    salario2 = float(50*(horas)+70*(horas-20))
+           ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:09:43) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*horas)
+salario2 = float(50*horas+70*(horas-20))
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+750.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 18:10:00) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*horas)
+salario2 = float(50*20+70*(horas-20))
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- OUTPUT:
+750.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 18:10:04) 
+-- CODE:
+horas = int(input())
+salario1 = float(50*horas)
+salario2 = float(50*20+70*(horas-20))
+
+if(horas<=20):
+	print(round(salario1,2))
+else:
+	print(round(salario2,2))
+-- EXECUTION TIME:
+0.158903
+-- TEST CASE 1:
+---- input:
+15
+---- correct output:
+750.0
+---- user output:
+750.0
+-- TEST CASE 2:
+---- input:
+45
+---- correct output:
+2750.0
+---- user output:
+2750.0
+-- TEST CASE 3:
+---- input:
+48
+---- correct output:
+2960
+---- user output:
+2960.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

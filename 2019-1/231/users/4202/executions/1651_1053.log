@@ -1,0 +1,1231 @@
+== TEST (2019-04-11 18:12:28) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+input("")
+-- OUTPUT:
+impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:12:39) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+input("cervo: ")
+-- OUTPUT:
+impar
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:21:05) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x=input("patromo: ")
+cervo == cervo eh patrno do harry potter
+1cervo!= nao cervo eh patrno do harry potter
+if(x=cervo):
+	print(cervo)
+else:	
+	print(1cervo)
+-- ERROR:
+File "XXXX", line 5
+    cervo == cervo eh patrno do harry potter
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:21:06) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x=input("patromo: ")
+cervo == cervo eh patrno do harry potter
+1cervo!= nao cervo eh patrno do harry potter
+if(x=cervo):
+	print(cervo)
+else:	
+	print(1cervo )
+-- ERROR:
+File "XXXX", line 5
+    cervo == cervo eh patrno do harry potter
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:21:14) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x=input("patromo: ")
+cervo = cervo eh patrno do harry potter
+1cervo!= nao cervo eh patrno do harry potter
+if(x=cervo):
+	print(cervo)
+else:	
+	print(1cervo )
+-- ERROR:
+File "XXXX", line 5
+    cervo = cervo eh patrno do harry potter
+                   ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:25:54) 
+-- CODE:
+# Teste seu código aos poucos.
+# Não teste tudo no final, pois fica mais difícil de identificar erros.
+# Use as mensagens de erro para corrigir seu código.
+x=input("patromo: ")
+cervo == cervo eh patrno do harry potter
+1cervo!= nao cervo eh patrno do harry potter
+if(x=cervo):
+	
+-- ERROR:
+File "XXXX", line 5
+    cervo == cervo eh patrno do harry potter
+                    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:27:54) 
+-- CODE:
+input("nome: ")
+if("cervo: "):
+print(cedrvo)	
+-- ERROR:
+File "XXXX", line 3
+    print(cedrvo)	
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:28:08) 
+-- CODE:
+input("nome: ")
+if("cervo: "):
+print("cervo")	
+-- ERROR:
+File "XXXX", line 3
+    print("cervo")	
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:28:10) 
+-- CODE:
+input("nome: ")
+if("cervo: "):
+print("cervo")	
+-- ERROR:
+File "XXXX", line 3
+    print("cervo")	
+        ^
+IndentationError: expected an indented block
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:31:13) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else()	
+	
+-- ERROR:
+File "XXXX", line 4
+    else()	
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:31:46) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else("patrono!=cervo")	
+	
+-- ERROR:
+File "XXXX", line 4
+    else("patrono!=cervo")	
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:32:43) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 4
+    else("patrono!=cervo")
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:32:44) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 4
+    else("patrono!=cervo")
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:33:13) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else("patrono=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 4
+    else("patrono=cervo")
+        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:33:31) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:34:21) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:34:22) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:34:27) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo "):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-11 18:34:48) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo"):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-12 09:36:58) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo"):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:42:36) 
+-- CODE:
+input("nome: ")
+if("patrono=cervo"):
+	print("cervo_eh_patrono_do_harry_potter")
+else:("patrono!=cervo")
+   print("nao_cervo_eh_patrono_do_harry_potter")
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:43:00) 
+-- CODE:
+input("nome: ")
+
+	
+-- ERROR:
+File "XXXX", line 5
+    print("nao_cervo_eh_patrono_do_harry_potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:51:58) 
+-- CODE:
+input("nome: ")
+if("cervo"):
+	print(cervo eh patrnono do Harry Potter)
+else:
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:51:59) 
+-- CODE:
+input("nome: ")
+if("cervo"):
+	print(cervo eh patrnono do Harry Potter)
+else:
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:52:25) 
+-- CODE:
+input("nome: ")
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:52:26) 
+-- CODE:
+input("nome: ")
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:53:43) 
+-- CODE:
+
+
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:56:32) 
+-- CODE:
+input("nome: ")
+
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:("se != patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:57:00) 
+-- CODE:
+input("nome: ")
+se = patrono
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:("se != patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-13 11:57:02) 
+-- CODE:
+input("nome: ")
+se = patrono
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:("se != patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:32:28) 
+-- CODE:
+input("nome: ")
+
+if("patrono"):
+	print(cervo eh patrnono do Harry Potter)
+else:("sasa ")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:34:33) 
+-- CODE:
+x=input("nome: ")
+
+if( x = patrono ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x != patrono)
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    if( x = patrono ):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:36:16) 
+-- CODE:
+x=input("nome: ")
+
+if( x = patrono ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x != patrono)
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    if( x = patrono ):
+          ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:54:39) 
+-- CODE:
+x=input("nome: ")
+
+if( x.upeer = patrono ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x.upeer != patrono)
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 3
+    if( x.upeer = patrono ):
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:57:14) 
+-- CODE:
+x=input("nome: ")
+
+if( x.upeer =="patrono" ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x.upeer != "patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:58:45) 
+-- CODE:
+x=input("nome: ")
+
+if( x.upeer () =="patrono" ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x.upeer () != "patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 21:58:47) 
+-- CODE:
+x=input("nome: ")
+
+if( x.upeer () =="patrono" ):
+	print(cervo eh patrnono do Harry Potter)
+else:(x.upeer () != "patrono")
+	print(nao eh patrono do Harry Potter)
+
+
+	
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrnono do Harry Potter)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:06:11) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(a.upper () == "patrono"):
+	print(cervo eh patrono do Harry Potter.)
+else:(a.upper () != "patrono")
+	print(nao eh patrono do Harry Potter)
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrono do Harry Potter.)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:06:12) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(a.upper () == "patrono"):
+	print(cervo eh patrono do Harry Potter.)
+else:(a.upper () != "patrono")
+	print(nao eh patrono do Harry Potter)
+-- ERROR:
+File "XXXX", line 4
+    print(cervo eh patrono do Harry Potter.)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:52:12) 
+-- CODE:
+a = input("leia o nome: ")
+
+if
+
+
+
+
+preco=float(input("numero: "))
+pagamento=float(input("numero: "))
+
+if(preco >pagamento):
+	print("falta"(preco-pagamento))
+else:
+	print("troco de ",(pagamento-preco))
+
+-- ERROR:
+File "XXXX", line 3
+    if
+     ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:52:19) 
+-- CODE:
+a = input("leia o nome: ")
+
+
+
+
+
+
+preco=float(input("numero: "))
+pagamento=float(input("numero: "))
+
+if(preco >pagamento):
+	print("falta"(preco-pagamento))
+else:
+	print("troco de ",(pagamento-preco))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 8, in <module>
+    preco=float(input())
+EOFError: EOF when reading a line
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 22:52:30) 
+-- CODE:
+a = input("leia o nome: ")
+
+
+
+
+
+
+preco=float(input("numero: "))
+pagamento=float(input("numero: "))
+
+if(preco >pagamento):
+	print("falta"(preco-pagamento))
+else:
+	print("troco de ",(pagamento-preco))
+
+-- EXECUTION TIME:
+0.22049
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1651/1053/main.py", line 8, in <module>
+    preco=float(input())
+EOFError: EOF when reading a line
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:57:03) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if(cervo == a):
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:57:57) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(a == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 22:58:18) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(a == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- EXECUTION TIME:
+0.218224
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 22:58:52) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if(cervo == a):
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:00:00) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:00:15) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- EXECUTION TIME:
+0.196047
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter.
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:00:35) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:01:23) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:a != asno
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:01:31) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:a != a
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:02:05) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:(a != patrono)
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:02:15) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:(a == patrono)
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:02:16) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:(a == patrono)
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:02:52) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:()
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+File "XXXX", line 7
+    print("nao eh patrono do Harry Potter")
+    ^
+IndentationError: unexpected indent
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:02:58) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+cervo eh patrono do Harry Potter.
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:03:24) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo != a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+nao eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-14 23:03:43) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo != a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- EXECUTION TIME:
+0.124552
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+nao eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+nao eh patrono do Harry Potter
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:03:49) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo != a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+nao eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:03:59) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo != a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+nao eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:04:11) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(cervo != a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- OUTPUT:
+nao eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:04:50) 
+-- CODE:
+a = input("leia o nome: ")
+cervo = a
+
+if(patrono == cervo):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 4, in <module>
+    if(patrono == cervo):
+NameError: name 'patrono' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:05:25) 
+-- CODE:
+a = input("leia o nome: ")
+patrono=cervo
+
+if(patrono == cervo):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    patrono=cervo
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:07:48) 
+-- CODE:
+a = input("leia o nome: ")
+patrono=cervo
+cervo!=a
+
+if(patrono == cervo):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    patrono=cervo
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:08:37) 
+-- CODE:
+a = input("leia o nome: ")
+cervo!=a
+patrono=cervo
+
+if(patrono == cervo):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    cervo!=a
+NameError: name 'cervo' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-14 23:09:18) 
+-- CODE:
+a = input("leia o nome: ")
+
+if(patrono == a):
+	print("cervo eh patrono do Harry Potter.")
+else:
+	print("nao eh patrono do Harry Potter")
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    if(patrono == a):
+NameError: name 'patrono' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 10:12:19) 
+-- CODE:
+nome=input()
+if(nomelower()=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(nome,"nao eh patrono do Harry Potter")
+
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    if(nomelower()=="cervo"):
+NameError: name 'nomelower' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 10:12:24) 
+-- CODE:
+nome=input()
+if(nomelower()=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(nome,"nao eh patrono do Harry Potter")
+
+
+
+
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 2, in <module>
+    if(nomelower()=="cervo"):
+NameError: name 'nomelower' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 10:13:01) 
+-- CODE:
+nome=input()
+if(nome.lower()=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(nome,"nao eh patrono do Harry Potter")
+
+
+
+
+
+
+
+-- OUTPUT:
+cervo eh patrono do Harry Potter
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 10:13:21) 
+-- CODE:
+nome=input()
+if(nome.lower()=="cervo"):
+	print("cervo eh patrono do Harry Potter")
+else:
+	print(nome,"nao eh patrono do Harry Potter")
+
+
+
+
+
+
+
+-- EXECUTION TIME:
+0.179383
+-- TEST CASE 1:
+---- input:
+cervo
+---- correct output:
+cervo eh patrono do Harry Potter
+---- user output:
+cervo eh patrono do Harry Potter
+-- TEST CASE 2:
+---- input:
+bode
+---- correct output:
+bode nao eh patrono do Harry Potter
+---- user output:
+bode nao eh patrono do Harry Potter
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

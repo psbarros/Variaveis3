@@ -1,0 +1,3615 @@
+== TEST (2019-04-16 20:24:05) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int()input("digite t:")
+
+S = s0 + (v*t)
+print (s)
+
+if(s <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- ERROR:
+File "XXXX", line 3
+    t = int()input()
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:24:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:")
+
+S = s0 + (v*t)
+print (s)
+
+if(s <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- ERROR:
+File "XXXX", line 5
+    S = s0 + (v*t)
+    ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:24:21) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (s)
+
+if(s <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print (s)
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:24:41) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (s)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 6, in <module>
+    print (s)
+NameError: name 's' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:25:00) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:25:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:25:27) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.210882
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:26:08) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:26:20) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:26:30) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.127286
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:27:03) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:27:35) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.148258
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:27:49) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.199013
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:27:49) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:28:31) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + v*t
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.140804
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:28:32) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + v*t
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:28:42) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + v*(t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:28:44) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + v*(t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.193707
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:28:44) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + v*(t)
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:28:56) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*(t))
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:28:57) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*(t))
+print (S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.143511
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:30:28) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+
+
+if(S <= 100):
+	print(S)
+	print("OK")
+else:
+	print(S)
+	print("ACIMA")
+-- EXECUTION TIME:
+0.195539
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:30:29) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+
+
+if(S <= 100):
+	print(S)
+	print("OK")
+else:
+	print(S)
+	print("ACIMA")
+-- EXECUTION TIME:
+0.12659
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7202
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:30:30) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+
+
+if(S <= 100):
+	print(S)
+	print("OK")
+else:
+	print(S)
+	print("ACIMA")
+-- EXECUTION TIME:
+0.124607
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:30:30) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+
+
+if(S <= 100):
+	print(S)
+	print("OK")
+else:
+	print(S)
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:31:42) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:31:50) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = s0 + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:33:15) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:33:17) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.151876
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:33:18) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:33:36) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:34:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:34:38) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0) + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.178422
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+digite s0: digite v: digite t:4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:34:38) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0) + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.127314
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7202
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:34:39) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0) + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:34:39) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0) + (v*t)
+print(S)
+
+if(S <= 100):
+	print("OK")
+else:
+	print("ACIMA")
+-- EXECUTION TIME:
+0.128043
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:36:39) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:41) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.198739
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:42) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.213029
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.166833
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7202
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.182751
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7203
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.456808
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.473619
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.42409
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1676/2973/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:43) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.213192
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:36:45) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.220562
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:38:10) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.138838
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:38:11) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.139966
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:38:11) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:38:13) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.187485
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:38:13) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.119795
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:39:23) 
+-- CODE:
+s0 = float(input("digite s0: "))
+v = float(input("digite v: "))
+t = float(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202.0
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:39:39) 
+-- CODE:
+s0 = float(input("digite s0: "))
+v = float(input("digite v: "))
+t = float(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.105418
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202.0
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470.0
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203.0
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:39:40) 
+-- CODE:
+s0 = float(input("digite s0: "))
+v = float(input("digite v: "))
+t = float(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202.0
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:39:41) 
+-- CODE:
+s0 = float(input("digite s0: "))
+v = float(input("digite v: "))
+t = float(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.140714
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202.0
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470.0
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203.0
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:39:41) 
+-- CODE:
+s0 = float(input("digite s0: "))
+v = float(input("digite v: "))
+t = float(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202.0
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:40:35) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.224182
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:40:35) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:40:35) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.117173
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+digite s0: digite v: digite t:7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:40:36) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.129411
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:11) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.203862
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.098269
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7202
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.180329
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.155742
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:12) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.108514
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1676/2973/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:13) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.173556
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:13) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.146615
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:44:13) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.107496
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:44:33) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:05) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.207147
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:06) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.182629
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:07) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.236034
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7203
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7202
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:07) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.219592
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:07) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.259048
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7203
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:07) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.557347
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7203
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:07) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.418141
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7203
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:49:09) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:49:37) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:44) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.193639
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:44) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.143693
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:44) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.126435
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:45) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.110101
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:45) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.0913451
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1676/2973/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:46) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.130709
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+4470
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:46) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.116553
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:49:46) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- OUTPUT:
+7202
+ACIMA
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:49:47) 
+-- CODE:
+s0 = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.150898
+-- TEST CASE 1:
+---- input:
+2
+60
+120
+---- correct output:
+7202
+OK
+---- user output:
+7202
+ACIMA
+-- TEST CASE 2:
+---- input:
+1
+41
+109
+---- correct output:
+4470
+OK
+---- user output:
+4470
+ACIMA
+-- TEST CASE 3:
+---- input:
+3
+120
+60
+---- correct output:
+7203
+ACIMA
+---- user output:
+7203
+ACIMA
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:00) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.22304
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-16 20:50:01) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:02) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.120067
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:03) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.0942142
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:03) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.18118
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:03) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.109198
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:04) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.121638
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1676/2973/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:04) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.142102
+-- ERROR:
+sh: 1: cannot open /home/codebench/codes/1676/2973/cbtemp.txt: No such file
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:04) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.097508
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-16 20:50:05) 
+-- CODE:
+so = int(input("digite s0: "))
+v = int(input("digite v: "))
+t = int(input("digite t:"))
+
+S = (s0 + (v*t))
+
+if(S <= 100):
+	msg = "OK"
+else:
+	msg = "ACIMA"
+	
+print(S)
+print(msg)
+-- EXECUTION TIME:
+0.189675
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1676/2973/main.py", line 5, in <module>
+    S = (s0 + (v*t))
+NameError: name 's0' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

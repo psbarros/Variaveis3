@@ -1,0 +1,294 @@
+== TEST (2019-03-20 12:22:17) 
+-- CODE:
+dividendo = print(346)
+divisor = print(2)
+quociente = print(dividendo//divisor)
+resto = print(dividendo%divisor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    quociente = print(dividendo//divisor)
+TypeError: unsupported operand type(s) for //: 'NoneType' and 'NoneType'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:23:10) 
+-- CODE:
+dividendo = 346
+divisor = 2
+print(dividendo)
+print(divisor)
+quociente = print(dividendo//divisor)
+resto = print(dividendo%divisor)
+-- OUTPUT:
+346
+2
+173
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-20 12:23:21) 
+-- CODE:
+dividendo = 346
+divisor = 2
+print(dividendo)
+print(divisor)
+quociente = print(dividendo//divisor)
+resto = print(dividendo%divisor)
+-- EXECUTION TIME:
+0.142092
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+346
+2
+173
+0
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+346
+2
+173
+0
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+346
+2
+173
+0
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:24:35) 
+-- CODE:
+dividendo = input()
+divisor = input()
+print(dividendo)
+print(divisor)
+quociente = print(dividendo//divisor)
+resto = print(dividendo%divisor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quociente = print(dividendo//divisor)
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:24:58) 
+-- CODE:
+dividendo = input("insira um numero: ")
+divisor = input("insira um numero: ")
+print(dividendo)
+print(divisor)
+quociente = print(dividendo//divisor)
+resto = print(dividendo%divisor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quociente = print(dividendo//divisor)
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:26:35) 
+-- CODE:
+dividendo = input("insira um numero: ")
+divisor = input("insira um numero: ")
+print(dividendo)
+print(divisor)
+quociente = int(print(dividendo//divisor))
+resto = int(print(dividendo%divisor))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quociente = int(print(dividendo//divisor))
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:26:53) 
+-- CODE:
+dividendo = input("insira um numero: ")
+divisor = input("insira um numero: ")
+print(dividendo)
+print(divisor)
+quociente = int(print(dividendo/divisor))
+resto = int(print(dividendo%divisor))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quociente = int(print(dividendo/divisor))
+TypeError: unsupported operand type(s) for /: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:28:46) 
+-- CODE:
+dividendo = input("insira um numero: ")
+divisor = input("insira um numero: ")
+print(dividendo)
+print(divisor)
+quociente = dividendo//divisor
+resto = dividendo%divisor
+print(quociente)
+print(resto)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    quociente = dividendo//divisor
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:33:59) 
+-- CODE:
+dividendo = input()
+divisor = input()
+print(dividendo)
+print(divisor)
+print(dividendo//divisor)
+print(dividendo%divisor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(dividendo//divisor)
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:34:45) 
+-- CODE:
+dividendo = input()
+divisor = input()
+print(dividendo)
+print(divisor)
+print(dividendo // divisor)
+print(dividendo % divisor)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(dividendo // divisor)
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:42:35) 
+-- CODE:
+x = input("valor de x: ")
+y = input("valor de y: ")
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(x//y)
+TypeError: unsupported operand type(s) for //: 'str' and 'str'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:43:38) 
+-- CODE:
+x = 346
+y = 2
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- OUTPUT:
+346
+2
+173
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:45:24) 
+-- CODE:
+x = input( )
+y = input( )
+x = 346
+y = 2
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- OUTPUT:
+346
+2
+173
+0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-20 12:46:50) 
+-- CODE:
+x = int(input( ))
+y = int(input( ))
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- OUTPUT:
+8
+5
+1
+3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-20 12:47:04) 
+-- CODE:
+x = int(input( ))
+y = int(input( ))
+print(x)
+print(y)
+print(x//y)
+print(x%y)
+-- EXECUTION TIME:
+0.146078
+-- TEST CASE 1:
+---- input:
+8
+5
+---- correct output:
+8
+5
+1
+3
+---- user output:
+8
+5
+1
+3
+-- TEST CASE 2:
+---- input:
+14
+2
+---- correct output:
+14
+2
+7
+0
+---- user output:
+14
+2
+7
+0
+-- TEST CASE 3:
+---- input:
+347
+2
+---- correct output:
+347
+2
+173
+1
+---- user output:
+347
+2
+173
+1
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

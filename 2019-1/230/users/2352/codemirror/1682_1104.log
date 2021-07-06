@@ -1,0 +1,7 @@
+2019-4-29 14:51:09.614#viewportChange#0
+2019-4-29 14:51:11.246#touchstart#{"isTrusted":true}
+2019-4-29 14:51:12.387#mousedown#{"isTrusted":true}
+2019-4-29 14:51:12.806#focus#
+2019-4-29 14:51:13.922#touchstart#{"isTrusted":true}
+2019-4-29 14:51:17.713#change#{"from":{"line":4,"ch":0,"sticky":null},"to":{"line":4,"ch":0,"sticky":null},"text":["a = float(input(\"\"))","b = float(input(\"\"))","c = float(input(\"\"))","d = float(input(\"\"))","","if(b<a or d<c):","\tprint(\"Intervalo 1:\",str(a),\",\",str(b))","\tprint(\"Intervalo 2:\",str(c),\",\",str(d))","\tprint(\"Entradas invalidas\")","elif(((a>=c and a<=d) or (b >= c and b<= d )) or ((c >= a and c<= b) or (d>=a and d<=b))):","\tprint(\"Intervalo 1:\", str(a),\",\",str(b))","\tprint(\"Intervalo 2:\", str(c),\",\",str(d))","\tprint(\"Ha intersecao\")","","else:","\tprint(\"Intervalo 1:\", str(a),\",\",str(b))","\tprint(\"Intervalo 2:\", str(c),\",\",str(d))","\tprint(\"Nao ha intersecao\")"],"removed":[""],"origin":"paste"}
+2019-4-29 14:51:17.832#viewportChange#0

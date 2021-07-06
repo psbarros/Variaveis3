@@ -1,0 +1,1606 @@
+== TEST (2019-06-08 23:33:37) 
+-- CODE:
+import numpy as np 
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+print(vet.size)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    import numpy as np 
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:34:05) 
+-- CODE:
+import numpy as np 
+# Leitura do primeiro vetor
+vet = np.array(eval(input("Primeiro vetor: ")))
+print(vet.size)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    import numpy as np 
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:34:36) 
+-- CODE:
+from numpy import *
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+print(vet.size)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:34:59) 
+-- CODE:
+from numpy import *
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+print(vet.size)
+
+
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 23:42:50) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- EXECUTION TIME:
+0.657932
+-- ERROR:
+  File "/home/codebench/codes/1813/2562/main.py", line 11
+    nimpar = 0
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:42:54) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 11
+    nimpar = 0
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:43:17) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar=0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 11
+    nimpar=0
+           ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:43:33) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 15
+    for elemento in vet:
+                       ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:43:56) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar = 0
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 11
+    nimpar = 0
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:45:49) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	nimpar = 0
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 15
+    nimpar = 0
+             ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:46:34) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	print(npar)
+	npar = 0
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         npar = npar + 1
+   # No. de elementos pares
+   
+   # No. de elementos impares
+   print(npar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 15
+    print(npar)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:47:01) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+			
+	print(npar)
+	npar = 0
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         npar = npar + 1
+   # No. de elementos pares
+   
+   # No. de elementos impares
+   print(npar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 16
+    print(npar)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:47:46) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+			
+	print(npar)
+	npar = 0
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         npar = npar + 1
+   print(npar)
+
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 14
+    print(npar)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:48:04) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+			
+	print(npar)
+
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 14
+    print(npar)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:48:17) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+			
+
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:48:31) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1		
+	print(npar)
+
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 13
+    print(npar)
+              ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:48:45) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1		
+	print(2)
+
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 13
+    print(2)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:49:11) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+
+while (size(vet) > 1):
+   npar = 0
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1		
+	
+	
+	print(2)
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 15
+    print(2)
+           ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:50:47) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 12
+    nimpar = 0
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:51:03) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar=0
+	nimpar=0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 12
+    nimpar=0
+           ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:51:17) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar=0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 17
+    for elemento in vet:
+                       ^
+IndentationError: unindent does not match any outer indentation level
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:51:38) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar=0
+
+   # Conta quantidade de elementos pares
+   for (elemento in vet):
+      if (elemento % 2 == 0):
+         npar = npar + 1
+	for elemento in vet:
+      if (elemento % 2 != 0):
+         nimpar = nimpar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 14
+    for (elemento in vet):
+                         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:53:04) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+	nimpar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+		else:
+			nimpar++
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 12
+    nimpar = 0
+             ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:53:18) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+		else:
+			nimpar++
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 17
+    else:
+        ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:53:54) 
+-- CODE:
+import numpy as np 
+vet = input()
+vet = vet.strip('[')
+vet = vet.strip(']')
+eus = np.fromstring(vet, dtype=int, sep=',')
+
+vet = input()
+vet = vet.strip('[')
+vet = vet.strip(']')
+bar = np.fromstring(vet, dtype=int, sep=',')
+
+i = 0
+vitoria_eus = 0
+vitoria_bar = 0
+tam = eus.size
+while(i < eus.size):
+	if(eus[i] == 11 and bar[i] == 22):
+		vitoria_bar += 1
+	elif(eus[i] == 11 and bar[i] == 33):
+		vitoria_eus += 1
+	elif(eus[i] == 22 and bar[i] == 11):
+		vitoria_eus += 1
+	elif(eus[i] == 22 and bar[i] == 33):
+		vitoria_bar += 1
+	elif(eus[i] == 33 and bar[i] == 11):
+		vitoria_bar += 1
+	elif(eus[i] == 33 and bar[i] == 22):
+		vitoria_eus += 1
+	i = i + 1
+	
+print(tam)
+if(vitoria_eus > vitoria_bar):
+	print('EUSAPIA')
+elif(vitoria_eus < vitoria_bar):
+	print('BARSANULFO')
+else:
+	print('EMPATE')
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    import numpy as np 
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:54:09) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+		else:
+			nimpar++
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(nimpar)
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 17
+    else:
+        ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:54:51) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+
+   # No. total de elementos
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-08 23:56:00) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+	print(size(vet) - npar)
+   # No. total de elementos
+	print(size(vet))
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- EXECUTION TIME:
+0.77624
+-- ERROR:
+  File "/home/codebench/codes/1813/2562/main.py", line 21
+    print(size(vet) - npar)
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:56:09) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+	print(size(vet) - npar)
+   # No. total de elementos
+	print(size(vet))
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 21
+    print(size(vet) - npar)
+                          ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:56:54) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+	nimpar = size(vet) - npar
+	print(nimpar)
+   # No. total de elementos
+	print(size(vet))
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 21
+    nimpar = size(vet) - npar
+                            ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:57:18) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+	impar = size(vet) - npar
+	print(impar)
+   # No. total de elementos
+	print(size(vet))
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 21
+    impar = size(vet) - npar
+                           ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-08 23:57:41) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+npar = 0
+nimpar = 0
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+	nimpar = size(vet)
+	print(nimpar)
+   # No. total de elementos
+	print(size(vet))
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+File "XXXX", line 21
+    nimpar = size(vet)
+                     ^
+TabError: inconsistent use of tabs and spaces in indentation
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-09 00:32:26) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(size(vet) - npar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- EXECUTION TIME:
+1.0911
+-- TEST CASE 1:
+---- input:
+[-2,-3,-5,-6,-7,-8,-9,-10]
+[1,3,5,7,9,11,13,15,17,19,21]
+[2,6,10,14,18,22]
+[1]
+---- correct output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+
+---- user output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+-- TEST CASE 2:
+---- input:
+[1,1,1,1,1,1,1,1,1,1,1,1,0]
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+[2,8,16,32,64,128,256,512,1024,2048]
+[1]
+---- correct output:
+1
+12
+13
+16
+1
+17
+10
+0
+10
+
+---- user output:
+Primeiro vetor: 1
+12
+13
+Proximo vetor: 16
+1
+17
+Proximo vetor: 10
+0
+10
+Proximo vetor:
+-- TEST CASE 3:
+---- input:
+[-1,1,-2,2,-3,3,-4,4,-5,5,-6,6,-7,7,-8,8,-9,9]
+[-200,100,-201,101]
+[1]
+---- correct output:
+8
+10
+18
+2
+2
+4
+
+---- user output:
+Primeiro vetor: 8
+10
+18
+Proximo vetor: 2
+2
+4
+Proximo vetor:
+-- GRADE:
+33%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 00:34:07) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(size(vet) - npar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 00:34:26) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   print(npar)
+
+   # No. de elementos impares
+   print(size(vet) - npar)
+
+   # No. total de elementos
+   print(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-09 00:35:55) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+for elem in lista:
+	print(elem)
+-- EXECUTION TIME:
+0.927037
+-- TEST CASE 1:
+---- input:
+[-2,-3,-5,-6,-7,-8,-9,-10]
+[1,3,5,7,9,11,13,15,17,19,21]
+[2,6,10,14,18,22]
+[1]
+---- correct output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+
+---- user output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+-- TEST CASE 2:
+---- input:
+[1,1,1,1,1,1,1,1,1,1,1,1,0]
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+[2,8,16,32,64,128,256,512,1024,2048]
+[1]
+---- correct output:
+1
+12
+13
+16
+1
+17
+10
+0
+10
+
+---- user output:
+1
+12
+13
+16
+1
+17
+10
+0
+10
+-- TEST CASE 3:
+---- input:
+[-1,1,-2,2,-3,3,-4,4,-5,5,-6,6,-7,7,-8,8,-9,9]
+[-200,100,-201,101]
+[1]
+---- correct output:
+8
+10
+18
+2
+2
+4
+
+---- user output:
+Primeiro vetor: Proximo vetor: Proximo vetor: 8
+10
+18
+2
+2
+4
+-- GRADE:
+67%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 00:36:01) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+for elem in lista:
+	print(elem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 10:25:40) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+for elem in lista:
+	print(elem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-09 10:27:23) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+saida = zeros(size(lista),dtype=int) 
+for elem in lista:
+	print(elem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-11 20:01:53) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+for elem in lista:
+	print(elem)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import*
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-11 20:02:56) 
+-- CODE:
+from numpy import*
+
+# Leitura do primeiro vetor
+vet = array(eval(input("Primeiro vetor: ")))
+lista = []
+# Verifica se o programa vai terminar
+while (size(vet) > 1):
+   # Zera contador de elementos pares
+   npar = 0
+
+   # Conta quantidade de elementos pares
+   for elemento in vet:
+      if (elemento % 2 == 0):
+         npar = npar + 1
+
+   # No. de elementos pares
+   lista.append(npar)
+
+   # No. de elementos impares
+   lista.append(size(vet) - npar)
+
+   # No. total de elementos
+   lista.append(size(vet))
+
+   # Leitura do proximo vetor
+   vet = array(eval(input("Proximo vetor: ")))
+
+for elem in lista:
+	print(elem)
+-- EXECUTION TIME:
+0.988512
+-- TEST CASE 1:
+---- input:
+[-2,-3,-5,-6,-7,-8,-9,-10]
+[1,3,5,7,9,11,13,15,17,19,21]
+[2,6,10,14,18,22]
+[1]
+---- correct output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+
+---- user output:
+4
+4
+8
+0
+11
+11
+6
+0
+6
+-- TEST CASE 2:
+---- input:
+[1,1,1,1,1,1,1,1,1,1,1,1,0]
+[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+[2,8,16,32,64,128,256,512,1024,2048]
+[1]
+---- correct output:
+1
+12
+13
+16
+1
+17
+10
+0
+10
+
+---- user output:
+1
+12
+13
+16
+1
+17
+10
+0
+10
+-- TEST CASE 3:
+---- input:
+[-1,1,-2,2,-3,3,-4,4,-5,5,-6,6,-7,7,-8,8,-9,9]
+[-200,100,-201,101]
+[1]
+---- correct output:
+8
+10
+18
+2
+2
+4
+
+---- user output:
+8
+10
+18
+2
+2
+4
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

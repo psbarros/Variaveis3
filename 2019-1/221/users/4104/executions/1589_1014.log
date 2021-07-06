@@ -1,0 +1,126 @@
+== TEST (2019-03-28 08:58:56) 
+-- CODE:
+P = float(input"qual o lucro total: ")
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+File "XXXX", line 1
+    P = float(input"qual o lucro total: ")
+                                        ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:59:25) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 08:59:58) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 09:00:27) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- EXECUTION TIME:
+0.230302
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1589/1014/main.py", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:00:32) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:01:02) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * 100
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:06:10) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * 100
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-03-28 09:06:42) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0,3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 3, in <module>
+    round(total , 2)
+TypeError: type tuple doesn't define __round__ method
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-03-28 09:11:59) 
+-- CODE:
+P = float(input("qual o lucro total: "))
+total = 0.3 * P
+round(total , 2)
+print(round(total, 2))
+
+-- EXECUTION TIME:
+0.204399
+-- TEST CASE 1:
+---- input:
+700.50
+---- correct output:
+210.15
+---- user output:
+210.15
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

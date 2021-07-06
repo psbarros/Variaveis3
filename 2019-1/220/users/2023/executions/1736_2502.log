@@ -1,0 +1,420 @@
+== TEST (2019-05-16 06:51:22) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int input("digite um numero:")
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=0
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/da*db)*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- ERROR:
+File "XXXX", line 3
+    n = int input()
+                ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 06:51:58) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=0
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/da*db)*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-1e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 06:54:35) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=0
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-1e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 06:54:48) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=0
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-1e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 06:59:53) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=1
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:00:10) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=1
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:00:19) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=1
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:00:52) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3**j
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-1e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:05:12) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*db**j))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:08:08) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*(db**j)))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:09:11) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*(db**j)))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:09:20) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*(1/(da*(db**j)))*i
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:12:08) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:12:24) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=-1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:12:47) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(1)
+	da=da+2
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:16:44) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=0
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	db=db**j
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-1e-08
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:20:19) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=1
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	db=db**j+1
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-05-16 07:20:29) 
+-- CODE:
+# Aproximação de pi (MADHAVA).
+
+n = int(input("digite um numero:"))
+while(n<0):
+	n = int(input("digite um numero natural:"))
+t=1
+i=1
+j=1
+da=1
+db=3
+pi=12**1/2
+while(t<n):	
+	pi=pi*((1/(da*(db**j)))*i)
+	t=t+1
+	i=i*(-1)
+	da=da+2
+	db=db**j+1
+	j=j+1
+print(round(pi,8))
+-- OUTPUT:
+-0.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

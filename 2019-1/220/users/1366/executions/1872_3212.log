@@ -1,0 +1,1455 @@
+== TEST (2019-07-02 20:38:22) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:38:39) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+print(lista)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:41:02) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array()
+
+for obj in lista:
+	x = int(input())
+	tup = [obj, x]
+	arr.append(tup)
+	
+print(arr)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:41:23) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array([])
+
+for obj in lista:
+	x = int(input())
+	tup = [obj, x]
+	arr.append(tup)
+	
+print(arr)
+	
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:47:04) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array([])
+x = 0
+while x < size(list):
+	arr[x] = array([list[0], int(input())])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:47:42) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array([])
+x = 0
+while x < size(list):
+	y = int(input())
+	arr[x] = array([list[0], y])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:48:15) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array([])
+x = 0
+while x < size(list):
+	y = int(input())
+	arr[x] = array([list[0], 3])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:48:36) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+arr = array([])
+x = 0
+while x < size(list):
+	y = int(input())
+	arr[x] = array([3, y])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:51:18) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+x = 0
+while x < size(list):
+	y = int(input())
+	print(arr[0])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:51:33) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+x = 0
+while x < size(lista):
+	y = int(input())
+	print(arr[0])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:51:51) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+x = 0
+while x < size(lista):
+	y = int(input())
+	print(arr[0][0])
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:52:27) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+x = 0
+while x < size(lista):
+	y = int(input())
+	arr[x][0] = list[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:52:37) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+x = 0
+while x < size(lista):
+	y = int(input())
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:54:37) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = x
+		max_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:55:07) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = x
+		max_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print(max_not)
+print(max_mat)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:55:41) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print(max_not)
+print(max_mat)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:55:47) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print(max_not)
+print(max_mat)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 20:58:17) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print(max_not)
+print(max_mat)
+print(min_not)
+print(min_mat)
+-- EXECUTION TIME:
+1.01422
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+63
+3
+39
+4
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+85
+101
+12
+103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+98
+11
+31
+33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:58:17) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print(max_not)
+print(max_mat)
+print(min_not)
+print(min_mat)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 20:59:47) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 21:01:06) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- EXECUTION TIME:
+0.938869
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 4
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:01:13) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()))
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:01:49) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:04:03) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	elif y < min_not:
+		print(lista[x])
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:04:19) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	else y < min_not:
+		print(lista[x])
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+File "XXXX", line 18
+    else y < min_not:
+         ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:04:44) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 21:04:54) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- EXECUTION TIME:
+1.06321
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:04:56) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:05:15) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 21:05:21) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- EXECUTION TIME:
+1.10261
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:05:24) 
+-- CODE:
+from numpy import *
+
+lista = array(eval(input()), int)
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:06:37) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:07:07) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 21:08:03) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- EXECUTION TIME:
+1.09428
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:09:15) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = lista[x]
+	arr[x][1] = y
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-07-02 21:10:17) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = int(lista[x])
+	arr[x][1] = int(y)
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-07-02 21:11:10) 
+-- CODE:
+from numpy import *
+
+lista = input().split(',')
+
+tam = size(lista)
+arr = zeros((tam, 2))
+
+max_not = 0
+max_mat = 0
+min_not = 100
+min_mat = 0
+x = 0
+while x < size(lista):
+	y = int(input())
+	if y > max_not:
+		max_mat = lista[x]
+		max_not = y
+	if y < min_not:
+		min_mat = lista[x]
+		min_not = y
+	arr[x][0] = int(lista[x])
+	arr[x][1] = int(y)
+	x = x + 1
+
+print(arr)
+print('O aluno que possui a bolsa de 100% de desconto e o {}'.format(max_mat))
+print('O aluno que nao possui desconto e o {}'.format(min_mat))
+-- EXECUTION TIME:
+1.106
+-- TEST CASE 1:
+---- input:
+1,2,3,4
+10
+19
+63
+39
+---- correct output:
+[[ 1 10]
+ [ 2 19]
+ [ 3 63]
+ [ 4 39]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+---- user output:
+[[ 1. 10.]
+ [ 2. 19.]
+ [ 3. 63.]
+ [ 4. 39.]]
+O aluno que possui a bolsa de 100% de desconto e o 3
+O aluno que nao possui desconto e o 1
+-- TEST CASE 2:
+---- input:
+101,103,105,107,109
+85
+12
+65
+48
+79
+---- correct output:
+[[101  85]
+ [103  12]
+ [105  65]
+ [107  48]
+ [109  79]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+---- user output:
+[[101.  85.]
+ [103.  12.]
+ [105.  65.]
+ [107.  48.]
+ [109.  79.]]
+O aluno que possui a bolsa de 100% de desconto e o 101
+O aluno que nao possui desconto e o 103
+-- TEST CASE 3:
+---- input:
+11,22,33
+98
+65
+31
+---- correct output:
+[[11 98]
+ [22 65]
+ [33 31]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+---- user output:
+[[11. 98.]
+ [22. 65.]
+ [33. 31.]]
+O aluno que possui a bolsa de 100% de desconto e o 11
+O aluno que nao possui desconto e o 33
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

@@ -1,0 +1,14 @@
+2019-7-1 12:39:17.291#viewportChange#0
+2019-7-1 12:39:56.708#mousedown#{"isTrusted":true}
+2019-7-1 12:39:56.714#focus#
+2019-7-1 12:39:58.327#mousedown#{"isTrusted":true}
+2019-7-1 12:40:03.311#change#{"from":{"line":0,"ch":0,"sticky":"after","xRel":126.8359375},"to":{"line":0,"ch":0,"sticky":"after","xRel":126.8359375},"text":["from numpy import *","from numpy.linalg import *","","v = array(eval(input())).T","","m = array([[2, 1, 4], [1, 2, 0], [2, 3, 2]])","","p = dot(inv(m), v)","","print(\"estafilococo:\", round(p[0], 1))","print(\"salmonela:\", round(p[1], 1))","print(\"coli:\", round(p[2], 1))","","if p[0] == min(p):","    print(\"estafilococo\")","elif p[1] == min(p):","    print(\"salmonela\")","elif p[2] == min(p):","    print(\"coli\")"],"removed":[""],"origin":"paste"}
+2019-7-1 12:40:03.359#viewportChange#0
+2019-7-1 12:41:57.431#viewportChange#0
+2019-7-1 21:38:06.633#viewportChange#0
+2019-7-1 21:38:08.102#mousedown#{"isTrusted":true}
+2019-7-1 21:38:08.111#focus#
+2019-7-1 21:38:09.727#mousedown#{"isTrusted":true}
+2019-7-1 21:38:10.515#copy#{"isTrusted":true}
+2019-7-1 21:38:11.305#blur#
+2019-7-1 21:38:19.699#focus#

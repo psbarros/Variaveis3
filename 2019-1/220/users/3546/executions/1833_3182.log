@@ -1,0 +1,167 @@
+== TEST (2019-06-13 20:20:12) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+for i in range(0, size(trincas) - 3, 3):
+	print(i)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:20:41) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+for i in range(0, size(trincas), 3):
+	print(i)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:21:20) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+for i in range(0, size(trincas), 3):
+	print(trincas[i])
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:24:18) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros[10]
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:24:30) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros(10)
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:24:40) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros(10, dtype=int)
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:24:53) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros(10, dtype=int)
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-06-13 20:25:04) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros(10, dtype=int)
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 1, in <module>
+    from numpy import *
+ModuleNotFoundError: No module named 'numpy'
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-06-13 20:26:09) 
+-- CODE:
+from numpy import *
+trincas = array(eval(input()), dtype=int)
+
+saida = zeros(10, dtype=int)
+
+for i in range(0, size(trincas), 3):
+	if(trincas[i] == trincas[i+1] and trincas[i] == trincas[i+2]):
+		saida[trincas[i]] = saida[trincas[i]] + 1
+
+print(saida)
+-- EXECUTION TIME:
+1.07092
+-- TEST CASE 1:
+---- input:
+[1,1,1,1,1,1,1,1,1,2,2,2,3,3,3]
+---- correct output:
+[0 3 1 1 0 0 0 0 0 0]
+---- user output:
+[0 3 1 1 0 0 0 0 0 0]
+-- TEST CASE 2:
+---- input:
+[0,0,0,3,3,3,8,8,8,9,9,9,9,9,9,9,9,9]
+---- correct output:
+[1 0 0 1 0 0 0 0 1 3]
+---- user output:
+[1 0 0 1 0 0 0 0 1 3]
+-- TEST CASE 3:
+---- input:
+[2,2,2,4,4,4,6,6,6,8,8,8]
+---- correct output:
+[0 0 1 0 1 0 1 0 1 0]
+---- user output:
+[0 0 1 0 1 0 1 0 1 0]
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*

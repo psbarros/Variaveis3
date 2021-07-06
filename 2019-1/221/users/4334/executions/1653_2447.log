@@ -1,0 +1,265 @@
+== TEST (2019-04-09 10:35:46) 
+-- CODE:
+preco=float(input"digite um numero:"))
+pagamento=float(input"digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	print(Troco de Y)
+-- ERROR:
+File "XXXX", line 1
+    preco=float(input"digite um numero:"))
+                                       ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:36:09) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	print(Troco de Y)
+-- ERROR:
+File "XXXX", line 7
+    print(Troco de Y)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 10:36:13) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	print(Troco de Y)
+-- EXECUTION TIME:
+0.140518
+-- ERROR:
+  File "/home/codebench/codes/1653/2447/main.py", line 7
+    print(Troco de Y)
+                 ^
+SyntaxError: invalid syntax
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:36:14) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	print(Troco de Y)
+-- ERROR:
+File "XXXX", line 7
+    print(Troco de Y)
+                 ^
+SyntaxError: invalid syntax
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:36:31) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	print(TrocodeY)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(FaltaX)
+NameError: name 'FaltaX' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:39:29) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	Y=pagmento-preco
+	print(TrocodeY)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(FaltaX)
+NameError: name 'FaltaX' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 10:39:30) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	Y=pagmento-preco
+	print(TrocodeY)
+-- EXECUTION TIME:
+0.191837
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2447/main.py", line 5, in <module>
+    print(FaltaX)
+NameError: name 'FaltaX' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:40:05) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	Y=pagmento-preco
+	print(Y)
+-- ERROR:
+Traceback (most recent call last):
+  File "XXXX", line 5, in <module>
+    print(FaltaX)
+NameError: name 'FaltaX' is not defined
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 10:40:06) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print(FaltaX)
+else:
+	Y=pagmento-preco
+	print(Y)
+-- EXECUTION TIME:
+0.149823
+-- ERROR:
+Traceback (most recent call last):
+  File "/home/codebench/codes/1653/2447/main.py", line 5, in <module>
+    print(FaltaX)
+NameError: name 'FaltaX' is not defined
+
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:43:41) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print("Falta",x)
+else:
+	Y=pagmento-preco
+	print("Troco de",Y)
+-- OUTPUT:
+Falta 26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 10:43:42) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print("Falta",x)
+else:
+	Y=pagmento-preco
+	print("Troco de",Y)
+-- EXECUTION TIME:
+0.147775
+-- TEST CASE 1:
+---- input:
+38.0
+12.0
+---- correct output:
+Falta 26.0
+---- user output:
+Falta 26.0
+-- TEST CASE 2:
+---- input:
+32.0
+60.0
+---- correct output:
+Troco de 28.0
+---- user output:
+
+-- TEST CASE 3:
+---- input:
+516.0
+516.0
+---- correct output:
+Troco de 0.0
+---- user output:
+
+-- GRADE:
+0%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:43:52) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print("Falta",x)
+else:
+	Y=pagmento-preco
+	print("Troco de",Y)
+-- OUTPUT:
+Falta 26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== TEST (2019-04-09 10:45:35) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print("Falta",round(x,2))
+else:
+	Y=pagmento-preco
+	print("Troco de",round(Y,2))
+-- OUTPUT:
+Falta 26.0
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+== SUBMITION (2019-04-09 10:45:53) 
+-- CODE:
+preco=float(input("digite um numero:"))
+pagamento=float(input("digite um numero:"))
+if(preco>pagamento):
+	x=preco-pagamento
+	print("Falta",round(x,2))
+else:
+	Y=pagamento-preco
+	print("Troco de",round(Y,2))
+-- EXECUTION TIME:
+0.207066
+-- TEST CASE 1:
+---- input:
+38.0
+12.0
+---- correct output:
+Falta 26.0
+---- user output:
+Falta 26.0
+-- TEST CASE 2:
+---- input:
+32.0
+60.0
+---- correct output:
+Troco de 28.0
+---- user output:
+Troco de 28.0
+-- TEST CASE 3:
+---- input:
+516.0
+516.0
+---- correct output:
+Troco de 0.0
+---- user output:
+Troco de 0.0
+-- GRADE:
+100%
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
